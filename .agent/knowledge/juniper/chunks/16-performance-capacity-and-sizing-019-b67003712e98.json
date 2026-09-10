@@ -1,0 +1,9 @@
+{
+  "chunk_id": "16-performance-capacity-and-sizing-019-b67003712e98",
+  "kb": "juniper",
+  "source_path": "docs/16-performance-capacity-and-sizing.md",
+  "source_title": "16-performance-capacity-and-sizing",
+  "section": "Capacity Review",
+  "sha256": "b67003712e984c57136634bb26d2f17ef1ac7c6619d45944e3d61bfee85d0a6c",
+  "content": "# Capacity Review\n\nA capacity review should document:\n\nWAN Speed:\n\nPeak WAN Utilization:\n\nLAN Speed:\n\nPeak LAN Utilization:\n\nCPU Baseline:\n\nCPU Peak:\n\nMemory Baseline:\n\nMemory Peak:\n\nConcurrent Sessions:\n\nNew Sessions Per Second:\n\nVPN Throughput:\n\nCritical Interfaces:\n\nObserved Bottlenecks:\n\nGrowth Estimate:\n\nRecommended Headroom:\n\nConfiguration State:\n\nVerification Date:\n\nNotes:\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "13-logging-snmp-and-zabbix-010-a9033ab9ddab",
+  "kb": "juniper",
+  "source_path": "docs/13-logging-snmp-and-zabbix.md",
+  "source_title": "13-logging-snmp-and-zabbix",
+  "section": "Local Logs / Configuration Change Monitoring",
+  "sha256": "a9033ab9ddab75755021ab13372684ba404213b81ec8d96f115e8678a919093b",
+  "content": "# Local Logs / Configuration Change Monitoring\n\nUseful commands may include:\n\nshow log messages\n\nshow log <filename>\n\nshow log ?\n\nAvailable log files depend on configuration and Junos release.\n\n---\n\nConfiguration changes should be visible through commit history.\n\nUseful command:\n\nshow system commit\n\nMonitoring or logging systems may also track configuration changes.\n\nConfiguration-change visibility is useful for:\n\n- Troubleshooting\n- Audit\n- Incident response\n- Change management\n\n---"
+}

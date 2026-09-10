@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-dual-wan-failover-concepts-025-243351d448c2",
+  "kb": "juniper",
+  "source_path": "examples/08-dual-wan-failover-concepts.md",
+  "source_title": "08-dual-wan-failover-concepts",
+  "section": "Document Status",
+  "sha256": "243351d448c2f510f30f4597d64e1ecc791df0927252d73f8701ee00cc9e1aff",
+  "content": "# Document Status\n\nDocument Type: Design Example\n\nExample Type: Dual-WAN Failover Concepts\n\nKnowledge Base: Juniper SRX320 Knowledge Base\n\nVersion: 0.1.0\n\nStatus: Example / Non-Production"
+}

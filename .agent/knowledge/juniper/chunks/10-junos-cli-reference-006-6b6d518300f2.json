@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-junos-cli-reference-006-6b6d518300f2",
+  "kb": "juniper",
+  "source_path": "docs/10-junos-cli-reference.md",
+  "source_title": "10-junos-cli-reference",
+  "section": "Routing Commands",
+  "sha256": "6b6d518300f2345a041966c4dbf45487a714ccafb52c8029004ad70bb56ed381",
+  "content": "# Routing Commands\n\nShow routing table:\n\nshow route\n\nShow one destination:\n\nshow route <destination>\n\nShow default route:\n\nshow route 0.0.0.0/0\n\nShow static routes:\n\nshow route protocol static\n\nShow forwarding table:\n\nshow route forwarding-table\n\nShow ARP:\n\nshow arp\n\n---"
+}

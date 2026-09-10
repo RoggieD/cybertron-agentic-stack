@@ -1,0 +1,9 @@
+{
+  "chunk_id": "00-overview-008-6b3ea70e91de",
+  "kb": "juniper",
+  "source_path": "docs/00-overview.md",
+  "source_title": "00-overview",
+  "section": "rollback / show | compare / Security Zones",
+  "sha256": "6b3ea70e91de11cac5c0bc20d638cc9499d63972aa0ef64384c671fca1d0455b",
+  "content": "# rollback / show | compare / Security Zones\n\nRestores a previous configuration state.\n\nDisplays differences between the current candidate configuration and the active configuration.\n\n---\n\nSRX firewall behavior is built around security zones.\n\nInterfaces are assigned to zones.\n\nCommon zone concepts include:\n\n- trust\n- untrust\n- dmz\n- management\n\nZone names can be customized.\n\nTraffic passing between zones is controlled by security policies.\n\nSecurity policy evaluation can also apply to traffic between interfaces assigned to the same zone.\n\nFactory-default policies and explicitly configured intrazone policies may affect same-zone behavior, so do not assume that traffic within a zone is automatically permitted.\n\n---"
+}

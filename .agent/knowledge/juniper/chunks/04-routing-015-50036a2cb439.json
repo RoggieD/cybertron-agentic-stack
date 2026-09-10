@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-routing-015-50036a2cb439",
+  "kb": "juniper",
+  "source_path": "docs/04-routing.md",
+  "source_title": "04-routing",
+  "section": "Route Troubleshooting",
+  "sha256": "50036a2cb439def70f6d8303dc39ee2e3e41164ad30f55ff6f13be1548fcebf2",
+  "content": "# Route Troubleshooting\n\nWhen traffic is not reaching its destination, verify:\n\n1. Source IP\n2. Destination IP\n3. Source interface\n4. Destination route\n5. Active next hop\n6. Egress interface\n7. Next-hop reachability\n8. Security zones\n9. Security policy\n10. NAT behavior\n11. Return route\n12. Session state\n13. Logs\n\n---"
+}

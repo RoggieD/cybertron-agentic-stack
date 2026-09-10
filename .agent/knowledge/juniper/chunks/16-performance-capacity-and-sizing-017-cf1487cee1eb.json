@@ -1,0 +1,9 @@
+{
+  "chunk_id": "16-performance-capacity-and-sizing-017-cf1487cee1eb",
+  "kb": "juniper",
+  "source_path": "docs/16-performance-capacity-and-sizing.md",
+  "source_title": "16-performance-capacity-and-sizing",
+  "section": "Useful Operational Commands",
+  "sha256": "cf1487cee1eb9919e7f385fd84d1237ab36b6db20d4954ace28ed299d84207a2",
+  "content": "# Useful Operational Commands\n\nCommands may include:\n\nshow interfaces terse\n\nshow interfaces extensive\n\nshow system processes extensive\n\nshow system uptime\n\nshow security flow session summary\n\nshow security flow session\n\nshow system storage\n\nshow chassis alarms\n\nshow system alarms\n\nExact commands and available metrics may vary by Junos version.\n\n---"
+}

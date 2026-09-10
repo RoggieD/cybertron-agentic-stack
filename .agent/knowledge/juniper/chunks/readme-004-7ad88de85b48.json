@@ -1,0 +1,9 @@
+{
+  "chunk_id": "readme-004-7ad88de85b48",
+  "kb": "juniper",
+  "source_path": "README.md",
+  "source_title": "README",
+  "section": "Configuration State Model / LEGACY PRODUCTION / SRX320 TARGET",
+  "sha256": "7ad88de85b484fb9a605c03b5f7907491a85d27fbb32ec1db3fe8f8f7f72218b",
+  "content": "# Configuration State Model / LEGACY PRODUCTION / SRX320 TARGET\n\nInformation related to the Grid Micro / Stony Point Partners deployment must clearly identify one of the following states:\n\nConfiguration associated with the previous Juniper SSG-series firewall using ScreenOS.\n\nPlanned SRX320 configuration that has not yet been verified in production."
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-source-nat-pool-006-2b528c76be3d",
+  "kb": "juniper",
+  "source_path": "examples/07-source-nat-pool.md",
+  "source_title": "07-source-nat-pool",
+  "section": "Routing Requirement / Public Address Reachability",
+  "sha256": "2b528c76be3d003a75d735e631cbb75395e2a9e107c587e9685d7ad2e4086453",
+  "content": "# Routing Requirement / Public Address Reachability\n\nThe SRX must have a valid route toward the external network.\n\nTypical designs include a default route.\n\nExample:\n\nset routing-options static route 0.0.0.0/0 next-hop 198.51.100.1\n\nThis is an example only.\n\n---\n\nThe upstream network must deliver return traffic for:\n\n198.51.100.50\n\nto the SRX.\n\nDepending on provider design, this may involve:\n\n- Directly connected public subnet\n- Routed public subnet\n- Upstream static route\n- Proxy ARP\n- Provider-specific addressing\n\nDo not assume the NAT pool address is usable merely because it is configured on the SRX.\n\n---"
+}

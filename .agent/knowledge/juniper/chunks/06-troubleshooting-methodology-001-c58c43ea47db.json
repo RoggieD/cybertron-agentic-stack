@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-troubleshooting-methodology-001-c58c43ea47db",
+  "kb": "juniper",
+  "source_path": "docs/06-troubleshooting-methodology.md",
+  "source_title": "06-troubleshooting-methodology",
+  "section": "Scope",
+  "sha256": "c58c43ea47dbde2900991b70304a6a87ca30cbbb5f00d3534316b788654c6a61",
+  "content": "# Scope\n\nThis document defines a structured troubleshooting process for the Juniper SRX320.\n\nIt is intended for:\n\n- AI-assisted troubleshooting\n- Production incident response\n- Firewall migration validation\n- Configuration debugging\n- Connectivity troubleshooting\n- NAT troubleshooting\n- Security policy troubleshooting\n- Routing troubleshooting\n- Management access troubleshooting\n\nThis methodology should be used before making configuration changes whenever practical.\n\n---"
+}

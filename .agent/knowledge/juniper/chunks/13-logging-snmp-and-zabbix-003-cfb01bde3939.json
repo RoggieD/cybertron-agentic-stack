@@ -1,0 +1,9 @@
+{
+  "chunk_id": "13-logging-snmp-and-zabbix-003-cfb01bde3939",
+  "kb": "juniper",
+  "source_path": "docs/13-logging-snmp-and-zabbix.md",
+  "source_title": "13-logging-snmp-and-zabbix",
+  "section": "Monitoring Categories",
+  "sha256": "cfb01bde393950abcbd9abbcb72ca35ddebe182a9375de91a7bf6e47d8a6c7ec",
+  "content": "# Monitoring Categories\n\nRecommended monitoring categories include:\n\n- Device reachability\n- Interface state\n- Interface utilization\n- Interface errors\n- CPU utilization\n- Memory utilization\n- Storage utilization\n- Uptime\n- Chassis alarms\n- System alarms\n- Security events\n- VPN status\n- Routing status\n- Configuration changes\n- Environmental sensors where available\n\n---"
+}

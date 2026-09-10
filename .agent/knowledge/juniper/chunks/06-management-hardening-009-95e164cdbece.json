@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-management-hardening-009-95e164cdbece",
+  "kb": "juniper",
+  "source_path": "examples/06-management-hardening.md",
+  "source_title": "06-management-hardening",
+  "section": "Console Access / Optional Management Address Objects",
+  "sha256": "95e164cdbecec29c2e1a4871f0cb61b36fd23b5dc6eb2910708560648ae324ca",
+  "content": "# Console Access / Optional Management Address Objects\n\nMaintain physical or serial console access where possible.\n\nConsole access is especially important before changing:\n\n- Management IP\n- Routing\n- Security zones\n- Host-inbound services\n- Authentication\n- Firewall filters\n\n---\n\nWhere design requires tighter source control, define trusted management networks explicitly.\n\nExample management source:\n\n192.0.2.0/24\n\nThe exact enforcement mechanism depends on the management-plane design and Junos version.\n\nDo not assume security policies alone govern traffic destined to the SRX itself.\n\n---"
+}

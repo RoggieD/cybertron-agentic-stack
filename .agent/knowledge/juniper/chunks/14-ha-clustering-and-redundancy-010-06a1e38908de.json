@@ -1,0 +1,9 @@
+{
+  "chunk_id": "14-ha-clustering-and-redundancy-010-06a1e38908de",
+  "kb": "juniper",
+  "source_path": "docs/14-ha-clustering-and-redundancy.md",
+  "source_title": "14-ha-clustering-and-redundancy",
+  "section": "WAN Redundancy",
+  "sha256": "06a1e38908de6c800088aab9339de95fb11370b8c43c7e3e7b3462b2b741e726",
+  "content": "# WAN Redundancy\n\nFirewall clustering does not automatically provide ISP redundancy.\n\nWAN resiliency may require:\n\n- Multiple providers\n- Multiple circuits\n- Dynamic routing\n- Static route tracking\n- RPM or health monitoring\n- Route preference\n- Failover policy\n\nThe WAN design must be considered separately from firewall node redundancy.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-vlan-trunk-and-irb-015-bb9f4ecdc71e",
+  "kb": "juniper",
+  "source_path": "examples/09-vlan-trunk-and-irb.md",
+  "source_title": "09-vlan-trunk-and-irb",
+  "section": "Troubleshooting Sequence",
+  "sha256": "bb9f4ecdc71ec525dba1811df2cd63b7c57d89ee347682534528af7ea5e7c53b",
+  "content": "# Troubleshooting Sequence\n\nIf a host cannot reach another VLAN:\n\n1. Verify host IP\n2. Verify subnet mask\n3. Verify default gateway\n4. Verify access VLAN\n5. Verify trunk VLAN membership\n6. Verify routed VLAN interface\n7. Verify route\n8. Verify security zone\n9. Verify security policy\n10. Verify destination host\n11. Verify host firewall\n12. Verify return path\n\n---"
+}

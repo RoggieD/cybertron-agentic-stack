@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-dual-wan-failover-concepts-001-d56086eda9bb",
+  "kb": "juniper",
+  "source_path": "examples/08-dual-wan-failover-concepts.md",
+  "source_title": "08-dual-wan-failover-concepts",
+  "section": "Scope",
+  "sha256": "d56086eda9bb6f528929c65bb547440cf3dd79c968d85e6834374b055539d928",
+  "content": "# Scope\n\nThis example describes the design concepts involved in providing Internet failover across two WAN connections on a Juniper SRX320.\n\nIt covers:\n\n- Primary and backup WAN interfaces\n- Default-route preference\n- Reachability monitoring\n- Route failover\n- NAT considerations\n- Security-zone design\n- Failure detection\n- Recovery behavior\n- Validation and troubleshooting\n\nThis document is a design example.\n\nIt is not a complete production configuration.\n\n---"
+}

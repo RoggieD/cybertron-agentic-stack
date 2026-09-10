@@ -1,0 +1,9 @@
+{
+  "chunk_id": "authoritative-sources-003-8eedef79afcc",
+  "kb": "juniper",
+  "source_path": "source-material/authoritative-sources.md",
+  "source_title": "authoritative-sources",
+  "section": "Juniper Networks Documentation",
+  "sha256": "8eedef79afcc49a52500dae3e4ad2e687a21aa4e9cb47ac3067aa2f74daf30cd",
+  "content": "# Juniper Networks Documentation\n\nPrimary Documentation Site:\n\nhttps://www.juniper.net/documentation/\n\nUse this source for:\n\n- Junos OS behavior\n- Security policies\n- NAT\n- Routing\n- VPN\n- Interfaces\n- Ethernet switching\n- System services\n- Monitoring\n- Troubleshooting\n- Commit and rollback behavior\n\n---"
+}

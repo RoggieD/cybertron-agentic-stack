@@ -1,0 +1,9 @@
+{
+  "chunk_id": "12-vpn-and-ipsec-009-0fd83a7bffa4",
+  "kb": "juniper",
+  "source_path": "docs/12-vpn-and-ipsec.md",
+  "source_title": "12-vpn-and-ipsec",
+  "section": "Security Policies",
+  "sha256": "0fd83a7bffa4a27ee1c780920486110292382d42ba5e6a341070e7ec2aa0717b",
+  "content": "# Security Policies\n\nVPN traffic may require security policies between:\n\n- Internal zone and VPN zone\n- VPN zone and internal zone\n- VPN zone and DMZ\n- VPN zone and other destination zones\n\nPolicies should use least privilege.\n\nDocument:\n\n- Source network\n- Destination network\n- Applications\n- Business purpose\n\n---"
+}

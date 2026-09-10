@@ -1,0 +1,9 @@
+{
+  "chunk_id": "12-vpn-and-ipsec-011-47965dd46ae2",
+  "kb": "juniper",
+  "source_path": "docs/12-vpn-and-ipsec.md",
+  "source_title": "12-vpn-and-ipsec",
+  "section": "NAT and VPN",
+  "sha256": "47965dd46ae214ad670b3494481bf49b84d699137cc7509372e17de82f37320e",
+  "content": "# NAT and VPN\n\nNAT can interfere with VPN traffic if not designed correctly.\n\nPossible considerations include:\n\n- Source NAT exemption\n- Destination NAT interaction\n- Overlapping address spaces\n- NAT traversal\n- Public peer addressing\n\nDo not assume VPN traffic should be NATed.\n\nVerify the intended design.\n\n---"
+}

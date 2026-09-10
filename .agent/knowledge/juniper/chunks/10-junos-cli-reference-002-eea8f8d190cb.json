@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-junos-cli-reference-002-eea8f8d190cb",
+  "kb": "juniper",
+  "source_path": "docs/10-junos-cli-reference.md",
+  "source_title": "10-junos-cli-reference",
+  "section": "Operational Mode / Configuration Mode",
+  "sha256": "eea8f8d190cbbb0cec4531c39b588deffbe62c08fc075f12bb10f243f60b64d4",
+  "content": "# Operational Mode / Configuration Mode\n\nOperational mode is used for status, diagnostics, monitoring, and verification.\n\nPrompt commonly ends with:\n\n>\n\nExample:\n\nuser@srx320>\n\nConfiguration mode is used to modify candidate configuration.\n\nEnter with:\n\nconfigure\n\nPrompt commonly ends with:\n\n#\n\nExample:\n\nuser@srx320#\n\nExit with:\n\nexit\n\n---"
+}

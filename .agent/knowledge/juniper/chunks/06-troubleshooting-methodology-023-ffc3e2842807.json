@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-troubleshooting-methodology-023-ffc3e2842807",
+  "kb": "juniper",
+  "source_path": "docs/06-troubleshooting-methodology.md",
+  "source_title": "06-troubleshooting-methodology",
+  "section": "Incident Documentation",
+  "sha256": "ffc3e284280702e9b1f6b8dbefaaf7ce28b7582440c26e46b304683afb17cdb7",
+  "content": "# Incident Documentation\n\nA troubleshooting record should include:\n\n- Date and time\n- Symptom\n- Source\n- Destination\n- Protocol and port\n- Observed behavior\n- Commands executed\n- Evidence collected\n- Root cause\n- Change made\n- Verification result\n- Rollback method\n- Configuration state\n\nConfiguration state must be one of:\n\nLEGACY_PRODUCTION\n\nSRX320_TARGET\n\nSRX320_VERIFIED_PRODUCTION\n\n---"
+}

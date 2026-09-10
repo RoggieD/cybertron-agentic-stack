@@ -1,0 +1,9 @@
+{
+  "chunk_id": "docs-audit-report-011-99095ede90f5",
+  "kb": "juniper",
+  "source_path": "source-material/docs-audit-report.txt",
+  "source_title": "docs-audit-report",
+  "section": "Document \u2014 Part 11",
+  "sha256": "99095ede90f5905f71592b700bce2701545686600786a44ae70ac9d2a4256cf7",
+  "content": "# Document \u2014 Part 11\n\nY] - Incorrect host-inbound configuration\n 347 [SECURITY POLICY] ### Security Policy\n 436 [JUNOS COMMAND] commit confirmed is recommended when modifying configuration that could interrupt management connectivity.\n 443 [SECURITY POLICY] - Host-inbound management\n 453 [JUNOS COMMAND] Rollback is a recovery mechanism, not a substitute for understanding the problem.\n 463 [JUNOS COMMAND] show system commit\n 465 [JUNOS COMMAND] rollback <number>\n 467 [JUNOS COMMAND] show | compare"
+}

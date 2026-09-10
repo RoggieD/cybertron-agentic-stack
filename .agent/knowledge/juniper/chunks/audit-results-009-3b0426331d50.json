@@ -1,0 +1,9 @@
+{
+  "chunk_id": "audit-results-009-3b0426331d50",
+  "kb": "juniper",
+  "source_path": "source-material/AUDIT-RESULTS.md",
+  "source_title": "AUDIT-RESULTS",
+  "section": "Overall Status",
+  "sha256": "3b0426331d507ecfc360a477de5be4036f09f445058fdb69a6455885bb8c2d09",
+  "content": "# Overall Status\n\nDocumentation Audit: COMPLETE\n\nJSON Schema Structural Validation: COMPLETE\n\nExample Documentation Audit: COMPLETE\n\nLive SRX320 Validation: PENDING\n\nTarget Junos Version: UNKNOWN\n\nKnowledge Base State: SRX320_TARGET"
+}

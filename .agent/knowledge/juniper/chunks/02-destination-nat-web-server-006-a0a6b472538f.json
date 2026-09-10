@@ -1,0 +1,9 @@
+{
+  "chunk_id": "02-destination-nat-web-server-006-a0a6b472538f",
+  "kb": "juniper",
+  "source_path": "examples/02-destination-nat-web-server.md",
+  "source_title": "02-destination-nat-web-server",
+  "section": "Optional Policy Logging",
+  "sha256": "a0a6b472538fa389b030fc49c265e9dd8a546433854597602aa1926bcfcc176c",
+  "content": "# Optional Policy Logging\n\nFor troubleshooting or auditing, session logging may be enabled where appropriate.\n\nExample:\n\nset security policies from-zone untrust to-zone trust policy ALLOW-WEB-HTTPS then log session-init\n\nset security policies from-zone untrust to-zone trust policy ALLOW-WEB-HTTPS then log session-close\n\nLogging should be used deliberately because high-volume services can generate substantial log traffic.\n\n---"
+}

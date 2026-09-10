@@ -1,0 +1,9 @@
+{
+  "chunk_id": "13-logging-snmp-and-zabbix-018-239c228da4d3",
+  "kb": "juniper",
+  "source_path": "docs/13-logging-snmp-and-zabbix.md",
+  "source_title": "13-logging-snmp-and-zabbix",
+  "section": "Chassis and System Alarms / VPN Monitoring",
+  "sha256": "239c228da4d33ed45ac7b5fd00c2941fc5795bc494c1b31f841c35962d9b10bf",
+  "content": "# Chassis and System Alarms / VPN Monitoring\n\nUseful commands may include:\n\nshow chassis alarms\n\nshow system alarms\n\nAlarm monitoring can help identify:\n\n- Hardware fault\n- Environmental issue\n- Configuration issue\n- System condition requiring attention\n\n---\n\nIf VPNs are deployed, monitor:\n\n- IKE state\n- IPsec state\n- Tunnel interface\n- Peer reachability\n- Traffic\n- Route availability\n- Application reachability\n\nTunnel status alone does not prove service availability.\n\n---"
+}

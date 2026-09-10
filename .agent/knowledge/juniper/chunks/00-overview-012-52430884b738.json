@@ -1,0 +1,9 @@
+{
+  "chunk_id": "00-overview-012-52430884b738",
+  "kb": "juniper",
+  "source_path": "docs/00-overview.md",
+  "source_title": "00-overview",
+  "section": "Interfaces",
+  "sha256": "52430884b738b3d9eeb272230998ab6450c9559eef6beabf0be964d2e3605998",
+  "content": "# Interfaces\n\nPhysical interfaces on the SRX320 commonly use Junos naming conventions such as:\n\nge-0/0/0\nge-0/0/1\nge-0/0/2\n\nLogical interface units are referenced using a unit number.\n\nExample:\n\nge-0/0/0.0\n\nInterface configuration may include:\n\n- IPv4 addressing\n- IPv6 addressing\n- VLAN membership\n- Ethernet switching\n- Routed interfaces\n- Security-zone assignment\n\nActual interface usage must be verified on the specific firewall.\n\nNever assume that a particular physical interface is WAN, LAN, DMZ, or management without confirming the configuration.\n\n---"
+}

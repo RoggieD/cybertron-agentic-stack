@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-screenos-to-junos-migration-025-a4b65334afa6",
+  "kb": "juniper",
+  "source_path": "docs/07-screenos-to-junos-migration.md",
+  "source_title": "07-screenos-to-junos-migration",
+  "section": "Migration Documentation Discipline",
+  "sha256": "a4b65334afa6856e4bdd791b699ffdd289b7670a8f1b8de3ffa82579fa65f505",
+  "content": "# Migration Documentation Discipline\n\nDo not combine legacy and target configuration without labels.\n\nEvery migration note should make clear whether information is:\n\nLEGACY_PRODUCTION\n\nSRX320_TARGET\n\nSRX320_VERIFIED_PRODUCTION\n\nThis prevents AI systems and administrators from confusing historical and current state.\n\n---"
+}

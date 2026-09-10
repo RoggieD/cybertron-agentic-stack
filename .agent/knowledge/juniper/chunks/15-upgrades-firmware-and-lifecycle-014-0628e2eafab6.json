@@ -1,0 +1,9 @@
+{
+  "chunk_id": "15-upgrades-firmware-and-lifecycle-014-0628e2eafab6",
+  "kb": "juniper",
+  "source_path": "docs/15-upgrades-firmware-and-lifecycle.md",
+  "source_title": "15-upgrades-firmware-and-lifecycle",
+  "section": "Useful Post-Upgrade Commands",
+  "sha256": "0628e2eafab681d9620f6c0e3668378086f8a970a2e1c1930672837f73fca67c",
+  "content": "# Useful Post-Upgrade Commands\n\nCommands may include:\n\nshow version\n\nshow chassis alarms\n\nshow system alarms\n\nshow interfaces terse\n\nshow route\n\nshow security policies\n\nshow configuration security nat\n\nshow security flow session\n\nshow system uptime\n\nExact syntax may vary by Junos release.\n\n---"
+}

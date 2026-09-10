@@ -1,0 +1,9 @@
+{
+  "chunk_id": "16-performance-capacity-and-sizing-003-c5f4ab57eeda",
+  "kb": "juniper",
+  "source_path": "docs/16-performance-capacity-and-sizing.md",
+  "source_title": "16-performance-capacity-and-sizing",
+  "section": "Key Capacity Dimensions",
+  "sha256": "c5f4ab57eeda973927e45d69d744592c6159c201e38352e9bdd5e27ab4b76d8e",
+  "content": "# Key Capacity Dimensions\n\nImportant capacity dimensions include:\n\n- Firewall throughput\n- IPsec VPN throughput\n- Maximum concurrent sessions\n- New sessions per second\n- Interface bandwidth\n- CPU utilization\n- Memory utilization\n- Packet rate\n- Logging volume\n\nNo single metric describes total device capacity.\n\n---"
+}

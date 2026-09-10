@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-vlan-trunk-and-irb-018-5dd945357369",
+  "kb": "juniper",
+  "source_path": "examples/09-vlan-trunk-and-irb.md",
+  "source_title": "09-vlan-trunk-and-irb",
+  "section": "Document Status",
+  "sha256": "5dd945357369d4aff618d0efe6135e67a54fd833907d39a5cff49361e2614bfc",
+  "content": "# Document Status\n\nDocument Type: Design Example\n\nExample Type: VLAN Trunk and Routed VLAN Interface\n\nKnowledge Base: Juniper SRX320 Knowledge Base\n\nVersion: 0.1.0\n\nStatus: Example / Non-Production"
+}

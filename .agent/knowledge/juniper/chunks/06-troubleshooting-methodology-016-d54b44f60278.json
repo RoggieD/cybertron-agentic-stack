@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-troubleshooting-methodology-016-d54b44f60278",
+  "kb": "juniper",
+  "source_path": "docs/06-troubleshooting-methodology.md",
+  "source_title": "06-troubleshooting-methodology",
+  "section": "Packet Capture",
+  "sha256": "d54b44f60278c46bed4da8fd454a7e12fd0867903fe0bbe6d6b2d48de7a97a98",
+  "content": "# Packet Capture\n\nPacket capture can be useful when other evidence is insufficient.\n\nCapture should be narrowly scoped.\n\nFilter by:\n\n- Source address\n- Destination address\n- Protocol\n- Port\n- Interface\n\nAvoid broad production captures that generate excessive data.\n\nPacket captures may expose sensitive information and should be handled accordingly.\n\n---"
+}

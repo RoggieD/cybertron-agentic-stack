@@ -1,0 +1,9 @@
+{
+  "chunk_id": "01-basic-edge-firewall-009-0563d74f4de0",
+  "kb": "juniper",
+  "source_path": "examples/01-basic-edge-firewall.md",
+  "source_title": "01-basic-edge-firewall",
+  "section": "Important Notes",
+  "sha256": "0563d74f4de0ed928374ea958dd0fa49b38e8d77a705fff73ec2f98d9e2cc64a",
+  "content": "# Important Notes\n\nThis example uses documentation-only IP ranges.\n\nDo not copy these addresses into a production network.\n\nDo not assume:\n\n- ge-0/0/0 is WAN\n- ge-0/0/1 is LAN\n- trust and untrust are the correct production zone names\n- interface source NAT is appropriate for every deployment\n\nAdapt the pattern to the actual environment.\n\n---"
+}

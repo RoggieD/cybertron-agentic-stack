@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-dmz-segmentation-003-ce24aee124f8",
+  "kb": "juniper",
+  "source_path": "examples/05-dmz-segmentation.md",
+  "source_title": "05-dmz-segmentation",
+  "section": "Security Objective",
+  "sha256": "ce24aee124f82ca65a4c2384bbc0abdcc54e536eb76f0c9e0f838abd119e2a57",
+  "content": "# Security Objective\n\nThe example intends to permit:\n\n- trust -> untrust for Internet access\n- trust -> dmz for administration or application access\n- untrust -> dmz only for specific published services\n- dmz -> untrust for updates and outbound services\n- dmz -> trust only when explicitly required\n\nThe DMZ should not be treated as equivalent to the trusted LAN.\n\n---"
+}

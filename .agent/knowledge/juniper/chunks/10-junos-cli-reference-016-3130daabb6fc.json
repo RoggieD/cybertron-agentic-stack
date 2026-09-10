@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-junos-cli-reference-016-3130daabb6fc",
+  "kb": "juniper",
+  "source_path": "docs/10-junos-cli-reference.md",
+  "source_title": "10-junos-cli-reference",
+  "section": "Troubleshooting Command Sequence",
+  "sha256": "3130daabb6fc5b42888f61d3154235ebee88ebd1a3aa1801e24856e288bc8702",
+  "content": "# Troubleshooting Command Sequence\n\nA common high-level sequence is:\n\nshow interfaces terse\n\nshow route <destination>\n\nshow configuration security zones\n\nshow security policies\n\nshow configuration security nat\n\nshow security flow session\n\nshow log messages\n\nThe exact sequence should match the failure domain.\n\n---"
+}

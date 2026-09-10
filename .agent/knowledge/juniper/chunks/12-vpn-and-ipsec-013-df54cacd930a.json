@@ -1,0 +1,9 @@
+{
+  "chunk_id": "12-vpn-and-ipsec-013-df54cacd930a",
+  "kb": "juniper",
+  "source_path": "docs/12-vpn-and-ipsec.md",
+  "source_title": "12-vpn-and-ipsec",
+  "section": "Proxy IDs",
+  "sha256": "df54cacd930a8ba4e17eb358de296eabb98fdeac0dd6d4d88e273db004ab13d6",
+  "content": "# Proxy IDs\n\nLegacy VPN configurations may use proxy IDs.\n\nDuring ScreenOS-to-Junos migration, document:\n\n- Local network\n- Remote network\n- Protocol\n- Port if relevant\n\nThen determine the appropriate Junos traffic selector or VPN configuration.\n\nDo not assume proxy-ID syntax maps directly.\n\n---"
+}

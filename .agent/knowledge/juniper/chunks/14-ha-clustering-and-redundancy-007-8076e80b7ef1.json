@@ -1,0 +1,9 @@
+{
+  "chunk_id": "14-ha-clustering-and-redundancy-007-8076e80b7ef1",
+  "kb": "juniper",
+  "source_path": "docs/14-ha-clustering-and-redundancy.md",
+  "source_title": "14-ha-clustering-and-redundancy",
+  "section": "Redundant Ethernet Interfaces",
+  "sha256": "8076e80b7ef10f9ea148c5648d9b8baf96974370a09ed76704ddaef28b5cedb7",
+  "content": "# Redundant Ethernet Interfaces\n\nRedundant Ethernet interfaces may provide a logical interface backed by physical links on different cluster nodes.\n\nA common Junos naming concept is:\n\nreth\n\nExample:\n\nreth0\n\nA reth interface may remain logically available if one node or member interface fails.\n\n---"
+}

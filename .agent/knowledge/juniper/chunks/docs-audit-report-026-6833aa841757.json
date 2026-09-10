@@ -1,0 +1,9 @@
+{
+  "chunk_id": "docs-audit-report-026-6833aa841757",
+  "kb": "juniper",
+  "source_path": "source-material/docs-audit-report.txt",
+  "source_title": "docs-audit-report",
+  "section": "Document \u2014 Part 26",
+  "sha256": "6833aa841757cd43705f0e69873931302d0260390cd63d02edaaebdbd0c419c0",
+  "content": "# Document \u2014 Part 26\n\n==============================================================================\n16-performance-capacity-and-sizing.md\n==============================================================================\n  14 [VPN] - VPN sizing\n  32 [VPN] - VPN encryption\n  50 [VPN] - IPsec VPN throughput\n  76 [VPN] - VPN traffic\n 154 [VPN] - VPN activity\n 200 [VPN] ## VPN Performance\n 202 [VPN] VPN traffic adds encryption and decryption workload.\n 204 [VPN] VPN performance depends on:\n 215 [VPN] Do not assume plain firewall throughput equals VPN throughput.\n 271 [VPN] - VPN traffic\n 311 [VPN] - VPN traffic\n 347 [VPN] - VPN peer\n 358 [JUNOS COMMAND] show interfaces terse\n 360 [JUNOS COMMAND] show interfaces extensive\n 362 [JUNOS COMMAND] show system processes extensive\n 364 [JUNOS COMMAND] show system uptime\n 366 [JUNOS COMMAND] show security flow session summary\n 368 [JUNOS COMMAND] show security flow session\n 370 [JUNOS COMMAND] show system storage\n 372 [JUNOS COMMAND] show chassis alarms\n 374 [JUNOS COMMAND] show system alarms\n 376 [VERSION-SENSITIVE] Exact commands and available metrics may vary by Junos version.\n 393 [VPN] 10. VPN load\n 425 [VPN] VPN Throughput:\n 449 [VPN] - VPN requirements exceed platform performance\n 478 [VPN] - Evaluate packet rate, sessions, VPN, and logging separately.\n 482 [VERSION-SENSITIVE] - Verify Junos version and enabled features."
+}

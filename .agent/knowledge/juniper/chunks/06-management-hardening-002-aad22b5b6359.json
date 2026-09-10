@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-management-hardening-002-aad22b5b6359",
+  "kb": "juniper",
+  "source_path": "examples/06-management-hardening.md",
+  "source_title": "06-management-hardening",
+  "section": "Example Topology / Security Objective",
+  "sha256": "aad22b5b6359b6a6752adbb8b2abf55eee7553354b6ef1faffbceb5bc6685b1f",
+  "content": "# Example Topology / Security Objective\n\nTrusted Management Network:\n\n192.0.2.0/24\n\nTrusted Interface:\n\nge-0/0/1.0\n\nTrusted Zone:\n\ntrust\n\nUntrusted Interface:\n\nge-0/0/0.0\n\nUntrusted Zone:\n\nuntrust\n\nSRX Trusted Address:\n\n192.0.2.1/24\n\n---\n\nPermit administrative access to the SRX from the trusted management network.\n\nAllow only required services such as:\n\n- SSH\n- Ping\n\nDo not enable management services on the untrusted interface unless there is a specific operational requirement.\n\n---"
+}

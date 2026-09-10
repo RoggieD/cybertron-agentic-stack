@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-screenos-to-junos-migration-002-57bc74533740",
+  "kb": "juniper",
+  "source_path": "docs/07-screenos-to-junos-migration.md",
+  "source_title": "07-screenos-to-junos-migration",
+  "section": "Core Migration Principle",
+  "sha256": "57bc74533740a049cab2afb1dcf0fb2416d14d2072bc8c2147d5af5f28a80810",
+  "content": "# Core Migration Principle\n\nScreenOS and Junos are different operating systems with different configuration models.\n\nDo not treat Junos as a newer syntax version of ScreenOS.\n\nMigration should translate:\n\n- Intent\n- Security boundaries\n- Interface roles\n- Routing behavior\n- NAT behavior\n- Policy logic\n- Management requirements\n\nrather than translating literal commands.\n\n---"
+}

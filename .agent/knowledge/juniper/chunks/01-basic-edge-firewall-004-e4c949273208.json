@@ -1,0 +1,9 @@
+{
+  "chunk_id": "01-basic-edge-firewall-004-e4c949273208",
+  "kb": "juniper",
+  "source_path": "examples/01-basic-edge-firewall.md",
+  "source_title": "01-basic-edge-firewall",
+  "section": "Configure Default Route / Configure Source NAT",
+  "sha256": "e4c9492732089c1b62b26904e595337f2407d98e30adf25f0f2e5da93cd5f486",
+  "content": "# Configure Default Route / Configure Source NAT\n\nset routing-options static route 0.0.0.0/0 next-hop 198.51.100.1\n\n---\n\nCreate a source NAT rule set from trust to untrust:\n\nset security nat source rule-set TRUST-TO-INTERNET from zone trust\n\nset security nat source rule-set TRUST-TO-INTERNET to zone untrust\n\nCreate a rule matching the LAN network:\n\nset security nat source rule-set TRUST-TO-INTERNET rule LAN-SOURCE-NAT match source-address 192.0.2.0/24\n\nTranslate matching traffic using the WAN interface address:\n\nset security nat source rule-set TRUST-TO-INTERNET rule LAN-SOURCE-NAT then source-nat interface\n\n---"
+}

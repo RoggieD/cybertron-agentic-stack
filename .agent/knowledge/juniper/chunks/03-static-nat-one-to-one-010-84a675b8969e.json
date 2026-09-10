@@ -1,0 +1,9 @@
+{
+  "chunk_id": "03-static-nat-one-to-one-010-84a675b8969e",
+  "kb": "juniper",
+  "source_path": "examples/03-static-nat-one-to-one.md",
+  "source_title": "03-static-nat-one-to-one",
+  "section": "Expected Return Flow / Static NAT vs Destination NAT",
+  "sha256": "84a675b8969e0c7a7cd094cffd3c277fa447d10bfb9bb154236da30476929e9c",
+  "content": "# Expected Return Flow / Static NAT vs Destination NAT\n\nThe return traffic is associated with the existing stateful session.\n\nThe SRX maintains the address mapping for the flow.\n\nThe internal system should use a return path that is compatible with the SRX session.\n\n---\n\nStatic NAT and destination NAT are not identical.\n\nStatic NAT is commonly associated with a fixed one-to-one mapping.\n\nDestination NAT is commonly used for:\n\n- Port forwarding\n- Service publishing\n- Many-to-one or service-specific translation\n\nChoose the NAT type based on the required behavior.\n\nDo not select static NAT simply because a server has a public IP.\n\n---"
+}

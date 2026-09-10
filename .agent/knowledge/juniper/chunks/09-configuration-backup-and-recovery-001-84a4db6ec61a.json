@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-configuration-backup-and-recovery-001-84a4db6ec61a",
+  "kb": "juniper",
+  "source_path": "docs/09-configuration-backup-and-recovery.md",
+  "source_title": "09-configuration-backup-and-recovery",
+  "section": "Scope",
+  "sha256": "84a4db6ec61aafa5cca60a4833d54eabc4416187afa2eaff8934a628418e7875",
+  "content": "# Scope\n\nThis document explains configuration backup, rollback, rescue configuration, and recovery practices for the Juniper SRX320 running Junos OS.\n\nIt is intended for:\n\n- Production change control\n- Firewall migration\n- Configuration recovery\n- Administrative lockout prevention\n- Software maintenance\n- Incident response\n- AI-assisted troubleshooting\n\nThis document provides platform-level guidance and does not contain site-specific production configuration.\n\n---"
+}

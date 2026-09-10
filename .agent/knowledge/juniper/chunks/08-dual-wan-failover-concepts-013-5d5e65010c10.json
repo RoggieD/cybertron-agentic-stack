@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-dual-wan-failover-concepts-013-5d5e65010c10",
+  "kb": "juniper",
+  "source_path": "examples/08-dual-wan-failover-concepts.md",
+  "source_title": "08-dual-wan-failover-concepts",
+  "section": "Static NAT and Dual WAN",
+  "sha256": "5d5e65010c1083f4e231068266d363550a9c8633092af5c7dd4bdcacf88fb36c",
+  "content": "# Static NAT and Dual WAN\n\nOne-to-one public mappings are generally tied to a specific provider unless the address block is independently routable through both providers.\n\nA backup ISP may require a different public address.\n\nApplication or DNS changes may therefore be necessary during failover.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-system-management-and-monitoring-004-98c981a334f1",
+  "kb": "juniper",
+  "source_path": "docs/05-system-management-and-monitoring.md",
+  "source_title": "05-system-management-and-monitoring",
+  "section": "SSH Management",
+  "sha256": "98c981a334f178129f500e2e89b165fed5141bd6ddcf3dce50d9e9f212f64b2c",
+  "content": "# SSH Management\n\nSSH is commonly used for CLI administration.\n\nSSH access should be restricted to trusted administrative networks or hosts.\n\nConsider:\n\n- Source address restrictions\n- Security-zone host-inbound settings\n- Strong authentication\n- Administrative user roles\n- Key-based authentication where appropriate\n\nDo not expose SSH broadly to untrusted networks without a specific requirement.\n\n---"
+}

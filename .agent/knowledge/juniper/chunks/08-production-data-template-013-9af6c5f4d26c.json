@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-production-data-template-013-9af6c5f4d26c",
+  "kb": "juniper",
+  "source_path": "docs/08-production-data-template.md",
+  "source_title": "08-production-data-template",
+  "section": "Sanitization Requirements",
+  "sha256": "9af6c5f4d26ce003da713498edff8f6e98f23202789917c0d3b935a44f232eeb",
+  "content": "# Sanitization Requirements\n\nBefore public release, remove or replace:\n\n- Real public IP addresses\n- Internal IP addresses where topology exposure is sensitive\n- Hostnames\n- Usernames\n- Serial numbers\n- Asset tags\n- VPN peers\n- Customer identifiers\n- SNMP credentials\n- SSH keys\n- Authentication details\n- Internal DNS names\n- Monitoring destinations\n\nUse documentation address ranges and generic identifiers in published examples.\n\n---"
+}

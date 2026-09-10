@@ -1,0 +1,9 @@
+{
+  "chunk_id": "docs-audit-report-007-250897692580",
+  "kb": "juniper",
+  "source_path": "source-material/docs-audit-report.txt",
+  "source_title": "docs-audit-report",
+  "section": "Document \u2014 Part 7",
+  "sha256": "25089769258047cf3175042a5784eafc0db203aa43f68e6874b40242d3da51e1",
+  "content": "# Document \u2014 Part 7\n\n==============================================================================\n04-routing.md\n==============================================================================\n  15 [SECURITY POLICY] - Interaction between routing, security policy, and NAT\n  31 [SECURITY POLICY] - A valid route but no permitting security policy\n  32 [SECURITY POLICY] - A valid security policy but no usable route\n 198 [JUNOS COMMAND] show route\n 200 [JUNOS COMMAND] show route detail\n 202 [JUNOS COMMAND] show route terse\n 204 [JUNOS COMMAND] show route protocol static\n 206 [JUNOS COMMAND] show route 0.0.0.0/0\n 208 [JUNOS COMMAND] show route <destination>\n 210 [JUNOS COMMAND] show route forwarding-table\n 212 [JUNOS COMMAND] show interfaces terse\n 214 [JUNOS COMMAND] show arp\n 216 [VERSION-SENSITIVE] Exact command syntax and output may vary by Junos version.\n 244 [SECURITY POLICY] Security policy must still permit the traffic between the applicable source and destination zones.\n 246 [SECURITY POLICY] Routing does not bypass security policy.\n 256 [NAT] - Correct source NAT with wrong default route\n 257 [NAT] - Correct destination NAT with no route to the translated host\n 258 [NAT] - Correct route with incorrect NAT rule match\n 290 [SECURITY POLICY] - Security policy enforcement\n 326 [SECURITY POLICY] 9. Security policy\n 342 [JUNOS COMMAND] show route <destination>\n 344 [JUNOS COMMAND] show arp\n 346 [JUNOS COMMAND] show security flow session\n 405 [SECURITY POLICY] - Treat routing, NAT, and security policy as separate checks."
+}

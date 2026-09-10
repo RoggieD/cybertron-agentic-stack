@@ -1,0 +1,9 @@
+{
+  "chunk_id": "15-upgrades-firmware-and-lifecycle-005-f32beeb40886",
+  "kb": "juniper",
+  "source_path": "docs/15-upgrades-firmware-and-lifecycle.md",
+  "source_title": "15-upgrades-firmware-and-lifecycle",
+  "section": "Release Selection",
+  "sha256": "f32beeb4088658593491b37415958d2cb81ee2d18566174b075a626b171e1257",
+  "content": "# Release Selection\n\nSelect a Junos release based on:\n\n- SRX320 hardware support\n- Juniper support guidance\n- Security advisories\n- Feature requirements\n- Known issues\n- Upgrade-path requirements\n- Operational stability\n\nDo not assume the newest available release is automatically the best production choice.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-site-to-site-ipsec-vpn-025-3c28fd8f0cfd",
+  "kb": "juniper",
+  "source_path": "examples/04-site-to-site-ipsec-vpn.md",
+  "source_title": "04-site-to-site-ipsec-vpn",
+  "section": "Document Status",
+  "sha256": "3c28fd8f0cfdd65f00dc882b50f7bbad77bede525c7efa1ffaf53f44f5d1bf01",
+  "content": "# Document Status\n\nDocument Type: Configuration Example\n\nExample Type: Route-Based Site-to-Site IPsec VPN\n\nKnowledge Base: Juniper SRX320 Knowledge Base\n\nVersion: 0.1.0\n\nStatus: Example / Non-Production"
+}

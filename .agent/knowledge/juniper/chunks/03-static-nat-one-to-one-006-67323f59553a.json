@@ -1,0 +1,9 @@
+{
+  "chunk_id": "03-static-nat-one-to-one-006-67323f59553a",
+  "kb": "juniper",
+  "source_path": "examples/03-static-nat-one-to-one.md",
+  "source_title": "03-static-nat-one-to-one",
+  "section": "Optional Logging",
+  "sha256": "67323f59553a0fa68bca0a957d600bccf20ca58b0bc9900a28bbfedfaa96220a",
+  "content": "# Optional Logging\n\nFor troubleshooting:\n\nset security policies from-zone untrust to-zone trust policy ALLOW-STATIC-SERVER-HTTPS then log session-init\n\nset security policies from-zone untrust to-zone trust policy ALLOW-STATIC-SERVER-HTTPS then log session-close\n\nUse logging selectively on high-volume services.\n\n---"
+}

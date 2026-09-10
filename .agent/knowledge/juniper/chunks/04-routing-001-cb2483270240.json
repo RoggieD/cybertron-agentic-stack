@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-routing-001-cb2483270240",
+  "kb": "juniper",
+  "source_path": "docs/04-routing.md",
+  "source_title": "04-routing",
+  "section": "Scope",
+  "sha256": "cb2483270240c557de987256c3e7f166694732d970331d291d4112c85cb8170a",
+  "content": "# Scope\n\nThis document explains routing concepts on the Juniper SRX320 using Junos OS.\n\nIt provides platform-level guidance for:\n\n- Directly connected routes\n- Static routes\n- Default routes\n- Route preference\n- Routing verification\n- Routing troubleshooting\n- Interaction between routing, security policy, and NAT\n\nIt does not represent a specific production routing table unless explicitly labeled.\n\n---"
+}

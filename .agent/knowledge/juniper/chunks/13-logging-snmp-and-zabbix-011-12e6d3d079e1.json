@@ -1,0 +1,9 @@
+{
+  "chunk_id": "13-logging-snmp-and-zabbix-011-12e6d3d079e1",
+  "kb": "juniper",
+  "source_path": "docs/13-logging-snmp-and-zabbix.md",
+  "source_title": "13-logging-snmp-and-zabbix",
+  "section": "Zabbix Integration",
+  "sha256": "12e6d3d079e1537da3e28f3e24e9ff62ab3a933ae19a2ac9e3255bd58b986a66",
+  "content": "# Zabbix Integration\n\nZabbix may monitor the SRX320 using:\n\n- ICMP\n- SNMP\n- External checks\n- Syslog integration\n- Custom scripts\n- API or telemetry integrations where applicable\n\nThe simplest initial design is usually:\n\n1. ICMP reachability\n2. SNMP interface monitoring\n3. CPU and memory monitoring\n4. Uptime\n5. Chassis/system alarms\n6. Syslog forwarding\n\n---"
+}

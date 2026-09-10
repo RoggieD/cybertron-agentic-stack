@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-screenos-to-junos-migration-012-3c5cda14629e",
+  "kb": "juniper",
+  "source_path": "docs/07-screenos-to-junos-migration.md",
+  "source_title": "07-screenos-to-junos-migration",
+  "section": "Destination NAT Migration",
+  "sha256": "3c5cda14629efc410c3c574e1d9e5ac84f237f3a90cf27356e97b99a932b20ef",
+  "content": "# Destination NAT Migration\n\nLegacy inbound mapping should be documented by function.\n\nRecord:\n\n- Public IP\n- Public port\n- Protocol\n- Internal IP\n- Internal port\n- Incoming interface\n- Source restrictions\n- Related security policy\n\nThen build equivalent Junos destination NAT and policy configuration.\n\n---"
+}

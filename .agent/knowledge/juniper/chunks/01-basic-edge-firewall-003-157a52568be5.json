@@ -1,0 +1,9 @@
+{
+  "chunk_id": "01-basic-edge-firewall-003-157a52568be5",
+  "kb": "juniper",
+  "source_path": "examples/01-basic-edge-firewall.md",
+  "source_title": "01-basic-edge-firewall",
+  "section": "Configure LAN Interface / Configure Security Zones / Allow Basic Management from LAN",
+  "sha256": "157a52568be503defe4f9e2d1dbad8ba86d48f853144598fff2aa2ba2e989355",
+  "content": "# Configure LAN Interface / Configure Security Zones / Allow Basic Management from LAN\n\nset interfaces ge-0/0/1 unit 0 family inet address 192.0.2.1/24\n\n---\n\nAssign WAN interface:\n\nset security zones security-zone untrust interfaces ge-0/0/0.0\n\nAssign LAN interface:\n\nset security zones security-zone trust interfaces ge-0/0/1.0\n\n---\n\nPermit ping to the SRX from the trust zone:\n\nset security zones security-zone trust interfaces ge-0/0/1.0 host-inbound-traffic system-services ping\n\nPermit SSH from the trust zone:\n\nset security zones security-zone trust interfaces ge-0/0/1.0 host-inbound-traffic system-services ssh\n\nThis example intentionally does not enable management access from the untrust zone.\n\n---"
+}

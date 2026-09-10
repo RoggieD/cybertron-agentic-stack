@@ -1,0 +1,9 @@
+{
+  "chunk_id": "03-nat-017-c0945cd17dcb",
+  "kb": "juniper",
+  "source_path": "docs/03-nat.md",
+  "source_title": "03-nat",
+  "section": "NAT Documentation Requirements",
+  "sha256": "c0945cd17dcbcc84880e2897e0ca33e06b70412b624834b1f12bdd6a30365d8b",
+  "content": "# NAT Documentation Requirements\n\nProduction NAT records should document:\n\n- Rule name\n- NAT type\n- Source zone\n- Destination zone\n- Incoming interface if applicable\n- Source address\n- Destination address\n- Protocol\n- Port\n- Translation pool\n- Translated address\n- Related security policy\n- Business purpose\n- Configuration state\n- Verification date\n\nConfiguration state must be one of:\n\nLEGACY_PRODUCTION\n\nSRX320_TARGET\n\nSRX320_VERIFIED_PRODUCTION\n\n---"
+}

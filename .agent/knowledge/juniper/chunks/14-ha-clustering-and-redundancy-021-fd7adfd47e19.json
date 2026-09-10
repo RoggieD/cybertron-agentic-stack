@@ -1,0 +1,9 @@
+{
+  "chunk_id": "14-ha-clustering-and-redundancy-021-fd7adfd47e19",
+  "kb": "juniper",
+  "source_path": "docs/14-ha-clustering-and-redundancy.md",
+  "source_title": "14-ha-clustering-and-redundancy",
+  "section": "Configuration States / Public Release Guidance",
+  "sha256": "fd7adfd47e19ba138179e8080192b23048d4bd047b61e5233db343a19b67e9e3",
+  "content": "# Configuration States / Public Release Guidance\n\nUse:\n\nLEGACY_PRODUCTION\n\nSRX320_TARGET\n\nSRX320_VERIFIED_PRODUCTION\n\nDo not mark HA as verified until failover behavior has been tested.\n\n---\n\nBefore publishing HA examples:\n\n- Remove real IP addresses\n- Remove internal hostnames\n- Remove serial numbers\n- Remove switch names\n- Remove WAN circuit identifiers\n- Remove customer-specific topology\n\nPreserve HA architecture and troubleshooting logic while sanitizing deployment-specific information.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "11-security-hardening-021-7ff25c377be1",
+  "kb": "juniper",
+  "source_path": "docs/11-security-hardening.md",
+  "source_title": "11-security-hardening",
+  "section": "Change Safety",
+  "sha256": "7ff25c377be1d516f125590f67e434ce87e1b029da7d7ce7993df2a027b828ca",
+  "content": "# Change Safety\n\nBefore hardening changes:\n\n1. Record current state.\n2. Review dependencies.\n3. Preserve console access.\n4. Use show | compare.\n5. Use commit check.\n6. Use commit confirmed when lockout risk exists.\n7. Test management access.\n8. Test production traffic.\n9. Confirm the commit.\n10. Document the result.\n\n---"
+}

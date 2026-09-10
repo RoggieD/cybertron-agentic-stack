@@ -1,0 +1,9 @@
+{
+  "chunk_id": "14-ha-clustering-and-redundancy-020-e42b42d59c53",
+  "kb": "juniper",
+  "source_path": "docs/14-ha-clustering-and-redundancy.md",
+  "source_title": "14-ha-clustering-and-redundancy",
+  "section": "Production HA Documentation",
+  "sha256": "e42b42d59c539c66ea32d4e3736b7c5b25bc0c3960294ca522571a16782b9387",
+  "content": "# Production HA Documentation\n\nProduction HA records should identify:\n\nCluster Name:\n\nNode 0:\n\nNode 1:\n\nJunos Version:\n\nControl Link:\n\nFabric Link:\n\nRedundancy Groups:\n\nReth Interfaces:\n\nUpstream Switches:\n\nDownstream Switches:\n\nWAN Design:\n\nRouting Design:\n\nFailover Method:\n\nMonitoring:\n\nConfiguration State:\n\nVerification Date:\n\nNotes:\n\n---"
+}

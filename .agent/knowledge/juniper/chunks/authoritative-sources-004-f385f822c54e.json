@@ -1,0 +1,9 @@
+{
+  "chunk_id": "authoritative-sources-004-f385f822c54e",
+  "kb": "juniper",
+  "source_path": "source-material/authoritative-sources.md",
+  "source_title": "authoritative-sources",
+  "section": "SRX320 Hardware Documentation",
+  "sha256": "f385f822c54e4b42a18d4c0ab5964c94c6dda3d98963c174eedf3fa9fb5aec06",
+  "content": "# SRX320 Hardware Documentation\n\nPlatform:\n\nJuniper SRX320 Services Gateway\n\nPrimary Use:\n\n- Physical platform characteristics\n- Interface identification\n- Hardware installation\n- Factory-default behavior\n- Console access\n- Hardware-specific capabilities\n\nReference Type:\n\nJuniper Networks official hardware documentation\n\n---"
+}

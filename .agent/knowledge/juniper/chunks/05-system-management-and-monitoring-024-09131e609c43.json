@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-system-management-and-monitoring-024-09131e609c43",
+  "kb": "juniper",
+  "source_path": "docs/05-system-management-and-monitoring.md",
+  "source_title": "05-system-management-and-monitoring",
+  "section": "AI Guidance",
+  "sha256": "09131e609c430ab837586c871ea73138cdcf9b43783c56e41ae8b253b5820a19",
+  "content": "# AI Guidance\n\nWhen using this document:\n\n- Do not invent management addresses.\n- Do not invent usernames.\n- Do not expose secrets.\n- Distinguish host-inbound traffic from transit traffic.\n- Verify Junos version before relying on version-specific commands.\n- Prefer console recovery when network management access is uncertain.\n- Use logs and commit history as troubleshooting evidence.\n\n---"
+}

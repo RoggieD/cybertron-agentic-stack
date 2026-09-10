@@ -1,0 +1,9 @@
+{
+  "chunk_id": "14-ha-clustering-and-redundancy-017-5b776c269342",
+  "kb": "juniper",
+  "source_path": "docs/14-ha-clustering-and-redundancy.md",
+  "source_title": "14-ha-clustering-and-redundancy",
+  "section": "Failover Testing",
+  "sha256": "5b776c2693423931e795ecbc02bcd0320c2e76fcf7d54ebd974de51f6f10c346",
+  "content": "# Failover Testing\n\nA high-availability design should be tested.\n\nPossible controlled tests include:\n\n- Interface failure\n- Node failover\n- Switch failure\n- WAN failure\n- Power failure\n\nTesting should occur within an approved maintenance window.\n\nAlways document:\n\n- Expected behavior\n- Actual behavior\n- Recovery time\n- Session impact\n- Monitoring alerts\n- Rollback method\n\n---"
+}

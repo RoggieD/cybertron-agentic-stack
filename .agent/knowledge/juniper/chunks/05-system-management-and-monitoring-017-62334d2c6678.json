@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-system-management-and-monitoring-017-62334d2c6678",
+  "kb": "juniper",
+  "source_path": "docs/05-system-management-and-monitoring.md",
+  "source_title": "05-system-management-and-monitoring",
+  "section": "Configuration Backup",
+  "sha256": "62334d2c6678d49b246cfdc13e929649fcb89c46fdaa61f0d84bef4409b3f532",
+  "content": "# Configuration Backup\n\nRegular configuration backups should be maintained.\n\nRecommended backup events include:\n\n- Before major changes\n- Before software upgrades\n- Before migration\n- After verified production changes\n- On a regular schedule\n\nBackup copies should be stored outside the firewall.\n\n---"
+}

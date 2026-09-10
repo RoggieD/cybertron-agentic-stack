@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-screenos-to-junos-migration-022-22bc94454b1e",
+  "kb": "juniper",
+  "source_path": "docs/07-screenos-to-junos-migration.md",
+  "source_title": "07-screenos-to-junos-migration",
+  "section": "Parallel Validation",
+  "sha256": "22bc94454b1ef13eb888cb2a5924af610c4fbd9acd235f8a7aa305670974bdb5",
+  "content": "# Parallel Validation\n\nWhere practical, validate legacy and target configurations side by side before cutover.\n\nCompare:\n\n- Routes\n- Policies\n- NAT mappings\n- Public services\n- Management access\n- Monitoring\n- Logging\n\nDo not rely only on configuration review.\n\nFunctional testing is required.\n\n---"
+}

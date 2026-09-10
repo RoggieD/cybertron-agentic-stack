@@ -1,0 +1,9 @@
+{
+  "chunk_id": "01-hardware-and-interfaces-016-eba3564527f5",
+  "kb": "juniper",
+  "source_path": "docs/01-hardware-and-interfaces.md",
+  "source_title": "01-hardware-and-interfaces",
+  "section": "AI Guidance",
+  "sha256": "eba3564527f52697df1d13d809c8ebe733698ac64556843db80fb02972fdbb61",
+  "content": "# AI Guidance\n\nWhen using this document:\n\n- Do not invent interface assignments.\n- Do not assume ge-0/0/0 is WAN.\n- Do not assume ge-0/0/1 is LAN.\n- Distinguish physical interfaces from logical units.\n- Verify zone membership before diagnosing policy behavior.\n- Treat examples as examples unless explicitly marked verified.\n- Prefer live configuration output over assumptions.\n\n---"
+}

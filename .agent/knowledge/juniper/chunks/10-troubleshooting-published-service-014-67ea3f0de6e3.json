@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-troubleshooting-published-service-014-67ea3f0de6e3",
+  "kb": "juniper",
+  "source_path": "examples/10-troubleshooting-published-service.md",
+  "source_title": "10-troubleshooting-published-service",
+  "section": "Step 17 \u2014 Verify Default Gateway",
+  "sha256": "67ea3f0de6e3c0e32b39e7b2a2f693dbf287030cd49ca014092f326e6bc5b456",
+  "content": "# Step 17 \u2014 Verify Default Gateway\n\nThe internal server should normally return traffic through a path compatible with the SRX session.\n\nIf the server uses another gateway, asymmetric routing may occur.\n\nSymptoms may include:\n\n- SYN reaches server\n- SYN-ACK leaves through another router\n- External connection times out\n- SRX sees only one direction\n\n---"
+}

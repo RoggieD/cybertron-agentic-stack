@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-source-nat-pool-004-c4f4241497ad",
+  "kb": "juniper",
+  "source_path": "examples/07-source-nat-pool.md",
+  "source_title": "07-source-nat-pool",
+  "section": "Create Source NAT Rule",
+  "sha256": "c4f4241497ad8068af26ae231af3c8368e89235aa332a7ebabfa845476de32f7",
+  "content": "# Create Source NAT Rule\n\nMatch the internal network:\n\nset security nat source rule-set TRUST-TO-INTERNET rule TRUST-SNAT-POOL match source-address 192.0.2.0/24\n\nApply the source NAT pool:\n\nset security nat source rule-set TRUST-TO-INTERNET rule TRUST-SNAT-POOL then source-nat pool INTERNET-SNAT-POOL\n\n---"
+}

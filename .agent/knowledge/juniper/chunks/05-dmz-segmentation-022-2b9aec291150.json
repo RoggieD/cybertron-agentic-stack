@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-dmz-segmentation-022-2b9aec291150",
+  "kb": "juniper",
+  "source_path": "examples/05-dmz-segmentation.md",
+  "source_title": "05-dmz-segmentation",
+  "section": "Document Status",
+  "sha256": "2b9aec2911508c49cb70d992494ce6438bd92249b876fd49670f73e36a539005",
+  "content": "# Document Status\n\nDocument Type: Configuration Example\n\nExample Type: DMZ Segmentation\n\nKnowledge Base: Juniper SRX320 Knowledge Base\n\nVersion: 0.1.0\n\nStatus: Example / Non-Production"
+}

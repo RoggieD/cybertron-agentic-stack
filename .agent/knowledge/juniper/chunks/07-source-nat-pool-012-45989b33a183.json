@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-source-nat-pool-012-45989b33a183",
+  "kb": "juniper",
+  "source_path": "examples/07-source-nat-pool.md",
+  "source_title": "07-source-nat-pool",
+  "section": "Multiple Public Addresses",
+  "sha256": "45989b33a18310f9489bd02246310553f8f548f7722c7f720941bd253835c262",
+  "content": "# Multiple Public Addresses\n\nA pool may contain multiple addresses depending on the design.\n\nWhen multiple addresses are used, document:\n\n- Address range\n- Purpose\n- Associated internal networks\n- Upstream routing\n- Port allocation behavior\n- Monitoring\n\nDo not assume all systems require their own public source address.\n\n---"
+}

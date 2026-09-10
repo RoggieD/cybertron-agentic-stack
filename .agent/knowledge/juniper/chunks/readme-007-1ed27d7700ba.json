@@ -1,0 +1,9 @@
+{
+  "chunk_id": "readme-007-1ed27d7700ba",
+  "kb": "juniper",
+  "source_path": "README.md",
+  "source_title": "README",
+  "section": "Security Principles",
+  "sha256": "1ed27d7700badbb8501cfd6f940bff7f66223931c3262edce99d67625974502c",
+  "content": "# Security Principles\n\n- Follow least-privilege access principles.\n- Avoid unnecessary exposed services.\n- Restrict management access.\n- Protect credentials, keys, certificates, and secrets.\n- Do not publish private network information or production-sensitive configuration in public releases.\n- Sanitize configuration examples before redistribution."
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-troubleshooting-methodology-024-1e5875473aca",
+  "kb": "juniper",
+  "source_path": "docs/06-troubleshooting-methodology.md",
+  "source_title": "06-troubleshooting-methodology",
+  "section": "Public Release Guidance",
+  "sha256": "1e5875473acae22eeb9002b22fc8ad23aa65d8083945a3f03430661ec526841a",
+  "content": "# Public Release Guidance\n\nBefore publishing troubleshooting examples:\n\n- Remove production IP addresses\n- Remove internal hostnames\n- Remove usernames\n- Remove credentials\n- Remove public service mappings\n- Remove customer-identifying information\n- Sanitize packet captures and logs\n\nPreserve the troubleshooting method while removing environment-specific sensitive data.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-routing-007-29555964ddb2",
+  "kb": "juniper",
+  "source_path": "docs/04-routing.md",
+  "source_title": "04-routing",
+  "section": "Longest Prefix Match",
+  "sha256": "29555964ddb21187607bf658283bd5aacf52327eb019cf246d53054b4f1d08f8",
+  "content": "# Longest Prefix Match\n\nRouting decisions normally use longest-prefix matching.\n\nA more specific route is preferred over a less specific route.\n\nExample:\n\n10.0.0.0/8\n\nand\n\n10.1.0.0/16\n\nTraffic destined for:\n\n10.1.2.3\n\nwould normally match the more specific:\n\n10.1.0.0/16\n\nassuming the route is valid and active.\n\n---"
+}

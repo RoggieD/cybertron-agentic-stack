@@ -1,0 +1,9 @@
+{
+  "chunk_id": "16-performance-capacity-and-sizing-002-fd2996efb27e",
+  "kb": "juniper",
+  "source_path": "docs/16-performance-capacity-and-sizing.md",
+  "source_title": "16-performance-capacity-and-sizing",
+  "section": "Performance Philosophy",
+  "sha256": "fd2996efb27e5a0dbfec7fc5ab87798a749bd89bdf4df60f66dbc05f6491a317",
+  "content": "# Performance Philosophy\n\nFirewall sizing should be based on actual workload, not only advertised maximum throughput.\n\nReal-world performance can be affected by:\n\n- Security services\n- Packet size\n- Session count\n- NAT\n- VPN encryption\n- Logging\n- Routing\n- Application mix\n- Traffic direction\n- Concurrent connections\n- Software version\n- Feature configuration\n\nPublished platform specifications should be treated as design inputs, not guaranteed production results.\n\n---"
+}

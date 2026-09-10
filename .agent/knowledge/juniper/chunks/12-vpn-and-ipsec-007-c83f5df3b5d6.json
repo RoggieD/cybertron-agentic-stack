@@ -1,0 +1,9 @@
+{
+  "chunk_id": "12-vpn-and-ipsec-007-c83f5df3b5d6",
+  "kb": "juniper",
+  "source_path": "docs/12-vpn-and-ipsec.md",
+  "source_title": "12-vpn-and-ipsec",
+  "section": "Policy-Based VPN",
+  "sha256": "c83f5df3b5d677a8ec654e69afd691ece7c480fb60e9527772b865a88e8fe1f8",
+  "content": "# Policy-Based VPN\n\nSome legacy environments may use policy-based VPN designs.\n\nMigration from ScreenOS should identify the actual VPN behavior before choosing an SRX design.\n\nDo not blindly recreate policy-based VPN behavior if a route-based design is more appropriate.\n\n---"
+}

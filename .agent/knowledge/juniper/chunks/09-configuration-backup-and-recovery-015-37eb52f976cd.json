@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-configuration-backup-and-recovery-015-37eb52f976cd",
+  "kb": "juniper",
+  "source_path": "docs/09-configuration-backup-and-recovery.md",
+  "source_title": "09-configuration-backup-and-recovery",
+  "section": "Do Not Reboot First",
+  "sha256": "37eb52f976cd4c986a5b1efd28692cd83a87fa49a37e3c8f257f9da0b190c013",
+  "content": "# Do Not Reboot First\n\nA reboot should not be the default response to a configuration problem.\n\nRebooting may:\n\n- Extend an outage\n- Hide useful evidence\n- Fail to correct configuration errors\n- Introduce additional risk\n\nUse configuration evidence and rollback mechanisms first when appropriate.\n\n---"
+}

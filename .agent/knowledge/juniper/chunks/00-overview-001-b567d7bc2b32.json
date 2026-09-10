@@ -1,0 +1,9 @@
+{
+  "chunk_id": "00-overview-001-b567d7bc2b32",
+  "kb": "juniper",
+  "source_path": "docs/00-overview.md",
+  "source_title": "00-overview",
+  "section": "Scope",
+  "sha256": "b567d7bc2b32562a3e6520cd2c28005f285cb067daaa7a361f0220cf8de184cb",
+  "content": "# Scope\n\nThis document provides a high-level technical overview of the Juniper SRX320 platform and establishes the terminology used throughout this knowledge base.\n\nIt is intended to support:\n\n- AI-assisted troubleshooting\n- Configuration planning\n- Firewall administration\n- Junos learning\n- ScreenOS-to-Junos migration\n- Open WebUI RAG retrieval\n- Reusable technical reference material\n\nThis file describes platform concepts.\n\nIt does not represent a specific production configuration unless explicitly labeled as such.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "15-upgrades-firmware-and-lifecycle-018-095bbb91827e",
+  "kb": "juniper",
+  "source_path": "docs/15-upgrades-firmware-and-lifecycle.md",
+  "source_title": "15-upgrades-firmware-and-lifecycle",
+  "section": "Software Package Retention / Security Advisories",
+  "sha256": "095bbb91827e672733ce16eb0e86695effbfd757c4c9a30492ccb46e6d365095",
+  "content": "# Software Package Retention / Security Advisories\n\nWhere practical, retain enough information to return to the previous known-good software state.\n\nDocument:\n\n- Previous release\n- Target release\n- Installation package\n- Upgrade date\n- Upgrade result\n- Rollback availability\n\n---\n\nSecurity advisories should be reviewed periodically.\n\nEvaluate:\n\n- Affected Junos releases\n- SRX320 applicability\n- Exploitability\n- Exposure\n- Available mitigation\n- Fixed version\n- Operational urgency\n\nNot every advisory requires immediate emergency maintenance.\n\nRisk should be evaluated in context.\n\n---"
+}

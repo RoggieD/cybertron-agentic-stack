@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-site-to-site-ipsec-vpn-015-fa4849043cdf",
+  "kb": "juniper",
+  "source_path": "examples/04-site-to-site-ipsec-vpn.md",
+  "source_title": "04-site-to-site-ipsec-vpn",
+  "section": "Verify Route / Verify Security Policies / Verify Sessions",
+  "sha256": "fa4849043cdf9b526e5a80f8208dac7efb57291223827e23b8f5bbe1c05dce64",
+  "content": "# Verify Route / Verify Security Policies / Verify Sessions\n\nRun:\n\nshow route 203.0.113.128/25\n\nThe active route should direct the remote network through:\n\nst0.0\n\n---\n\nRun:\n\nshow security policies\n\nVerify both directions:\n\ntrust -> vpn\n\nvpn -> trust\n\n---\n\nDuring traffic testing:\n\nshow security flow session\n\nWhere useful:\n\nshow security flow session source-prefix 192.0.2.0/24\n\nor:\n\nshow security flow session destination-prefix 203.0.113.128/25\n\n---"
+}

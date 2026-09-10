@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-source-nat-pool-015-47d04617b4c5",
+  "kb": "juniper",
+  "source_path": "examples/07-source-nat-pool.md",
+  "source_title": "07-source-nat-pool",
+  "section": "Important Notes",
+  "sha256": "47d04617b4c595b57b5eb9430585e3d526fdaab409822e444c76d4b86fffc6e2",
+  "content": "# Important Notes\n\nThis example uses documentation-only IP ranges.\n\nDo not copy these values into production.\n\nDo not assume:\n\n- 198.51.100.50 belongs to the SRX\n- ge-0/0/0.0 is WAN\n- ge-0/0/1.0 is LAN\n- trust and untrust are production zone names\n- proxy ARP is required\n- a source NAT pool is preferable to interface NAT\n\nVerify the actual deployment first.\n\n---"
+}

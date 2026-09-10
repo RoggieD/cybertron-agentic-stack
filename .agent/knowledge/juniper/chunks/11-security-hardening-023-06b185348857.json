@@ -1,0 +1,9 @@
+{
+  "chunk_id": "11-security-hardening-023-06b185348857",
+  "kb": "juniper",
+  "source_path": "docs/11-security-hardening.md",
+  "source_title": "11-security-hardening",
+  "section": "AI Guidance",
+  "sha256": "06b185348857b9e81a7968c2067e58b684fcc1bbdc00b07596fdc57d5bb0e4d0",
+  "content": "# AI Guidance\n\nWhen using this document:\n\n- Prefer least privilege.\n- Do not recommend broad exposure as a permanent solution.\n- Do not invent current hardening state.\n- Verify management paths before recommending restrictive changes.\n- Warn when a change may cause lockout.\n- Protect secrets and credentials.\n- Prefer reversible hardening changes.\n- Distinguish security improvement from operational disruption.\n\n---"
+}

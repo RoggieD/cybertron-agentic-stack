@@ -1,0 +1,9 @@
+{
+  "chunk_id": "02-security-zones-and-policies-015-19f933fb2ef1",
+  "kb": "juniper",
+  "source_path": "docs/02-security-zones-and-policies.md",
+  "source_title": "02-security-zones-and-policies",
+  "section": "Useful Verification Commands",
+  "sha256": "19f933fb2ef151a41289c65c06b2b381f8172860ef6dcd8508e4f42f2d5595e2",
+  "content": "# Useful Verification Commands\n\nOperational commands may include:\n\nshow security zones\n\nshow security policies\n\nshow security policies detail\n\nUse show security match-policies with the actual flow criteria when testing a policy decision, including source and destination zones, source and destination IP addresses, ports, and protocol as applicable.\n\nshow security flow session\n\nshow security flow session source-prefix <address>\n\nshow security flow session destination-prefix <address>\n\nshow log messages\n\nExact command availability may vary by Junos version.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-troubleshooting-published-service-013-eec502da853f",
+  "kb": "juniper",
+  "source_path": "examples/10-troubleshooting-published-service.md",
+  "source_title": "10-troubleshooting-published-service",
+  "section": "Step 15 \u2014 Verify Service Is Listening / Step 16 \u2014 Verify Host Firewall",
+  "sha256": "eec502da853f4289d12dd5b23ffe603ad8a1ae7864c5683e91d87e0bc23a8292",
+  "content": "# Step 15 \u2014 Verify Service Is Listening / Step 16 \u2014 Verify Host Firewall\n\nOn the internal server, verify that the application is actually listening on the expected port.\n\nExamples on Linux may include:\n\nss -lntp\n\nor:\n\nss -lnup\n\nThe exact host command depends on the operating system.\n\n---\n\nThe internal server may have its own firewall.\n\nExamples include:\n\n- nftables\n- iptables\n- firewalld\n- Windows Defender Firewall\n- Application-specific ACL\n\nA correct SRX configuration can still fail because the server rejects traffic.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "15-upgrades-firmware-and-lifecycle-012-6c9df03bd1c5",
+  "kb": "juniper",
+  "source_path": "docs/15-upgrades-firmware-and-lifecycle.md",
+  "source_title": "15-upgrades-firmware-and-lifecycle",
+  "section": "Reboot",
+  "sha256": "6c9df03bd1c5b45021a70659a1aeb35b1c89b7ce7bf98cb825b9b903929779cf",
+  "content": "# Reboot\n\nA software upgrade may require rebooting the SRX.\n\nBefore reboot:\n\n- Confirm maintenance approval\n- Confirm configuration saved\n- Confirm console access\n- Confirm expected outage\n- Confirm monitoring suppression if required\n\nDo not reboot casually during troubleshooting.\n\n---"
+}

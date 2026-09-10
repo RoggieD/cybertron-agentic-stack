@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-production-data-template-005-e0fbe16799d2",
+  "kb": "juniper",
+  "source_path": "docs/08-production-data-template.md",
+  "source_title": "08-production-data-template",
+  "section": "Security Zones / Security Policies",
+  "sha256": "e0fbe16799d2787d320a48f60d2533ad92407d54772b8b7eb87d4076c58ecbd3",
+  "content": "# Security Zones / Security Policies\n\nFor each security zone, record:\n\nZone Name:\n\nPurpose:\n\nInterfaces:\n\nHost-Inbound Services:\n\nTrust Level:\n\nConfiguration State:\n\nVerification Date:\n\nNotes:\n\n---\n\nFor each policy, record:\n\nPolicy Name:\n\nSource Zone:\n\nDestination Zone:\n\nSource Address:\n\nDestination Address:\n\nApplication:\n\nAction:\n\nLogging:\n\nBusiness Purpose:\n\nConfiguration State:\n\nVerification Date:\n\nNotes:\n\n---"
+}

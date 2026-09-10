@@ -1,0 +1,9 @@
+{
+  "chunk_id": "02-destination-nat-web-server-018-8eb04bc33a0e",
+  "kb": "juniper",
+  "source_path": "examples/02-destination-nat-web-server.md",
+  "source_title": "02-destination-nat-web-server",
+  "section": "Document Status",
+  "sha256": "8eb04bc33a0e170043dee6655327d5e1c4ec07931e8c676e9e9b33c25314e98c",
+  "content": "# Document Status\n\nDocument Type: Configuration Example\n\nExample Type: Destination NAT HTTPS Web Server\n\nKnowledge Base: Juniper SRX320 Knowledge Base\n\nVersion: 0.1.0\n\nStatus: Example / Non-Production"
+}

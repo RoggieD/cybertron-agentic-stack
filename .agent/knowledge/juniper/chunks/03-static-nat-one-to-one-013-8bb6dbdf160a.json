@@ -1,0 +1,9 @@
+{
+  "chunk_id": "03-static-nat-one-to-one-013-8bb6dbdf160a",
+  "kb": "juniper",
+  "source_path": "examples/03-static-nat-one-to-one.md",
+  "source_title": "03-static-nat-one-to-one",
+  "section": "Internal Server Requirements / Troubleshooting Sequence",
+  "sha256": "8bb6dbdf160a7318fe044b7e832af3911d7c2930486086cca0ec4c00677b6c4b",
+  "content": "# Internal Server Requirements / Troubleshooting Sequence\n\nVerify:\n\n- Correct IP address\n- Correct subnet mask\n- Correct default gateway\n- Required service is listening\n- Host firewall permits the service\n- Application is healthy\n- Return traffic follows the intended path\n\n---\n\nIf static NAT traffic fails, verify:\n\n1. Public IP routing\n2. WAN interface\n3. Static NAT rule\n4. Static NAT rule match\n5. Internal route\n6. Security-zone assignments\n7. Security policy\n8. Internal server\n9. Return path\n10. Session table\n11. Logs\n12. Proxy ARP if relevant to the topology\n\n---"
+}

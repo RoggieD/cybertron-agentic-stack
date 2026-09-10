@@ -1,0 +1,9 @@
+{
+  "chunk_id": "authoritative-sources-011-9ecb6ff95d77",
+  "kb": "juniper",
+  "source_path": "source-material/authoritative-sources.md",
+  "source_title": "authoritative-sources",
+  "section": "syntax-validated / lab-verified / live-device-verified",
+  "sha256": "9ecb6ff95d77a2221837aa4888e0119e9ef0c9d85d3081097dfddc584630d1bd",
+  "content": "# syntax-validated / lab-verified / live-device-verified\n\nUse only when:\n\n- Junos accepts the configuration syntax, or\n- An appropriate Junos validation environment confirms the syntax.\n\n---\n\nUse only when:\n\n- The feature or configuration has been successfully tested in a controlled lab environment.\n\n---\n\nUse only when:\n\n- The configuration or operational behavior has been directly verified on the target or equivalent SRX device.\n\n---"
+}

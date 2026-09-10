@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-vlan-trunk-and-irb-010-fa54be541b8e",
+  "kb": "juniper",
+  "source_path": "examples/09-vlan-trunk-and-irb.md",
+  "source_title": "09-vlan-trunk-and-irb",
+  "section": "Trunk Verification / Common VLAN Failure Causes",
+  "sha256": "fa54be541b8e54d568cdada26540dbba0d310e3c0d51e927d068bd0976fba76e",
+  "content": "# Trunk Verification / Common VLAN Failure Causes\n\nWhen a VLAN appears unreachable, verify:\n\n1. Physical link\n2. Trunk status\n3. VLAN allowed on trunk\n4. VLAN ID\n5. Access-port membership\n6. Routed VLAN interface\n7. IP addressing\n8. Security zone\n9. Security policy\n10. Host gateway\n\n---\n\nPossible causes include:\n\n- Wrong VLAN ID\n- VLAN missing from trunk\n- Access port assigned to wrong VLAN\n- Native VLAN mismatch\n- Missing routed interface\n- Wrong gateway address\n- Wrong security zone\n- Missing policy\n- Incorrect endpoint addressing\n\n---"
+}

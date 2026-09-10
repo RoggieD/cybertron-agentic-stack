@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-screenos-to-junos-migration-007-e3dba45467ec",
+  "kb": "juniper",
+  "source_path": "docs/07-screenos-to-junos-migration.md",
+  "source_title": "07-screenos-to-junos-migration",
+  "section": "Security Zone Migration",
+  "sha256": "e3dba45467ec6d9c59bd57f4b9951b6d56b525088c377248222b15726a61e5d2",
+  "content": "# Security Zone Migration\n\nBoth ScreenOS and Junos use security-zone concepts, but configuration syntax and behavior differ.\n\nCommon ScreenOS zones may include:\n\nTrust\n\nUntrust\n\nDMZ\n\nJunos may use:\n\ntrust\n\nuntrust\n\ndmz\n\nor custom names.\n\nZone names should be chosen deliberately.\n\nDo not assume legacy zone names must be preserved exactly.\n\n---"
+}

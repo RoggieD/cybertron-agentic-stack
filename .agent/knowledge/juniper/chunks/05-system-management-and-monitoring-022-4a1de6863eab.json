@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-system-management-and-monitoring-022-4a1de6863eab",
+  "kb": "juniper",
+  "source_path": "docs/05-system-management-and-monitoring.md",
+  "source_title": "05-system-management-and-monitoring",
+  "section": "Monitoring Documentation",
+  "sha256": "4a1de6863eab796f5a1eda4203027a48798301971db3d33aee65c4c6a4fc7080",
+  "content": "# Monitoring Documentation\n\nProduction monitoring records should identify:\n\n- Monitoring platform\n- SRX management address\n- Monitoring protocol\n- SNMP version if used\n- Monitored interfaces\n- Alert thresholds\n- Logging destination\n- Configuration state\n- Verification date\n\nConfiguration state must be one of:\n\nLEGACY_PRODUCTION\n\nSRX320_TARGET\n\nSRX320_VERIFIED_PRODUCTION\n\n---"
+}

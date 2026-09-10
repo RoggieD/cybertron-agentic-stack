@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-system-management-and-monitoring-003-707ace68b198",
+  "kb": "juniper",
+  "source_path": "docs/05-system-management-and-monitoring.md",
+  "source_title": "05-system-management-and-monitoring",
+  "section": "Console Access",
+  "sha256": "707ace68b1988d2acb594a977f8951bfbda29c3a35c339740c1356664ef72157",
+  "content": "# Console Access\n\nConsole access provides direct local administrative access.\n\nConsole access is particularly important during:\n\n- Initial deployment\n- Network migration\n- Management lockout\n- Routing failure\n- Firewall policy failure\n- Software upgrade recovery\n\nA production firewall migration should preserve a working console path whenever possible.\n\n---"
+}

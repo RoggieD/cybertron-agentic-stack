@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-site-to-site-ipsec-vpn-004-d00a5b7490ca",
+  "kb": "juniper",
+  "source_path": "examples/04-site-to-site-ipsec-vpn.md",
+  "source_title": "04-site-to-site-ipsec-vpn",
+  "section": "Configure IKE Proposal",
+  "sha256": "d00a5b7490cad458b9169c63af1ff6a6a55b856957211adfceacdcb54b943263",
+  "content": "# Configure IKE Proposal\n\nCreate an IKE proposal:\n\nset security ike proposal SITE-A-IKE-PROPOSAL authentication-method pre-shared-keys\n\nset security ike proposal SITE-A-IKE-PROPOSAL dh-group group14\n\nset security ike proposal SITE-A-IKE-PROPOSAL authentication-algorithm sha-256\n\nset security ike proposal SITE-A-IKE-PROPOSAL encryption-algorithm aes-256-cbc\n\nset security ike proposal SITE-A-IKE-PROPOSAL lifetime-seconds 28800\n\nThese parameters are examples only.\n\nActual cryptographic settings must match the remote peer and should be selected according to current security requirements and Junos support.\n\n---"
+}

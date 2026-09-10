@@ -1,0 +1,9 @@
+{
+  "chunk_id": "13-logging-snmp-and-zabbix-012-3eb9ee9f7292",
+  "kb": "juniper",
+  "source_path": "docs/13-logging-snmp-and-zabbix.md",
+  "source_title": "13-logging-snmp-and-zabbix",
+  "section": "Zabbix Host Definition",
+  "sha256": "3eb9ee9f72924054e4ffb466897e3daf2d5c5368367e9005582328b84f3cbd7c",
+  "content": "# Zabbix Host Definition\n\nRecommended Zabbix host documentation should include:\n\nHost Name:\n\nDisplay Name:\n\nManagement IP:\n\nSNMP Version:\n\nSNMP Interface:\n\nTemplate:\n\nHost Group:\n\nAvailability Method:\n\nConfiguration State:\n\nVerification Date:\n\nNotes:\n\nDo not store SNMP secrets in public documentation.\n\n---"
+}

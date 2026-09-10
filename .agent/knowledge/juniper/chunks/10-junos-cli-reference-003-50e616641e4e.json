@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-junos-cli-reference-003-50e616641e4e",
+  "kb": "juniper",
+  "source_path": "docs/10-junos-cli-reference.md",
+  "source_title": "10-junos-cli-reference",
+  "section": "General Help / Configuration Review",
+  "sha256": "50e616641e4e73b17867c452bf24661d2730d12ef365316ea85ba48b47c3cfbf",
+  "content": "# General Help / Configuration Review\n\nUse:\n\n?\n\nto display context-sensitive help.\n\nUse:\n\nhelp topic <keyword>\n\nor:\n\nhelp reference <keyword>\n\nwhere supported.\n\nTab completion may be used to complete commands and object names.\n\n---\n\nShow current configuration:\n\nshow configuration\n\nShow configuration in set format:\n\nshow configuration | display set\n\nShow a specific hierarchy:\n\nshow configuration interfaces\n\nshow configuration security\n\nshow configuration routing-options\n\n---"
+}

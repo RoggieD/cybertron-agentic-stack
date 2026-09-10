@@ -1,0 +1,9 @@
+{
+  "chunk_id": "15-upgrades-firmware-and-lifecycle-004-3e2f3daff986",
+  "kb": "juniper",
+  "source_path": "docs/15-upgrades-firmware-and-lifecycle.md",
+  "source_title": "15-upgrades-firmware-and-lifecycle",
+  "section": "Current Version Verification",
+  "sha256": "3e2f3daff9862f9322fd111705550d0bd3db9933f25721cf086872f5cc2b73be",
+  "content": "# Current Version Verification\n\nUse:\n\nshow version\n\nto identify the running Junos OS release.\n\nConfirm the hardware platform with:\n\nshow chassis hardware\n\nThe command show system software displays loaded Junos software extensions on classic Junos OS and should not be used as the primary source for the base Junos version.\n\nRecord the current version before any change.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "01-hardware-and-interfaces-002-31f37894d370",
+  "kb": "juniper",
+  "source_path": "docs/01-hardware-and-interfaces.md",
+  "source_title": "01-hardware-and-interfaces",
+  "section": "Interface Naming",
+  "sha256": "31f37894d37048423e940e4b30b474864892b2b38b8e984705982d04c695a248",
+  "content": "# Interface Naming\n\nJunos uses structured interface names.\n\nCommon Ethernet interface naming includes:\n\nge-0/0/0\nge-0/0/1\nge-0/0/2\n\nThe interface name identifies:\n\n- Interface type\n- FPC\n- PIC\n- Port\n\nA logical unit is appended after a period.\n\nExample:\n\nge-0/0/0.0\n\nThe physical interface and logical interface are not the same configuration object.\n\nPhysical interface:\n\nge-0/0/0\n\nLogical unit:\n\nge-0/0/0.0\n\n---"
+}

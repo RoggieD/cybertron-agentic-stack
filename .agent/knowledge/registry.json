@@ -22,8 +22,8 @@
       "id": "juniper",
       "name": "Juniper Knowledge Base",
       "description": "Reference material for Juniper networking, configuration, troubleshooting, and operations.",
-      "type": "local_directory",
-      "path": ".agent/knowledge/juniper",
+      "type": "chunk_directory",
+      "path": ".agent/knowledge/juniper/chunks",
       "triggers": [
         "juniper",
         "ssg",
@@ -31,7 +31,7 @@
         "firewall",
         "screenos"
       ],
-      "enabled": false
+      "enabled": true
     }
   ]
 }

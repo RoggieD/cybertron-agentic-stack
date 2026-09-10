@@ -1,0 +1,9 @@
+{
+  "chunk_id": "02-destination-nat-web-server-001-ed5e0b94986b",
+  "kb": "juniper",
+  "source_path": "examples/02-destination-nat-web-server.md",
+  "source_title": "02-destination-nat-web-server",
+  "section": "Scope",
+  "sha256": "ed5e0b94986b90a61e599868973335c360d7b9116742752e425147c1d234e400",
+  "content": "# Scope\n\nThis example demonstrates publishing an internal HTTPS web server through a Juniper SRX using destination NAT.\n\nIt demonstrates:\n\n- Destination NAT pool\n- Destination NAT rule set\n- HTTPS port matching\n- Security address object\n- Inbound security policy\n- Validation and troubleshooting\n\nThis configuration is an educational example only.\n\nIt is not production configuration.\n\n---"
+}

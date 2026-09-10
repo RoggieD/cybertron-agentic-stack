@@ -1,0 +1,9 @@
+{
+  "chunk_id": "01-hardware-and-interfaces-014-e028d24d29ec",
+  "kb": "juniper",
+  "source_path": "docs/01-hardware-and-interfaces.md",
+  "source_title": "01-hardware-and-interfaces",
+  "section": "Production Interface Mapping",
+  "sha256": "e028d24d29ece10da207dbb6aa352f6e13a7fdf641b086f1cb55bc921e523c03",
+  "content": "# Production Interface Mapping\n\nProduction interface assignments must not be inferred.\n\nThe following must be verified directly from the SRX320:\n\n- WAN interface\n- LAN interface\n- DMZ interface\n- Management interface\n- VLAN trunks\n- Access ports\n- Logical units\n- IP addresses\n- Zone assignments\n\nUntil verified, these values should remain undocumented or labeled as SRX320_TARGET.\n\n---"
+}

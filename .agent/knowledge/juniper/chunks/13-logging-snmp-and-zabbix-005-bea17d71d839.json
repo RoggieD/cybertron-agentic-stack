@@ -1,0 +1,9 @@
+{
+  "chunk_id": "13-logging-snmp-and-zabbix-005-bea17d71d839",
+  "kb": "juniper",
+  "source_path": "docs/13-logging-snmp-and-zabbix.md",
+  "source_title": "13-logging-snmp-and-zabbix",
+  "section": "SNMP Overview",
+  "sha256": "bea17d71d839a3937df2afca2d2544da26362329020e178f5471acbbbfc4d71d",
+  "content": "# SNMP Overview\n\nSNMP may be used to collect operational metrics from the SRX320.\n\nCommon monitoring targets include:\n\n- Interface counters\n- Interface status\n- CPU\n- Memory\n- Uptime\n- Chassis information\n- Device health\n- Environmental status\n\nAvailable metrics depend on Junos version, platform support, and MIB implementation.\n\n---"
+}

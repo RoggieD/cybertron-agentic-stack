@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-dmz-segmentation-008-9f72750557db",
+  "kb": "juniper",
+  "source_path": "examples/05-dmz-segmentation.md",
+  "source_title": "05-dmz-segmentation",
+  "section": "DMZ to Internet Policy",
+  "sha256": "9f72750557db57e0ec30d8ddb99800cc993099628ca411d3eaf3017812125f05",
+  "content": "# DMZ to Internet Policy\n\nPermit DMZ systems to reach the Internet:\n\nset security policies from-zone dmz to-zone untrust policy DMZ-INTERNET match source-address any\n\nset security policies from-zone dmz to-zone untrust policy DMZ-INTERNET match destination-address any\n\nset security policies from-zone dmz to-zone untrust policy DMZ-INTERNET match application any\n\nset security policies from-zone dmz to-zone untrust policy DMZ-INTERNET then permit\n\nFor production use, narrow applications where practical.\n\n---"
+}

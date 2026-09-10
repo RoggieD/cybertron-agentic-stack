@@ -1,0 +1,9 @@
+{
+  "chunk_id": "03-nat-011-9a7bdda72da3",
+  "kb": "juniper",
+  "source_path": "docs/03-nat.md",
+  "source_title": "03-nat",
+  "section": "NAT and Security Policies",
+  "sha256": "9a7bdda72da3a0bde0ffb8cb021afed026d4ec23b12888407a7e1e15437843db",
+  "content": "# NAT and Security Policies\n\nNAT and security policy are separate functions.\n\nA valid NAT rule does not automatically permit traffic.\n\nA valid security policy does not automatically create NAT.\n\nFor inbound destination NAT traffic, policy evaluation must be understood in relation to the translated destination.\n\nWhen troubleshooting, verify the exact address objects used by the applicable security policy.\n\n---"
+}

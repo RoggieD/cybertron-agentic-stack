@@ -1,0 +1,9 @@
+{
+  "chunk_id": "15-upgrades-firmware-and-lifecycle-006-a14739ceed19",
+  "kb": "juniper",
+  "source_path": "docs/15-upgrades-firmware-and-lifecycle.md",
+  "source_title": "15-upgrades-firmware-and-lifecycle",
+  "section": "Release Notes",
+  "sha256": "a14739ceed19e5f4dd757e4f617af74fc581de8a570d49ab7419f0bf61ac1473",
+  "content": "# Release Notes\n\nReview release notes before upgrade.\n\nLook for:\n\n- New features\n- Deprecated features\n- Removed features\n- Known issues\n- Fixed issues\n- Behavioral changes\n- Security changes\n- Upgrade restrictions\n\nVersion-specific changes may affect existing configuration.\n\n---"
+}

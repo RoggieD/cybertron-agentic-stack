@@ -1,0 +1,9 @@
+{
+  "chunk_id": "03-nat-005-234df6b3a6c4",
+  "kb": "juniper",
+  "source_path": "docs/03-nat.md",
+  "source_title": "03-nat",
+  "section": "Source NAT Pools",
+  "sha256": "234df6b3a6c446e9e042d050478d006e0cf6a29f69e2d59fc689def8a32b58b7",
+  "content": "# Source NAT Pools\n\nA source NAT pool allows traffic to use one or more explicitly defined translated addresses.\n\nA pool may contain:\n\n- One public IP\n- Multiple public IPs\n- A public address range\n\nConceptual example:\n\nsecurity {\n    nat {\n        source {\n            pool INTERNET_POOL {\n                address {\n                    198.51.100.10/32;\n                }\n            }\n        }\n    }\n}\n\nThis example uses documentation-only addressing.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "02-security-zones-and-policies-008-b84de540b744",
+  "kb": "juniper",
+  "source_path": "docs/02-security-zones-and-policies.md",
+  "source_title": "02-security-zones-and-policies",
+  "section": "Applications",
+  "sha256": "b84de540b744b494927cb73f682b9a3755c2e02643911411135820e033d93cc1",
+  "content": "# Applications\n\nPolicies may reference applications such as:\n\n- junos-http\n- junos-https\n- junos-ssh\n- junos-dns\n- junos-ping\n\nCustom applications may also be defined for non-standard ports or protocols.\n\nApplication definitions should clearly identify:\n\n- Protocol\n- Destination port\n- Source port when relevant\n- Timeout behavior when relevant\n\n---"
+}

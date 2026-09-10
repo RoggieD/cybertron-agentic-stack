@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-junos-cli-reference-012-effaea9e6969",
+  "kb": "juniper",
+  "source_path": "docs/10-junos-cli-reference.md",
+  "source_title": "10-junos-cli-reference",
+  "section": "Configuration Search",
+  "sha256": "effaea9e6969593dfc86f1dcb493970666999d33068d98e6c6688b997a2c91b3",
+  "content": "# Configuration Search\n\nDisplay configuration lines matching text:\n\nshow configuration | match <pattern>\n\nDisplay set-format configuration and match:\n\nshow configuration | display set | match <pattern>\n\nThis is useful for quickly locating:\n\n- IP addresses\n- Interface names\n- Policy names\n- NAT objects\n- Routes\n\n---"
+}

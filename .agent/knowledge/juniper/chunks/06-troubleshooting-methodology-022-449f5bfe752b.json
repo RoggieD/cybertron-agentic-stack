@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-troubleshooting-methodology-022-449f5bfe752b",
+  "kb": "juniper",
+  "source_path": "docs/06-troubleshooting-methodology.md",
+  "source_title": "06-troubleshooting-methodology",
+  "section": "AI Troubleshooting Rules",
+  "sha256": "449f5bfe752b33ad92b04de243f3da26f6c5278caee1047742e9879834a274d9",
+  "content": "# AI Troubleshooting Rules\n\nWhen an AI assistant uses this methodology:\n\n- Ask for or inspect actual command output when production state is unknown.\n- Do not invent interfaces, routes, zones, NAT rules, or policies.\n- Identify the failure domain before recommending a change.\n- Recommend one controlled change at a time.\n- Explain the expected result of each test.\n- Stop and reassess when observed output contradicts the working hypothesis.\n- Preserve management access.\n- Warn before disruptive actions.\n- Prefer reversible changes.\n- Record confirmed findings separately from assumptions.\n\n---"
+}

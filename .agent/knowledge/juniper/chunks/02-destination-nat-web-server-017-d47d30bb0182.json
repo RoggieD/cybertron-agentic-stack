@@ -1,0 +1,9 @@
+{
+  "chunk_id": "02-destination-nat-web-server-017-d47d30bb0182",
+  "kb": "juniper",
+  "source_path": "examples/02-destination-nat-web-server.md",
+  "source_title": "02-destination-nat-web-server",
+  "section": "AI Guidance",
+  "sha256": "d47d30bb0182a3cc20410f845129cc85d38ce944ae58195a74dca674f0b473a7",
+  "content": "# AI Guidance\n\nWhen using this example:\n\n- Treat all addresses as examples.\n- Treat interface assignments as examples.\n- Treat zone names as examples.\n- Do not invent production public IP addresses.\n- Verify the translated destination.\n- Verify routing separately.\n- Verify security policy separately.\n- Verify server health separately.\n- Verify return routing.\n- Use live Junos output when troubleshooting production traffic.\n\n---"
+}

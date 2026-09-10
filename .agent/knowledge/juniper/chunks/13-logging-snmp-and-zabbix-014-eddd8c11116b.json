@@ -1,0 +1,9 @@
+{
+  "chunk_id": "13-logging-snmp-and-zabbix-014-eddd8c11116b",
+  "kb": "juniper",
+  "source_path": "docs/13-logging-snmp-and-zabbix.md",
+  "source_title": "13-logging-snmp-and-zabbix",
+  "section": "Interface Naming",
+  "sha256": "eddd8c11116bf4e0dab4411a65d9abc73524f731fe93a32403252c58c1a48143",
+  "content": "# Interface Naming\n\nZabbix discovery may identify interfaces using:\n\n- Interface name\n- Interface alias\n- Interface description\n- SNMP index\n\nMeaningful Junos interface descriptions improve monitoring usability.\n\nExamples:\n\nWAN_TO_ISP\n\nLAN_CORE\n\nDMZ_SWITCH\n\nVPN_BRANCH\n\n---"
+}

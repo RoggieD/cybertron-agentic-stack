@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-dual-wan-failover-concepts-014-11e4aa7cecdc",
+  "kb": "juniper",
+  "source_path": "examples/08-dual-wan-failover-concepts.md",
+  "source_title": "08-dual-wan-failover-concepts",
+  "section": "VPN Considerations",
+  "sha256": "11e4aa7cecdc5da3cf5faeabf68050e7bd54f8e313fc69e2fc40b052adf90697",
+  "content": "# VPN Considerations\n\nSite-to-site VPNs may also depend on the active WAN.\n\nConsider:\n\n- Peer public IP\n- Local gateway\n- Routing\n- NAT\n- IKE gateway configuration\n- Remote peer expectations\n- DNS-based peer identification where supported\n\nA VPN may require separate primary and backup definitions.\n\n---"
+}

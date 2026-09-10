@@ -1,0 +1,9 @@
+{
+  "chunk_id": "14-ha-clustering-and-redundancy-012-a41f61d916b8",
+  "kb": "juniper",
+  "source_path": "docs/14-ha-clustering-and-redundancy.md",
+  "source_title": "14-ha-clustering-and-redundancy",
+  "section": "Stateful Failover",
+  "sha256": "a41f61d916b8586aeb5c3166451de716d6adf34527822fdfbb6ae13273b51e20",
+  "content": "# Stateful Failover\n\nStateful failover may preserve existing sessions when ownership moves between cluster nodes.\n\nThe effectiveness of failover depends on:\n\n- Session synchronization\n- Cluster health\n- Interface design\n- Routing\n- NAT\n- Application behavior\n- Failure type\n\nDo not assume all application sessions survive every type of failover.\n\n---"
+}

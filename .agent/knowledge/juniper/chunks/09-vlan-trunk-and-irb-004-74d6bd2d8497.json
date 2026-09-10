@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-vlan-trunk-and-irb-004-74d6bd2d8497",
+  "kb": "juniper",
+  "source_path": "examples/09-vlan-trunk-and-irb.md",
+  "source_title": "09-vlan-trunk-and-irb",
+  "section": "Trunk Port Concept / VLAN Definitions",
+  "sha256": "74d6bd2d8497dd1ede9c97ad6258eeeefa1dfaba44c2ccd589d5662c18202bcb",
+  "content": "# Trunk Port Concept / VLAN Definitions\n\nA trunk port carries multiple VLANs using VLAN tags.\n\nExample intent:\n\nge-0/0/4\n\ncarries:\n\nVLAN 10\n\nVLAN 20\n\nVLAN 30\n\nTypical use cases include connectivity to:\n\n- Managed switch\n- Hypervisor\n- Wireless access point\n- Another VLAN-aware device\n\n---\n\nThe VLAN database should clearly define:\n\n- VLAN name\n- VLAN ID\n- Routed interface\n- Member interfaces\n\nConceptually:\n\nUSERS -> VLAN 10\n\nSERVERS -> VLAN 20\n\nGUEST -> VLAN 30\n\nExact Junos hierarchy should be verified before implementation.\n\n---"
+}

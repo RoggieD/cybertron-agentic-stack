@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-troubleshooting-methodology-009-025d970f7261",
+  "kb": "juniper",
+  "source_path": "docs/06-troubleshooting-methodology.md",
+  "source_title": "06-troubleshooting-methodology",
+  "section": "Step 8 \u2014 Verify Security Policy",
+  "sha256": "025d970f7261d7b22039964939d077d77e1567840ff5479c56164a7457108f25",
+  "content": "# Step 8 \u2014 Verify Security Policy\n\nUseful commands may include:\n\nshow security policies\n\nshow security policies detail\n\nUse show security match-policies with the actual flow criteria where appropriate. Supply source and destination zones, source and destination IP addresses, ports, and protocol as applicable.\n\nVerify:\n\n- Source zone\n- Destination zone\n- Source address\n- Destination address\n- Application\n- Action\n- Policy ordering\n\nRemember that NAT and policy evaluation may use different address states depending on the traffic path.\n\n---"
+}

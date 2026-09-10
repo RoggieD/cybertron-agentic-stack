@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-dmz-segmentation-017-2e5e6afc22f4",
+  "kb": "juniper",
+  "source_path": "examples/05-dmz-segmentation.md",
+  "source_title": "05-dmz-segmentation",
+  "section": "DMZ to Trust / Segmentation Principle",
+  "sha256": "2e5e6afc22f42be7eaff82847bbd399ed772862ea5ea2e764a6dfe964e5c3be6",
+  "content": "# DMZ to Trust / Segmentation Principle\n\nExpected:\n\nDenied unless an explicit policy permits the required traffic.\n\n---\n\nThe purpose of the DMZ is to reduce trust.\n\nA compromised DMZ host should not automatically gain broad access to trusted internal networks.\n\nUse:\n\n- Separate zone\n- Specific policies\n- Minimal services\n- Monitoring\n- Logging\n- Host security\n\nSegmentation is only effective when policy remains restrictive.\n\n---"
+}

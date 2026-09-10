@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-troubleshooting-methodology-004-b15a7bd76bb0",
+  "kb": "juniper",
+  "source_path": "docs/06-troubleshooting-methodology.md",
+  "source_title": "06-troubleshooting-methodology",
+  "section": "Step 2 \u2014 Define the Traffic Flow",
+  "sha256": "b15a7bd76bb075dcde0c7d186406310f13969f12c48c16fcc2d6a22b7f0c11ae",
+  "content": "# Step 2 \u2014 Define the Traffic Flow\n\nIdentify:\n\n- Source IP\n- Source interface\n- Source zone\n- Destination IP\n- Destination interface\n- Destination zone\n- Protocol\n- Source port if relevant\n- Destination port\n- Expected NAT behavior\n- Expected route\n- Expected security policy\n\nThe complete traffic path should be understood before changing configuration.\n\n---"
+}

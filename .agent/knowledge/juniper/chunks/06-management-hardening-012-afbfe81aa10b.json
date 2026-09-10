@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-management-hardening-012-afbfe81aa10b",
+  "kb": "juniper",
+  "source_path": "examples/06-management-hardening.md",
+  "source_title": "06-management-hardening",
+  "section": "Validate Configuration / Use Commit Confirmed",
+  "sha256": "afbfe81aa10bcf1390a5fda6553609baea87c5a7f4b35f311eb59f86dcb26ecc",
+  "content": "# Validate Configuration / Use Commit Confirmed\n\nRun:\n\ncommit check\n\nCorrect any errors before activation.\n\n---\n\nWhen changing management access remotely:\n\ncommit confirmed\n\nVerify:\n\n- SSH still works\n- Management IP responds\n- Required routes still exist\n- Trusted source can reconnect\n\nOnly then confirm the commit.\n\n---"
+}

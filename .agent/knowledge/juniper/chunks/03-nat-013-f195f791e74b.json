@@ -1,0 +1,9 @@
+{
+  "chunk_id": "03-nat-013-f195f791e74b",
+  "kb": "juniper",
+  "source_path": "docs/03-nat.md",
+  "source_title": "03-nat",
+  "section": "NAT and Zones / Port Forwarding",
+  "sha256": "f195f791e74ba964a5ecd399666ec3453d9ee80b55f3b0b22ad8f691047addab",
+  "content": "# NAT and Zones / Port Forwarding\n\nNAT rule sets may use:\n\n- Source zone\n- Destination zone\n- Incoming interface\n\nZone membership therefore matters.\n\nIf an interface is assigned to an unexpected zone, NAT rules may fail to match.\n\n---\n\nPort forwarding is commonly implemented with destination NAT.\n\nA port-forwarding design should document:\n\n- Public IP\n- Public port\n- Protocol\n- Internal IP\n- Internal port\n- Incoming zone\n- Destination security zone\n- Security policy\n- Business purpose\n\nDo not document only the NAT rule.\n\nThe corresponding policy and routing behavior are part of the complete service path.\n\n---"
+}

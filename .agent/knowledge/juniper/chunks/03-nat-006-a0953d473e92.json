@@ -1,0 +1,9 @@
+{
+  "chunk_id": "03-nat-006-a0953d473e92",
+  "kb": "juniper",
+  "source_path": "docs/03-nat.md",
+  "source_title": "03-nat",
+  "section": "Destination NAT",
+  "sha256": "a0953d473e92f4ae563103365a133a1778baac01a18886fb5e7a02d00224c759",
+  "content": "# Destination NAT\n\nDestination NAT changes the destination address of incoming traffic.\n\nCommon use cases include:\n\n- Publishing a web server\n- Publishing a mail server\n- Forwarding a public IP to an internal host\n- Port forwarding\n- Translating public services into a DMZ\n\nDestination NAT is processed before route lookup and security policy lookup for a new flow. Security policy evaluation therefore needs to account for the translated destination address.\n\n---"
+}

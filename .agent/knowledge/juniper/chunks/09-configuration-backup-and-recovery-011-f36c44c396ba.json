@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-configuration-backup-and-recovery-011-f36c44c396ba",
+  "kb": "juniper",
+  "source_path": "docs/09-configuration-backup-and-recovery.md",
+  "source_title": "09-configuration-backup-and-recovery",
+  "section": "Backup Content",
+  "sha256": "f36c44c396bab0de90e435718ce8276557d3d884733dec64cf9fc8f143b32408",
+  "content": "# Backup Content\n\nA configuration backup should include enough information to reconstruct the firewall.\n\nRecommended content includes:\n\n- Active configuration\n- Junos version\n- Hardware model\n- Interface map\n- Routing\n- Security zones\n- Security policies\n- NAT configuration\n- Administrative settings\n- Monitoring settings\n- VPN configuration if applicable\n- Relevant certificates where appropriate and securely handled\n\nSecrets should be protected.\n\n---"
+}

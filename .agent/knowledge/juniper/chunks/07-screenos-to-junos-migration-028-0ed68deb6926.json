@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-screenos-to-junos-migration-028-0ed68deb6926",
+  "kb": "juniper",
+  "source_path": "docs/07-screenos-to-junos-migration.md",
+  "source_title": "07-screenos-to-junos-migration",
+  "section": "Document Status",
+  "sha256": "0ed68deb6926f6edec03fd7de49b0fa809d089547c0bd528789947897ad7a2f0",
+  "content": "# Document Status\n\nDocument Type: ScreenOS to Junos Migration\n\nKnowledge Base: Juniper SRX320 Knowledge Base\n\nVersion: 0.1.0\n\nStatus: Initial Build"
+}

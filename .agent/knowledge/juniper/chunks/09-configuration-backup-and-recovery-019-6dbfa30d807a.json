@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-configuration-backup-and-recovery-019-6dbfa30d807a",
+  "kb": "juniper",
+  "source_path": "docs/09-configuration-backup-and-recovery.md",
+  "source_title": "09-configuration-backup-and-recovery",
+  "section": "AI Guidance",
+  "sha256": "6dbfa30d807ab7cf0f9f9ba80a6f425f063634edd1b468c6f26487b0b66c6e5f",
+  "content": "# AI Guidance\n\nWhen using this document:\n\n- Prefer rollback over unnecessary rebuilds.\n- Recommend commit check before activation.\n- Recommend commit confirmed when lockout risk exists.\n- Do not assume rollback numbers without verification.\n- Do not recommend reboot as the first response.\n- Preserve console access where possible.\n- Protect sensitive configuration backups.\n- Distinguish platform guidance from production state.\n\n---"
+}

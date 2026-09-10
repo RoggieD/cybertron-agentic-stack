@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-dual-wan-failover-concepts-005-96d4363ab47b",
+  "kb": "juniper",
+  "source_path": "examples/08-dual-wan-failover-concepts.md",
+  "source_title": "08-dual-wan-failover-concepts",
+  "section": "Physical Failure vs Upstream Failure",
+  "sha256": "96d4363ab47b9bff1f3e61c18ac74001b1f7512a6800fc342604b49c665ad09c",
+  "content": "# Physical Failure vs Upstream Failure\n\nA WAN interface may remain physically up even when Internet connectivity through the provider has failed.\n\nExamples:\n\n- ISP upstream routing failure\n- Provider gateway still responds but Internet path is broken\n- Fiber or cable modem remains Ethernet-up\n- Provider DNS fails\n- Upstream transit outage\n\nTherefore, robust failover should monitor meaningful reachability beyond simple Ethernet link state.\n\n---"
+}

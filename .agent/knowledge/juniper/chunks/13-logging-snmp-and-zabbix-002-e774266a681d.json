@@ -1,0 +1,9 @@
+{
+  "chunk_id": "13-logging-snmp-and-zabbix-002-e774266a681d",
+  "kb": "juniper",
+  "source_path": "docs/13-logging-snmp-and-zabbix.md",
+  "source_title": "13-logging-snmp-and-zabbix",
+  "section": "Monitoring Philosophy",
+  "sha256": "e774266a681d255cdbe0437d6b0813e6534c969bb4973ba50e40237844efa7c8",
+  "content": "# Monitoring Philosophy\n\nMonitoring should answer three questions:\n\n1. Is the SRX reachable?\n2. Is the SRX healthy?\n3. Is the SRX forwarding traffic as expected?\n\nMonitoring should cover both device health and service behavior.\n\nA device responding to ping does not prove that:\n\n- Interfaces are healthy\n- Security policies are working\n- NAT is working\n- VPNs are operational\n- Published services are reachable\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "16-performance-capacity-and-sizing-006-28674000e00a",
+  "kb": "juniper",
+  "source_path": "docs/16-performance-capacity-and-sizing.md",
+  "source_title": "16-performance-capacity-and-sizing",
+  "section": "Packets Per Second",
+  "sha256": "28674000e00a65dd7f748e97d6e88b7c63b94c6b0649ade13aa6e405f3798e9e",
+  "content": "# Packets Per Second\n\nPackets per second can be a more useful metric than bandwidth for certain workloads.\n\nHigh packet-rate workloads may include:\n\n- DNS\n- VoIP\n- Gaming\n- Scanning\n- DDoS traffic\n- Small transactional packets\n\nA link may be far below maximum bandwidth while still creating high packet-processing load.\n\n---"
+}

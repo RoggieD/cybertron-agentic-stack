@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-screenos-to-junos-migration-016-493b5c338027",
+  "kb": "juniper",
+  "source_path": "docs/07-screenos-to-junos-migration.md",
+  "source_title": "07-screenos-to-junos-migration",
+  "section": "Management Migration",
+  "sha256": "493b5c3380278569f411bc79967e22d6b60b47dcbe2f8ec72cb46c1cbc8bc87f",
+  "content": "# Management Migration\n\nInventory management services on the legacy firewall.\n\nExamples:\n\n- SSH\n- HTTPS\n- Telnet\n- SNMP\n- Syslog\n- NTP\n- DNS\n- Administrative users\n\nMigration should improve security where practical.\n\nLegacy insecure protocols should not be recreated automatically.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "12-vpn-and-ipsec-003-3cf832907f09",
+  "kb": "juniper",
+  "source_path": "docs/12-vpn-and-ipsec.md",
+  "source_title": "12-vpn-and-ipsec",
+  "section": "IKE",
+  "sha256": "3cf832907f09c0650c23089ba39fdceebc017bfe9230cde533ffd51ff2bd7e01",
+  "content": "# IKE\n\nInternet Key Exchange establishes and manages secure keying relationships between VPN peers.\n\nIKE configuration commonly includes:\n\n- Peer address\n- Authentication method\n- Pre-shared key or certificate\n- Encryption algorithm\n- Authentication algorithm\n- Diffie-Hellman group\n- Lifetime\n- IKE version\n\nExact supported options depend on Junos version.\n\n---"
+}

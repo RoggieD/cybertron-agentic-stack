@@ -1,0 +1,9 @@
+{
+  "chunk_id": "03-nat-008-a39453210b9d",
+  "kb": "juniper",
+  "source_path": "docs/03-nat.md",
+  "source_title": "03-nat",
+  "section": "Destination NAT Rule Sets",
+  "sha256": "a39453210b9d8cc00490a24a53aadf26c2be63cffd85fe296b321082cad08948",
+  "content": "# Destination NAT Rule Sets\n\nA destination NAT rule set may match:\n\n- Incoming zone\n- Incoming interface\n- Destination public address\n- Protocol\n- Destination port\n\nThen it may translate the destination to:\n\n- Internal IP address\n- Internal port\n- Destination NAT pool\n\nConceptual example:\n\nsecurity {\n    nat {\n        destination {\n            rule-set INTERNET-INBOUND {\n                from zone untrust;\n\n                rule WEB-HTTPS {\n                    match {\n                        destination-address 198.51.100.20/32;\n                        destination-port 443;\n                        protocol tcp;\n                    }\n\n                    then {\n                        destination-nat {\n                            pool {\n                                WEB_SERVER;\n                            }\n                        }\n                    }\n                }\n            }\n        }\n    }\n}\n\nThis is an example only.\n\n---"
+}

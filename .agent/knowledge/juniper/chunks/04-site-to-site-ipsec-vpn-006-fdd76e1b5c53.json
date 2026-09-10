@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-site-to-site-ipsec-vpn-006-fdd76e1b5c53",
+  "kb": "juniper",
+  "source_path": "examples/04-site-to-site-ipsec-vpn.md",
+  "source_title": "04-site-to-site-ipsec-vpn",
+  "section": "Configure IKE Gateway",
+  "sha256": "fdd76e1b5c5371b6a84133b54f954a9a38f06e82b9c7dafeccd99e88ee9111e2",
+  "content": "# Configure IKE Gateway\n\nCreate the remote IKE gateway:\n\nset security ike gateway SITE-A-GATEWAY ike-policy SITE-A-IKE-POLICY\n\nset security ike gateway SITE-A-GATEWAY address 203.0.113.10\n\nset security ike gateway SITE-A-GATEWAY external-interface ge-0/0/0.0\n\nset security ike gateway SITE-A-GATEWAY version v2-only\n\nThe remote peer must support the selected IKE version.\n\n---"
+}

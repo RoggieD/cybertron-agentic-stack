@@ -1,0 +1,9 @@
+{
+  "chunk_id": "02-destination-nat-web-server-007-a45ebbefb362",
+  "kb": "juniper",
+  "source_path": "examples/02-destination-nat-web-server.md",
+  "source_title": "02-destination-nat-web-server",
+  "section": "Review Candidate Configuration / Validate Configuration / Safe Commit",
+  "sha256": "a45ebbefb362fb04c9098efe446145fb13ddbe60520fb6cf023e6f6b899323fd",
+  "content": "# Review Candidate Configuration / Validate Configuration / Safe Commit\n\nBefore commit:\n\nshow | compare\n\n---\n\nRun:\n\ncommit check\n\nCorrect any configuration errors before activation.\n\n---\n\nIf the change could affect remote administration:\n\ncommit confirmed\n\nVerify service and management connectivity before confirming.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "13-logging-snmp-and-zabbix-006-5ef2fdaa2b34",
+  "kb": "juniper",
+  "source_path": "docs/13-logging-snmp-and-zabbix.md",
+  "source_title": "13-logging-snmp-and-zabbix",
+  "section": "SNMP Versions / SNMP Security",
+  "sha256": "5ef2fdaa2b34bf3d586f1f77b0e5375b27e5b175775322e76589f4bdab25b456",
+  "content": "# SNMP Versions / SNMP Security\n\nCommon SNMP versions include:\n\n- SNMPv2c\n- SNMPv3\n\nSNMPv3 provides stronger security capabilities and should be preferred where practical.\n\nSNMPv2c uses community strings and should be restricted carefully.\n\n---\n\nSNMP should be restricted to authorized monitoring systems.\n\nConsider:\n\n- Source-address restrictions\n- Security-zone host-inbound settings\n- Firewall filters\n- SNMP version\n- Authentication\n- Encryption\n- Credential protection\n\nNever expose SNMP broadly to untrusted networks.\n\n---"
+}

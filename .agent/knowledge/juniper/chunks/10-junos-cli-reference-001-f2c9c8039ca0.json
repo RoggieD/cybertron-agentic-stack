@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-junos-cli-reference-001-f2c9c8039ca0",
+  "kb": "juniper",
+  "source_path": "docs/10-junos-cli-reference.md",
+  "source_title": "10-junos-cli-reference",
+  "section": "Scope",
+  "sha256": "f2c9c8039ca099c8ff425a028fdf11b66f5c53361b80b38a0797faaf84b4f966",
+  "content": "# Scope\n\nThis document provides a compact operational and configuration command reference for Juniper SRX320 administration.\n\nIt is intended for:\n\n- Daily administration\n- Troubleshooting\n- Configuration review\n- Change validation\n- Migration work\n- AI-assisted operations\n\nThis is a reference guide, not a substitute for understanding command impact.\n\n---"
+}

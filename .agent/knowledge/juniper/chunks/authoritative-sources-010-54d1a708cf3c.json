@@ -1,0 +1,9 @@
+{
+  "chunk_id": "authoritative-sources-010-54d1a708cf3c",
+  "kb": "juniper",
+  "source_path": "source-material/authoritative-sources.md",
+  "source_title": "authoritative-sources",
+  "section": "Validation Rules / documentation-checked",
+  "sha256": "54d1a708cf3c321b6c77ffb13d153b9d04ef2421f5db552a17bc385c04df4b62",
+  "content": "# Validation Rules / documentation-checked\n\nA source may support a validation status of:\n\nUse when:\n\n- The behavior or syntax has been compared against authoritative Juniper documentation.\n\nThis does not mean:\n\n- The command was accepted by Junos.\n- The configuration passed commit check.\n- The feature was tested on the target SRX320.\n\n---"
+}

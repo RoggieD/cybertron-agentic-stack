@@ -1,0 +1,9 @@
+{
+  "chunk_id": "11-security-hardening-020-70fca482b1f7",
+  "kb": "juniper",
+  "source_path": "docs/11-security-hardening.md",
+  "source_title": "11-security-hardening",
+  "section": "Hardening Validation",
+  "sha256": "70fca482b1f728435ecf8064b2d8bc410832d63580de510c26501f53a2792be9",
+  "content": "# Hardening Validation\n\nA hardening review should verify:\n\n1. Administrative services\n2. Administrative users\n3. Host-inbound services\n4. Security zones\n5. Security policies\n6. NAT exposure\n7. Routing protocol exposure\n8. SNMP\n9. Logging\n10. NTP\n11. Software version\n12. Configuration backup\n13. Rescue configuration\n14. Console access\n15. Public services\n\n---"
+}

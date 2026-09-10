@@ -1,0 +1,9 @@
+{
+  "chunk_id": "docs-audit-report-013-62510ae1bf8f",
+  "kb": "juniper",
+  "source_path": "source-material/docs-audit-report.txt",
+  "source_title": "docs-audit-report",
+  "section": "Document \u2014 Part 13",
+  "sha256": "62510ae1bf8f6508d04dc6d05264e11833f358b4371efef8992332e0b3664a0c",
+  "content": "# Document \u2014 Part 13\n\n==============================================================================\n08-production-data-template.md\n==============================================================================\n  89 [SWITCHING] VLAN ID:\n 127 [NAT] Source NAT Method:\n 151 [SWITCHING] VLAN:\n 181 [SWITCHING] VLAN:\n 207 [SECURITY POLICY] Host-Inbound Services:\n 249 [NAT] ## Source NAT\n 251 [NAT] For each source NAT rule, record:\n 279 [NAT] ## Destination NAT\n 281 [NAT] For each destination NAT rule, record:\n 301 [SECURITY POLICY] Related Security Policy:\n 313 [NAT] ## Static NAT\n 315 [NAT] For each static NAT mapping, record:\n 365 [SWITCHING] For each VLAN, record:\n 367 [SWITCHING] VLAN Name:\n 369 [SWITCHING] VLAN ID:\n 423 [VPN] ## VPN\n 425 [VPN] For each VPN, record:\n 427 [VPN] VPN Name:\n 429 [VPN] VPN Type:\n 473 [NAT] Destination NAT Rule:\n 475 [SECURITY POLICY] Security Policy:\n 505 [NAT] Source NAT verified:\n 511 [SECURITY POLICY] Security policy verified:\n 513 [NAT] Destination NAT verified:\n 515 [NAT] Static NAT verified:\n 523 [VPN] VPN verified:\n 527 [JUNOS COMMAND] Rollback method confirmed:\n 569 [JUNOS COMMAND] Rollback Method:\n 587 [VPN] - VPN peers"
+}

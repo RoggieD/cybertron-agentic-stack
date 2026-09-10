@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/juniper-srx320/route-record.schema.json",
+  "title": "Juniper SRX320 Route Record",
+  "description": "Structured record for a routing entry or routing intent on a Juniper SRX320.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "destination_prefix",
+    "route_type",
+    "configuration_state"
+  ],
+  "properties": {
+    "destination_prefix": {
+      "type": "string"
+    },
+    "route_type": {
+      "type": "string",
+      "enum": [
+        "connected",
+        "static",
+        "default",
+        "ospf",
+        "bgp",
+        "rip",
+        "vpn",
+        "other"
+      ]
+    },
+    "routing_table": {
+      "type": ["string", "null"],
+      "description": "Examples include inet.0 and inet6.0."
+    },
+    "next_hop": {
+      "type": ["string", "null"]
+    },
+    "next_hop_interface": {
+      "type": ["string", "null"]
+    },
+    "preference": {
+      "type": ["integer", "null"],
+      "minimum": 0
+    },
+    "metric": {
+      "type": ["integer", "null"],
+      "minimum": 0
+    },
+    "routing_instance": {
+      "type": ["string", "null"]
+    },
+    "qualified_next_hop": {
+      "type": ["string", "null"]
+    },
+    "active": {
+      "type": ["boolean", "null"]
+    },
+    "discard": {
+      "type": ["boolean", "null"]
+    },
+    "reject": {
+      "type": ["boolean", "null"]
+    },
+    "retain": {
+      "type": ["boolean", "null"]
+    },
+    "no_readvertise": {
+      "type": ["boolean", "null"]
+    },
+    "business_purpose": {
+      "type": ["string", "null"]
+    },
+    "configuration_state": {
+      "type": "string",
+      "enum": [
+        "LEGACY_PRODUCTION",
+        "SRX320_TARGET",
+        "SRX320_VERIFIED_PRODUCTION"
+      ]
+    },
+    "verification_date": {
+      "type": ["string", "null"],
+      "format": "date"
+    },
+    "notes": {
+      "type": ["string", "null"]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "16-performance-capacity-and-sizing-016-fbde082e9c06",
+  "kb": "juniper",
+  "source_path": "docs/16-performance-capacity-and-sizing.md",
+  "source_title": "16-performance-capacity-and-sizing",
+  "section": "Bottleneck Identification",
+  "sha256": "fbde082e9c061925bd91a61fa695ab58c8318edbf60e6da57cb3faf9927cb1ca",
+  "content": "# Bottleneck Identification\n\nA performance problem may originate in:\n\n- SRX CPU\n- SRX memory\n- Interface\n- WAN circuit\n- Upstream router\n- Switch\n- Server\n- DNS\n- Application\n- VPN peer\n- Storage or logging infrastructure\n\nDo not assume the firewall is the bottleneck without evidence.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-junos-cli-reference-005-75f8c993b1db",
+  "kb": "juniper",
+  "source_path": "docs/10-junos-cli-reference.md",
+  "source_title": "10-junos-cli-reference",
+  "section": "Rollback / Interface Commands",
+  "sha256": "75f8c993b1dbcf753421fbbe5d4ebec5c0581f720ddf04b6d13b9568ca12d753",
+  "content": "# Rollback / Interface Commands\n\nView commit history:\n\nshow system commit\n\nIn configuration mode, load a previous revision:\n\nrollback <number>\n\nReview differences:\n\nshow | compare\n\nThen commit if appropriate.\n\nDo not use rollback numbers without verifying what they represent.\n\n---\n\nQuick interface summary:\n\nshow interfaces terse\n\nDetailed interface information:\n\nshow interfaces\n\nShow one interface:\n\nshow interfaces ge-0/0/0\n\nExtended counters and errors:\n\nshow interfaces extensive\n\nShow interface configuration:\n\nshow configuration interfaces\n\n---"
+}

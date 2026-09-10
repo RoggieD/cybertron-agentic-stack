@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-site-to-site-ipsec-vpn-014-cc94b7774742",
+  "kb": "juniper",
+  "source_path": "examples/04-site-to-site-ipsec-vpn.md",
+  "source_title": "04-site-to-site-ipsec-vpn",
+  "section": "Verify IKE Security Association / Verify IPsec Security Association",
+  "sha256": "cc94b77747427a692c90981a5b17687f681ba325e79da30212bb06cea0e851b2",
+  "content": "# Verify IKE Security Association / Verify IPsec Security Association\n\nRun:\n\nshow security ike security-associations\n\nFor more detail:\n\nshow security ike security-associations detail\n\nVerify that the expected peer has an established IKE association.\n\n---\n\nRun:\n\nshow security ipsec security-associations\n\nFor more detail:\n\nshow security ipsec security-associations detail\n\nVerify that an IPsec security association exists for the VPN.\n\n---"
+}

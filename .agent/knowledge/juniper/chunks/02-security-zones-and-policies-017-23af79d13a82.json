@@ -1,0 +1,9 @@
+{
+  "chunk_id": "02-security-zones-and-policies-017-23af79d13a82",
+  "kb": "juniper",
+  "source_path": "docs/02-security-zones-and-policies.md",
+  "source_title": "02-security-zones-and-policies",
+  "section": "Production Policy Documentation",
+  "sha256": "23af79d13a820aadeb51c0cec574c36ff7308389c8a25710c0d70dbd53ef745b",
+  "content": "# Production Policy Documentation\n\nProduction policy records should identify:\n\n- Policy name\n- Source zone\n- Destination zone\n- Source address\n- Destination address\n- Application\n- Action\n- Logging\n- Business purpose\n- Configuration state\n- Verification date\n\nConfiguration state must be one of:\n\nLEGACY_PRODUCTION\n\nSRX320_TARGET\n\nSRX320_VERIFIED_PRODUCTION\n\n---"
+}

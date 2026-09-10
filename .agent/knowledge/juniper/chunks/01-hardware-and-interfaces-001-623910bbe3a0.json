@@ -1,0 +1,9 @@
+{
+  "chunk_id": "01-hardware-and-interfaces-001-623910bbe3a0",
+  "kb": "juniper",
+  "source_path": "docs/01-hardware-and-interfaces.md",
+  "source_title": "01-hardware-and-interfaces",
+  "section": "Scope / Platform Role",
+  "sha256": "623910bbe3a024ef041958f808ef4b1fa720216558f7d1039bb25c2c17b59242",
+  "content": "# Scope / Platform Role\n\nThis document describes SRX320 hardware and interface concepts used throughout the knowledge base.\n\nIt provides platform-level guidance and does not define a specific production interface assignment unless explicitly labeled.\n\n---\n\nThe Juniper SRX320 is a branch-class security gateway designed to provide:\n\n- Stateful firewalling\n- Routing\n- Network Address Translation\n- VPN services\n- Interface and VLAN segmentation\n- Security policy enforcement\n- Monitoring and logging\n- Administrative access\n\nThe SRX320 may be deployed as:\n\n- Internet edge firewall\n- Branch firewall\n- VPN gateway\n- Internal segmentation firewall\n- Routing and security gateway\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "00-overview-016-4e9f13c8e7a8",
+  "kb": "juniper",
+  "source_path": "docs/00-overview.md",
+  "source_title": "00-overview",
+  "section": "SRX320_VERIFIED_PRODUCTION / AI Guidance",
+  "sha256": "4e9f13c8e7a8c0be5097fab73ec32e1ac5ad450deed3576085381c3b0f910dbb",
+  "content": "# SRX320_VERIFIED_PRODUCTION / AI Guidance\n\nConfiguration confirmed to be active and operating successfully on the SRX320.\n\n---\n\nWhen answering questions using this knowledge base:\n\n- Do not assume production details that are not documented.\n- Distinguish platform behavior from site-specific configuration.\n- Prefer verified configuration over planned configuration.\n- Prefer recent verified data over historical data.\n- Clearly identify uncertainty.\n- Avoid fabricating interface assignments, IP addresses, policies, routes, or NAT rules.\n- Recommend verification commands when production state is unknown.\n\n---"
+}

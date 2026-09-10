@@ -1,0 +1,9 @@
+{
+  "chunk_id": "01-basic-edge-firewall-002-cde60c61a1b7",
+  "kb": "juniper",
+  "source_path": "examples/01-basic-edge-firewall.md",
+  "source_title": "01-basic-edge-firewall",
+  "section": "Example Topology / Configure WAN Interface",
+  "sha256": "cde60c61a1b72111f6633164cf769fb80dc75f1ee6f8fd003a524013020f8a2e",
+  "content": "# Example Topology / Configure WAN Interface\n\nLAN Network:\n\n192.0.2.0/24\n\nLAN Gateway:\n\n192.0.2.1\n\nWAN Network:\n\n198.51.100.0/24\n\nSRX WAN Address:\n\n198.51.100.10/24\n\nISP Gateway:\n\n198.51.100.1\n\nLAN Interface:\n\nge-0/0/1.0\n\nWAN Interface:\n\nge-0/0/0.0\n\nLAN Zone:\n\ntrust\n\nWAN Zone:\n\nuntrust\n\n---\n\nset interfaces ge-0/0/0 unit 0 family inet address 198.51.100.10/24\n\n---"
+}

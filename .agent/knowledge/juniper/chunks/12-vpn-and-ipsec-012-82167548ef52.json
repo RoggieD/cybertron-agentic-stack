@@ -1,0 +1,9 @@
+{
+  "chunk_id": "12-vpn-and-ipsec-012-82167548ef52",
+  "kb": "juniper",
+  "source_path": "docs/12-vpn-and-ipsec.md",
+  "source_title": "12-vpn-and-ipsec",
+  "section": "NAT Traversal / Traffic Selectors",
+  "sha256": "82167548ef52e8115a177957ce821817f3cbe034721938c42789ccd0972f9690",
+  "content": "# NAT Traversal / Traffic Selectors\n\nNAT traversal may be required when one or both VPN peers are behind NAT.\n\nThis commonly involves UDP encapsulation.\n\nCompatibility must be verified with the remote peer.\n\n---\n\nTraffic selectors define which traffic should be protected by IPsec.\n\nDepending on design, selectors may include:\n\n- Local network\n- Remote network\n- Protocol\n- Port\n\nSelector mismatch can prevent VPN negotiation or traffic forwarding.\n\n---"
+}

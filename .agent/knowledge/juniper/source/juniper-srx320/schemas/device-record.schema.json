@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/juniper-srx320/device-record.schema.json",
+  "title": "Juniper SRX320 Device Record",
+  "description": "Structured metadata for a Juniper SRX320 deployment record.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "platform",
+    "configuration_state"
+  ],
+  "properties": {
+    "environment_name": {
+      "type": ["string", "null"]
+    },
+    "site_name": {
+      "type": ["string", "null"]
+    },
+    "organization": {
+      "type": ["string", "null"]
+    },
+    "hostname": {
+      "type": ["string", "null"]
+    },
+    "platform": {
+      "type": "string",
+      "const": "Juniper SRX320"
+    },
+    "junos_version": {
+      "type": ["string", "null"]
+    },
+    "serial_number": {
+      "type": ["string", "null"]
+    },
+    "asset_tag": {
+      "type": ["string", "null"]
+    },
+    "installation_date": {
+      "type": ["string", "null"],
+      "format": "date"
+    },
+    "last_verification_date": {
+      "type": ["string", "null"],
+      "format": "date"
+    },
+    "configuration_state": {
+      "type": "string",
+      "enum": [
+        "LEGACY_PRODUCTION",
+        "SRX320_TARGET",
+        "SRX320_VERIFIED_PRODUCTION"
+      ]
+    },
+    "management": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "management_ip": {
+          "type": ["string", "null"]
+        },
+        "management_interface": {
+          "type": ["string", "null"]
+        },
+        "management_zone": {
+          "type": ["string", "null"]
+        },
+        "ssh_enabled": {
+          "type": ["boolean", "null"]
+        },
+        "https_enabled": {
+          "type": ["boolean", "null"]
+        },
+        "console_access_available": {
+          "type": ["boolean", "null"]
+        }
+      }
+    },
+    "notes": {
+      "type": ["string", "null"]
+    }
+  }
+}

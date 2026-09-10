@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-troubleshooting-methodology-003-ced795e99e7a",
+  "kb": "juniper",
+  "source_path": "docs/06-troubleshooting-methodology.md",
+  "source_title": "06-troubleshooting-methodology",
+  "section": "Step 1 \u2014 Define the Symptom",
+  "sha256": "ced795e99e7afa034f5b601ccbbeabd0177d6bffced0a34a027bd4b672a8af86",
+  "content": "# Step 1 \u2014 Define the Symptom\n\nClearly define what is failing.\n\nExamples:\n\n- Host cannot reach Internet\n- Published service is unreachable\n- Ping succeeds but application fails\n- SSH to SRX fails\n- Traffic works in one direction only\n- NAT rule does not appear to match\n- Security policy does not appear to match\n- Route exists but traffic does not pass\n\nAvoid vague descriptions such as:\n\n\"The firewall is broken.\"\n\n---"
+}

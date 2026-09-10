@@ -1,0 +1,9 @@
+{
+  "chunk_id": "01-basic-edge-firewall-005-47a6f194e40b",
+  "kb": "juniper",
+  "source_path": "examples/01-basic-edge-firewall.md",
+  "source_title": "01-basic-edge-firewall",
+  "section": "Configure Outbound Security Policy",
+  "sha256": "47a6f194e40be54cf36bca352f4e53a397e6187cc08ed136c0dd354b0ef9bf74",
+  "content": "# Configure Outbound Security Policy\n\nCreate a policy allowing LAN clients to reach the Internet:\n\nset security policies from-zone trust to-zone untrust policy ALLOW-INTERNET match source-address any\n\nset security policies from-zone trust to-zone untrust policy ALLOW-INTERNET match destination-address any\n\nset security policies from-zone trust to-zone untrust policy ALLOW-INTERNET match application any\n\nset security policies from-zone trust to-zone untrust policy ALLOW-INTERNET then permit\n\n---"
+}

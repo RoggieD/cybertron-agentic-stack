@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-junos-cli-reference-011-8e02ce6137cf",
+  "kb": "juniper",
+  "source_path": "docs/10-junos-cli-reference.md",
+  "source_title": "10-junos-cli-reference",
+  "section": "Logging Commands / Connectivity Testing",
+  "sha256": "8e02ce6137cfd1c39945febe55d2d3bc7254cd6271dfdaac7c141dc7c0c83d91",
+  "content": "# Logging Commands / Connectivity Testing\n\nShow main system log:\n\nshow log messages\n\nAdditional log files depend on configuration.\n\nUse:\n\nshow log ?\n\nto inspect available logs where supported.\n\n---\n\nPing:\n\nping <destination>\n\nTraceroute:\n\ntraceroute <destination>\n\nWhere needed and supported, specify source addressing to test a particular path.\n\nA successful test from the SRX does not prove transit traffic is working.\n\n---"
+}

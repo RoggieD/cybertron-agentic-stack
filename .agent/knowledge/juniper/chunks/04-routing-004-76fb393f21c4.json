@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-routing-004-76fb393f21c4",
+  "kb": "juniper",
+  "source_path": "docs/04-routing.md",
+  "source_title": "04-routing",
+  "section": "Static Routes",
+  "sha256": "76fb393f21c4e790b93743c0db7c514681cf8506a288cdac913911a36228b65e",
+  "content": "# Static Routes\n\nStatic routes are manually configured routes.\n\nTypical use cases include:\n\n- Default Internet route\n- Internal routed networks\n- Remote subnets\n- Management networks\n- DMZ routes\n- Temporary migration paths\n\nConceptual example:\n\nrouting-options {\n    static {\n        route 203.0.113.0/24 next-hop 192.0.2.254;\n    }\n}\n\nThis is an example only.\n\n---"
+}

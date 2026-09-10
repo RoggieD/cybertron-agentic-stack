@@ -1,0 +1,9 @@
+{
+  "chunk_id": "16-performance-capacity-and-sizing-009-01717dabfb59",
+  "kb": "juniper",
+  "source_path": "docs/16-performance-capacity-and-sizing.md",
+  "source_title": "16-performance-capacity-and-sizing",
+  "section": "CPU Utilization",
+  "sha256": "01717dabfb592a28d9c662e7a8c7d45259ad47ab938934213206de915d605aa1",
+  "content": "# CPU Utilization\n\nCPU usage should be monitored during:\n\n- Peak traffic\n- VPN activity\n- Heavy logging\n- Routing changes\n- Configuration commits\n- Troubleshooting traces\n- Attack traffic\n\nShort CPU spikes may be normal.\n\nSustained high CPU requires investigation.\n\n---"
+}

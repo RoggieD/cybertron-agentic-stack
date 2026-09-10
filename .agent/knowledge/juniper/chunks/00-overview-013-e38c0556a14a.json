@@ -1,0 +1,9 @@
+{
+  "chunk_id": "00-overview-013-e38c0556a14a",
+  "kb": "juniper",
+  "source_path": "docs/00-overview.md",
+  "source_title": "00-overview",
+  "section": "Interface, Routing, Policy, and NAT Relationship",
+  "sha256": "e38c0556a14a5eb81c9217154dbf360adf18f3553acd47a31fc107f7d7d33fcc",
+  "content": "# Interface, Routing, Policy, and NAT Relationship\n\nSuccessful firewall traffic flow may depend on multiple configuration layers.\n\nFor the first packet of a new flow, processing can include:\n\n1. Ingress physical and logical interface\n2. Ingress security zone\n3. Static NAT evaluation\n4. Destination NAT evaluation\n5. Route and destination-zone lookup\n6. Security policy lookup\n7. Reverse static NAT processing where applicable\n8. Source NAT evaluation\n9. Session installation\n10. Egress processing\n\nNot every flow uses every NAT stage.\n\nStatic NAT and destination NAT are evaluated before route and security policy lookup, while source NAT is evaluated after route and security policy lookup.\n\nTroubleshooting should evaluate each applicable layer independently.\n\n---"
+}

@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/juniper-srx320/monitoring-record.schema.json",
+  "title": "Juniper SRX320 Monitoring Record",
+  "description": "Structured record for monitoring a Juniper SRX320 device, interface, VPN, service, or operational condition.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "monitor_name",
+    "monitor_type",
+    "configuration_state"
+  ],
+  "properties": {
+    "monitor_name": {
+      "type": "string"
+    },
+    "monitor_type": {
+      "type": "string",
+      "enum": [
+        "icmp",
+        "snmp",
+        "syslog",
+        "interface",
+        "vpn",
+        "route",
+        "service",
+        "system-health",
+        "custom"
+      ]
+    },
+    "target": {
+      "type": ["string", "null"]
+    },
+    "target_type": {
+      "type": ["string", "null"],
+      "enum": [
+        "device",
+        "interface",
+        "ip-address",
+        "hostname",
+        "vpn",
+        "route",
+        "service",
+        "other",
+        null
+      ]
+    },
+    "monitoring_platform": {
+      "type": ["string", "null"],
+      "enum": [
+        "Zabbix",
+        "SNMP",
+        "Syslog",
+        "Junos",
+        "External",
+        "Other",
+        null
+      ]
+    },
+    "protocol": {
+      "type": ["string", "null"]
+    },
+    "port": {
+      "type": ["integer", "null"],
+      "minimum": 1,
+      "maximum": 65535
+    },
+    "snmp_version": {
+      "type": ["string", "null"],
+      "enum": [
+        "v1",
+        "v2c",
+        "v3",
+        null
+      ]
+    },
+    "metric": {
+      "type": ["string", "null"]
+    },
+    "threshold_warning": {
+      "type": ["number", "null"]
+    },
+    "threshold_critical": {
+      "type": ["number", "null"]
+    },
+    "poll_interval_seconds": {
+      "type": ["integer", "null"],
+      "minimum": 1
+    },
+    "enabled": {
+      "type": ["boolean", "null"]
+    },
+    "alert_enabled": {
+      "type": ["boolean", "null"]
+    },
+    "expected_state": {
+      "type": ["string", "null"]
+    },
+    "last_observed_state": {
+      "type": ["string", "null"]
+    },
+    "last_verified": {
+      "type": ["string", "null"],
+      "format": "date"
+    },
+    "business_purpose": {
+      "type": ["string", "null"]
+    },
+    "sensitive_data_present": {
+      "type": ["boolean", "null"]
+    },
+    "configuration_state": {
+      "type": "string",
+      "enum": [
+        "LEGACY_PRODUCTION",
+        "SRX320_TARGET",
+        "SRX320_VERIFIED_PRODUCTION"
+      ]
+    },
+    "notes": {
+      "type": ["string", "null"]
+    }
+  }
+}

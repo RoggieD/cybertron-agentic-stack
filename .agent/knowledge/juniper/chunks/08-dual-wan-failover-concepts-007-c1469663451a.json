@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-dual-wan-failover-concepts-007-c1469663451a",
+  "kb": "juniper",
+  "source_path": "examples/08-dual-wan-failover-concepts.md",
+  "source_title": "08-dual-wan-failover-concepts",
+  "section": "RPM and IP Monitoring Concepts",
+  "sha256": "c1469663451a2c4f6f336b8c623ac0d8f52fcc12178548e21a39e79214d2bf78",
+  "content": "# RPM and IP Monitoring Concepts\n\nJunos may use Real-Time Performance Monitoring and related IP-monitoring functionality to detect path failure and influence routing behavior.\n\nA monitoring design may:\n\n1. Send probes through the primary WAN.\n2. Detect repeated probe failure.\n3. Modify route preference or install a backup route.\n4. Direct new traffic through the secondary WAN.\n5. Restore the primary route when health returns.\n\nExact configuration depends on Junos version and desired behavior.\n\n---"
+}

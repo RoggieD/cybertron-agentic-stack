@@ -1,0 +1,9 @@
+{
+  "chunk_id": "docs-audit-report-014-5684d27953cb",
+  "kb": "juniper",
+  "source_path": "source-material/docs-audit-report.txt",
+  "source_title": "docs-audit-report",
+  "section": "Document \u2014 Part 14",
+  "sha256": "5684d27953cb5dc7ce2c875fd8799cda02cf03f0b81706c2a02a83e34a72029e",
+  "content": "# Document \u2014 Part 14\n\n==============================================================================\n09-configuration-backup-and-recovery.md\n==============================================================================\n  48 [JUNOS COMMAND] show | compare\n  50 [JUNOS COMMAND] commit check\n  62 [JUNOS COMMAND] commit check\n  81 [JUNOS COMMAND] commit confirmed is useful when a change could interrupt management access.\n  89 [SECURITY POLICY] - Host-inbound services\n 123 [JUNOS COMMAND] Rollback can restore an earlier candidate configuration.\n 127 [JUNOS COMMAND] rollback 0\n 129 [JUNOS COMMAND] rollback 1\n 131 [JUNOS COMMAND] rollback 2\n 143 [JUNOS COMMAND] show | compare\n 157 [JUNOS COMMAND] show system commit\n 159 [JUNOS COMMAND] Commit history can help identify:\n 234 [VPN] - VPN configuration if applicable\n 287 [SECURITY POLICY] - Security policy blocks management\n 288 [SECURITY POLICY] - Host-inbound configuration is incorrect\n 339 [VERSION-SENSITIVE] Version-specific procedures should be verified against authoritative Juniper documentation.\n 352 [VPN] - VPN configuration\n 371 [VPN] - Remove VPN secrets"
+}

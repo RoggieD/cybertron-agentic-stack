@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-production-data-template-001-120452667a3b",
+  "kb": "juniper",
+  "source_path": "docs/08-production-data-template.md",
+  "source_title": "08-production-data-template",
+  "section": "Scope / Deployment Identity",
+  "sha256": "120452667a3b9fe8499f4bfdfd96f9a28e5bd7b61d7a9fb0ae0e0fb0479ba59d",
+  "content": "# Scope / Deployment Identity\n\nThis document defines the structure used to record site-specific SRX320 production information.\n\nIt is intended for private deployment documentation.\n\nDo not publish this file publicly without sanitizing sensitive information.\n\n---\n\nEnvironment Name:\n\nSite Name:\n\nOrganization:\n\nFirewall Hostname:\n\nPlatform:\n\nJunos Version:\n\nSerial Number:\n\nAsset Tag:\n\nInstallation Date:\n\nLast Verification Date:\n\nConfiguration State:\n\nAllowed values:\n\nLEGACY_PRODUCTION\n\nSRX320_TARGET\n\nSRX320_VERIFIED_PRODUCTION\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-production-data-template-014-737f17e52fb3",
+  "kb": "juniper",
+  "source_path": "docs/08-production-data-template.md",
+  "source_title": "08-production-data-template",
+  "section": "AI Guidance",
+  "sha256": "737f17e52fb394f86138aa808ee9dcaa93d678e9c692287dca0a76e287fcb1bb",
+  "content": "# AI Guidance\n\nWhen using production data:\n\n- Prefer verified values over planned values.\n- Never infer missing production values.\n- Clearly identify configuration state.\n- Do not expose sensitive deployment data in public output.\n- Treat secrets as excluded data.\n- Recommend verification commands when values are missing or stale.\n- Update verification dates after successful changes.\n\n---"
+}

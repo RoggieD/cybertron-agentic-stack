@@ -1,0 +1,9 @@
+{
+  "chunk_id": "authoritative-sources-001-ed90beb63731",
+  "kb": "juniper",
+  "source_path": "source-material/authoritative-sources.md",
+  "source_title": "authoritative-sources",
+  "section": "Purpose",
+  "sha256": "ed90beb637315ea9601716042ce47522dad4b957504d747cbade7d3f98e351c8",
+  "content": "# Purpose\n\nThis document records authoritative external sources used to validate technical content in the Juniper SRX320 Knowledge Base.\n\nThe registry exists to provide:\n\n- Source provenance\n- Validation traceability\n- Maintenance references\n- Release auditing\n- Version-awareness\n- Public and commercial packaging discipline\n\nThis file does not contain copied vendor documentation.\n\nIt records references to authoritative documentation used during research and validation.\n\n---"
+}

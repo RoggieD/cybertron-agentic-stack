@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-site-to-site-ipsec-vpn-010-23e561c94c6e",
+  "kb": "juniper",
+  "source_path": "examples/04-site-to-site-ipsec-vpn.md",
+  "source_title": "04-site-to-site-ipsec-vpn",
+  "section": "Create Local Network Address Object / Allow Local-to-Remote Traffic",
+  "sha256": "23e561c94c6e840c61d3c84a5fe27aab15b4477462926ec99ad3bf8478860d72",
+  "content": "# Create Local Network Address Object / Allow Local-to-Remote Traffic\n\nCreate an address object for the local LAN:\n\nset security zones security-zone trust address-book address LOCAL-LAN 192.0.2.0/24\n\n---\n\nCreate a policy from trust to vpn:\n\nset security policies from-zone trust to-zone vpn policy LOCAL-TO-SITE-A match source-address LOCAL-LAN\n\nset security policies from-zone trust to-zone vpn policy LOCAL-TO-SITE-A match destination-address REMOTE-LAN\n\nset security policies from-zone trust to-zone vpn policy LOCAL-TO-SITE-A match application any\n\nset security policies from-zone trust to-zone vpn policy LOCAL-TO-SITE-A then permit\n\n---"
+}

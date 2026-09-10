@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-source-nat-pool-003-1c5bea206cd0",
+  "kb": "juniper",
+  "source_path": "examples/07-source-nat-pool.md",
+  "source_title": "07-source-nat-pool",
+  "section": "Create Source NAT Pool / Create Source NAT Rule Set",
+  "sha256": "1c5bea206cd03ae00a8e3fe1358ab89ce5e15f5646393e6d7552a7e7fea6bc4c",
+  "content": "# Create Source NAT Pool / Create Source NAT Rule Set\n\nCreate a pool containing the public address:\n\nset security nat source pool INTERNET-SNAT-POOL address 198.51.100.50/32\n\n---\n\nCreate a rule set for traffic moving from trust to untrust:\n\nset security nat source rule-set TRUST-TO-INTERNET from zone trust\n\nset security nat source rule-set TRUST-TO-INTERNET to zone untrust\n\n---"
+}

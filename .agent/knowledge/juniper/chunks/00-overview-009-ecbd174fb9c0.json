@@ -1,0 +1,9 @@
+{
+  "chunk_id": "00-overview-009-ecbd174fb9c0",
+  "kb": "juniper",
+  "source_path": "docs/00-overview.md",
+  "source_title": "00-overview",
+  "section": "Security Policies",
+  "sha256": "ecbd174fb9c00501daa2be393e791191a18098dfb6ae2996a5f1c783b064e3fe",
+  "content": "# Security Policies\n\nSecurity policies determine whether traffic is permitted between security zones.\n\nPolicies commonly evaluate:\n\n- Source zone\n- Destination zone\n- Source address\n- Destination address\n- Application or service\n- Action\n- Logging options\n\nPolicies are directional.\n\nA policy allowing traffic from one zone to another does not automatically create a policy in the reverse direction.\n\nStateful session behavior allows return traffic for established permitted sessions.\n\n---"
+}

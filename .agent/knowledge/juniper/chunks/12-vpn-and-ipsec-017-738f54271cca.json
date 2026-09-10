@@ -1,0 +1,9 @@
+{
+  "chunk_id": "12-vpn-and-ipsec-017-738f54271cca",
+  "kb": "juniper",
+  "source_path": "docs/12-vpn-and-ipsec.md",
+  "source_title": "12-vpn-and-ipsec",
+  "section": "Stage 4 \u2014 Routing / Stage 5 \u2014 Security Policy / Stage 6 \u2014 NAT",
+  "sha256": "738f54271cca55fea2dce4b8ed63dc9e82f7010ee06f06a3218243abb87f8f5f",
+  "content": "# Stage 4 \u2014 Routing / Stage 5 \u2014 Security Policy / Stage 6 \u2014 NAT\n\nVerify:\n\n- Local route\n- Tunnel interface\n- Remote network route\n- Return route\n\nVerify:\n\n- Source zone\n- Destination zone\n- Address objects\n- Application\n- Policy direction\n\nVerify:\n\n- NAT exemption\n- Source NAT\n- Destination NAT\n- Overlapping addressing"
+}

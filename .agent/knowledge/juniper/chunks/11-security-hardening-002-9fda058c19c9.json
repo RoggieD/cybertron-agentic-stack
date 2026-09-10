@@ -1,0 +1,9 @@
+{
+  "chunk_id": "11-security-hardening-002-9fda058c19c9",
+  "kb": "juniper",
+  "source_path": "docs/11-security-hardening.md",
+  "source_title": "11-security-hardening",
+  "section": "Hardening Philosophy",
+  "sha256": "9fda058c19c9ee54c6edaf9271ffd9f42d178a557058ea9bcf3cee4ea231c971",
+  "content": "# Hardening Philosophy\n\nSecurity hardening should reduce attack surface without making the firewall unnecessarily difficult to operate.\n\nPrimary goals include:\n\n- Least privilege\n- Minimal exposed services\n- Restricted management access\n- Strong authentication\n- Secure logging\n- Controlled administrative access\n- Configuration protection\n- Reliable recovery capability\n- Regular software maintenance\n\nHardening should remain proportional to operational risk.\n\n---"
+}

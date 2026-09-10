@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-troubleshooting-methodology-017-0a2268266b0e",
+  "kb": "juniper",
+  "source_path": "docs/06-troubleshooting-methodology.md",
+  "source_title": "06-troubleshooting-methodology",
+  "section": "Flow Trace",
+  "sha256": "0a2268266b0e4c0f53f83c8dfba219c7e211dc54814be5e75345fa3b1c0fffaf",
+  "content": "# Flow Trace\n\nJunos flow tracing can provide detailed security-processing information.\n\nFlow tracing may help diagnose:\n\n- Policy matching\n- NAT processing\n- Session creation\n- Packet drops\n- Routing interaction\n\nFlow tracing can adversely affect scale and performance and may increase security risk.\n\nJuniper strongly recommends using trace, tracing, or traceoptions commands only under JTAC guidance. If flow tracing is used, keep it narrowly scoped, collect only the required evidence, and disable it immediately after troubleshooting.\n\nExact configuration depends on Junos version.\n\n---"
+}

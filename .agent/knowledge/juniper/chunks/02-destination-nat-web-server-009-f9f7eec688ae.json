@@ -1,0 +1,9 @@
+{
+  "chunk_id": "02-destination-nat-web-server-009-f9f7eec688ae",
+  "kb": "juniper",
+  "source_path": "examples/02-destination-nat-web-server.md",
+  "source_title": "02-destination-nat-web-server",
+  "section": "Verify Route to Internal Server / Verify Session Creation",
+  "sha256": "f9f7eec688ae90477488d678ecb58b21bd82215c873a5a79802052d129e6dc74",
+  "content": "# Verify Route to Internal Server / Verify Session Creation\n\nRun:\n\nshow route 192.0.2.20\n\nThe SRX must have a valid route to the translated destination.\n\n---\n\nWhile testing an inbound connection:\n\nshow security flow session destination-prefix 192.0.2.20\n\nSession output may reveal:\n\n- Original destination\n- Translated destination\n- Source address\n- Policy match\n- Session state\n\n---"
+}

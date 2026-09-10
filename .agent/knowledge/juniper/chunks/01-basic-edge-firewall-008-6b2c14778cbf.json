@@ -1,0 +1,9 @@
+{
+  "chunk_id": "01-basic-edge-firewall-008-6b2c14778cbf",
+  "kb": "juniper",
+  "source_path": "examples/01-basic-edge-firewall.md",
+  "source_title": "01-basic-edge-firewall",
+  "section": "Troubleshooting",
+  "sha256": "6b2c14778cbfddb8ce62668c3d497607f3a951587c8ad9ab2d78f50a51a89a4b",
+  "content": "# Troubleshooting\n\nIf LAN clients cannot reach the Internet, verify:\n\n1. LAN host default gateway\n2. ge-0/0/1.0 status\n3. ge-0/0/0.0 status\n4. Default route\n5. ISP gateway reachability\n6. Security-zone assignments\n7. Source NAT rule match\n8. Security policy\n9. Session table\n10. DNS separately from IP connectivity\n\n---"
+}

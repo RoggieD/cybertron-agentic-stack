@@ -1,0 +1,9 @@
+{
+  "chunk_id": "02-destination-nat-web-server-016-06c119cb3936",
+  "kb": "juniper",
+  "source_path": "examples/02-destination-nat-web-server.md",
+  "source_title": "02-destination-nat-web-server",
+  "section": "Security Guidance",
+  "sha256": "06c119cb3936cd4db9c98f77e02c6504b7a95a5eeda9d2b1e59718715c7b1983",
+  "content": "# Security Guidance\n\nPublished services increase external attack surface.\n\nBefore exposing a service:\n\n- Confirm business need\n- Restrict ports\n- Patch the server\n- Review host firewall\n- Use TLS\n- Monitor the service\n- Consider source restrictions where practical\n- Log useful security events\n\nDo not expose administrative interfaces merely because destination NAT makes it possible.\n\n---"
+}

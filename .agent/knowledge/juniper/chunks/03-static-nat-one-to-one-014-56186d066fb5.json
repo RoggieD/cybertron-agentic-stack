@@ -1,0 +1,9 @@
+{
+  "chunk_id": "03-static-nat-one-to-one-014-56186d066fb5",
+  "kb": "juniper",
+  "source_path": "examples/03-static-nat-one-to-one.md",
+  "source_title": "03-static-nat-one-to-one",
+  "section": "Important Notes",
+  "sha256": "56186d066fb529f1c4a371213f9635eb33cd69b6917ff1fe72941ca6b165f524",
+  "content": "# Important Notes\n\nThis example uses documentation-only IP addresses.\n\nDo not copy these addresses into production.\n\nDo not assume:\n\n- ge-0/0/0 is WAN\n- ge-0/0/1 is the internal interface\n- trust and untrust are production zone names\n- proxy ARP is required\n- all services should be permitted\n- the ISP delivers public addresses in the same way in every deployment\n\nVerify actual topology first.\n\n---"
+}

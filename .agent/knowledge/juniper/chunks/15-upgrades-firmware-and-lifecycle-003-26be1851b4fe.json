@@ -1,0 +1,9 @@
+{
+  "chunk_id": "15-upgrades-firmware-and-lifecycle-003-26be1851b4fe",
+  "kb": "juniper",
+  "source_path": "docs/15-upgrades-firmware-and-lifecycle.md",
+  "source_title": "15-upgrades-firmware-and-lifecycle",
+  "section": "Pre-Upgrade Requirements",
+  "sha256": "26be1851b4fe10b696e84de51b3455357310c70499fe72bf23d6d24664adf85c",
+  "content": "# Pre-Upgrade Requirements\n\nBefore upgrading Junos, verify:\n\n1. Current Junos version\n2. Hardware model\n3. Available storage\n4. Current configuration backup\n5. Rescue configuration\n6. Console access\n7. Management access\n8. Upgrade path\n9. Target release compatibility\n10. Maintenance window\n11. Rollback method\n12. Post-upgrade validation plan\n\n---"
+}

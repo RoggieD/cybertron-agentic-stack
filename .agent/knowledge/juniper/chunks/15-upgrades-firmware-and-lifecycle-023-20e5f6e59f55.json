@@ -1,0 +1,9 @@
+{
+  "chunk_id": "15-upgrades-firmware-and-lifecycle-023-20e5f6e59f55",
+  "kb": "juniper",
+  "source_path": "docs/15-upgrades-firmware-and-lifecycle.md",
+  "source_title": "15-upgrades-firmware-and-lifecycle",
+  "section": "AI Guidance",
+  "sha256": "20e5f6e59f555065ebf9acab0851a63eda25a64708ffce6aff9bc30aef87d3f2",
+  "content": "# AI Guidance\n\nWhen using this document:\n\n- Do not recommend upgrading solely because a newer release exists.\n- Verify current version before recommending a target version.\n- Verify supported upgrade path.\n- Require configuration backup and rollback planning.\n- Prefer console availability for major upgrades.\n- Use authoritative Juniper documentation for version-specific installation commands.\n- Do not invent upgrade compatibility.\n- Verify production services after upgrade.\n\n---"
+}

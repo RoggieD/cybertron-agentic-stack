@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-system-management-and-monitoring-016-8b7219b431c8",
+  "kb": "juniper",
+  "source_path": "docs/05-system-management-and-monitoring.md",
+  "source_title": "05-system-management-and-monitoring",
+  "section": "Commit History",
+  "sha256": "8b7219b431c83001670ffc0e7e9a245ffdc4eb8771d855c717ef00e2b430c374",
+  "content": "# Commit History\n\nConfiguration history is operationally important.\n\nUseful commands may include:\n\nshow system commit\n\nshow system rollback\n\nThese can help identify:\n\n- Who changed configuration\n- When a change occurred\n- Previous configuration states\n- Potential rollback points\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-troubleshooting-published-service-017-739645b502b2",
+  "kb": "juniper",
+  "source_path": "examples/10-troubleshooting-published-service.md",
+  "source_title": "10-troubleshooting-published-service",
+  "section": "Step 21 \u2014 Flow Trace",
+  "sha256": "739645b502b2956fcfe4abcc1f4d399c13332a9089e67d94cf4efee2863bc30f",
+  "content": "# Step 21 \u2014 Flow Trace\n\nJunos flow tracing may reveal:\n\n- NAT rule evaluation\n- Policy evaluation\n- Routing\n- Session creation\n- Packet drops\n\nFlow tracing can affect system performance and may increase security risk.\n\nJuniper recommends using tracing under JTAC guidance.\n\nIf tracing is used:\n\n- Keep filters narrowly scoped\n- Limit the duration\n- Collect only the required evidence\n- Disable tracing immediately after troubleshooting\n\nDo not enable broad flow tracing casually in production.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-system-management-and-monitoring-014-abb38e8566e9",
+  "kb": "juniper",
+  "source_path": "docs/05-system-management-and-monitoring.md",
+  "source_title": "05-system-management-and-monitoring",
+  "section": "Zabbix Integration",
+  "sha256": "abb38e8566e932089a30b64e2e0133ba3279116f6ebe8e87d9fcda41e1537aa6",
+  "content": "# Zabbix Integration\n\nThe SRX320 may be monitored by Zabbix or another network monitoring platform.\n\nCommon monitoring targets include:\n\n- Reachability\n- Interface state\n- Interface utilization\n- Error counters\n- CPU utilization\n- Memory utilization\n- Uptime\n- Device temperature where supported\n- Routing or VPN status where supported\n\nActual OIDs and supported metrics should be verified against the installed Junos version and monitoring template.\n\n---"
+}

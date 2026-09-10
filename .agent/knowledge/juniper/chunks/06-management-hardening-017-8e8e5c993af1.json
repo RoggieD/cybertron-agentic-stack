@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-management-hardening-017-8e8e5c993af1",
+  "kb": "juniper",
+  "source_path": "examples/06-management-hardening.md",
+  "source_title": "06-management-hardening",
+  "section": "Security Guidance",
+  "sha256": "8e8e5c993af1373b0f37991f8e1dfc97332f304a505d0a9d2517888549cfc357",
+  "content": "# Security Guidance\n\nFor production management:\n\n- Restrict source networks\n- Use named accounts\n- Prefer SSH over insecure protocols\n- Protect credentials\n- Avoid public management exposure\n- Use logging\n- Maintain console access\n- Review stale accounts\n- Disable unnecessary services\n\n---"
+}

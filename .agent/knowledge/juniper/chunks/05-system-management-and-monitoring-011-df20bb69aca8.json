@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-system-management-and-monitoring-011-df20bb69aca8",
+  "kb": "juniper",
+  "source_path": "docs/05-system-management-and-monitoring.md",
+  "source_title": "05-system-management-and-monitoring",
+  "section": "System Logging",
+  "sha256": "df20bb69aca8ef07e7482b4c6b3dd2c5834cac30fa45ca76d16e7de7f9f206e5",
+  "content": "# System Logging\n\nJunos supports local and remote logging.\n\nLogs may include:\n\n- System events\n- Authentication events\n- Interface changes\n- Routing events\n- Security events\n- Policy logs\n- Commit activity\n\nRemote syslog is recommended when centralized operational visibility is required.\n\n---"
+}

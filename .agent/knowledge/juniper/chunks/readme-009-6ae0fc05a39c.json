@@ -1,0 +1,9 @@
+{
+  "chunk_id": "readme-009-6ae0fc05a39c",
+  "kb": "juniper",
+  "source_path": "README.md",
+  "source_title": "README",
+  "section": "Publication and Commercial Use",
+  "sha256": "6ae0fc05a39c6018c98d251b0bc34d1fb6f04456e5adf18eda7c9ab37ae1ec24",
+  "content": "# Publication and Commercial Use\n\nThe knowledge base should remain portable and vendor-neutral in structure.\n\nOriginal Juniper documentation should not be copied wholesale into this repository.\n\nCommercial or public releases should consist primarily of:\n\n- Original technical explanations\n- Original troubleshooting procedures\n- Configuration patterns\n- Migration guidance\n- Operational checklists\n- Tested examples\n- AI-optimized structured reference material\n\nVendor documentation may be cited or referenced when appropriate."
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "authoritative-sources-008-c2d03231ef3a",
+  "kb": "juniper",
+  "source_path": "source-material/authoritative-sources.md",
+  "source_title": "authoritative-sources",
+  "section": "Junos Monitoring Documentation / Juniper Feature Explorer",
+  "sha256": "c2d03231ef3a52c76ec7fb8e8af8baddc6223edbb98aa27f3ffdd6e6ddf4ed68",
+  "content": "# Junos Monitoring Documentation / Juniper Feature Explorer\n\nPrimary Topics:\n\n- SNMP\n- Syslog\n- Interface monitoring\n- RPM\n- IP monitoring\n- VPN monitoring\n- System health\n\nAuthority:\n\nJuniper Networks Junos OS network management documentation\n\n---\n\nPurpose:\n\nVerify whether a feature is supported on a specific Juniper platform or Junos release.\n\nPrimary Use:\n\n- SRX320 feature support\n- IP monitoring support\n- Platform capability verification\n- Release-aware validation\n\nAuthority:\n\nJuniper Networks Feature Explorer\n\n---"
+}

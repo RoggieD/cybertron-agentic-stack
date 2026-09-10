@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-screenos-to-junos-migration-019-b7a822dced6e",
+  "kb": "juniper",
+  "source_path": "docs/07-screenos-to-junos-migration.md",
+  "source_title": "07-screenos-to-junos-migration",
+  "section": "Migration Mapping Table",
+  "sha256": "b7a822dced6ee8f2cf5188e85d367c4d2800b7fee251f2d5a69c38edde05f0b5",
+  "content": "# Migration Mapping Table\n\nEach migrated feature should be documented with a mapping.\n\nRecommended fields:\n\nLegacy Platform\n\nLegacy Feature\n\nLegacy Object\n\nLegacy Configuration State\n\nTarget SRX Feature\n\nTarget Junos Object\n\nTarget Configuration State\n\nValidation Method\n\nVerification Date\n\nNotes\n\n---"
+}

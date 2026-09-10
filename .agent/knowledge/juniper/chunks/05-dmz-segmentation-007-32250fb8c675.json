@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-dmz-segmentation-007-32250fb8c675",
+  "kb": "juniper",
+  "source_path": "examples/05-dmz-segmentation.md",
+  "source_title": "05-dmz-segmentation",
+  "section": "Trust Source NAT",
+  "sha256": "32250fb8c675c41bd7d5ee18657b093d0e05fd5c8e2898272bc77d6917616b17",
+  "content": "# Trust Source NAT\n\nCreate source NAT for the trust network:\n\nset security nat source rule-set TRUST-TO-INTERNET from zone trust\n\nset security nat source rule-set TRUST-TO-INTERNET to zone untrust\n\nset security nat source rule-set TRUST-TO-INTERNET rule TRUST-SNAT match source-address 192.0.2.0/24\n\nset security nat source rule-set TRUST-TO-INTERNET rule TRUST-SNAT then source-nat interface\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "13-logging-snmp-and-zabbix-019-93bdce2a7b5f",
+  "kb": "juniper",
+  "source_path": "docs/13-logging-snmp-and-zabbix.md",
+  "source_title": "13-logging-snmp-and-zabbix",
+  "section": "Route Monitoring / Published Service Monitoring",
+  "sha256": "93bdce2a7b5f3c047d1bb161b42004a33acbe941ba093ee639f746d6002a02e9",
+  "content": "# Route Monitoring / Published Service Monitoring\n\nImportant routes may be monitored for presence or reachability.\n\nExamples include:\n\n- Default route\n- Critical internal routes\n- VPN routes\n- DMZ routes\n\nRoute monitoring should focus on business-critical paths.\n\n---\n\nExternally published services should be tested from an appropriate external vantage point.\n\nExamples include:\n\n- HTTPS\n- SMTP\n- VPN\n- Custom applications\n\nInternal testing alone may not detect:\n\n- Destination NAT problems\n- Public routing problems\n- ISP issues\n- External firewall behavior\n\n---"
+}

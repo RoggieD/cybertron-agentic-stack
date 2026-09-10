@@ -1,0 +1,9 @@
+{
+  "chunk_id": "11-security-hardening-012-45e44522c83c",
+  "kb": "juniper",
+  "source_path": "docs/11-security-hardening.md",
+  "source_title": "11-security-hardening",
+  "section": "Unused Services / SNMP",
+  "sha256": "45e44522c83c64d616eda75f6688d72012f586d4091e4b7509b7bfdd0728eae7",
+  "content": "# Unused Services / SNMP\n\nDisable unnecessary system services.\n\nPotential examples include:\n\n- Unused management protocols\n- Legacy services\n- Unused routing protocols\n- Unused VPN services\n- Unused discovery protocols\n\nFeature availability depends on Junos version.\n\n---\n\nIf SNMP is used:\n\n- Restrict source systems\n- Prefer secure SNMP versions where practical\n- Protect credentials\n- Avoid public exposure\n- Monitor authentication failures\n\nSNMP should be treated as administrative infrastructure.\n\n---"
+}

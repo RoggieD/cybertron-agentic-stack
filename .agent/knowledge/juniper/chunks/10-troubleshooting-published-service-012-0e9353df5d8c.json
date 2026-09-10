@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-troubleshooting-published-service-012-0e9353df5d8c",
+  "kb": "juniper",
+  "source_path": "examples/10-troubleshooting-published-service.md",
+  "source_title": "10-troubleshooting-published-service",
+  "section": "Session Has Bidirectional Traffic but Application Fails / Step 14 \u2014 Verify Internal Server Reachability",
+  "sha256": "0e9353df5d8c966bb67b6acd9f1e2fdffe25208090cb793317e9df2518e174d8",
+  "content": "# Session Has Bidirectional Traffic but Application Fails / Step 14 \u2014 Verify Internal Server Reachability\n\nPossible causes:\n\n- Application problem\n- TLS failure\n- Protocol mismatch\n- Backend failure\n\n---\n\nFrom an appropriate internal source or from the SRX where supported, verify the server is reachable.\n\nCheck:\n\n- IP address\n- Subnet mask\n- Default gateway\n- Service port\n- Host firewall\n- Application state\n\nThe firewall cannot make a stopped application respond.\n\n---"
+}

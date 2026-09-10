@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-production-data-template-006-b39bac9ab16b",
+  "kb": "juniper",
+  "source_path": "docs/08-production-data-template.md",
+  "source_title": "08-production-data-template",
+  "section": "Source NAT / Destination NAT",
+  "sha256": "b39bac9ab16bcb538f5d2e0ff62b72f2e60903af6680f00f5bb582839fbb0344",
+  "content": "# Source NAT / Destination NAT\n\nFor each source NAT rule, record:\n\nRule Set:\n\nRule Name:\n\nSource Zone:\n\nDestination Zone:\n\nSource Address:\n\nDestination Address:\n\nProtocol:\n\nTranslated Address or Pool:\n\nBusiness Purpose:\n\nConfiguration State:\n\nVerification Date:\n\nNotes:\n\n---\n\nFor each destination NAT rule, record:\n\nRule Set:\n\nRule Name:\n\nIncoming Zone:\n\nIncoming Interface:\n\nPublic Address:\n\nPublic Port:\n\nProtocol:\n\nTranslated Address:\n\nTranslated Port:\n\nRelated Security Policy:\n\nBusiness Purpose:\n\nConfiguration State:\n\nVerification Date:\n\nNotes:\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "00-overview-015-484085f0a463",
+  "kb": "juniper",
+  "source_path": "docs/00-overview.md",
+  "source_title": "00-overview",
+  "section": "Knowledge Classification / LEGACY_PRODUCTION / SRX320_TARGET",
+  "sha256": "484085f0a46341d080a164ea46966525e8e5ee2a6103e23e1ffd5f72d829b785",
+  "content": "# Knowledge Classification / LEGACY_PRODUCTION / SRX320_TARGET\n\nEvery deployment-specific document in this knowledge base should identify configuration state when relevant.\n\nSupported states:\n\nConfiguration associated with the previous Juniper SSG firewall environment.\n\nPlanned SRX320 configuration that has not yet been verified in production."
+}

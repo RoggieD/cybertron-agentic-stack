@@ -1,0 +1,9 @@
+{
+  "chunk_id": "authoritative-sources-002-d16004e9def0",
+  "kb": "juniper",
+  "source_path": "source-material/authoritative-sources.md",
+  "source_title": "authoritative-sources",
+  "section": "Source Priority",
+  "sha256": "d16004e9def00a696c6885a606705658e460aaf9f4459224bbb5c44b56d5a6f8",
+  "content": "# Source Priority\n\nWhen validating technical content, use sources in the following order where practical:\n\n1. Juniper Networks official Junos OS documentation\n2. Juniper Networks SRX320 hardware documentation\n3. Juniper Networks CLI reference\n4. Juniper Networks Feature Explorer\n5. Juniper Networks technical documentation and configuration guides\n6. Juniper support or JTAC guidance where applicable\n\nThird-party sources should not override current Juniper documentation.\n\n---"
+}

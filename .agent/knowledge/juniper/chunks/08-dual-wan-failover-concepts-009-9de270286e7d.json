@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-dual-wan-failover-concepts-009-9de270286e7d",
+  "kb": "juniper",
+  "source_path": "examples/08-dual-wan-failover-concepts.md",
+  "source_title": "08-dual-wan-failover-concepts",
+  "section": "Default Route Design / Security Zones",
+  "sha256": "9de270286e7d2e2bf67893db5602e97754e6927cbc51108cfc390d24606e951a",
+  "content": "# Default Route Design / Security Zones\n\nThe routing table should clearly indicate which WAN path is preferred.\n\nDocumentation should record:\n\nPrimary Route:\n\nPrimary Preference:\n\nBackup Route:\n\nBackup Preference:\n\nHealth Monitoring:\n\nFailover Trigger:\n\nRecovery Trigger:\n\n---\n\nWAN interfaces may be placed in:\n\n- A shared untrust zone\n- Separate untrust zones\n\nExample:\n\nuntrust-primary\n\nuntrust-backup\n\nSeparate zones can make policy and NAT intent more explicit.\n\nThe correct design depends on operational requirements.\n\n---"
+}

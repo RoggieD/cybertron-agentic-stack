@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-dual-wan-failover-concepts-015-183d89ffb61b",
+  "kb": "juniper",
+  "source_path": "examples/08-dual-wan-failover-concepts.md",
+  "source_title": "08-dual-wan-failover-concepts",
+  "section": "Existing Sessions",
+  "sha256": "183d89ffb61bdfd1bcb709710ac65f6449f98e5c3128af3e77b796418755d576",
+  "content": "# Existing Sessions\n\nExisting sessions may not survive a WAN transition.\n\nReasons include:\n\n- Source public IP changes\n- NAT mapping changes\n- Remote endpoint state\n- Routing changes\n- VPN changes\n\nFailover should therefore be evaluated for both:\n\n- New sessions\n- Existing sessions\n\n---"
+}

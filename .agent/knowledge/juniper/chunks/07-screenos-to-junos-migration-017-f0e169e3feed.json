@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-screenos-to-junos-migration-017-f0e169e3feed",
+  "kb": "juniper",
+  "source_path": "docs/07-screenos-to-junos-migration.md",
+  "source_title": "07-screenos-to-junos-migration",
+  "section": "VPN Migration",
+  "sha256": "f0e169e3feed9d1f25557059afba2a2e61b763276a4fc12e81f6bb1806e48e19",
+  "content": "# VPN Migration\n\nVPN configuration requires independent review.\n\nDocument:\n\n- VPN type\n- Peer address\n- Authentication method\n- Encryption\n- Local networks\n- Remote networks\n- Routing\n- Policies\n- NAT exemptions\n- Operational purpose\n\nDo not assume ScreenOS VPN configuration maps directly to Junos syntax.\n\n---"
+}

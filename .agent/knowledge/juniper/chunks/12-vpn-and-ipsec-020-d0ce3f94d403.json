@@ -1,0 +1,9 @@
+{
+  "chunk_id": "12-vpn-and-ipsec-020-d0ce3f94d403",
+  "kb": "juniper",
+  "source_path": "docs/12-vpn-and-ipsec.md",
+  "source_title": "12-vpn-and-ipsec",
+  "section": "Production VPN Documentation",
+  "sha256": "d0ce3f94d403cfde165458056354efd10215df33b3ebb7c6474302442f15b7ad",
+  "content": "# Production VPN Documentation\n\nFor each production VPN, record:\n\nVPN Name:\n\nVPN Type:\n\nPeer Address:\n\nIKE Version:\n\nAuthentication Type:\n\nLocal Networks:\n\nRemote Networks:\n\nTunnel Interface:\n\nSecurity Zone:\n\nRouting:\n\nSecurity Policies:\n\nNAT Exemption:\n\nMonitoring:\n\nOperational Status:\n\nConfiguration State:\n\nVerification Date:\n\nNotes:\n\nDo not store secrets in this record.\n\n---"
+}

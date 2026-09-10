@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-site-to-site-ipsec-vpn-005-6fb9646bb8d8",
+  "kb": "juniper",
+  "source_path": "examples/04-site-to-site-ipsec-vpn.md",
+  "source_title": "04-site-to-site-ipsec-vpn",
+  "section": "Configure IKE Policy",
+  "sha256": "6fb9646bb8d8996b5c33f2a94795522ef46a9e40d6824f0395ec9fb20ee26e16",
+  "content": "# Configure IKE Policy\n\nCreate an IKE policy referencing the proposal:\n\nset security ike policy SITE-A-IKE-POLICY proposals SITE-A-IKE-PROPOSAL\n\nThis example uses IKEv2 only.\n\nIKEv1 main/aggressive negotiation mode is therefore not configured.\n\nConfigure the pre-shared key:\n\nset security ike policy SITE-A-IKE-POLICY pre-shared-key ascii-text \"<REPLACE-WITH-SECURE-PSK>\"\n\nDo not store production pre-shared keys in public documentation.\n\n---"
+}

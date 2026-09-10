@@ -1,0 +1,9 @@
+{
+  "chunk_id": "11-security-hardening-016-10261c205a19",
+  "kb": "juniper",
+  "source_path": "docs/11-security-hardening.md",
+  "source_title": "11-security-hardening",
+  "section": "Configuration Backups / Rescue Configuration",
+  "sha256": "10261c205a1966ec50b2863eb6b61625bab2fbbae26d1dc61728a35d625eef53",
+  "content": "# Configuration Backups / Rescue Configuration\n\nMaintain protected configuration backups.\n\nBackups should be:\n\n- Stored off-device\n- Access-controlled\n- Versioned\n- Tested where practical\n- Sanitized before sharing\n\nRaw backups may contain sensitive information.\n\n---\n\nMaintain a known-good rescue configuration after the production configuration has been validated.\n\nDo not save an unstable or partially tested configuration as the rescue baseline.\n\n---"
+}

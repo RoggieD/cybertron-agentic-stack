@@ -1,0 +1,9 @@
+{
+  "chunk_id": "14-ha-clustering-and-redundancy-003-eb945cc32800",
+  "kb": "juniper",
+  "source_path": "docs/14-ha-clustering-and-redundancy.md",
+  "source_title": "14-ha-clustering-and-redundancy",
+  "section": "Chassis Cluster Concept",
+  "sha256": "eb945cc328009e2f78553885e6cbecacfcf5db1a012580e772d4cb2c599a11d1",
+  "content": "# Chassis Cluster Concept\n\nJunos chassis clustering allows two compatible SRX devices to operate as a coordinated security system.\n\nThe cluster may provide:\n\n- Control-plane redundancy\n- Data-plane redundancy\n- Stateful failover\n- Redundant interfaces\n- Configuration synchronization\n- Session synchronization where supported\n\nExact capabilities depend on platform and Junos version.\n\n---"
+}

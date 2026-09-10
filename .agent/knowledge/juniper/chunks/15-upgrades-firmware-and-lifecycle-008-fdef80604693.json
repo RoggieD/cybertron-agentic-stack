@@ -1,0 +1,9 @@
+{
+  "chunk_id": "15-upgrades-firmware-and-lifecycle-008-fdef80604693",
+  "kb": "juniper",
+  "source_path": "docs/15-upgrades-firmware-and-lifecycle.md",
+  "source_title": "15-upgrades-firmware-and-lifecycle",
+  "section": "Rescue Configuration / Console Access",
+  "sha256": "fdef80604693bac024cb51934651dfd7cef1806791abc237b169aa343318b28b",
+  "content": "# Rescue Configuration / Console Access\n\nA known-good rescue configuration should exist before major maintenance.\n\nVerify that the rescue configuration represents a stable baseline.\n\nDo not overwrite a good rescue configuration with an unverified candidate.\n\n---\n\nConsole access is strongly recommended during software maintenance.\n\nConsole access may be required if:\n\n- Network management fails\n- Boot process fails\n- Interface behavior changes\n- Configuration migration fails\n- Recovery mode is required\n\n---"
+}

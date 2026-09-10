@@ -1,0 +1,9 @@
+{
+  "chunk_id": "13-logging-snmp-and-zabbix-001-1d3e4aefbe73",
+  "kb": "juniper",
+  "source_path": "docs/13-logging-snmp-and-zabbix.md",
+  "source_title": "13-logging-snmp-and-zabbix",
+  "section": "Scope",
+  "sha256": "1d3e4aefbe7389dbc32a96412552b3d0332c8391fba208585f27b97eee949649",
+  "content": "# Scope\n\nThis document explains logging, SNMP, telemetry-oriented monitoring, and Zabbix integration concepts for the Juniper SRX320.\n\nIt is intended for:\n\n- Device health monitoring\n- Interface monitoring\n- Security event visibility\n- Capacity monitoring\n- Alerting\n- Syslog integration\n- SNMP integration\n- AI-assisted troubleshooting\n\nThis document provides platform-level guidance and does not represent a specific production monitoring configuration unless explicitly labeled.\n\n---"
+}

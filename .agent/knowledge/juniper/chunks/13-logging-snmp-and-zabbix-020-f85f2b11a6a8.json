@@ -1,0 +1,9 @@
+{
+  "chunk_id": "13-logging-snmp-and-zabbix-020-f85f2b11a6a8",
+  "kb": "juniper",
+  "source_path": "docs/13-logging-snmp-and-zabbix.md",
+  "source_title": "13-logging-snmp-and-zabbix",
+  "section": "Monitoring Troubleshooting",
+  "sha256": "f85f2b11a6a812cd2669b4dcd9af4b9addc087474ec3c6bc9df81828aac9da9f",
+  "content": "# Monitoring Troubleshooting\n\nWhen Zabbix cannot monitor the SRX:\n\n1. Verify SRX reachability.\n2. Verify management IP.\n3. Verify route from Zabbix server.\n4. Verify security zone.\n5. Verify host-inbound SNMP permission.\n6. Verify SNMP configuration.\n7. Verify source restrictions.\n8. Verify credentials.\n9. Verify Zabbix interface configuration.\n10. Review logs.\n\n---"
+}

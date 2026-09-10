@@ -1,0 +1,9 @@
+{
+  "chunk_id": "12-vpn-and-ipsec-021-78ecb15a2a9b",
+  "kb": "juniper",
+  "source_path": "docs/12-vpn-and-ipsec.md",
+  "source_title": "12-vpn-and-ipsec",
+  "section": "Configuration States / Public Release Guidance",
+  "sha256": "78ecb15a2a9baf579f9a25d551b1006da015a021da5940a2600c13ae6b6ab283",
+  "content": "# Configuration States / Public Release Guidance\n\nUse:\n\nLEGACY_PRODUCTION\n\nSRX320_TARGET\n\nSRX320_VERIFIED_PRODUCTION\n\nA tunnel should not be marked verified merely because IKE or IPsec is established.\n\nVerify application traffic.\n\n---\n\nBefore publishing VPN examples:\n\n- Remove peer IP addresses\n- Remove internal networks\n- Remove pre-shared keys\n- Remove certificate private material\n- Remove usernames\n- Remove internal hostnames\n- Replace deployment-specific values with documentation examples\n\nPreserve the architecture and troubleshooting logic without exposing sensitive configuration.\n\n---"
+}

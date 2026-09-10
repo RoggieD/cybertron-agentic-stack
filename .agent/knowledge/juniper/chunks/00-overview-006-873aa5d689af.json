@@ -1,0 +1,9 @@
+{
+  "chunk_id": "00-overview-006-873aa5d689af",
+  "kb": "juniper",
+  "source_path": "docs/00-overview.md",
+  "source_title": "00-overview",
+  "section": "Commit Model / commit",
+  "sha256": "873aa5d689aff972d8c1361b799c70c4637fd6fec129ac23ab9e79a9f5666f35",
+  "content": "# Commit Model / commit\n\nJunos supports transactional configuration changes.\n\nChanges made in configuration mode are candidates until committed.\n\nUseful concepts include:\n\n- commit\n- commit check\n- commit confirmed\n- rollback\n- compare\n\nActivates the candidate configuration."
+}

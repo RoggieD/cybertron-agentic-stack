@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-junos-cli-reference-018-1a5e631b7757",
+  "kb": "juniper",
+  "source_path": "docs/10-junos-cli-reference.md",
+  "source_title": "10-junos-cli-reference",
+  "section": "Version Awareness / AI Guidance",
+  "sha256": "1a5e631b7757370a352c025548f2e638e138e382c8a81a4f5c7ca991ee25be08",
+  "content": "# Version Awareness / AI Guidance\n\nCommand syntax, output, and feature availability may differ between Junos releases.\n\nBefore relying on a version-specific command, verify:\n\nshow version\n\nDo not assume all SRX320 systems run the same Junos release.\n\n---\n\nWhen using this reference:\n\n- Prefer read-only operational commands first.\n- Do not fabricate command output.\n- Do not assume command availability across all Junos versions.\n- Explain destructive or disruptive commands before recommending them.\n- Use show | compare before commit.\n- Use commit check before activation.\n- Use commit confirmed when management lockout is possible.\n- Verify observed state before recommending configuration changes.\n\n---"
+}

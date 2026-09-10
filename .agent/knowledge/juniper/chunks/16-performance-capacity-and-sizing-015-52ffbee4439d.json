@@ -1,0 +1,9 @@
+{
+  "chunk_id": "16-performance-capacity-and-sizing-015-52ffbee4439d",
+  "kb": "juniper",
+  "source_path": "docs/16-performance-capacity-and-sizing.md",
+  "source_title": "16-performance-capacity-and-sizing",
+  "section": "Monitoring Baselines / Peak vs Average",
+  "sha256": "52ffbee4439de6e48a5ff9a75de22c2fba36a099759c4bc7e912439bdfbddbb7",
+  "content": "# Monitoring Baselines / Peak vs Average\n\nEstablish normal baselines for:\n\n- CPU\n- Memory\n- WAN throughput\n- LAN throughput\n- Session count\n- New sessions per second\n- Interface errors\n- VPN traffic\n- Logging volume\n\nBaseline data makes abnormal behavior easier to identify.\n\n---\n\nAverage utilization can hide short periods of saturation.\n\nMonitor:\n\n- Average\n- Peak\n- Sustained peak\n- Time of day\n- Day of week\n\nCapacity decisions should consider peak behavior, not only monthly averages.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "authoritative-sources-006-cad6df2d664a",
+  "kb": "juniper",
+  "source_path": "source-material/authoritative-sources.md",
+  "source_title": "authoritative-sources",
+  "section": "Junos VPN and IPsec Documentation / Junos Ethernet Switching Documentation",
+  "sha256": "cad6df2d664a83e0501484e7d2498398318277b006886d643b228c5ed5eb2f21",
+  "content": "# Junos VPN and IPsec Documentation / Junos Ethernet Switching Documentation\n\nPrimary Topics:\n\n- IKEv1\n- IKEv2\n- IPsec\n- Route-based VPNs\n- st0 interfaces\n- IKE gateways\n- IPsec policies\n- Traffic selectors\n- Security associations\n- VPN verification\n\nAuthority:\n\nJuniper Networks Junos OS VPN/IPsec documentation\n\n---\n\nPrimary Topics:\n\n- Ethernet switching\n- Access ports\n- Trunk ports\n- VLAN membership\n- IRB interfaces\n- VLAN routing\n- Native VLAN behavior\n\nAuthority:\n\nJuniper Networks Junos OS Ethernet Switching documentation\n\n---"
+}

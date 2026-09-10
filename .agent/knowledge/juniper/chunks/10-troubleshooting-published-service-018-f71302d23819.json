@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-troubleshooting-published-service-018-f71302d23819",
+  "kb": "juniper",
+  "source_path": "examples/10-troubleshooting-published-service.md",
+  "source_title": "10-troubleshooting-published-service",
+  "section": "Public IP Unreachable / NAT Rule Counter Never Increments / NAT Matches but Policy Does Not",
+  "sha256": "f71302d238191240b7db48e44af8e54497102f1875ef5aff5844fc5ce8a33491",
+  "content": "# Public IP Unreachable / NAT Rule Counter Never Increments / NAT Matches but Policy Does Not\n\nLikely areas:\n\n- ISP routing\n- WAN addressing\n- Proxy ARP\n- Upstream route\n\nLikely areas:\n\n- Wrong incoming zone\n- Wrong public IP\n- Wrong port\n- Wrong protocol\n- Rule order\n- Traffic never reaches SRX\n\nLikely areas:\n\n- Wrong destination zone\n- Wrong translated destination object\n- Wrong application\n- Policy order"
+}

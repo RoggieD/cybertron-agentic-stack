@@ -1,0 +1,9 @@
+{
+  "chunk_id": "01-hardware-and-interfaces-003-e5e7bd8ad573",
+  "kb": "juniper",
+  "source_path": "docs/01-hardware-and-interfaces.md",
+  "source_title": "01-hardware-and-interfaces",
+  "section": "Physical and Logical Interfaces",
+  "sha256": "e5e7bd8ad5730014e6f8ec8caaae6c782197545bebd35f6dd8fe759a851963ad",
+  "content": "# Physical and Logical Interfaces\n\nJunos separates physical interface properties from logical interface configuration.\n\nPhysical interface configuration may include:\n\n- Link settings\n- MTU\n- Description\n- Speed and duplex behavior\n- Ethernet options\n\nLogical interface units may include:\n\n- IPv4 addressing\n- IPv6 addressing\n- VLAN identifiers where applicable\n- Routing family\n- Switching family\n- Security-zone membership\n\nVLAN tagging behavior may involve physical-interface and logical-unit configuration depending on the interface design and Junos feature being used.\n\n---"
+}

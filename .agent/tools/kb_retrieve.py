@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+
 import json
 import re
 import sys
@@ -27,54 +28,219 @@ def matching_kbs(query: str):
             continue
 
         triggers = [str(t).lower() for t in kb.get("triggers", [])]
+
         if any(trigger in q for trigger in triggers):
             matches.append(kb)
 
     return matches
 
 
-def iter_files(kb):
-    base = ROOT.parent / kb["path"]
-
-    if not base.exists():
-        return
-
-    for path in sorted(base.rglob("*")):
-        if path.is_file() and path.suffix.lower() in TEXT_SUFFIXES:
-            yield path
+STOPWORDS = {
+    "a", "an", "and", "are", "as", "at", "be", "by",
+    "for", "from", "i", "in", "is", "it", "my", "of",
+    "on", "or", "the", "to", "with"
+}
 
 
-def score_text(query_words, text):
+NORMALIZE = {
+    "troubleshoot": "troubleshoot",
+    "troubleshoots": "troubleshoot",
+    "troubleshooting": "troubleshoot",
+    "troubleshot": "troubleshoot",
+
+    "configure": "config",
+    "configuration": "config",
+    "configurations": "config",
+    "configured": "config",
+    "configuring": "config",
+
+    "route": "routing",
+    "routes": "routing",
+    "router": "routing",
+
+    "policies": "policy",
+
+    "interfaces": "interface",
+
+    "firewalls": "firewall",
+}
+
+
+def normalize_word(word: str) -> str:
+    return NORMALIZE.get(word, word)
+
+
+def meaningful_words(text: str) -> set[str]:
+    return {
+        normalize_word(word)
+        for word in words(text)
+        if word not in STOPWORDS and len(word) > 1
+    }
+
+
+def score_fields(query_words, query_text="", source_path="", section="", content=""):
     if not query_words:
         return 0
-    body_words = words(text)
-    return len(query_words & body_words)
+
+    path_words = meaningful_words(source_path)
+    section_words = meaningful_words(section)
+    content_words = meaningful_words(content)
+
+    score = 0
+
+    for word in query_words:
+        if word in section_words:
+            score += 5
+
+        if word in path_words:
+            score += 3
+
+        if word in content_words:
+            score += 1
+
+    query_lower = query_text.lower().strip()
+    section_lower = section.lower().strip()
+    content_lower = content.lower()
+
+    phrases = [
+        "destination nat",
+        "source nat",
+        "static nat",
+        "security policy",
+        "site-to-site",
+        "screenos to junos",
+    ]
+
+    for phrase in phrases:
+        if phrase not in query_lower:
+            continue
+
+        # Strong boost when the section is actually ABOUT the queried topic.
+        if section_lower == phrase or section_lower.startswith(phrase):
+            score += 10
+
+        # Smaller boost when the phrase is merely one topic in the heading.
+        elif phrase in section_lower:
+            score += 3
+
+        # Content mention is supporting evidence only.
+        elif phrase in content_lower:
+            score += 1
+
+    # Intent weighting: troubleshooting-oriented questions should prefer
+    # troubleshooting sections over generic reference/comparison sections.
+    if "troubleshoot" in meaningful_words(query_text):
+        if "troubleshoot" in meaningful_words(section):
+            score += 10
+
+    return score
+
+
+def retrieve_local_directory(kb, query_words, query):
+    base = ROOT.parent / kb["path"]
+    results = []
+
+    if not base.exists():
+        return results
+
+    for path in sorted(base.rglob("*")):
+        if not path.is_file():
+            continue
+
+        if path.suffix.lower() not in TEXT_SUFFIXES:
+            continue
+
+        try:
+            text = path.read_text(encoding="utf-8", errors="replace")
+        except OSError:
+            continue
+
+        score = score_fields(
+            query_words,
+            query_text=query,
+            source_path=str(path),
+            content=text,
+        )
+
+        if score <= 0:
+            continue
+
+        results.append({
+            "kb": kb["id"],
+            "name": kb["name"],
+            "path": str(path.relative_to(ROOT.parent)),
+            "score": score,
+            "content": text[:4000],
+        })
+
+    return results
+
+
+def retrieve_chunk_directory(kb, query_words, query):
+    base = ROOT.parent / kb["path"]
+    results = []
+
+    if not base.exists():
+        return results
+
+    for path in sorted(base.glob("*.json")):
+        try:
+            record = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            continue
+
+        content = record.get("content", "")
+        source_path = record.get("source_path", "")
+        section = record.get("section", "")
+
+        score = score_fields(
+            query_words,
+            query_text=query,
+            source_path=source_path,
+            section=section,
+            content=content,
+        )
+
+        if score <= 0:
+            continue
+
+        results.append({
+            "kb": kb["id"],
+            "name": kb["name"],
+            "path": source_path,
+            "section": section,
+            "chunk_id": record.get("chunk_id"),
+            "score": score,
+            "content": content,
+        })
+
+    return results
 
 
 def retrieve(query: str, max_results: int = 5):
-    query_words = words(query)
+    query_words = meaningful_words(query)
     results = []
 
     for kb in matching_kbs(query):
-        for path in iter_files(kb):
-            try:
-                text = path.read_text(encoding="utf-8", errors="replace")
-            except OSError:
-                continue
+        kb_type = kb.get("type", "local_directory")
 
-            score = score_text(query_words, text)
-            if score <= 0:
-                continue
+        if kb_type == "chunk_directory":
+            results.extend(
+                retrieve_chunk_directory(kb, query_words, query)
+            )
+        else:
+            results.extend(
+                retrieve_local_directory(kb, query_words, query)
+            )
 
-            results.append({
-                "kb": kb["id"],
-                "name": kb["name"],
-                "path": str(path.relative_to(ROOT.parent)),
-                "score": score,
-                "content": text[:4000],
-            })
+    results.sort(
+        key=lambda r: (
+            -r["score"],
+            r.get("path", ""),
+            r.get("section", ""),
+        )
+    )
 
-    results.sort(key=lambda r: (-r["score"], r["path"]))
     return results[:max_results]
 
 

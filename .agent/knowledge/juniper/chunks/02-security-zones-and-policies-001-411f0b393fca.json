@@ -1,0 +1,9 @@
+{
+  "chunk_id": "02-security-zones-and-policies-001-411f0b393fca",
+  "kb": "juniper",
+  "source_path": "docs/02-security-zones-and-policies.md",
+  "source_title": "02-security-zones-and-policies",
+  "section": "Scope / Security Zones",
+  "sha256": "411f0b393fca4a17e1a3edb1d9110f8004d9c23782239e92047925a330704db8",
+  "content": "# Scope / Security Zones\n\nThis document explains Junos security zones and inter-zone security policies on the Juniper SRX320.\n\nIt provides platform-level guidance and does not represent a specific production policy set unless explicitly labeled.\n\n---\n\nSecurity zones are logical trust boundaries used by the SRX firewall.\n\nInterfaces are assigned to zones.\n\nTypical examples include:\n\n- trust\n- untrust\n- dmz\n- management\n\nZone names are configurable and may differ between environments.\n\nA zone should represent a meaningful security boundary rather than simply an arbitrary interface grouping.\n\n---"
+}

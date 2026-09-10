@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-management-hardening-008-10fbff1c94fb",
+  "kb": "juniper",
+  "source_path": "examples/06-management-hardening.md",
+  "source_title": "06-management-hardening",
+  "section": "SNMP Management",
+  "sha256": "10fbff1c94fbcdf7153faa2c226a74149264169fc1bfd924151cc9d85fba5e40",
+  "content": "# SNMP Management\n\nIf SNMP monitoring is required, permit SNMP only from the expected monitoring path.\n\nDo not expose SNMP broadly.\n\nSNMP access should be combined with:\n\n- Source restrictions\n- Secure SNMP version where practical\n- Credential protection\n- Monitoring-network controls\n\n---"
+}

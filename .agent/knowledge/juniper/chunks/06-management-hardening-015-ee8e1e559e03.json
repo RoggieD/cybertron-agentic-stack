@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-management-hardening-015-ee8e1e559e03",
+  "kb": "juniper",
+  "source_path": "examples/06-management-hardening.md",
+  "source_title": "06-management-hardening",
+  "section": "Lockout Recovery",
+  "sha256": "ee8e1e559e033d87c4eb1647703a4f53c0b3a5ebb26d57121da33e5870136fe2",
+  "content": "# Lockout Recovery\n\nIf remote management is lost:\n\n1. Wait for commit-confirmed rollback if one is active.\n2. Use console access if available.\n3. Review recent commit history.\n4. Compare configuration.\n5. Roll back only after identifying the correct revision.\n\nAvoid rebooting as the first response.\n\n---"
+}

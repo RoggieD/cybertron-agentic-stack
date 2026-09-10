@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-screenos-to-junos-migration-021-80e61212173b",
+  "kb": "juniper",
+  "source_path": "docs/07-screenos-to-junos-migration.md",
+  "source_title": "07-screenos-to-junos-migration",
+  "section": "Migration Testing",
+  "sha256": "80e61212173b92f8e7690e71d70b45204761576ad6850b87e2b90d85232f8035",
+  "content": "# Migration Testing\n\nTest each major function independently.\n\nRecommended order:\n\n1. Management access\n2. Interface state\n3. Internal routing\n4. Default route\n5. Internet connectivity\n6. Source NAT\n7. Internal zone traffic\n8. DMZ traffic\n9. Destination NAT\n10. Published services\n11. Static NAT\n12. VPN\n13. Monitoring\n14. Logging\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-troubleshooting-methodology-018-69f75b6494d9",
+  "kb": "juniper",
+  "source_path": "docs/06-troubleshooting-methodology.md",
+  "source_title": "06-troubleshooting-methodology",
+  "section": "Change Control",
+  "sha256": "69f75b6494d95040cdce13a0bc38a87ac398d236f44fc2727ba587fd9d53daf5",
+  "content": "# Change Control\n\nBefore making a configuration change:\n\n1. Record the current state.\n2. Run show | compare.\n3. Preserve rollback capability.\n4. Use commit check.\n5. Use commit confirmed when lockout risk exists.\n6. Make one logical change.\n7. Verify operation.\n8. Confirm the commit.\n9. Record the result.\n\n---"
+}

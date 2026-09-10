@@ -1,0 +1,9 @@
+{
+  "chunk_id": "12-vpn-and-ipsec-004-33f9a202f1bf",
+  "kb": "juniper",
+  "source_path": "docs/12-vpn-and-ipsec.md",
+  "source_title": "12-vpn-and-ipsec",
+  "section": "IKE Versions / Authentication",
+  "sha256": "33f9a202f1bf8942f170f52776efe3f194dadac6050ccdd61145d7f7b200d486",
+  "content": "# IKE Versions / Authentication\n\nCommon IKE versions include:\n\n- IKEv1\n- IKEv2\n\nWhere supported and appropriate, IKEv2 may provide operational and security advantages.\n\nDo not assume the remote peer supports the same IKE version.\n\nPeer compatibility must be verified.\n\n---\n\nVPN peers may authenticate using:\n\n- Pre-shared keys\n- Certificates\n\nSecrets must not be stored in public knowledge-base content.\n\nProduction pre-shared keys, private keys, and certificate private material must be protected.\n\n---"
+}

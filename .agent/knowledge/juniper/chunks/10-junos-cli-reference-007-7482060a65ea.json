@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-junos-cli-reference-007-7482060a65ea",
+  "kb": "juniper",
+  "source_path": "docs/10-junos-cli-reference.md",
+  "source_title": "10-junos-cli-reference",
+  "section": "Security Zone Commands / Security Policy Commands",
+  "sha256": "7482060a65ea2da5d5c2e1ca677bad78f6d37a6a66cb12e567ee42208b6e5d1a",
+  "content": "# Security Zone Commands / Security Policy Commands\n\nShow zone configuration:\n\nshow configuration security zones\n\nOperational zone information:\n\nshow security zones\n\nUse these commands to verify interface-to-zone relationships.\n\n---\n\nShow configured policies:\n\nshow configuration security policies\n\nOperational policy view:\n\nshow security policies\n\nDetailed policy information:\n\nshow security policies detail\n\nTest policy matching using the actual flow criteria:\n\nshow security match-policies from-zone <source-zone> to-zone <destination-zone> source-ip <source-ip> destination-ip <destination-ip> source-port <source-port> destination-port <destination-port> protocol <protocol>\n\nUse values from the real flow and omit only options that are genuinely not applicable to the command form supported by the installed Junos release.\n\n---"
+}

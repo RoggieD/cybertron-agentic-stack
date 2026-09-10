@@ -1,0 +1,9 @@
+{
+  "chunk_id": "docs-audit-report-024-24bce6090cc5",
+  "kb": "juniper",
+  "source_path": "source-material/docs-audit-report.txt",
+  "source_title": "docs-audit-report",
+  "section": "Document \u2014 Part 24",
+  "sha256": "24bce6090cc55574297d3fc2960bff558f769cde77758e336051c0a5f0b68760",
+  "content": "# Document \u2014 Part 24\n\nOMMAND] show system uptime\n 517 [JUNOS COMMAND] show chassis alarms\n 519 [JUNOS COMMAND] show system alarms\n 521 [JUNOS COMMAND] show system processes extensive\n 523 [JUNOS COMMAND] show system storage\n 525 [JUNOS COMMAND] show configuration snmp\n 527 [JUNOS COMMAND] show configuration system syslog\n 529 [JUNOS COMMAND] show system commit\n 531 [VERSION-SENSITIVE] Exact support and syntax may vary by Junos version.\n 547 [VPN] - VPN monitoring\n 591 [SECURITY POLICY] - Verify host-inbound configuration.\n 596 [VERSION-SENSITIVE] - Verify Junos version before relying on version-specific OIDs or behavior."
+}

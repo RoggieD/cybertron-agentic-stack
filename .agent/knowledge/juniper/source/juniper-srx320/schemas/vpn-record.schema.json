@@ -1,0 +1,163 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/juniper-srx320/vpn-record.schema.json",
+  "title": "Juniper SRX320 VPN Record",
+  "description": "Structured record for a site-to-site IPsec VPN on a Juniper SRX320.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "vpn_name",
+    "vpn_type",
+    "configuration_state"
+  ],
+  "properties": {
+    "vpn_name": {
+      "type": "string"
+    },
+    "vpn_type": {
+      "type": "string",
+      "enum": [
+        "route-based",
+        "policy-based",
+        "other"
+      ]
+    },
+    "ike_version": {
+      "type": ["string", "null"],
+      "enum": [
+        "ikev1",
+        "ikev2",
+        "ikev1-and-ikev2",
+        null
+      ]
+    },
+    "ike_gateway_name": {
+      "type": ["string", "null"]
+    },
+    "remote_peer_address": {
+      "type": ["string", "null"]
+    },
+    "external_interface": {
+      "type": ["string", "null"]
+    },
+    "authentication_method": {
+      "type": ["string", "null"],
+      "enum": [
+        "pre-shared-key",
+        "certificate",
+        "other",
+        null
+      ]
+    },
+    "ike_proposal": {
+      "type": ["string", "null"]
+    },
+    "ipsec_proposal": {
+      "type": ["string", "null"]
+    },
+    "ipsec_policy": {
+      "type": ["string", "null"]
+    },
+    "pfs_group": {
+      "type": ["string", "null"]
+    },
+    "bind_interface": {
+      "type": ["string", "null"]
+    },
+    "vpn_zone": {
+      "type": ["string", "null"]
+    },
+    "local_networks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "remote_networks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "traffic_selectors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": ["string", "null"]
+          },
+          "local_prefix": {
+            "type": ["string", "null"]
+          },
+          "remote_prefix": {
+            "type": ["string", "null"]
+          },
+          "protocol": {
+            "type": ["string", "null"]
+          },
+          "source_port": {
+            "type": ["integer", "null"],
+            "minimum": 1,
+            "maximum": 65535
+          },
+          "destination_port": {
+            "type": ["integer", "null"],
+            "minimum": 1,
+            "maximum": 65535
+          }
+        }
+      }
+    },
+    "nat_exemption_required": {
+      "type": ["boolean", "null"]
+    },
+    "establish_tunnels": {
+      "type": ["string", "null"],
+      "enum": [
+        "immediately",
+        "on-traffic",
+        null
+      ]
+    },
+    "ike_status": {
+      "type": ["string", "null"],
+      "enum": [
+        "up",
+        "down",
+        "unknown",
+        null
+      ]
+    },
+    "ipsec_status": {
+      "type": ["string", "null"],
+      "enum": [
+        "up",
+        "down",
+        "unknown",
+        null
+      ]
+    },
+    "last_verified": {
+      "type": ["string", "null"],
+      "format": "date"
+    },
+    "business_purpose": {
+      "type": ["string", "null"]
+    },
+    "configuration_state": {
+      "type": "string",
+      "enum": [
+        "LEGACY_PRODUCTION",
+        "SRX320_TARGET",
+        "SRX320_VERIFIED_PRODUCTION"
+      ]
+    },
+    "notes": {
+      "type": ["string", "null"]
+    }
+  }
+}

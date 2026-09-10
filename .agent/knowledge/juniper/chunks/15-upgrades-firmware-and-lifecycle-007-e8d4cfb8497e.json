@@ -1,0 +1,9 @@
+{
+  "chunk_id": "15-upgrades-firmware-and-lifecycle-007-e8d4cfb8497e",
+  "kb": "juniper",
+  "source_path": "docs/15-upgrades-firmware-and-lifecycle.md",
+  "source_title": "15-upgrades-firmware-and-lifecycle",
+  "section": "Configuration Backup",
+  "sha256": "e8d4cfb8497e965f48fc4ff5c8766093f4f64d305d80bde6a231baa7f0b392b6",
+  "content": "# Configuration Backup\n\nBefore upgrade, create an off-device backup of the active configuration.\n\nThe backup should be:\n\n- Current\n- Complete\n- Readable\n- Stored securely\n- Associated with the correct device\n- Associated with the current Junos version\n\nDo not rely only on rollback files stored on the SRX itself.\n\n---"
+}

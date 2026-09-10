@@ -1,0 +1,9 @@
+{
+  "chunk_id": "02-security-zones-and-policies-003-b8c7bdd90b78",
+  "kb": "juniper",
+  "source_path": "docs/02-security-zones-and-policies.md",
+  "source_title": "02-security-zones-and-policies",
+  "section": "Host-Inbound Traffic",
+  "sha256": "b8c7bdd90b7884884169a3326fe1c9db1de373c34d6df1e52b0213a319be5aeb",
+  "content": "# Host-Inbound Traffic\n\nTraffic destined to the SRX device itself is handled differently from transit traffic.\n\nExamples include:\n\n- SSH to the firewall\n- HTTPS management\n- Ping to an SRX interface\n- SNMP\n- DHCP services\n- Routing protocol traffic\n\nHost-inbound services are configured at the security zone or interface level.\n\nExample concept:\n\nsecurity {\n    zones {\n        security-zone trust {\n            interfaces {\n                ge-0/0/1.0 {\n                    host-inbound-traffic {\n                        system-services {\n                            ssh;\n                            ping;\n                        }\n                    }\n                }\n            }\n        }\n    }\n}\n\nThis is an example only.\n\n---"
+}

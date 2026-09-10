@@ -1,0 +1,9 @@
+{
+  "chunk_id": "01-hardware-and-interfaces-015-18be7b527f04",
+  "kb": "juniper",
+  "source_path": "docs/01-hardware-and-interfaces.md",
+  "source_title": "01-hardware-and-interfaces",
+  "section": "Recommended Verification Commands",
+  "sha256": "18be7b527f04e4252d54186d53eab50785994fcb19582e85b9334eef3d3ffc62",
+  "content": "# Recommended Verification Commands\n\nUse the following commands when building the production interface map:\n\nshow interfaces terse\n\nshow configuration interfaces\n\nshow configuration security zones\n\nshow route\n\nshow ethernet-switching table\n\nAvailability and output may vary depending on Junos version and interface mode.\n\n---"
+}

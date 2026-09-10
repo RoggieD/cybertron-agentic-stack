@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-screenos-to-junos-migration-013-402b27007f1b",
+  "kb": "juniper",
+  "source_path": "docs/07-screenos-to-junos-migration.md",
+  "source_title": "07-screenos-to-junos-migration",
+  "section": "MIP and VIP Migration",
+  "sha256": "402b27007f1b203b8a935cdcf1e91659bf31ba091a1ab8d63bf6555b41c10908",
+  "content": "# MIP and VIP Migration\n\nScreenOS may use constructs such as:\n\n- MIP\n- VIP\n\nThese should not be copied literally into Junos.\n\nThe migration should identify the actual function.\n\nA legacy MIP may correspond conceptually to:\n\n- Static NAT\n\nA legacy VIP may correspond conceptually to:\n\n- Destination NAT\n- Port translation\n\nVerify actual behavior before choosing the Junos implementation.\n\n---"
+}

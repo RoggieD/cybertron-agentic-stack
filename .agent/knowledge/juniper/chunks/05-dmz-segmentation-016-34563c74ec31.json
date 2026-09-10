@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-dmz-segmentation-016-34563c74ec31",
+  "kb": "juniper",
+  "source_path": "examples/05-dmz-segmentation.md",
+  "source_title": "05-dmz-segmentation",
+  "section": "Trust to Internet / Trust to DMZ / DMZ to Internet / Internet to DMZ",
+  "sha256": "34563c74ec310c07723c4a7fb77e016db87ed1834590973e34957d4df3d638e1",
+  "content": "# Trust to Internet / Trust to DMZ / DMZ to Internet / Internet to DMZ\n\nExpected:\n\n- Route through WAN\n- Source NAT\n- trust -> untrust permit policy\n\nExpected:\n\n- Directly connected routing\n- trust -> dmz security policy\n- No NAT normally required\n\nExpected:\n\n- Default route\n- Source NAT\n- dmz -> untrust policy\n\nExpected:\n\n- Destination NAT\n- untrust -> dmz security policy\n- Stateful session\n- Return traffic through SRX"
+}

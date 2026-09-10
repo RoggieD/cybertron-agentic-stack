@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-dmz-segmentation-009-1aa9c792c4f6",
+  "kb": "juniper",
+  "source_path": "examples/05-dmz-segmentation.md",
+  "source_title": "05-dmz-segmentation",
+  "section": "DMZ Source NAT",
+  "sha256": "1aa9c792c4f650368ba3b475be34f7193b85d428f90a851cd2efbfc4d6c65a22",
+  "content": "# DMZ Source NAT\n\nCreate source NAT for the DMZ network:\n\nset security nat source rule-set DMZ-TO-INTERNET from zone dmz\n\nset security nat source rule-set DMZ-TO-INTERNET to zone untrust\n\nset security nat source rule-set DMZ-TO-INTERNET rule DMZ-SNAT match source-address 198.18.0.0/24\n\nset security nat source rule-set DMZ-TO-INTERNET rule DMZ-SNAT then source-nat interface\n\n---"
+}

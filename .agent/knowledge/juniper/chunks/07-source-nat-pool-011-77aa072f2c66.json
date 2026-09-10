@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-source-nat-pool-011-77aa072f2c66",
+  "kb": "juniper",
+  "source_path": "examples/07-source-nat-pool.md",
+  "source_title": "07-source-nat-pool",
+  "section": "Source NAT Pool vs Interface NAT",
+  "sha256": "77aa072f2c66fb41bcbacc264d721ed0c89c56c140e5cc656cfb549dec983b50",
+  "content": "# Source NAT Pool vs Interface NAT\n\nInterface NAT typically uses the egress interface address.\n\nA source NAT pool uses an explicitly defined translated address or address range.\n\nSource NAT pools may be useful when:\n\n- Multiple public IP addresses are available\n- Specific systems require a particular outbound identity\n- Different internal networks require different public addresses\n- Provider addressing design supports routed public pools\n\nUse the simplest design that meets the requirement.\n\n---"
+}

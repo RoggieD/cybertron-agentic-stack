@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-troubleshooting-published-service-023-7fb3a10595db",
+  "kb": "juniper",
+  "source_path": "examples/10-troubleshooting-published-service.md",
+  "source_title": "10-troubleshooting-published-service",
+  "section": "AI Guidance",
+  "sha256": "7fb3a10595db4339332a8bda98fe55f80e5b71545a5eb08a39d45113009852c2",
+  "content": "# AI Guidance\n\nWhen using this document:\n\n- Do not change NAT or security policy before gathering evidence.\n- Distinguish DNS, routing, NAT, policy, host, and application failures.\n- Prefer read-only commands first.\n- Verify translated destination.\n- Verify session state.\n- Verify return traffic.\n- Do not invent production topology.\n- Recommend one controlled change at a time.\n- Preserve rollback capability.\n\n---"
+}

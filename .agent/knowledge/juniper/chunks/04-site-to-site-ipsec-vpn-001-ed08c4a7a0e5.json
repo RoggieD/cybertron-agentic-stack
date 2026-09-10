@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-site-to-site-ipsec-vpn-001-ed08c4a7a0e5",
+  "kb": "juniper",
+  "source_path": "examples/04-site-to-site-ipsec-vpn.md",
+  "source_title": "04-site-to-site-ipsec-vpn",
+  "section": "Scope",
+  "sha256": "ed08c4a7a0e51134e1d7be3c2089a8221cb8089129995a364bd716088b7fee5f",
+  "content": "# Scope\n\nThis example demonstrates the structure of a route-based site-to-site IPsec VPN using a secure tunnel interface.\n\nIt demonstrates:\n\n- IKE proposal\n- IKE policy\n- IKE gateway\n- IPsec proposal\n- IPsec policy\n- IPsec VPN\n- st0 tunnel interface\n- VPN security zone\n- Static routing\n- Bidirectional security policies\n- Verification and troubleshooting\n\nThis configuration is an educational example only.\n\nIt is not production configuration.\n\n---"
+}

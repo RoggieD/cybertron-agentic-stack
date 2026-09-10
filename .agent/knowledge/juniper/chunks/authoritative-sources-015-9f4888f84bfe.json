@@ -1,0 +1,9 @@
+{
+  "chunk_id": "authoritative-sources-015-9f4888f84bfe",
+  "kb": "juniper",
+  "source_path": "source-material/authoritative-sources.md",
+  "source_title": "authoritative-sources",
+  "section": "Maintenance",
+  "sha256": "9f4888f84bfe5aad9c02797ae2f98809746975204cceed8763849ef48f00e76f",
+  "content": "# Maintenance\n\nThis registry should be reviewed when:\n\n- A new Junos release is targeted\n- SRX320 firmware is upgraded\n- New configuration examples are added\n- Existing examples are modified\n- A technical audit discovers changed behavior\n- The knowledge base is prepared for public release\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "12-vpn-and-ipsec-023-9f3431717d91",
+  "kb": "juniper",
+  "source_path": "docs/12-vpn-and-ipsec.md",
+  "source_title": "12-vpn-and-ipsec",
+  "section": "Document Status",
+  "sha256": "9f3431717d91d3a7f181e7f0a9ce46607d259c44e8962eeb1f9fca20042d5abe",
+  "content": "# Document Status\n\nDocument Type: VPN and IPsec\n\nKnowledge Base: Juniper SRX320 Knowledge Base\n\nVersion: 0.1.0\n\nStatus: Initial Build"
+}

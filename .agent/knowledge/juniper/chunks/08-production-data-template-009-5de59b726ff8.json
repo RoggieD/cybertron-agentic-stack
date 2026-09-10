@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-production-data-template-009-5de59b726ff8",
+  "kb": "juniper",
+  "source_path": "docs/08-production-data-template.md",
+  "source_title": "08-production-data-template",
+  "section": "VPN",
+  "sha256": "5de59b726ff8b8eff3345ce9aa5b568945de133eb4476f52789eb62a4493aa63",
+  "content": "# VPN\n\nFor each VPN, record:\n\nVPN Name:\n\nVPN Type:\n\nPeer Address:\n\nAuthentication Type:\n\nLocal Networks:\n\nRemote Networks:\n\nRouting:\n\nSecurity Policies:\n\nNAT Exemption:\n\nOperational Status:\n\nConfiguration State:\n\nVerification Date:\n\nNotes:\n\nDo not store secrets or pre-shared keys in this document.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-screenos-to-junos-migration-010-20147fe51e7b",
+  "kb": "juniper",
+  "source_path": "docs/07-screenos-to-junos-migration.md",
+  "source_title": "07-screenos-to-junos-migration",
+  "section": "Service Objects",
+  "sha256": "20147fe51e7b58719d5db7db958b44da92de4987203a3d45da811e035fb9d7e1",
+  "content": "# Service Objects\n\nLegacy ScreenOS service objects should be mapped to:\n\n- Built-in Junos applications\n- Custom Junos applications\n\nFor each service, record:\n\n- Protocol\n- Source port if relevant\n- Destination port\n- Timeout behavior if relevant\n- Policies using the service\n\nDo not assume a ScreenOS service name has an identical Junos application equivalent.\n\n---"
+}

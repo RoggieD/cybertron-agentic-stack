@@ -1,0 +1,9 @@
+{
+  "chunk_id": "audit-results-002-b84e822790bc",
+  "kb": "juniper",
+  "source_path": "source-material/AUDIT-RESULTS.md",
+  "source_title": "AUDIT-RESULTS",
+  "section": "Result",
+  "sha256": "b84e822790bcff90f76ba0ada7f3b41fa26d3c6ff4d1f7b5e85cb3d68cf41772",
+  "content": "# Result\n\nThe package is suitable as a documentation-checked knowledge-base baseline, subject to the limitations below.\n\nNo content is being represented as live-device-verified.\n\nThe actual SRX320 Junos release remains unknown until serial or network access to the device is available."
+}

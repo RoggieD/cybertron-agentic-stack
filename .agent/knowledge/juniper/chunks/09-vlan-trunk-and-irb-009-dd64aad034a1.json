@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-vlan-trunk-and-irb-009-dd64aad034a1",
+  "kb": "juniper",
+  "source_path": "examples/09-vlan-trunk-and-irb.md",
+  "source_title": "09-vlan-trunk-and-irb",
+  "section": "DHCP Considerations / DNS Considerations",
+  "sha256": "dd64aad034a16c243d2295ee660e0b5ed3d45c638acff8f229b29fa4fda9a4e2",
+  "content": "# DHCP Considerations / DNS Considerations\n\nDHCP may be provided by:\n\n- SRX\n- Windows Server\n- Dedicated DHCP server\n- Another network service\n\nIf DHCP server resides on another subnet, relay may be required.\n\nDo not assume the SRX itself should provide DHCP.\n\n---\n\nEach VLAN may use:\n\n- Internal DNS\n- Public DNS\n- Dedicated DNS policy\n\nGuest networks may intentionally use different resolvers than trusted networks.\n\nDNS design should align with segmentation goals.\n\n---"
+}

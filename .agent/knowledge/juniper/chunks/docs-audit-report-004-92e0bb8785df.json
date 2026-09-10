@@ -1,0 +1,9 @@
+{
+  "chunk_id": "docs-audit-report-004-92e0bb8785df",
+  "kb": "juniper",
+  "source_path": "source-material/docs-audit-report.txt",
+  "source_title": "docs-audit-report",
+  "section": "Document \u2014 Part 4",
+  "sha256": "92e0bb8785df6ce384c8c38cfd328315f5d82381291f04f65843154c06beb32e",
+  "content": "# Document \u2014 Part 4\n\n==============================================================================\n02-security-zones-and-policies.md\n==============================================================================\n   5 [SECURITY POLICY] This document explains Junos security zones and inter-zone security policies on the Juniper SRX320.\n  32 [SECURITY POLICY] A routed interface normally participates in security policy processing through zone membership.\n  44 [SECURITY POLICY] - Security policy\n  47 [SECURITY POLICY] - Host-inbound settings\n  52 [SECURITY POLICY] ## Host-Inbound Traffic\n  65 [SECURITY POLICY] Host-inbound services are configured at the security zone or interface level.\n  74 [SECURITY POLICY] host-inbound-traffic {\n 232 [SECURITY POLICY] - Prevent inter-zone access\n 252 [SECURITY POLICY] Security policy must still permit transit traffic where required.\n 258 [SECURITY POLICY] Traffic between interfaces in the same security zone may be governed differently from inter-zone traffic.\n 313 [JUNOS COMMAND] show security zones\n 315 [JUNOS COMMAND] show security policies\n 317 [JUNOS COMMAND] show security policies detail\n 319 [JUNOS COMMAND] show security match-policies\n 319 [SECURITY POLICY] show security match-policies\n 321 [JUNOS COMMAND] show security flow session\n 323 [JUNOS COMMAND] show security flow session source-prefix <address>\n 325 [JUNOS COMMAND] show security flow session destination-prefix <address>\n 327 [JUNOS COMMAND] show log messages\n 329 [VERSION-SENSITIVE] Exact command availability may vary by Junos version.\n 384 [SECURITY POLICY] - Distinguish host-inbound traffic from transit traffic."
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-system-management-and-monitoring-005-eefe92a7c877",
+  "kb": "juniper",
+  "source_path": "docs/05-system-management-and-monitoring.md",
+  "source_title": "05-system-management-and-monitoring",
+  "section": "HTTPS Management",
+  "sha256": "eefe92a7c877d9e5b95109039a12fe686c80bff4c0be99f4fe6a8b32a50ef96e",
+  "content": "# HTTPS Management\n\nHTTPS may be used for browser-based administration when supported and enabled.\n\nManagement HTTPS should:\n\n- Use trusted administrative networks\n- Use TLS\n- Avoid public exposure when unnecessary\n- Use appropriate authentication\n- Be disabled if not operationally required\n\n---"
+}

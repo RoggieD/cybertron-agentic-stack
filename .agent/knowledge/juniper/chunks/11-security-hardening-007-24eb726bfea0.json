@@ -1,0 +1,9 @@
+{
+  "chunk_id": "11-security-hardening-007-24eb726bfea0",
+  "kb": "juniper",
+  "source_path": "docs/11-security-hardening.md",
+  "source_title": "11-security-hardening",
+  "section": "Authentication / Host-Inbound Services",
+  "sha256": "24eb726bfea032e386dab2d51c76bc10cc02b128f248e8bdbd77e10092b1e9b4",
+  "content": "# Authentication / Host-Inbound Services\n\nWhere supported and appropriate, authentication may use:\n\n- Local credentials\n- SSH keys\n- Centralized authentication\n- RADIUS\n- TACACS+\n\nDo not depend on an external authentication service without retaining a recovery path.\n\n---\n\nHost-inbound traffic determines which services can reach the SRX itself.\n\nOnly enable services that are operationally required.\n\nExamples include:\n\n- ssh\n- https\n- ping\n- snmp\n\nReview host-inbound configuration on each security zone and interface.\n\nDo not enable all services broadly.\n\n---"
+}

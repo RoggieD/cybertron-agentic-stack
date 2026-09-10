@@ -1,0 +1,9 @@
+{
+  "chunk_id": "15-upgrades-firmware-and-lifecycle-020-dd450b2f8cc6",
+  "kb": "juniper",
+  "source_path": "docs/15-upgrades-firmware-and-lifecycle.md",
+  "source_title": "15-upgrades-firmware-and-lifecycle",
+  "section": "Hardware Replacement Planning",
+  "sha256": "dd450b2f8cc6f39a803934dd2effb00ef55a9bd4284eb46149fbb85c2cf30c0d",
+  "content": "# Hardware Replacement Planning\n\nReplacement should be considered when:\n\n- Platform support ends\n- Required Junos releases are unsupported\n- Performance is insufficient\n- Security requirements exceed platform capability\n- Hardware reliability declines\n- Required features are unavailable\n\nReplacement should be planned, not triggered only by failure.\n\n---"
+}

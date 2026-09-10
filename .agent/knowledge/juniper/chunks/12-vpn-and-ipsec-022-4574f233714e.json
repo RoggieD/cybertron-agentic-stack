@@ -1,0 +1,9 @@
+{
+  "chunk_id": "12-vpn-and-ipsec-022-4574f233714e",
+  "kb": "juniper",
+  "source_path": "docs/12-vpn-and-ipsec.md",
+  "source_title": "12-vpn-and-ipsec",
+  "section": "AI Guidance",
+  "sha256": "4574f233714e0d90d373cff8f9d1639308afa13d16b5547c944fb09d2182bb03",
+  "content": "# AI Guidance\n\nWhen using this document:\n\n- Never request or expose VPN secrets unnecessarily.\n- Do not assume tunnel establishment means traffic works.\n- Verify IKE and IPsec separately.\n- Verify routing separately.\n- Verify security policy separately.\n- Verify NAT separately.\n- Do not invent peer settings.\n- Treat ScreenOS VPN migration as functional translation, not syntax conversion.\n- Prefer live operational output when troubleshooting.\n\n---"
+}

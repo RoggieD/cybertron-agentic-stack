@@ -1,0 +1,9 @@
+{
+  "chunk_id": "authoritative-sources-005-36e667cb2fa1",
+  "kb": "juniper",
+  "source_path": "source-material/authoritative-sources.md",
+  "source_title": "authoritative-sources",
+  "section": "Junos NAT Documentation / Junos Security Policy Documentation",
+  "sha256": "36e667cb2fa1dec88bb14c4470b4210324f8392a2acc520e0a8951394b6fe140",
+  "content": "# Junos NAT Documentation / Junos Security Policy Documentation\n\nPrimary Topics:\n\n- Source NAT\n- Destination NAT\n- Static NAT\n- NAT pools\n- Rule sets\n- Proxy ARP\n- NAT processing behavior\n- NAT operational commands\n\nAuthority:\n\nJuniper Networks Junos OS NAT documentation\n\n---\n\nPrimary Topics:\n\n- Security zones\n- Inter-zone policies\n- Policy matching\n- Applications\n- Permit and deny behavior\n- Policy logging\n- Policy lookup\n- Translated destination behavior\n\nAuthority:\n\nJuniper Networks Junos OS security policy documentation\n\n---"
+}

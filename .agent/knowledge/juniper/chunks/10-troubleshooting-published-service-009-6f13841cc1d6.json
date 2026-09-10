@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-troubleshooting-published-service-009-6f13841cc1d6",
+  "kb": "juniper",
+  "source_path": "examples/10-troubleshooting-published-service.md",
+  "source_title": "10-troubleshooting-published-service",
+  "section": "Step 11 \u2014 Understand Translated Destination",
+  "sha256": "6f13841cc1d68f7c05878f182c6ce673c8f374740f36fb7e1ca342d86ecd1aa0",
+  "content": "# Step 11 \u2014 Understand Translated Destination\n\nFor destination NAT traffic, security policy evaluation must account for the translated internal destination according to Junos processing behavior.\n\nVerify that the policy destination object represents the correct internal server or subnet.\n\nDo not blindly match the public address in the security policy.\n\n---"
+}

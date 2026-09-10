@@ -1,0 +1,9 @@
+{
+  "chunk_id": "11-security-hardening-017-6859e286ca58",
+  "kb": "juniper",
+  "source_path": "docs/11-security-hardening.md",
+  "source_title": "11-security-hardening",
+  "section": "Console Security / Firewall Filters",
+  "sha256": "6859e286ca582d93dd4ab7cef959204f2fa5895b8042dbadda9b4e53a9f665bd",
+  "content": "# Console Security / Firewall Filters\n\nPhysical console access provides powerful administrative control.\n\nProtect physical access to:\n\n- Firewall\n- Console cable\n- Serial servers\n- Rack\n- Network equipment\n\nPhysical access should be considered part of the security model.\n\n---\n\nFirewall filters may provide additional control over traffic destined to the device or specific interfaces.\n\nUse filters carefully.\n\nIncorrect filters may cause management lockout or unintended traffic disruption.\n\nUse rollback and commit confirmed where lockout is possible.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "11-security-hardening-022-18162ffbc0ea",
+  "kb": "juniper",
+  "source_path": "docs/11-security-hardening.md",
+  "source_title": "11-security-hardening",
+  "section": "Public Release Guidance",
+  "sha256": "18162ffbc0ea33a8ea8d589fcd9895d128dcf9e57cce02066a1c9f5374324965",
+  "content": "# Public Release Guidance\n\nBefore publishing security examples:\n\n- Remove real IP addresses\n- Remove usernames\n- Remove SSH keys\n- Remove authentication details\n- Remove SNMP credentials\n- Remove internal hostnames\n- Remove VPN peer information\n- Remove public service mappings\n- Replace sensitive values with documentation examples\n\nDo not publish raw production configuration.\n\n---"
+}

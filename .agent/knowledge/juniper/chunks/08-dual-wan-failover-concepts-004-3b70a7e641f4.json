@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-dual-wan-failover-concepts-004-3b70a7e641f4",
+  "kb": "juniper",
+  "source_path": "examples/08-dual-wan-failover-concepts.md",
+  "source_title": "08-dual-wan-failover-concepts",
+  "section": "Basic Route Preference",
+  "sha256": "3b70a7e641f478d67d0186b5f563af2bd98b8c0e6f261f6f4a952a649c636f4b",
+  "content": "# Basic Route Preference\n\nOne design uses two default routes with different preferences.\n\nConceptually:\n\nPrimary route:\n\n0.0.0.0/0 via 198.51.100.1\n\nBackup route:\n\n0.0.0.0/0 via 203.0.113.1\n\nThe primary route should be preferred while healthy.\n\nThe backup route should become active when the primary route is unavailable.\n\nDo not assume that interface-down detection alone is sufficient.\n\n---"
+}

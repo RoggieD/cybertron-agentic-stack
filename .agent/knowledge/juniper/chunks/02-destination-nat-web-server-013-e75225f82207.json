@@ -1,0 +1,9 @@
+{
+  "chunk_id": "02-destination-nat-web-server-013-e75225f82207",
+  "kb": "juniper",
+  "source_path": "examples/02-destination-nat-web-server.md",
+  "source_title": "02-destination-nat-web-server",
+  "section": "Return Path",
+  "sha256": "e75225f8220787a8280b2ae3798d4be2d95b6174b3e6bcc37ab9be8dcd141fdd",
+  "content": "# Return Path\n\nThe web server must return traffic through a path compatible with the SRX session.\n\nIf the server uses another gateway, asymmetric routing may occur.\n\nSymptoms may include:\n\n- SYN reaches server but connection fails\n- One-way traffic\n- Incomplete TCP handshake\n- Session timeouts\n\n---"
+}

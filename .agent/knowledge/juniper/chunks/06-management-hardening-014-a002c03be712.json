@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-management-hardening-014-a002c03be712",
+  "kb": "juniper",
+  "source_path": "examples/06-management-hardening.md",
+  "source_title": "06-management-hardening",
+  "section": "Management Troubleshooting",
+  "sha256": "a002c03be7120c3ec1444deb03c9cf885363726a3d79f2e9ce48e425c445d3c2",
+  "content": "# Management Troubleshooting\n\nIf SSH fails, verify:\n\n1. Physical interface state\n2. Logical interface state\n3. SRX management IP\n4. Source host IP\n5. Routing\n6. Trusted zone assignment\n7. Host-inbound SSH permission\n8. SSH system service\n9. Authentication\n10. Logs\n11. Return path\n\nDo not immediately broaden access.\n\nIdentify the actual failure first.\n\n---"
+}

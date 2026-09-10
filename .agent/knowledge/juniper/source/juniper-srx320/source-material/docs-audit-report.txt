@@ -1,0 +1,703 @@
+==============================================================================
+00-overview.md
+==============================================================================
+  36 [SECURITY POLICY] - Security policy enforcement
+  39 [SWITCHING] - VLAN and interface management
+  40 [VPN] - VPN services
+ 214 [SECURITY POLICY] Security policy evaluation can also apply to traffic between interfaces assigned to the same zone.
+ 216 [SECURITY POLICY] Factory-default policies and explicitly configured intrazone policies may affect same-zone behavior, so do not assume that traffic within a zone is automatically permitted.
+ 248 [NAT] - Source NAT
+ 249 [NAT] - Destination NAT
+ 250 [NAT] - Static NAT
+ 252 [NAT] ### Source NAT
+ 258 [NAT] ### Destination NAT
+ 264 [NAT] ### Static NAT
+ 268 [NAT] Static NAT may be used when an internal system must consistently map to a public address.
+ 283 [SECURITY POLICY] Routing and security policy are separate concepts.
+ 287 [SECURITY POLICY] A security policy does not create a route.
+ 311 [SWITCHING] - VLAN membership
+ 330 [NAT] 3. Static NAT evaluation
+ 331 [NAT] 4. Destination NAT evaluation
+ 333 [SECURITY POLICY] 6. Security policy lookup
+ 334 [NAT] 7. Reverse static NAT processing where applicable
+ 335 [NAT] 8. Source NAT evaluation
+ 341 [NAT] Static NAT and destination NAT are evaluated before route and security policy lookup, while source NAT is evaluated after route and security policy lookup.
+ 341 [SECURITY POLICY] Static NAT and destination NAT are evaluated before route and security policy lookup, while source NAT is evaluated after route and security policy lookup.
+
+==============================================================================
+01-hardware-and-interfaces.md
+==============================================================================
+  18 [VPN] - VPN services
+  19 [SWITCHING] - Interface and VLAN segmentation
+  20 [SECURITY POLICY] - Security policy enforcement
+  28 [VPN] - VPN gateway
+  85 [SWITCHING] - VLAN identifiers where applicable
+  90 [SWITCHING] VLAN tagging behavior may involve physical-interface and logical-unit configuration depending on the interface design and Junos feature being used.
+ 144 [VERSION-SENSITIVE] SRX interfaces may be configured for Ethernet switching depending on Junos version and platform configuration.
+ 148 [SWITCHING] family ethernet-switching
+ 153 [SWITCHING] - VLAN membership
+ 164 [SWITCHING] A VLAN configuration may include:
+ 166 [SWITCHING] - VLAN name
+ 167 [SWITCHING] - VLAN ID
+ 169 [SWITCHING] - Routed VLAN interface
+ 172 [SWITCHING] Do not assume a VLAN is routed simply because it exists.
+ 207 [JUNOS COMMAND] show interfaces terse
+ 209 [JUNOS COMMAND] show interfaces
+ 211 [JUNOS COMMAND] show interfaces extensive
+ 213 [JUNOS COMMAND] show interfaces ge-0/0/0
+ 235 [SWITCHING] 5. VLAN membership
+ 238 [SECURITY POLICY] 8. Security policy
+ 262 [SECURITY POLICY] ## Host-Inbound and Management Access
+ 264 [SECURITY POLICY] Traffic destined to the SRX itself may be permitted selectively on security zones or specific interfaces using host-inbound configuration.
+ 266 [SECURITY POLICY] Examples of supported host-inbound system services include:
+ 277 [SECURITY POLICY] Other host-inbound services, such as DHCP or DNS, may serve operational functions and should not automatically be treated as management services.
+ 279 [SECURITY POLICY] Only required host-inbound services should be enabled.
+ 281 [SECURITY POLICY] Internet-facing interfaces should use restrictive host-inbound access.
+ 292 [VPN] - VPN endpoints
+ 327 [SWITCHING] - VLAN trunks
+ 341 [JUNOS COMMAND] show interfaces terse
+ 343 [JUNOS COMMAND] show configuration interfaces
+ 345 [JUNOS COMMAND] show configuration security zones
+ 347 [JUNOS COMMAND] show route
+ 349 [JUNOS COMMAND] show ethernet-switching table
+ 349 [SWITCHING] show ethernet-switching table
+ 351 [VERSION-SENSITIVE] Availability and output may vary depending on Junos version and interface mode.
+
+==============================================================================
+02-security-zones-and-policies.md
+==============================================================================
+   5 [SECURITY POLICY] This document explains Junos security zones and inter-zone security policies on the Juniper SRX320.
+  32 [SECURITY POLICY] A routed interface normally participates in security policy processing through zone membership.
+  44 [SECURITY POLICY] - Security policy
+  47 [SECURITY POLICY] - Host-inbound settings
+  52 [SECURITY POLICY] ## Host-Inbound Traffic
+  65 [SECURITY POLICY] Host-inbound services are configured at the security zone or interface level.
+  74 [SECURITY POLICY] host-inbound-traffic {
+ 232 [SECURITY POLICY] - Prevent inter-zone access
+ 252 [SECURITY POLICY] Security policy must still permit transit traffic where required.
+ 258 [SECURITY POLICY] Traffic between interfaces in the same security zone may be governed differently from inter-zone traffic.
+ 313 [JUNOS COMMAND] show security zones
+ 315 [JUNOS COMMAND] show security policies
+ 317 [JUNOS COMMAND] show security policies detail
+ 319 [JUNOS COMMAND] show security match-policies
+ 319 [SECURITY POLICY] show security match-policies
+ 321 [JUNOS COMMAND] show security flow session
+ 323 [JUNOS COMMAND] show security flow session source-prefix <address>
+ 325 [JUNOS COMMAND] show security flow session destination-prefix <address>
+ 327 [JUNOS COMMAND] show log messages
+ 329 [VERSION-SENSITIVE] Exact command availability may vary by Junos version.
+ 384 [SECURITY POLICY] - Distinguish host-inbound traffic from transit traffic.
+
+==============================================================================
+03-nat.md
+==============================================================================
+   9 [NAT] - Source NAT
+  10 [NAT] - Destination NAT
+  11 [NAT] - Static NAT
+  13 [NAT] - NAT rule design
+  26 [NAT] - Source NAT
+  27 [NAT] - Destination NAT
+  28 [NAT] - Static NAT
+  39 [NAT] A NAT rule may be correct while traffic still fails because another required component is incorrect.
+  43 [NAT] ## Source NAT
+  45 [NAT] Source NAT changes the source address of traffic.
+  49 [NAT] Source NAT is commonly applied to traffic moving from:
+  55 [NAT] Common source NAT approaches include:
+  57 [NAT] - Interface source NAT
+  58 [NAT] - Source NAT pool
+  59 [NAT] - Source NAT with specific public addresses
+  63 [NAT] ## Interface Source NAT
+  65 [NAT] Interface source NAT uses the IP address assigned to the egress interface.
+  98 [NAT] ## Source NAT Pools
+ 100 [NAT] A source NAT pool allows traffic to use one or more explicitly defined translated addresses.
+ 126 [NAT] ## Destination NAT
+ 128 [NAT] Destination NAT changes the destination address of incoming traffic.
+ 138 [NAT] Destination NAT commonly applies before the traffic is evaluated against the final internal destination.
+ 142 [NAT] ## Destination NAT Pools
+ 144 [NAT] Destination NAT commonly uses a destination NAT pool that identifies the internal translated destination.
+ 162 [NAT] ## Destination NAT Rule Sets
+ 164 [NAT] A destination NAT rule set may match:
+ 176 [NAT] - Destination NAT pool
+ 210 [NAT] ## Static NAT
+ 212 [NAT] Static NAT provides a fixed one-to-one mapping between addresses.
+ 220 [NAT] Static NAT behaves differently from simple destination NAT and should not be treated as identical.
+ 224 [NAT] ## NAT Rule Matching
+ 226 [NAT] NAT rule matching may depend on:
+ 236 [NAT] Rule order matters within applicable NAT rule sets.
+ 244 [SECURITY POLICY] NAT and security policy are separate functions.
+ 246 [NAT] A valid NAT rule does not automatically permit traffic.
+ 248 [SECURITY POLICY] A valid security policy does not automatically create NAT.
+ 250 [NAT] For inbound destination NAT traffic, policy evaluation must be understood in relation to the translated destination.
+ 252 [SECURITY POLICY] When troubleshooting, verify the exact address objects used by the applicable security policy.
+ 274 [NAT] NAT rule sets may use:
+ 288 [NAT] Port forwarding is commonly implemented with destination NAT.
+ 299 [SECURITY POLICY] - Security policy
+ 302 [NAT] Do not document only the NAT rule.
+ 312 [NAT] - Static NAT
+ 313 [NAT] - Destination NAT
+ 314 [NAT] - Source NAT pools
+ 336 [NAT] 4. NAT rule-set scope
+ 337 [NAT] 5. NAT rule order
+ 343 [SECURITY POLICY] 11. Security policy
+ 355 [JUNOS COMMAND] show configuration security nat
+ 357 [JUNOS COMMAND] show configuration security nat source
+ 359 [JUNOS COMMAND] show configuration security nat destination
+ 361 [JUNOS COMMAND] show configuration security nat static
+ 363 [JUNOS COMMAND] show security nat source rule all
+ 365 [JUNOS COMMAND] show security nat destination rule all
+ 367 [JUNOS COMMAND] show security nat static rule all
+ 369 [JUNOS COMMAND] show security flow session
+ 371 [JUNOS COMMAND] show security flow session source-prefix <address>
+ 373 [JUNOS COMMAND] show security flow session destination-prefix <address>
+ 375 [JUNOS COMMAND] show route
+ 377 [VERSION-SENSITIVE] Exact command syntax and availability may vary by Junos version.
+ 396 [SECURITY POLICY] - Related security policy
+ 441 [SECURITY POLICY] - Verify associated security policy.
+
+==============================================================================
+04-routing.md
+==============================================================================
+  15 [SECURITY POLICY] - Interaction between routing, security policy, and NAT
+  31 [SECURITY POLICY] - A valid route but no permitting security policy
+  32 [SECURITY POLICY] - A valid security policy but no usable route
+ 198 [JUNOS COMMAND] show route
+ 200 [JUNOS COMMAND] show route detail
+ 202 [JUNOS COMMAND] show route terse
+ 204 [JUNOS COMMAND] show route protocol static
+ 206 [JUNOS COMMAND] show route 0.0.0.0/0
+ 208 [JUNOS COMMAND] show route <destination>
+ 210 [JUNOS COMMAND] show route forwarding-table
+ 212 [JUNOS COMMAND] show interfaces terse
+ 214 [JUNOS COMMAND] show arp
+ 216 [VERSION-SENSITIVE] Exact command syntax and output may vary by Junos version.
+ 244 [SECURITY POLICY] Security policy must still permit the traffic between the applicable source and destination zones.
+ 246 [SECURITY POLICY] Routing does not bypass security policy.
+ 256 [NAT] - Correct source NAT with wrong default route
+ 257 [NAT] - Correct destination NAT with no route to the translated host
+ 258 [NAT] - Correct route with incorrect NAT rule match
+ 290 [SECURITY POLICY] - Security policy enforcement
+ 326 [SECURITY POLICY] 9. Security policy
+ 342 [JUNOS COMMAND] show route <destination>
+ 344 [JUNOS COMMAND] show arp
+ 346 [JUNOS COMMAND] show security flow session
+ 405 [SECURITY POLICY] - Treat routing, NAT, and security policy as separate checks.
+
+==============================================================================
+05-system-management-and-monitoring.md
+==============================================================================
+  59 [SECURITY POLICY] - Security-zone host-inbound settings
+  82 [SECURITY POLICY] ## Host-Inbound Services
+  84 [SECURITY POLICY] Management services destined to the SRX itself are controlled through host-inbound traffic configuration.
+  96 [SECURITY POLICY] Host-inbound services should be enabled only where required.
+ 140 [VPN] - VPN operation
+ 146 [VERSION-SENSITIVE] Verify time using operational commands appropriate to the installed Junos version.
+ 187 [JUNOS COMMAND] show log messages
+ 249 [VPN] - Routing or VPN status where supported
+ 259 [JUNOS COMMAND] show interfaces terse
+ 261 [JUNOS COMMAND] show interfaces
+ 263 [JUNOS COMMAND] show interfaces extensive
+ 265 [JUNOS COMMAND] Monitor for:
+ 281 [JUNOS COMMAND] show system uptime
+ 283 [JUNOS COMMAND] show system processes extensive
+ 285 [JUNOS COMMAND] show system storage
+ 287 [JUNOS COMMAND] show chassis hardware
+ 289 [JUNOS COMMAND] show chassis alarms
+ 291 [JUNOS COMMAND] show system alarms
+ 293 [VERSION-SENSITIVE] Exact command support may vary by Junos version.
+ 303 [JUNOS COMMAND] show system commit
+ 305 [JUNOS COMMAND] show system rollback
+ 364 [JUNOS COMMAND] show version
+ 366 [JUNOS COMMAND] show system software
+ 368 [JUNOS COMMAND] show chassis hardware
+ 383 [SECURITY POLICY] 6. Host-inbound service configuration
+ 391 [SECURITY POLICY] Do not immediately change security policy without confirming whether the traffic is transit traffic or host-inbound traffic.
+ 442 [SECURITY POLICY] - Distinguish host-inbound traffic from transit traffic.
+ 443 [VERSION-SENSITIVE] - Verify Junos version before relying on version-specific commands.
+
+==============================================================================
+06-troubleshooting-methodology.md
+==============================================================================
+  15 [SECURITY POLICY] - Security policy troubleshooting
+  40 [SECURITY POLICY] 8. Verify security policy.
+  61 [NAT] - NAT rule does not appear to match
+  62 [SECURITY POLICY] - Security policy does not appear to match
+  86 [SECURITY POLICY] - Expected security policy
+  96 [JUNOS COMMAND] show interfaces terse
+  98 [JUNOS COMMAND] show interfaces <interface>
+ 100 [JUNOS COMMAND] show interfaces extensive
+ 109 [SWITCHING] - VLAN configuration
+ 134 [JUNOS COMMAND] show route <destination>
+ 136 [JUNOS COMMAND] show route 0.0.0.0/0
+ 138 [JUNOS COMMAND] show route protocol static
+ 140 [JUNOS COMMAND] show route forwarding-table
+ 157 [JUNOS COMMAND] show configuration security zones
+ 159 [JUNOS COMMAND] show security zones
+ 165 [SECURITY POLICY] - Host-inbound settings when traffic terminates on the SRX
+ 175 [JUNOS COMMAND] show configuration security nat
+ 177 [JUNOS COMMAND] show security nat source rule all
+ 179 [JUNOS COMMAND] show security nat destination rule all
+ 181 [JUNOS COMMAND] show security nat static rule all
+ 196 [SECURITY POLICY] ## Step 8 — Verify Security Policy
+ 200 [JUNOS COMMAND] show security policies
+ 202 [JUNOS COMMAND] show security policies detail
+ 204 [JUNOS COMMAND] show security match-policies
+ 204 [SECURITY POLICY] show security match-policies
+ 224 [JUNOS COMMAND] show security flow session
+ 226 [JUNOS COMMAND] show security flow session source-prefix <address>
+ 228 [JUNOS COMMAND] show security flow session destination-prefix <address>
+ 248 [JUNOS COMMAND] show log messages
+ 317 [SWITCHING] - Wrong VLAN
+ 318 [SWITCHING] - Trunk mismatch
+ 336 [SECURITY POLICY] - Incorrect host-inbound configuration
+ 347 [SECURITY POLICY] ### Security Policy
+ 436 [JUNOS COMMAND] commit confirmed is recommended when modifying configuration that could interrupt management connectivity.
+ 443 [SECURITY POLICY] - Host-inbound management
+ 453 [JUNOS COMMAND] Rollback is a recovery mechanism, not a substitute for understanding the problem.
+ 463 [JUNOS COMMAND] show system commit
+ 465 [JUNOS COMMAND] rollback <number>
+ 467 [JUNOS COMMAND] show | compare
+
+==============================================================================
+07-screenos-to-junos-migration.md
+==============================================================================
+  86 [JUNOS COMMAND] set ...
+  88 [JUNOS COMMAND] show | compare
+  90 [JUNOS COMMAND] commit check
+ 108 [JUNOS COMMAND] commit check
+ 110 [JUNOS COMMAND] commit confirmed
+ 114 [JUNOS COMMAND] show | compare
+ 186 [SECURITY POLICY] ## Security Policy Migration
+ 252 [NAT] ## Source NAT Migration
+ 254 [NAT] ScreenOS source NAT behavior may be implemented differently in Junos.
+ 263 [NAT] Junos source NAT is typically configured under:
+ 271 [NAT] ## Destination NAT Migration
+ 284 [SECURITY POLICY] - Related security policy
+ 286 [NAT] Then build equivalent Junos destination NAT and policy configuration.
+ 303 [NAT] - Static NAT
+ 307 [NAT] - Destination NAT
+ 310 [VERSION-SENSITIVE] Verify actual behavior before choosing the Junos implementation.
+ 314 [NAT] ## Static NAT Migration
+ 327 [NAT] Then implement the equivalent Junos static NAT design.
+ 376 [VPN] ## VPN Migration
+ 378 [VPN] VPN configuration requires independent review.
+ 382 [VPN] - VPN type
+ 393 [VPN] Do not assume ScreenOS VPN configuration maps directly to Junos syntax.
+ 423 [NAT] 7. Source NAT rules
+ 424 [NAT] 8. Destination NAT rules
+ 427 [VPN] 11. VPN configuration
+ 494 [NAT] 6. Source NAT
+ 497 [NAT] 9. Destination NAT
+ 499 [NAT] 11. Static NAT
+ 500 [VPN] 12. VPN
+ 545 [JUNOS COMMAND] Rollback should be possible without redesigning the network during the outage.
+ 599 [VPN] - Remove VPN secrets
+
+==============================================================================
+08-production-data-template.md
+==============================================================================
+  89 [SWITCHING] VLAN ID:
+ 127 [NAT] Source NAT Method:
+ 151 [SWITCHING] VLAN:
+ 181 [SWITCHING] VLAN:
+ 207 [SECURITY POLICY] Host-Inbound Services:
+ 249 [NAT] ## Source NAT
+ 251 [NAT] For each source NAT rule, record:
+ 279 [NAT] ## Destination NAT
+ 281 [NAT] For each destination NAT rule, record:
+ 301 [SECURITY POLICY] Related Security Policy:
+ 313 [NAT] ## Static NAT
+ 315 [NAT] For each static NAT mapping, record:
+ 365 [SWITCHING] For each VLAN, record:
+ 367 [SWITCHING] VLAN Name:
+ 369 [SWITCHING] VLAN ID:
+ 423 [VPN] ## VPN
+ 425 [VPN] For each VPN, record:
+ 427 [VPN] VPN Name:
+ 429 [VPN] VPN Type:
+ 473 [NAT] Destination NAT Rule:
+ 475 [SECURITY POLICY] Security Policy:
+ 505 [NAT] Source NAT verified:
+ 511 [SECURITY POLICY] Security policy verified:
+ 513 [NAT] Destination NAT verified:
+ 515 [NAT] Static NAT verified:
+ 523 [VPN] VPN verified:
+ 527 [JUNOS COMMAND] Rollback method confirmed:
+ 569 [JUNOS COMMAND] Rollback Method:
+ 587 [VPN] - VPN peers
+
+==============================================================================
+09-configuration-backup-and-recovery.md
+==============================================================================
+  48 [JUNOS COMMAND] show | compare
+  50 [JUNOS COMMAND] commit check
+  62 [JUNOS COMMAND] commit check
+  81 [JUNOS COMMAND] commit confirmed is useful when a change could interrupt management access.
+  89 [SECURITY POLICY] - Host-inbound services
+ 123 [JUNOS COMMAND] Rollback can restore an earlier candidate configuration.
+ 127 [JUNOS COMMAND] rollback 0
+ 129 [JUNOS COMMAND] rollback 1
+ 131 [JUNOS COMMAND] rollback 2
+ 143 [JUNOS COMMAND] show | compare
+ 157 [JUNOS COMMAND] show system commit
+ 159 [JUNOS COMMAND] Commit history can help identify:
+ 234 [VPN] - VPN configuration if applicable
+ 287 [SECURITY POLICY] - Security policy blocks management
+ 288 [SECURITY POLICY] - Host-inbound configuration is incorrect
+ 339 [VERSION-SENSITIVE] Version-specific procedures should be verified against authoritative Juniper documentation.
+ 352 [VPN] - VPN configuration
+ 371 [VPN] - Remove VPN secrets
+
+==============================================================================
+10-junos-cli-reference.md
+==============================================================================
+  80 [JUNOS COMMAND] Show current configuration:
+  82 [JUNOS COMMAND] show configuration
+  84 [JUNOS COMMAND] Show configuration in set format:
+  86 [JUNOS COMMAND] show configuration | display set
+  88 [JUNOS COMMAND] Show a specific hierarchy:
+  90 [JUNOS COMMAND] show configuration interfaces
+  92 [JUNOS COMMAND] show configuration security
+  94 [JUNOS COMMAND] show configuration routing-options
+ 104 [JUNOS COMMAND] Show differences between candidate and active configuration:
+ 106 [JUNOS COMMAND] show | compare
+ 116 [JUNOS COMMAND] commit check
+ 124 [JUNOS COMMAND] commit confirmed
+ 126 [JUNOS COMMAND] Commit with a message:
+ 128 [JUNOS COMMAND] commit comment "description"
+ 130 [VERSION-SENSITIVE] Exact syntax support may vary by Junos version.
+ 138 [JUNOS COMMAND] show system commit
+ 142 [JUNOS COMMAND] rollback <number>
+ 146 [JUNOS COMMAND] show | compare
+ 158 [JUNOS COMMAND] show interfaces terse
+ 162 [JUNOS COMMAND] show interfaces
+ 164 [JUNOS COMMAND] Show one interface:
+ 166 [JUNOS COMMAND] show interfaces ge-0/0/0
+ 170 [JUNOS COMMAND] show interfaces extensive
+ 172 [JUNOS COMMAND] Show interface configuration:
+ 174 [JUNOS COMMAND] show configuration interfaces
+ 180 [JUNOS COMMAND] Show routing table:
+ 182 [JUNOS COMMAND] show route
+ 184 [JUNOS COMMAND] Show one destination:
+ 186 [JUNOS COMMAND] show route <destination>
+ 188 [JUNOS COMMAND] Show default route:
+ 190 [JUNOS COMMAND] show route 0.0.0.0/0
+ 192 [JUNOS COMMAND] Show static routes:
+ 194 [JUNOS COMMAND] show route protocol static
+ 196 [JUNOS COMMAND] Show forwarding table:
+ 198 [JUNOS COMMAND] show route forwarding-table
+ 200 [JUNOS COMMAND] Show ARP:
+ 202 [JUNOS COMMAND] show arp
+ 208 [JUNOS COMMAND] Show zone configuration:
+ 210 [JUNOS COMMAND] show configuration security zones
+ 214 [JUNOS COMMAND] show security zones
+ 220 [SECURITY POLICY] ## Security Policy Commands
+ 222 [JUNOS COMMAND] Show configured policies:
+ 224 [JUNOS COMMAND] show configuration security policies
+ 228 [JUNOS COMMAND] show security policies
+ 232 [JUNOS COMMAND] show security policies detail
+ 236 [JUNOS COMMAND] show security match-policies
+ 236 [SECURITY POLICY] show security match-policies
+ 242 [JUNOS COMMAND] Show active sessions:
+ 244 [JUNOS COMMAND] show security flow session
+ 248 [JUNOS COMMAND] show security flow session source-prefix <address>
+ 252 [JUNOS COMMAND] show security flow session destination-prefix <address>
+ 266 [JUNOS COMMAND] Show all NAT configuration:
+ 268 [JUNOS COMMAND] show configuration security nat
+ 270 [JUNOS COMMAND] Show source NAT configuration:
+ 270 [NAT] Show source NAT configuration:
+ 272 [JUNOS COMMAND] show configuration security nat source
+ 274 [JUNOS COMMAND] Show destination NAT configuration:
+ 274 [NAT] Show destination NAT configuration:
+ 276 [JUNOS COMMAND] show configuration security nat destination
+ 278 [JUNOS COMMAND] Show static NAT configuration:
+ 278 [NAT] Show static NAT configuration:
+ 280 [JUNOS COMMAND] show configuration security nat static
+ 282 [NAT] Operational source NAT rules:
+ 284 [JUNOS COMMAND] show security nat source rule all
+ 286 [NAT] Operational destination NAT rules:
+ 288 [JUNOS COMMAND] show security nat destination rule all
+ 290 [NAT] Operational static NAT rules:
+ 292 [JUNOS COMMAND] show security nat static rule all
+ 294 [VERSION-SENSITIVE] Exact syntax may vary by Junos version.
+ 300 [JUNOS COMMAND] Show version:
+ 302 [JUNOS COMMAND] show version
+ 304 [JUNOS COMMAND] Show hardware:
+ 306 [JUNOS COMMAND] show chassis hardware
+ 308 [JUNOS COMMAND] Show chassis alarms:
+ 310 [JUNOS COMMAND] show chassis alarms
+ 312 [JUNOS COMMAND] Show system alarms:
+ 314 [JUNOS COMMAND] show system alarms
+ 316 [JUNOS COMMAND] Show uptime:
+ 318 [JUNOS COMMAND] show system uptime
+ 320 [JUNOS COMMAND] Show storage:
+ 322 [JUNOS COMMAND] show system storage
+ 324 [JUNOS COMMAND] Show processes:
+ 326 [JUNOS COMMAND] show system processes extensive
+ 332 [JUNOS COMMAND] Show main system log:
+ 334 [JUNOS COMMAND] show log messages
+ 340 [JUNOS COMMAND] show log ?
+ 366 [JUNOS COMMAND] show configuration | match <pattern>
+ 370 [JUNOS COMMAND] show configuration | display set | match <pattern>
+ 398 [JUNOS COMMAND] show configuration | display set
+ 400 [JUNOS COMMAND] show interfaces terse | match ge-
+ 402 [JUNOS COMMAND] show route | no-more
+ 404 [VERSION-SENSITIVE] Filter availability may vary.
+ 420 [JUNOS COMMAND] edit security policies
+ 436 [JUNOS COMMAND] set <hierarchy>
+ 440 [JUNOS COMMAND] delete <hierarchy>
+ 458 [JUNOS COMMAND] show | compare
+ 476 [VERSION-SENSITIVE] Always verify version-specific behavior.
+ 499 [JUNOS COMMAND] show interfaces terse
+ 501 [JUNOS COMMAND] show route <destination>
+ 503 [JUNOS COMMAND] show configuration security zones
+ 505 [JUNOS COMMAND] show security policies
+ 507 [JUNOS COMMAND] show configuration security nat
+ 509 [JUNOS COMMAND] show security flow session
+ 511 [JUNOS COMMAND] show log messages
+ 540 [VERSION-SENSITIVE] Before relying on a version-specific command, verify:
+ 542 [JUNOS COMMAND] show version
+
+==============================================================================
+11-security-hardening.md
+==============================================================================
+  94 [SECURITY POLICY] - Limited by host-inbound configuration
+ 146 [SECURITY POLICY] ## Host-Inbound Services
+ 148 [SECURITY POLICY] Host-inbound traffic determines which services can reach the SRX itself.
+ 159 [SECURITY POLICY] Review host-inbound configuration on each security zone and interface.
+ 171 [SECURITY POLICY] - Host-inbound services
+ 213 [SECURITY POLICY] - Important security policy matches
+ 222 [NAT] Destination NAT and static NAT may expose internal systems externally.
+ 230 [SECURITY POLICY] - Security policy
+ 249 [VPN] - Unused VPN services
+ 279 [SECURITY POLICY] - Security policy events
+ 399 [VPN] ## VPN Security
+ 401 [VPN] VPN security should consider:
+ 412 [VPN] Do not store VPN secrets in this knowledge base.
+ 427 [SECURITY POLICY] - Unnecessary host-inbound services
+ 428 [VPN] - Unused VPN definitions
+ 439 [SECURITY POLICY] 3. Host-inbound services
+ 482 [VPN] - Remove VPN peer information
+
+==============================================================================
+12-vpn-and-ipsec.md
+==============================================================================
+   1 [VPN] # Juniper SRX320 VPN and IPsec
+   5 [VPN] This document explains VPN and IPsec concepts for the Juniper SRX320 running Junos OS.
+   9 [VPN] - Site-to-site VPN planning
+  12 [VPN] - VPN troubleshooting
+  13 [SECURITY POLICY] - Security policy integration
+  17 [VPN] This document provides platform-level guidance and does not represent a specific production VPN configuration unless explicitly labeled.
+  21 [VPN] ## VPN Overview
+  25 [VPN] Common VPN use cases include:
+  27 [VPN] - Site-to-site VPN
+  33 [VPN] VPN operation depends on multiple components working together.
+  37 [VPN] - IKE
+  38 [VPN] - IPsec
+  48 [VPN] ## IKE
+  50 [VPN] Internet Key Exchange establishes and manages secure keying relationships between VPN peers.
+  52 [VPN] IKE configuration commonly includes:
+  61 [VPN] - IKE version
+  67 [VPN] ## IKE Versions
+  69 [VPN] Common IKE versions include:
+  76 [VPN] Do not assume the remote peer supports the same IKE version.
+  84 [VPN] VPN peers may authenticate using:
+  95 [VPN] ## IPsec
+  97 [VPN] IPsec protects the actual data traffic after successful IKE negotiation.
+  99 [VPN] IPsec configuration may define:
+ 108 [VPN] The exact configuration model depends on VPN type and Junos release.
+ 112 [VPN] ## Route-Based VPN
+ 118 [VPN] st0
+ 122 [VPN] st0.0
+ 124 [VPN] Routing directs traffic into the VPN tunnel.
+ 135 [VPN] ## Policy-Based VPN
+ 137 [VPN] Some legacy environments may use policy-based VPN designs.
+ 139 [VPN] Migration from ScreenOS should identify the actual VPN behavior before choosing an SRX design.
+ 141 [VPN] Do not blindly recreate policy-based VPN behavior if a route-based design is more appropriate.
+ 153 [VPN] - VPN association
+ 161 [VPN] ## VPN Security Zones
+ 163 [VPN] Route-based VPN tunnel interfaces may be assigned to security zones.
+ 165 [VPN] A dedicated VPN zone may be used.
+ 169 [VPN] vpn
+ 183 [VPN] VPN traffic may require security policies between:
+ 185 [VPN] - Internal zone and VPN zone
+ 186 [VPN] - VPN zone and internal zone
+ 187 [VPN] - VPN zone and DMZ
+ 188 [VPN] - VPN zone and other destination zones
+ 203 [VPN] Route-based VPN traffic requires correct routing.
+ 213 [VPN] A VPN may be established while application traffic still fails because routing is incorrect.
+ 217 [VPN] ## NAT and VPN
+ 219 [VPN] NAT can interfere with VPN traffic if not designed correctly.
+ 223 [NAT] - Source NAT exemption
+ 224 [NAT] - Destination NAT interaction
+ 229 [VPN] Do not assume VPN traffic should be NATed.
+ 237 [VPN] NAT traversal may be required when one or both VPN peers are behind NAT.
+ 247 [VPN] Traffic selectors define which traffic should be protected by IPsec.
+ 256 [VPN] Selector mismatch can prevent VPN negotiation or traffic forwarding.
+ 262 [VPN] Legacy VPN configurations may use proxy IDs.
+ 271 [VPN] Then determine the appropriate Junos traffic selector or VPN configuration.
+ 289 [VPN] Perfect Forward Secrecy may be used for IPsec key negotiation.
+ 291 [VPN] PFS configuration should match the remote peer.
+ 293 [VPN] A mismatch may prevent successful IPsec negotiation.
+ 297 [VPN] ## VPN Monitoring
+ 299 [VPN] VPN monitoring may include:
+ 301 [VPN] - IKE status
+ 302 [VPN] - IPsec status
+ 313 [VPN] ## Useful VPN Commands
+ 317 [JUNOS COMMAND] show security ike security-associations
+ 317 [VPN] show security ike security-associations
+ 319 [JUNOS COMMAND] show security ike security-associations detail
+ 319 [VPN] show security ike security-associations detail
+ 321 [JUNOS COMMAND] show security ipsec security-associations
+ 321 [VPN] show security ipsec security-associations
+ 323 [JUNOS COMMAND] show security ipsec security-associations detail
+ 323 [VPN] show security ipsec security-associations detail
+ 325 [JUNOS COMMAND] show interfaces st0 terse
+ 325 [VPN] show interfaces st0 terse
+ 327 [JUNOS COMMAND] show security flow session
+ 329 [JUNOS COMMAND] show route
+ 331 [VERSION-SENSITIVE] Exact syntax and output may vary by Junos version.
+ 335 [VPN] ## VPN Troubleshooting
+ 337 [VPN] When a VPN fails, separate the problem into stages.
+ 348 [VPN] ### Stage 2 — IKE Negotiation
+ 352 [VPN] - IKE version
+ 359 [VPN] ### Stage 3 — IPsec Negotiation
+ 363 [VPN] - IPsec proposal
+ 364 [VPN] - PFS
+ 378 [SECURITY POLICY] ### Stage 5 — Security Policy
+ 393 [NAT] - Source NAT
+ 394 [NAT] - Destination NAT
+ 405 [VPN] ## Common VPN Failure Causes
+ 411 [VPN] - IKE version mismatch
+ 415 [VPN] - PFS mismatch
+ 416 [VPN] - Traffic selector mismatch
+ 418 [SECURITY POLICY] - Wrong security policy
+ 427 [VPN] When migrating a ScreenOS VPN, inventory:
+ 429 [VPN] - Legacy VPN name
+ 432 [VPN] - IKE settings
+ 433 [VPN] - IPsec settings
+ 442 [VPN] Translate the VPN design, not the literal commands.
+ 446 [VPN] ## Production VPN Documentation
+ 448 [VPN] For each production VPN, record:
+ 450 [VPN] VPN Name:
+ 452 [VPN] VPN Type:
+ 456 [VPN] IKE Version:
+ 498 [VPN] A tunnel should not be marked verified merely because IKE or IPsec is established.
+ 506 [VPN] Before publishing VPN examples:
+ 524 [VPN] - Never request or expose VPN secrets unnecessarily.
+ 526 [VPN] - Verify IKE and IPsec separately.
+ 528 [SECURITY POLICY] - Verify security policy separately.
+ 531 [VPN] - Treat ScreenOS VPN migration as functional translation, not syntax conversion.
+ 538 [VPN] Document Type: VPN and IPsec
+
+==============================================================================
+13-logging-snmp-and-zabbix.md
+==============================================================================
+  57 [VPN] - VPN status
+  79 [SECURITY POLICY] - Security policy
+ 125 [SECURITY POLICY] - Security-zone host-inbound settings
+ 151 [SECURITY POLICY] ## Host-Inbound SNMP
+ 153 [SECURITY POLICY] SNMP traffic destined to the SRX itself may require host-inbound permission on the appropriate security zone or interface.
+ 160 [SECURITY POLICY] 4. Host-inbound SNMP permission
+ 172 [JUNOS COMMAND] show configuration snmp
+ 174 [JUNOS COMMAND] show configuration security zones
+ 176 [JUNOS COMMAND] show interfaces terse
+ 178 [JUNOS COMMAND] show system uptime
+ 180 [VERSION-SENSITIVE] Exact command availability may vary by Junos version.
+ 210 [SECURITY POLICY] - Security policy events
+ 212 [VPN] - VPN events
+ 217 [SECURITY POLICY] ## Security Policy Logging
+ 236 [JUNOS COMMAND] show log messages
+ 238 [JUNOS COMMAND] show log <filename>
+ 240 [JUNOS COMMAND] show log ?
+ 252 [JUNOS COMMAND] show system commit
+ 319 [JUNOS COMMAND] Monitor important interfaces for:
+ 331 [VPN] WAN, LAN, DMZ, VPN, and trunk interfaces should be prioritized.
+ 331 [SWITCHING] WAN, LAN, DMZ, VPN, and trunk interfaces should be prioritized.
+ 394 [JUNOS COMMAND] Monitor memory trends rather than relying only on a single threshold.
+ 426 [JUNOS COMMAND] show chassis alarms
+ 428 [JUNOS COMMAND] show system alarms
+ 439 [VPN] ## VPN Monitoring
+ 443 [VPN] - IKE state
+ 444 [VPN] - IPsec state
+ 463 [VPN] - VPN routes
+ 478 [VPN] - VPN
+ 483 [NAT] - Destination NAT problems
+ 498 [SECURITY POLICY] 5. Verify host-inbound SNMP permission.
+ 511 [JUNOS COMMAND] show interfaces terse
+ 513 [JUNOS COMMAND] show interfaces extensive
+ 515 [JUNOS COMMAND] show system uptime
+ 517 [JUNOS COMMAND] show chassis alarms
+ 519 [JUNOS COMMAND] show system alarms
+ 521 [JUNOS COMMAND] show system processes extensive
+ 523 [JUNOS COMMAND] show system storage
+ 525 [JUNOS COMMAND] show configuration snmp
+ 527 [JUNOS COMMAND] show configuration system syslog
+ 529 [JUNOS COMMAND] show system commit
+ 531 [VERSION-SENSITIVE] Exact support and syntax may vary by Junos version.
+ 547 [VPN] - VPN monitoring
+ 591 [SECURITY POLICY] - Verify host-inbound configuration.
+ 596 [VERSION-SENSITIVE] - Verify Junos version before relying on version-specific OIDs or behavior.
+
+==============================================================================
+14-ha-clustering-and-redundancy.md
+==============================================================================
+ 145 [SWITCHING] - VLAN
+ 165 [SWITCHING] - VLAN consistency
+ 258 [SECURITY POLICY] Security policy should remain logically consistent across cluster nodes.
+
+==============================================================================
+15-upgrades-firmware-and-lifecycle.md
+==============================================================================
+  61 [JUNOS COMMAND] show version
+  63 [JUNOS COMMAND] show system software
+  65 [JUNOS COMMAND] show chassis hardware
+ 102 [VERSION-SENSITIVE] Version-specific changes may affect existing configuration.
+ 153 [JUNOS COMMAND] show system storage
+ 221 [VERSION-SENSITIVE] Use authoritative version-specific Juniper documentation for exact upgrade commands.
+ 267 [JUNOS COMMAND] show version
+ 269 [JUNOS COMMAND] show chassis alarms
+ 271 [JUNOS COMMAND] show system alarms
+ 273 [JUNOS COMMAND] show interfaces terse
+ 275 [JUNOS COMMAND] show route
+ 277 [JUNOS COMMAND] show security policies
+ 279 [JUNOS COMMAND] show configuration security nat
+ 281 [JUNOS COMMAND] show security flow session
+ 283 [JUNOS COMMAND] show system uptime
+ 285 [VERSION-SENSITIVE] Exact syntax may vary by Junos release.
+ 308 [JUNOS COMMAND] Rollback planning should identify:
+ 316 [JUNOS COMMAND] Rollback should begin when defined failure criteria are met.
+ 330 [VPN] - VPN failure
+ 433 [JUNOS COMMAND] Rollback Required:
+ 485 [VERSION-SENSITIVE] - Use authoritative Juniper documentation for version-specific installation commands.
+
+==============================================================================
+16-performance-capacity-and-sizing.md
+==============================================================================
+  14 [VPN] - VPN sizing
+  32 [VPN] - VPN encryption
+  50 [VPN] - IPsec VPN throughput
+  76 [VPN] - VPN traffic
+ 154 [VPN] - VPN activity
+ 200 [VPN] ## VPN Performance
+ 202 [VPN] VPN traffic adds encryption and decryption workload.
+ 204 [VPN] VPN performance depends on:
+ 215 [VPN] Do not assume plain firewall throughput equals VPN throughput.
+ 271 [VPN] - VPN traffic
+ 311 [VPN] - VPN traffic
+ 347 [VPN] - VPN peer
+ 358 [JUNOS COMMAND] show interfaces terse
+ 360 [JUNOS COMMAND] show interfaces extensive
+ 362 [JUNOS COMMAND] show system processes extensive
+ 364 [JUNOS COMMAND] show system uptime
+ 366 [JUNOS COMMAND] show security flow session summary
+ 368 [JUNOS COMMAND] show security flow session
+ 370 [JUNOS COMMAND] show system storage
+ 372 [JUNOS COMMAND] show chassis alarms
+ 374 [JUNOS COMMAND] show system alarms
+ 376 [VERSION-SENSITIVE] Exact commands and available metrics may vary by Junos version.
+ 393 [VPN] 10. VPN load
+ 425 [VPN] VPN Throughput:
+ 449 [VPN] - VPN requirements exceed platform performance
+ 478 [VPN] - Evaluate packet rate, sessions, VPN, and logging separately.
+ 482 [VERSION-SENSITIVE] - Verify Junos version and enabled features.
+

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "13-logging-snmp-and-zabbix-013-01cb2a95168f",
+  "kb": "juniper",
+  "source_path": "docs/13-logging-snmp-and-zabbix.md",
+  "source_title": "13-logging-snmp-and-zabbix",
+  "section": "Interface Monitoring",
+  "sha256": "01cb2a95168fc671499e1e6d0ce56de6400241e88b7e0c0d6b80a389fc153a49",
+  "content": "# Interface Monitoring\n\nMonitor important interfaces for:\n\n- Operational status\n- Administrative status\n- Inbound traffic\n- Outbound traffic\n- Errors\n- Discards\n- CRC errors where available\n- Utilization percentage\n- Unexpected link changes\n\nWAN, LAN, DMZ, VPN, and trunk interfaces should be prioritized.\n\n---"
+}

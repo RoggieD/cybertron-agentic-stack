@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-management-hardening-007-949d55c928ae",
+  "kb": "juniper",
+  "source_path": "examples/06-management-hardening.md",
+  "source_title": "06-management-hardening",
+  "section": "SSH Keys / HTTPS Management",
+  "sha256": "949d55c928aed7603d4136300f218732f8397cdfbc45a9dcdf7604bd6e9ae40b",
+  "content": "# SSH Keys / HTTPS Management\n\nWhere appropriate, use SSH public-key authentication.\n\nDo not publish:\n\n- Private keys\n- Production public keys tied to real users\n- Credential material\n\nPublic examples should use placeholders only.\n\n---\n\nIf HTTPS management is required, enable it only on trusted interfaces.\n\nExample concept:\n\nset security zones security-zone trust interfaces ge-0/0/1.0 host-inbound-traffic system-services https\n\nDo not enable HTTPS administration on untrusted interfaces without a specific need.\n\n---"
+}

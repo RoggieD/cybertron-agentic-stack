@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-routing-017-ea4034402db9",
+  "kb": "juniper",
+  "source_path": "docs/04-routing.md",
+  "source_title": "04-routing",
+  "section": "Production Routing Documentation",
+  "sha256": "ea4034402db97903bc1c89fe30672e16095d6e2d92ecbe89dea816ceed51e050",
+  "content": "# Production Routing Documentation\n\nProduction routing records should identify:\n\n- Destination prefix\n- Route type\n- Next hop\n- Outgoing interface\n- Routing instance\n- Preference if relevant\n- Purpose\n- Configuration state\n- Verification date\n\nConfiguration state must be one of:\n\nLEGACY_PRODUCTION\n\nSRX320_TARGET\n\nSRX320_VERIFIED_PRODUCTION\n\n---"
+}

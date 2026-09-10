@@ -1,0 +1,9 @@
+{
+  "chunk_id": "02-destination-nat-web-server-008-c4dad4fb5c98",
+  "kb": "juniper",
+  "source_path": "examples/02-destination-nat-web-server.md",
+  "source_title": "02-destination-nat-web-server",
+  "section": "Verify Destination NAT Configuration / Verify Security Policy",
+  "sha256": "c4dad4fb5c98a47d97289a71b850d6621c3ef1c92cd1d9b9c0102c9db6eb14b8",
+  "content": "# Verify Destination NAT Configuration / Verify Security Policy\n\nReview configuration:\n\nshow configuration security nat destination\n\nReview operational NAT rules:\n\nshow security nat destination rule all\n\n---\n\nReview policy:\n\nshow security policies\n\nFor additional detail:\n\nshow security policies detail\n\nWhere supported, policy matching may also be inspected with:\n\nshow security match-policies\n\n---"
+}

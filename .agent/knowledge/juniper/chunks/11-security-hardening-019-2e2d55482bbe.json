@@ -1,0 +1,9 @@
+{
+  "chunk_id": "11-security-hardening-019-2e2d55482bbe",
+  "kb": "juniper",
+  "source_path": "docs/11-security-hardening.md",
+  "source_title": "11-security-hardening",
+  "section": "VPN Security / Configuration Review",
+  "sha256": "2e2d55482bbe42cf2b0f00552e3c4960450b7145dbffd0cd12d75e4e18dfa987",
+  "content": "# VPN Security / Configuration Review\n\nVPN security should consider:\n\n- Strong authentication\n- Current cryptographic standards\n- Peer restrictions\n- Network scope\n- Key protection\n- Logging\n- Monitoring\n- Rekey behavior\n\nDo not store VPN secrets in this knowledge base.\n\n---\n\nPeriodic configuration review should look for:\n\n- Unused policies\n- Broad permit rules\n- Stale address objects\n- Unused NAT mappings\n- Old administrators\n- Unused services\n- Obsolete routes\n- Unnecessary host-inbound services\n- Unused VPN definitions\n- Unexpected public exposure\n\n---"
+}

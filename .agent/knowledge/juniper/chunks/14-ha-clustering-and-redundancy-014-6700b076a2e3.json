@@ -1,0 +1,9 @@
+{
+  "chunk_id": "14-ha-clustering-and-redundancy-014-6700b076a2e3",
+  "kb": "juniper",
+  "source_path": "docs/14-ha-clustering-and-redundancy.md",
+  "source_title": "14-ha-clustering-and-redundancy",
+  "section": "Routing and HA",
+  "sha256": "6700b076a2e3a77b089e800432429b11c6448606a272d17a16636177526859e4",
+  "content": "# Routing and HA\n\nRouting may participate in failover through:\n\n- Static routing\n- Dynamic routing\n- Redundant interfaces\n- Route tracking\n- Upstream route convergence\n\nRouting recovery time can affect application availability even if the firewall cluster itself fails over correctly.\n\n---"
+}

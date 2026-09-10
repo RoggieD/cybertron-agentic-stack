@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-dmz-segmentation-006-4d770aa029a3",
+  "kb": "juniper",
+  "source_path": "examples/05-dmz-segmentation.md",
+  "source_title": "05-dmz-segmentation",
+  "section": "Configure Default Route / Create DMZ Address Object / Trust to Internet Policy",
+  "sha256": "4d770aa029a369ce7baf1a7592ba3c874c3a06269c187888f85569341421a8e2",
+  "content": "# Configure Default Route / Create DMZ Address Object / Trust to Internet Policy\n\nset routing-options static route 0.0.0.0/0 next-hop 198.51.100.1\n\n---\n\nCreate an address object for the example web server:\n\nset security zones security-zone dmz address-book address DMZ-WEB-SERVER 198.18.0.20/32\n\n---\n\nAllow trusted clients to access the Internet:\n\nset security policies from-zone trust to-zone untrust policy TRUST-INTERNET match source-address any\n\nset security policies from-zone trust to-zone untrust policy TRUST-INTERNET match destination-address any\n\nset security policies from-zone trust to-zone untrust policy TRUST-INTERNET match application any\n\nset security policies from-zone trust to-zone untrust policy TRUST-INTERNET then permit\n\n---"
+}

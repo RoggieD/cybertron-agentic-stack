@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-junos-cli-reference-004-2bc3d30e0b6c",
+  "kb": "juniper",
+  "source_path": "docs/10-junos-cli-reference.md",
+  "source_title": "10-junos-cli-reference",
+  "section": "Candidate Configuration Review / Commit Commands",
+  "sha256": "2bc3d30e0b6cacb71ba7e9d7320d1fa662389a1f6edf8e098108f5ed48d8a2c6",
+  "content": "# Candidate Configuration Review / Commit Commands\n\nIn configuration mode:\n\nshow\n\nShow differences between candidate and active configuration:\n\nshow | compare\n\nThis should be reviewed before commit.\n\n---\n\nValidate without activating:\n\ncommit check\n\nActivate candidate configuration:\n\ncommit\n\nActivate temporarily:\n\ncommit confirmed\n\nCommit with a message:\n\ncommit comment \"description\"\n\nExact syntax support may vary by Junos version.\n\n---"
+}

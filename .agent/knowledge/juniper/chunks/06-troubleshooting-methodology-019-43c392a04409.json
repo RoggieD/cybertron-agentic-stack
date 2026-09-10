@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-troubleshooting-methodology-019-43c392a04409",
+  "kb": "juniper",
+  "source_path": "docs/06-troubleshooting-methodology.md",
+  "source_title": "06-troubleshooting-methodology",
+  "section": "Commit Confirmed",
+  "sha256": "43c392a04409b9bae519811008041afbb21dd739077169f148eefb65fef0a989",
+  "content": "# Commit Confirmed\n\ncommit confirmed is recommended when modifying configuration that could interrupt management connectivity.\n\nExamples include:\n\n- Interface addressing\n- Default route\n- Security zones\n- Host-inbound management\n- Firewall filters\n- Management routing\n\nIf the administrator loses access and cannot confirm the change, Junos can automatically roll back.\n\n---"
+}

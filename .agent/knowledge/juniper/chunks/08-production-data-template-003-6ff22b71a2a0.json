@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-production-data-template-003-6ff22b71a2a0",
+  "kb": "juniper",
+  "source_path": "docs/08-production-data-template.md",
+  "source_title": "08-production-data-template",
+  "section": "WAN Configuration",
+  "sha256": "6ff22b71a2a045620035ff61b1e45c942d6e691a7ecbc6528d54ccdc1ceb4b52",
+  "content": "# WAN Configuration\n\nWAN Interface:\n\nWAN Logical Unit:\n\nWAN IP Address:\n\nWAN Prefix:\n\nUpstream Gateway:\n\nProvider:\n\nConnection Type:\n\nStatic or Dynamic:\n\nPublic Address Block:\n\nDefault Route:\n\nSource NAT Method:\n\nMonitoring Status:\n\nConfiguration State:\n\nVerification Date:\n\nNotes:\n\n---"
+}

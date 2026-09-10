@@ -1,0 +1,9 @@
+{
+  "chunk_id": "16-performance-capacity-and-sizing-008-11b308d78b00",
+  "kb": "juniper",
+  "source_path": "docs/16-performance-capacity-and-sizing.md",
+  "source_title": "16-performance-capacity-and-sizing",
+  "section": "New Sessions Per Second",
+  "sha256": "11b308d78b00da8384148d0e61793ad946bcae5f62e0bc75154f941993858f92",
+  "content": "# New Sessions Per Second\n\nNew session creation rate can affect performance.\n\nHigh session-establishment workloads may occur during:\n\n- Application bursts\n- Large client populations\n- Web traffic spikes\n- Scanning activity\n- DDoS events\n\nA device may have available bandwidth while becoming constrained by session creation rate.\n\n---"
+}

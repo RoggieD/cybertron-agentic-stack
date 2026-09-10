@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-configuration-backup-and-recovery-016-c686e64893ab",
+  "kb": "juniper",
+  "source_path": "docs/09-configuration-backup-and-recovery.md",
+  "source_title": "09-configuration-backup-and-recovery",
+  "section": "Software Recovery",
+  "sha256": "c686e64893ab905644c35b280a1f5617724770a8733039d37204a7252ceb54d3",
+  "content": "# Software Recovery\n\nSoftware-related recovery may require:\n\n- Alternate boot media\n- Junos package recovery\n- Console access\n- Boot loader interaction\n- Installation media\n\nExact recovery procedures depend on hardware and Junos version.\n\nVersion-specific procedures should be verified against authoritative Juniper documentation.\n\n---"
+}

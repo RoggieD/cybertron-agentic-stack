@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-configuration-backup-and-recovery-005-9a9a9f8d6057",
+  "kb": "juniper",
+  "source_path": "docs/09-configuration-backup-and-recovery.md",
+  "source_title": "09-configuration-backup-and-recovery",
+  "section": "Recommended Remote Change Workflow",
+  "sha256": "9a9a9f8d605763d50542e19ff5b8bc26d752078d056d689d2f169f22525de8a7",
+  "content": "# Recommended Remote Change Workflow\n\nFor a potentially disruptive remote change:\n\n1. Verify console or fallback access if possible.\n2. Enter configuration mode.\n3. Make one logical change.\n4. Run show | compare.\n5. Run commit check.\n6. Use commit confirmed.\n7. Verify management access.\n8. Verify affected services.\n9. Confirm the commit.\n10. Record the change.\n\nDo not confirm the commit until validation succeeds.\n\n---"
+}

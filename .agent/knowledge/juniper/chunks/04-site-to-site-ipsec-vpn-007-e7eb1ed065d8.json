@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-site-to-site-ipsec-vpn-007-e7eb1ed065d8",
+  "kb": "juniper",
+  "source_path": "examples/04-site-to-site-ipsec-vpn.md",
+  "source_title": "04-site-to-site-ipsec-vpn",
+  "section": "Configure IPsec Proposal",
+  "sha256": "e7eb1ed065d8825d05fe9451b3cc56554c5cf0bf1c77abc2a12ae32c5c09d8e3",
+  "content": "# Configure IPsec Proposal\n\nCreate an IPsec proposal:\n\nset security ipsec proposal SITE-A-IPSEC-PROPOSAL protocol esp\n\nset security ipsec proposal SITE-A-IPSEC-PROPOSAL authentication-algorithm hmac-sha-256-128\n\nset security ipsec proposal SITE-A-IPSEC-PROPOSAL encryption-algorithm aes-256-cbc\n\nset security ipsec proposal SITE-A-IPSEC-PROPOSAL lifetime-seconds 3600\n\nThese parameters are examples only.\n\nThey must match the remote peer.\n\n---"
+}

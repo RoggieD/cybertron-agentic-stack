@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-system-management-and-monitoring-025-9bcf69fe70f1",
+  "kb": "juniper",
+  "source_path": "docs/05-system-management-and-monitoring.md",
+  "source_title": "05-system-management-and-monitoring",
+  "section": "Document Status",
+  "sha256": "9bcf69fe70f1ea4f1f83816a61771e3a0aa68cb94f1984bc0792d822ef8d697c",
+  "content": "# Document Status\n\nDocument Type: System Management and Monitoring\n\nKnowledge Base: Juniper SRX320 Knowledge Base\n\nVersion: 0.1.0\n\nStatus: Initial Build"
+}

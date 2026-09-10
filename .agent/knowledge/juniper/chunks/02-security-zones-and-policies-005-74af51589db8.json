@@ -1,0 +1,9 @@
+{
+  "chunk_id": "02-security-zones-and-policies-005-74af51589db8",
+  "kb": "juniper",
+  "source_path": "docs/02-security-zones-and-policies.md",
+  "source_title": "02-security-zones-and-policies",
+  "section": "Policy Direction",
+  "sha256": "74af51589db806ab7f51202ad6ffcec1d111791fa893a0ba677d23d3c23d2f43",
+  "content": "# Policy Direction\n\nPolicies are directional.\n\nA policy from:\n\ntrust -> untrust\n\ndoes not automatically create a policy from:\n\nuntrust -> trust\n\nHowever, Junos is stateful.\n\nIf a permitted session is established from trust to untrust, return traffic for that session is normally allowed automatically.\n\n---"
+}

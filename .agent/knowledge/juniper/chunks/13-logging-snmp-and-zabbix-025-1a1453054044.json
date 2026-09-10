@@ -1,0 +1,9 @@
+{
+  "chunk_id": "13-logging-snmp-and-zabbix-025-1a1453054044",
+  "kb": "juniper",
+  "source_path": "docs/13-logging-snmp-and-zabbix.md",
+  "source_title": "13-logging-snmp-and-zabbix",
+  "section": "Document Status",
+  "sha256": "1a14530540443d43e6b22d4cbdc2f8113ba44642c505ea8836f8282ab5e9200e",
+  "content": "# Document Status\n\nDocument Type: Logging, SNMP, and Zabbix Monitoring\n\nKnowledge Base: Juniper SRX320 Knowledge Base\n\nVersion: 0.1.0\n\nStatus: Initial Build"
+}

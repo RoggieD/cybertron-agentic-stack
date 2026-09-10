@@ -1,0 +1,9 @@
+{
+  "chunk_id": "audit-results-007-830cb5ad044e",
+  "kb": "juniper",
+  "source_path": "source-material/AUDIT-RESULTS.md",
+  "source_title": "AUDIT-RESULTS",
+  "section": "syntax-validated / lab-verified / live-device-verified / Remaining High-Priority Work",
+  "sha256": "830cb5ad044e7e77b697857ffa1524a7cf603b9f581ae63b8310ba8c367a8575",
+  "content": "# syntax-validated / lab-verified / live-device-verified / Remaining High-Priority Work\n\nNot yet achieved for the package as a whole.\n\nRequires Junos syntax/commit validation on an appropriate release.\n\nNot yet achieved for the package as a whole.\n\nNot yet achieved.\n\nLive SRX320 access is still required.\n\nWhen the SRX320 is available through serial console:\n\n1. Capture show version.\n2. Capture show chassis hardware.\n3. Capture show interfaces terse.\n4. Capture show configuration interfaces.\n5. Capture show configuration security zones.\n6. Capture show configuration security policies.\n7. Capture show configuration security nat.\n8. Capture show route.\n9. Establish the exact Junos release as the validation target.\n10. Run commit-check validation only on controlled candidate configurations."
+}

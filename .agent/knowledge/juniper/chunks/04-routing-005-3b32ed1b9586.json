@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-routing-005-3b32ed1b9586",
+  "kb": "juniper",
+  "source_path": "docs/04-routing.md",
+  "source_title": "04-routing",
+  "section": "Default Route",
+  "sha256": "3b32ed1b958606ea3943f12d6cdbf73e47f658f1ae323ada0934fd0ac8ac2e53",
+  "content": "# Default Route\n\nA default route is used when no more specific route matches a destination.\n\nIPv4 default route:\n\n0.0.0.0/0\n\nConceptual example:\n\nrouting-options {\n    static {\n        route 0.0.0.0/0 next-hop 198.51.100.1;\n    }\n}\n\nThis is an example only.\n\nDo not assume the default gateway or WAN next hop without verification.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "11-security-hardening-004-5c71510775cc",
+  "kb": "juniper",
+  "source_path": "docs/11-security-hardening.md",
+  "source_title": "11-security-hardening",
+  "section": "SSH",
+  "sha256": "5c71510775cc7f6f3adb72546f85f626aa5db2522a82f381a1029b43323021c4",
+  "content": "# SSH\n\nSSH should be preferred over insecure remote CLI protocols.\n\nRecommended practices include:\n\n- Restrict SSH to trusted management networks\n- Use named administrative accounts\n- Prefer key-based authentication where appropriate\n- Disable unused accounts\n- Limit root access\n- Review authentication logs\n- Use strong credentials\n\nDo not publish SSH keys or credential material.\n\n---"
+}

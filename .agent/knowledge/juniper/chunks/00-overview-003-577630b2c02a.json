@@ -1,0 +1,9 @@
+{
+  "chunk_id": "00-overview-003-577630b2c02a",
+  "kb": "juniper",
+  "source_path": "docs/00-overview.md",
+  "source_title": "00-overview",
+  "section": "Junos Configuration Model",
+  "sha256": "577630b2c02a19c3a98f5e93dd58e275d59ab429f31153b95b0153cf6780e156",
+  "content": "# Junos Configuration Model\n\nJunos uses a hierarchical configuration model.\n\nConfiguration is organized into logical sections such as:\n\n- system\n- interfaces\n- routing-options\n- protocols\n- security\n- vlans\n- policy-options\n\nSome Junos features also use other top-level hierarchies, including services.\n\nAdministrative services such as SSH and HTTPS are commonly configured under:\n\nsystem services\n\nConfiguration changes are staged before becoming active.\n\nA change does not take effect until it is committed.\n\nTypical workflow:\n\n1. Enter configuration mode.\n2. Make configuration changes.\n3. Review changes.\n4. Validate configuration.\n5. Commit changes.\n6. Verify operation.\n\n---"
+}

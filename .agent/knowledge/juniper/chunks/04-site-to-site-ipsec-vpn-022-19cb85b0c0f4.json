@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-site-to-site-ipsec-vpn-022-19cb85b0c0f4",
+  "kb": "juniper",
+  "source_path": "examples/04-site-to-site-ipsec-vpn.md",
+  "source_title": "04-site-to-site-ipsec-vpn",
+  "section": "Security Guidance",
+  "sha256": "19cb85b0c0f48df3f6a9d746c2e3f37d937ae4a61fbc47bcb4b4334421077edd",
+  "content": "# Security Guidance\n\nFor production deployments:\n\n- Use strong cryptographic algorithms supported by both peers\n- Protect pre-shared keys\n- Prefer certificates where appropriate\n- Restrict traffic with specific security policies\n- Monitor VPN state\n- Monitor application reachability\n- Review VPN configuration periodically\n- Replace obsolete cryptographic algorithms\n\n---"
+}

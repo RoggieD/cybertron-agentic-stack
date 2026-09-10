@@ -1,0 +1,9 @@
+{
+  "chunk_id": "03-nat-015-920d846ad97c",
+  "kb": "juniper",
+  "source_path": "docs/03-nat.md",
+  "source_title": "03-nat",
+  "section": "NAT Troubleshooting",
+  "sha256": "920d846ad97cd69327ae8dc58f4d9b05167b8823cd0311d62472d33f75d5caa6",
+  "content": "# NAT Troubleshooting\n\nWhen NAT does not behave as expected, verify:\n\n1. Incoming interface\n2. Source zone\n3. Destination zone\n4. NAT rule-set scope\n5. NAT rule order\n6. Source address match\n7. Destination address match\n8. Protocol match\n9. Port match\n10. Translation pool\n11. Security policy\n12. Routing\n13. Return path\n14. Session table\n15. Logs\n\n---"
+}

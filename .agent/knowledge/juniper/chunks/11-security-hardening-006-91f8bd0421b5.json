@@ -1,0 +1,9 @@
+{
+  "chunk_id": "11-security-hardening-006-91f8bd0421b5",
+  "kb": "juniper",
+  "source_path": "docs/11-security-hardening.md",
+  "source_title": "11-security-hardening",
+  "section": "Root Access / Administrative Accounts",
+  "sha256": "91f8bd0421b5a6aabd141e1b3f5d1c035f7eebe6279d28b2ae847a32acb7477c",
+  "content": "# Root Access / Administrative Accounts\n\nDirect root login should be limited where practical.\n\nPrefer:\n\n- Named administrative accounts\n- Appropriate login classes\n- Traceable user activity\n- Strong authentication\n\nRoot credentials should be protected and excluded from documentation.\n\n---\n\nAdministrative accounts should be reviewed periodically.\n\nDocument:\n\n- Username\n- Role\n- Login class\n- Authentication method\n- Operational purpose\n- Status\n\nRemove stale or unnecessary accounts.\n\n---"
+}

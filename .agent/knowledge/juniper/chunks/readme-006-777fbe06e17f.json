@@ -1,0 +1,9 @@
+{
+  "chunk_id": "readme-006-777fbe06e17f",
+  "kb": "juniper",
+  "source_path": "README.md",
+  "source_title": "README",
+  "section": "Operational Principles",
+  "sha256": "777fbe06e17ffaf5e3ebac717486b8edc4e4aed4be6dca3392f0f46640e42c3a",
+  "content": "# Operational Principles\n\nBefore making production firewall changes:\n\n1. Inspect the current configuration.\n2. Identify affected interfaces, zones, policies, NAT rules, and routes.\n3. Preserve a rollback path.\n4. Make one controlled change at a time.\n5. Commit the change.\n6. Verify connectivity and expected behavior.\n7. Record the verified configuration.\n\nUse Junos rollback and commit-confirmed capabilities when appropriate to reduce the risk of administrative lockout."
+}

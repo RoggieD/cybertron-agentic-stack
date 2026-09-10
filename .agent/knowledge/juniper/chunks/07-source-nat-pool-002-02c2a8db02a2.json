@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-source-nat-pool-002-02c2a8db02a2",
+  "kb": "juniper",
+  "source_path": "examples/07-source-nat-pool.md",
+  "source_title": "07-source-nat-pool",
+  "section": "Example Topology / Traffic Objective",
+  "sha256": "02c2a8db02a2ae170063f043a4e4ca5a04b5ba2aa1782f4fe1ce66519e5e60ed",
+  "content": "# Example Topology / Traffic Objective\n\nInternal Network:\n\n192.0.2.0/24\n\nInternal Zone:\n\ntrust\n\nExternal Zone:\n\nuntrust\n\nWAN Interface:\n\nge-0/0/0.0\n\nLAN Interface:\n\nge-0/0/1.0\n\nPublic NAT Address:\n\n198.51.100.50\n\n---\n\nHosts on:\n\n192.0.2.0/24\n\nshould access external networks using:\n\n198.51.100.50\n\nas the translated source address.\n\n---"
+}

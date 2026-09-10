@@ -1,0 +1,9 @@
+{
+  "chunk_id": "03-nat-003-423ff902feb8",
+  "kb": "juniper",
+  "source_path": "docs/03-nat.md",
+  "source_title": "03-nat",
+  "section": "Source NAT",
+  "sha256": "423ff902feb894595b4cb91297443ddae43ef704e25e385f3ebd4f1ddc80b1f4",
+  "content": "# Source NAT\n\nSource NAT changes the source address of traffic.\n\nA common use case is allowing private internal hosts to access the Internet using a public address.\n\nSource NAT is commonly applied to traffic moving from:\n\ntrust -> untrust\n\nor from another internal security zone toward an external network.\n\nCommon source NAT approaches include:\n\n- Interface source NAT\n- Source NAT pool\n- Source NAT with specific public addresses\n\n---"
+}

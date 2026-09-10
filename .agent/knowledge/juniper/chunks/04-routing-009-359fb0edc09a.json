@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-routing-009-359fb0edc09a",
+  "kb": "juniper",
+  "source_path": "docs/04-routing.md",
+  "source_title": "04-routing",
+  "section": "Useful Routing Commands",
+  "sha256": "359fb0edc09a13cf9b3a35528d310f89d8f68ea509723d0324a8477e660b9182",
+  "content": "# Useful Routing Commands\n\nOperational commands may include:\n\nshow route\n\nshow route detail\n\nshow route terse\n\nshow route protocol static\n\nshow route 0.0.0.0/0\n\nshow route <destination>\n\nshow route forwarding-table\n\nshow interfaces terse\n\nshow arp\n\nExact command syntax and output may vary by Junos version.\n\n---"
+}

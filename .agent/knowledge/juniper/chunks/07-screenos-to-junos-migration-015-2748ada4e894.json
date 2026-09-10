@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-screenos-to-junos-migration-015-2748ada4e894",
+  "kb": "juniper",
+  "source_path": "docs/07-screenos-to-junos-migration.md",
+  "source_title": "07-screenos-to-junos-migration",
+  "section": "Routing Migration",
+  "sha256": "2748ada4e8944542862aaf45f990654e67bf1bd02c6045c3b02d47abfd5d26e5",
+  "content": "# Routing Migration\n\nInventory all legacy routes.\n\nInclude:\n\n- Default route\n- Static routes\n- Connected networks\n- Dynamic routing if used\n- Policy-based routing if used\n\nFor each route, record:\n\n- Destination prefix\n- Next hop\n- Interface\n- Purpose\n- Current necessity\n\nDo not automatically migrate obsolete routes.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-troubleshooting-published-service-024-3b7162606661",
+  "kb": "juniper",
+  "source_path": "examples/10-troubleshooting-published-service.md",
+  "source_title": "10-troubleshooting-published-service",
+  "section": "Document Status",
+  "sha256": "3b71626066611c741c2d16230b46f46ca6d26cc4774dc866aa0872480b336665",
+  "content": "# Document Status\n\nDocument Type: Troubleshooting Example\n\nExample Type: Published Service Troubleshooting\n\nKnowledge Base: Juniper SRX320 Knowledge Base\n\nVersion: 0.1.0\n\nStatus: Example / Non-Production"
+}

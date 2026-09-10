@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-management-hardening-006-5a0dbe21d725",
+  "kb": "juniper",
+  "source_path": "examples/06-management-hardening.md",
+  "source_title": "06-management-hardening",
+  "section": "Login Classes / Root Access",
+  "sha256": "5a0dbe21d72512ceb7046049edd31922876b203c9376fdecdd8e11e5aa85ecf6",
+  "content": "# Login Classes / Root Access\n\nAdministrative privilege should match operational need.\n\nPossible concepts include:\n\n- Full administrative access\n- Read-only access\n- Restricted operational access\n\nDo not grant full administrative privilege by default to every account.\n\n---\n\nDirect root login should be limited where practical.\n\nPrefer named administrative accounts for routine work.\n\nRoot credentials should be protected and excluded from documentation.\n\n---"
+}

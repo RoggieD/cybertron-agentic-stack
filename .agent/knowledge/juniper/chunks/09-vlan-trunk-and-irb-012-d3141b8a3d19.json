@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-vlan-trunk-and-irb-012-d3141b8a3d19",
+  "kb": "juniper",
+  "source_path": "examples/09-vlan-trunk-and-irb.md",
+  "source_title": "09-vlan-trunk-and-irb",
+  "section": "Hypervisor Trunks / Wireless Access Point Trunks",
+  "sha256": "d3141b8a3d1900c71129393f3487a95ac2b277dbbaee30fce1c4d240c2858f13",
+  "content": "# Hypervisor Trunks / Wireless Access Point Trunks\n\nA trunk connected to a hypervisor may carry multiple VLANs.\n\nDocument:\n\n- Physical SRX port\n- Switch port\n- Hypervisor port\n- VLAN IDs\n- Virtual switch\n- VM networks\n\nAvoid undocumented VLAN mappings.\n\n---\n\nAn access point may map SSIDs to VLANs.\n\nExample:\n\nCORPORATE SSID -> VLAN 10\n\nGUEST SSID -> VLAN 30\n\nThe SRX then applies different policy to each security zone.\n\n---"
+}

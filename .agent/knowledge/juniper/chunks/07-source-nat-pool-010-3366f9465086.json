@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-source-nat-pool-010-3366f9465086",
+  "kb": "juniper",
+  "source_path": "examples/07-source-nat-pool.md",
+  "source_title": "07-source-nat-pool",
+  "section": "Verify Sessions / Expected Traffic Flow",
+  "sha256": "3366f94650864c2aa06ee49c6bc0579794e04be312384ef3e675a116790d39f5",
+  "content": "# Verify Sessions / Expected Traffic Flow\n\nGenerate traffic from an internal host.\n\nThen run:\n\nshow security flow session source-prefix 192.0.2.0/24\n\nLook for:\n\n- Original internal address\n- Translated source address\n- Security policy\n- Session state\n\n---\n\n1. Internal host sends traffic toward the Internet.\n2. Packet enters the trust zone.\n3. Route lookup selects the external path.\n4. Destination zone is untrust.\n5. Source NAT rule TRUST-SNAT-POOL matches.\n6. Source address is translated to 198.51.100.50.\n7. Security policy permits traffic.\n8. Stateful session is created.\n9. Return traffic is translated back to the original internal host.\n\n---"
+}

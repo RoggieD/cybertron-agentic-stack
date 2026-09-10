@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-screenos-to-junos-migration-009-4b9b50dc8703",
+  "kb": "juniper",
+  "source_path": "docs/07-screenos-to-junos-migration.md",
+  "source_title": "07-screenos-to-junos-migration",
+  "section": "Address Objects",
+  "sha256": "4b9b50dc8703573f75431c43fe21c1b2f4816c0d7e2800bd8ef2b02ab0d878e7",
+  "content": "# Address Objects\n\nLegacy address objects should be inventoried before migration.\n\nRecord:\n\n- Object name\n- Zone\n- Address\n- Prefix\n- Purpose\n- Policy references\n\nAddress objects should be recreated in Junos using clear and consistent naming.\n\nAvoid carrying forward meaningless or ambiguous legacy names.\n\n---"
+}

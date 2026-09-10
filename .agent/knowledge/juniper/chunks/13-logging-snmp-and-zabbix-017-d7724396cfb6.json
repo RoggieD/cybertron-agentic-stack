@@ -1,0 +1,9 @@
+{
+  "chunk_id": "13-logging-snmp-and-zabbix-017-d7724396cfb6",
+  "kb": "juniper",
+  "source_path": "docs/13-logging-snmp-and-zabbix.md",
+  "source_title": "13-logging-snmp-and-zabbix",
+  "section": "Memory Monitoring / Uptime Monitoring",
+  "sha256": "d7724396cfb6b1a88c3a57f8c758e21917d5d7fa466cd8f4ffd1f5aa2df76478",
+  "content": "# Memory Monitoring / Uptime Monitoring\n\nMonitor memory trends rather than relying only on a single threshold.\n\nHigh memory usage may not automatically indicate a fault.\n\nEvaluate:\n\n- Current usage\n- Trend\n- System behavior\n- Process state\n- Alarms\n\n---\n\nUptime can help identify:\n\n- Unexpected reboot\n- Power loss\n- Software crash\n- Planned maintenance\n- Device replacement\n\nUnexpected uptime resets should trigger investigation.\n\n---"
+}

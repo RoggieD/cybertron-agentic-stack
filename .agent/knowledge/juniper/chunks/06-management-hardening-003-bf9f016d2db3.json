@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-management-hardening-003-bf9f016d2db3",
+  "kb": "juniper",
+  "source_path": "examples/06-management-hardening.md",
+  "source_title": "06-management-hardening",
+  "section": "Configure Trusted Interface / Assign Trusted Zone / Enable SSH on Trusted Interface",
+  "sha256": "bf9f016d2db36fe407ee7a002e9e9ee1e993880ae79cd7aa69a5accac27ba720",
+  "content": "# Configure Trusted Interface / Assign Trusted Zone / Enable SSH on Trusted Interface\n\nExample:\n\nset interfaces ge-0/0/1 unit 0 family inet address 192.0.2.1/24\n\n---\n\nset security zones security-zone trust interfaces ge-0/0/1.0\n\n---\n\nPermit SSH traffic destined to the SRX:\n\nset security zones security-zone trust interfaces ge-0/0/1.0 host-inbound-traffic system-services ssh\n\n---"
+}

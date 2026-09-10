@@ -1,0 +1,9 @@
+{
+  "chunk_id": "14-ha-clustering-and-redundancy-001-4285bc82404a",
+  "kb": "juniper",
+  "source_path": "docs/14-ha-clustering-and-redundancy.md",
+  "source_title": "14-ha-clustering-and-redundancy",
+  "section": "Scope",
+  "sha256": "4285bc82404ad3045bbc187cff471886b75c4128018c7751d14b5c816a3e0430",
+  "content": "# Scope\n\nThis document explains high-availability and redundancy concepts relevant to Juniper SRX platforms, including chassis clustering.\n\nIt is intended for:\n\n- High-availability design\n- Redundant firewall deployment\n- Failure-domain planning\n- Migration planning\n- Operational troubleshooting\n- AI-assisted infrastructure design\n\nThis document provides platform-level guidance and does not represent a specific production cluster configuration unless explicitly labeled.\n\n---"
+}

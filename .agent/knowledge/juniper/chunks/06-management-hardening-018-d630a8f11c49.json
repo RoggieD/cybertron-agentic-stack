@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-management-hardening-018-d630a8f11c49",
+  "kb": "juniper",
+  "source_path": "examples/06-management-hardening.md",
+  "source_title": "06-management-hardening",
+  "section": "AI Guidance",
+  "sha256": "d630a8f11c4951f0d2e5e9bb209ccca15f78a46fa690a737fdd4726f5e37ccff",
+  "content": "# AI Guidance\n\nWhen using this example:\n\n- Treat all addresses as examples.\n- Do not invent production management IPs.\n- Do not expose credentials.\n- Distinguish host-inbound from transit traffic.\n- Verify management zone and interface.\n- Preserve a recovery path.\n- Use commit confirmed when lockout is possible.\n- Prefer restrictive management access over broad exposure.\n\n---"
+}

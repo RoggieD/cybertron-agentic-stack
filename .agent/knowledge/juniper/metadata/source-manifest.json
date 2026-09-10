@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "knowledge_base": "juniper-srx320",
+  "source_type": "local_snapshot",
+  "source_path": ".agent/knowledge/juniper/source/juniper-srx320",
+  "snapshot_path": ".agent/knowledge/juniper/source/juniper-srx320",
+  "generated_utc": "2026-09-10T12:00:56.116414+00:00",
+  "file_count": 43,
+  "private_content_included": false,
+  "excluded_paths": [
+    "private/srx320-production.md"
+  ],
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size_bytes": 833,
+      "sha256": "2b9ba6936fa9efa2877c0c7e7fec126e4dd4c7c1c16789400e4d27b44823858d"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 4266,
+      "sha256": "066a631e08ac643f26d19f1516c11648b80745cff71b98ca9ed158359738af3d"
+    },
+    {
+      "path": "docs/00-overview.md",
+      "size_bytes": 8331,
+      "sha256": "bd382333d2187c292a0b8f2c0b759210c455d460408ae08c6a70543cc7ea6f7a"
+    },
+    {
+      "path": "docs/01-hardware-and-interfaces.md",
+      "size_bytes": 7025,
+      "sha256": "4bdbf9f54cd407fc3d3847919f952d2ffac85d1aacfa634dfb01f48414c9227b"
+    },
+    {
+      "path": "docs/02-security-zones-and-policies.md",
+      "size_bytes": 7728,
+      "sha256": "a3c4b44c4f601674e3af16e3aee14df55cfb84aa892f74c4fb07bdaf1864f732"
+    },
+    {
+      "path": "docs/03-nat.md",
+      "size_bytes": 8973,
+      "sha256": "6bdc29e5e40f948bfdcff538ae38aed17ae95932f4bf36a9b6b938ab2057141e"
+    },
+    {
+      "path": "docs/04-routing.md",
+      "size_bytes": 7434,
+      "sha256": "71468dd713137f601025a8ecd673e0a1b98f251a59b6fbc6a2334574113e932c"
+    },
+    {
+      "path": "docs/05-system-management-and-monitoring.md",
+      "size_bytes": 8887,
+      "sha256": "cdb4dcbd3d6bd0e578b29dad615db43e8bc2f022644ce26fb2ecdc92f7d1af1c"
+    },
+    {
+      "path": "docs/06-troubleshooting-methodology.md",
+      "size_bytes": 10298,
+      "sha256": "2edabc52a2581e4a274aa5b07528713bbbf2cc9a5559759e1116cc90ed603025"
+    },
+    {
+      "path": "docs/07-screenos-to-junos-migration.md",
+      "size_bytes": 10360,
+      "sha256": "c7f706e3b7f5efb6d7f4d4848c32729a291750f33fc379aa5d8110dc0342a483"
+    },
+    {
+      "path": "docs/08-production-data-template.md",
+      "size_bytes": 6028,
+      "sha256": "4187fec2fed579097db9966dd3b2eb2ae24655400f8971ced16fce07c5bdd21a"
+    },
+    {
+      "path": "docs/09-configuration-backup-and-recovery.md",
+      "size_bytes": 7769,
+      "sha256": "99845bcab2f5925cf2ce06200a7f353c3aa8d9212ce9763b7845ab1f16db8455"
+    },
+    {
+      "path": "docs/10-junos-cli-reference.md",
+      "size_bytes": 8185,
+      "sha256": "826ba239442499857654925973508d93736456760c8d9680fda5f773b5ef881e"
+    },
+    {
+      "path": "docs/11-security-hardening.md",
+      "size_bytes": 9713,
+      "sha256": "81b6b1845dec50522ca3b6a8770fe2934b165944a347dae409ac9beb453e56ce"
+    },
+    {
+      "path": "docs/12-vpn-and-ipsec.md",
+      "size_bytes": 9109,
+      "sha256": "c473f9018ee4a46e53f95b56b765b6b7896819a8397b7a2d89cc68f8387d258b"
+    },
+    {
+      "path": "docs/13-logging-snmp-and-zabbix.md",
+      "size_bytes": 10275,
+      "sha256": "fc3262e5db66e002016fcdc7aacc7791983b88f8833e45406c69f320f111d438"
+    },
+    {
+      "path": "docs/14-ha-clustering-and-redundancy.md",
+      "size_bytes": 9412,
+      "sha256": "a4dc9efad53d55bca1c84d01d71c2cb9ce2da08e2105914a0da226629603a88c"
+    },
+    {
+      "path": "docs/15-upgrades-firmware-and-lifecycle.md",
+      "size_bytes": 9610,
+      "sha256": "20039aa7dbf1e1719236c73885fef39648dd9629d7ea4f3ae185150bf0c4bcdd"
+    },
+    {
+      "path": "docs/16-performance-capacity-and-sizing.md",
+      "size_bytes": 8754,
+      "sha256": "46afeb5431847f3bd58f671f22c882bc10bfc81cc416176623cbfa6900ac05fc"
+    },
+    {
+      "path": "examples/01-basic-edge-firewall.md",
+      "size_bytes": 4872,
+      "sha256": "f40ed9487ea80c5519d85f9239d3132bf4f3506c81ce5b487c5327622c0a2625"
+    },
+    {
+      "path": "examples/02-destination-nat-web-server.md",
+      "size_bytes": 7660,
+      "sha256": "53aaaeeb40dca308f2121c61b93a008afcc1c085d6f7bc0a3425beb16eb99862"
+    },
+    {
+      "path": "examples/03-static-nat-one-to-one.md",
+      "size_bytes": 7168,
+      "sha256": "15c4f9d671faa45764ceb79deb6a7b1a1612726ec90a670c7ddefd5523ad8e59"
+    },
+    {
+      "path": "examples/04-site-to-site-ipsec-vpn.md",
+      "size_bytes": 10990,
+      "sha256": "dd52ce24aba26d852b7dc48ababfeb8c25e2b4a69546fa11d0c35e6c709bffc7"
+    },
+    {
+      "path": "examples/05-dmz-segmentation.md",
+      "size_bytes": 9987,
+      "sha256": "36e551a8d6384fd43bb8d35cb3d7f8a3c2c484abeb88c5122326264371ee8b3b"
+    },
+    {
+      "path": "examples/06-management-hardening.md",
+      "size_bytes": 7458,
+      "sha256": "9239583fe92023e82b4bc7ebff8402dbaccbf09aaec4166c1e119787e919bacb"
+    },
+    {
+      "path": "examples/07-source-nat-pool.md",
+      "size_bytes": 7262,
+      "sha256": "fc8fd978f5a2dd7ce1998241466054b930ad72f9deff990211867749452e00b3"
+    },
+    {
+      "path": "examples/08-dual-wan-failover-concepts.md",
+      "size_bytes": 9684,
+      "sha256": "f1b28f9cc444273c76b4526e08630ff595ff324c28fa3126ba8b994ade7a7d62"
+    },
+    {
+      "path": "examples/09-vlan-trunk-and-irb.md",
+      "size_bytes": 7784,
+      "sha256": "995879b20af9a24c34a81870e7695d362c3c5a5d0c51b7ef8465ce32ec863a8c"
+    },
+    {
+      "path": "examples/10-troubleshooting-published-service.md",
+      "size_bytes": 10775,
+      "sha256": "d07dee762084c84647a56c831d05880e14630f63110a40345b7560451e7608a5"
+    },
+    {
+      "path": "metadata.json",
+      "size_bytes": 1209,
+      "sha256": "cb638d52301d40575fb04bafe1fdefe3b2ad99231106e22903bfe93647711416"
+    },
+    {
+      "path": "schemas/configuration-validation.schema.json",
+      "size_bytes": 2668,
+      "sha256": "ce53dc2844add7bbcccd21450e3a7e2e7450032402c0256c3f9b60821238444a"
+    },
+    {
+      "path": "schemas/device-record.schema.json",
+      "size_bytes": 1918,
+      "sha256": "e28d9c08ed08a10dc6240a4c232bee3ef4bf410f0e7d0cc9cde10081374ff3c0"
+    },
+    {
+      "path": "schemas/interface-record.schema.json",
+      "size_bytes": 2412,
+      "sha256": "eb783c5bcdd897cdac1f1f5141084a007a43aa57a8e7b49280579a1e2d3202bb"
+    },
+    {
+      "path": "schemas/monitoring-record.schema.json",
+      "size_bytes": 2587,
+      "sha256": "7568df96ca09e1d08bc9ea325ac412b38325cefc5ec045d8e49d6638c6ba48d1"
+    },
+    {
+      "path": "schemas/nat-rule.schema.json",
+      "size_bytes": 2502,
+      "sha256": "d060406b5c1b59226e8907398b58cf75abb4d8d192d16eee71bf985e86515572"
+    },
+    {
+      "path": "schemas/published-service.schema.json",
+      "size_bytes": 3203,
+      "sha256": "00d506cb3ddb0348233ce26788e2542880cc7912ea36cd3855942ccdb0be11b1"
+    },
+    {
+      "path": "schemas/route-record.schema.json",
+      "size_bytes": 1936,
+      "sha256": "1a8888bbc560608af59a1d92bc70fba14838a9ec7be67e38bd03254eb2cfa955"
+    },
+    {
+      "path": "schemas/security-policy.schema.json",
+      "size_bytes": 1866,
+      "sha256": "b39b313b5d6d9046fdfe61d3c1229c5ca553c415aeb9866854fe74f1fa070de7"
+    },
+    {
+      "path": "schemas/vpn-record.schema.json",
+      "size_bytes": 3442,
+      "sha256": "1267f32ec051469d4a30497aa5a4f610be7cdf297ed454733f2d21bdac2546d1"
+    },
+    {
+      "path": "source-material/AUDIT-RESULTS.md",
+      "size_bytes": 3711,
+      "sha256": "2f7023ab6f3554cf8d32f03de069e47f634ebd3e28bc0e576396cb40e4171778"
+    },
+    {
+      "path": "source-material/authoritative-sources.md",
+      "size_bytes": 7191,
+      "sha256": "daf575ab2642d7e7c3a58f076a3c976d66eb0a0ffffe70497aa03a922ee0aa32"
+    },
+    {
+      "path": "source-material/docs-audit-report.txt",
+      "size_bytes": 35798,
+      "sha256": "6adc1fe8967c191cdd2b6cb21ae7cf97f8a4e3bb798d8a9354434af08d053e85"
+    },
+    {
+      "path": "source-material/validation-manifest.json",
+      "size_bytes": 24120,
+      "sha256": "5b8ab852415076acc5e8bf50decfd747838a3128b948a68cda1f7ee725c0960a"
+    }
+  ]
+}

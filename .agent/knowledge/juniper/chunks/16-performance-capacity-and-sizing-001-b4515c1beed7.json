@@ -1,0 +1,9 @@
+{
+  "chunk_id": "16-performance-capacity-and-sizing-001-b4515c1beed7",
+  "kb": "juniper",
+  "source_path": "docs/16-performance-capacity-and-sizing.md",
+  "source_title": "16-performance-capacity-and-sizing",
+  "section": "Scope",
+  "sha256": "b4515c1beed7955785a6a701f9f3f3447aef483fe3976e054a9b9cf9a38f9b2f",
+  "content": "# Scope\n\nThis document explains performance, capacity, and sizing considerations for the Juniper SRX320.\n\nIt is intended for:\n\n- Deployment planning\n- Capacity review\n- Performance troubleshooting\n- Firewall replacement decisions\n- WAN sizing\n- VPN sizing\n- Monitoring\n- AI-assisted infrastructure analysis\n\nThis document provides platform-level guidance and does not represent a specific production performance baseline unless explicitly labeled.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "audit-results-003-b7d2991f1929",
+  "kb": "juniper",
+  "source_path": "source-material/AUDIT-RESULTS.md",
+  "source_title": "AUDIT-RESULTS",
+  "section": "Security policies",
+  "sha256": "b7d2991f19295c955f37e2d4c6bf14d85b56b99b262172a4a4aecde34ad4f3ea",
+  "content": "# Security policies\n\n- Clarified that security policy lookup also applies between interfaces in the same zone.\n- Clarified that an applicable permitting intrazone policy is required; factory-default trust policies can affect behavior on supported platforms.\n- Replaced bare show security match-policies guidance with flow-criteria-based usage."
+}

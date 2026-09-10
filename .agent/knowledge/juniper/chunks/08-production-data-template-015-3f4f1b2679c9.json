@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-production-data-template-015-3f4f1b2679c9",
+  "kb": "juniper",
+  "source_path": "docs/08-production-data-template.md",
+  "source_title": "08-production-data-template",
+  "section": "Document Status",
+  "sha256": "3f4f1b2679c98a257b563b964bcb1f77f4bf642f11cfad6889350e0a92235eeb",
+  "content": "# Document Status\n\nDocument Type: Production Data Template\n\nKnowledge Base: Juniper SRX320 Knowledge Base\n\nVersion: 0.1.0\n\nStatus: Initial Build"
+}

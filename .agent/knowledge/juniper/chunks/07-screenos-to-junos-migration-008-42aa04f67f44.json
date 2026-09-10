@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-screenos-to-junos-migration-008-42aa04f67f44",
+  "kb": "juniper",
+  "source_path": "docs/07-screenos-to-junos-migration.md",
+  "source_title": "07-screenos-to-junos-migration",
+  "section": "Security Policy Migration",
+  "sha256": "42aa04f67f44b11f21e2691dbe323e5c98586f2f4faaa0ae1412084d4670e93e",
+  "content": "# Security Policy Migration\n\nScreenOS policies should be translated based on:\n\n- Source zone\n- Destination zone\n- Source address\n- Destination address\n- Service\n- Action\n- Logging\n- Business purpose\n\nA policy should not be migrated merely because it exists.\n\nDuring migration, determine whether each policy is:\n\n- Required\n- Redundant\n- Obsolete\n- Overly broad\n- Duplicated\n- Temporary\n\nMigration is an opportunity to clean policy sets.\n\n---"
+}

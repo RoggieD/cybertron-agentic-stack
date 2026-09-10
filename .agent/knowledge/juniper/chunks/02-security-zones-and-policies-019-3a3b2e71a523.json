@@ -1,0 +1,9 @@
+{
+  "chunk_id": "02-security-zones-and-policies-019-3a3b2e71a523",
+  "kb": "juniper",
+  "source_path": "docs/02-security-zones-and-policies.md",
+  "source_title": "02-security-zones-and-policies",
+  "section": "Document Status",
+  "sha256": "3a3b2e71a523bc063c0a99f218bc6feef0c5855c50ec7f04531980ce4d85dc98",
+  "content": "# Document Status\n\nDocument Type: Security Zones and Policies\n\nKnowledge Base: Juniper SRX320 Knowledge Base\n\nVersion: 0.1.0\n\nStatus: Initial Build"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-dual-wan-failover-concepts-023-25a69bc37aed",
+  "kb": "juniper",
+  "source_path": "examples/08-dual-wan-failover-concepts.md",
+  "source_title": "08-dual-wan-failover-concepts",
+  "section": "Public Release Guidance",
+  "sha256": "25a69bc37aedf781cbae198ae9f8a807093cb001ea00229ab235982a4e8edc67",
+  "content": "# Public Release Guidance\n\nBefore publishing dual-WAN examples:\n\n- Remove real ISP names\n- Remove real public IP addresses\n- Remove circuit identifiers\n- Remove internal hostnames\n- Remove monitoring targets tied to the deployment\n- Replace environment-specific values with documentation examples\n\n---"
+}

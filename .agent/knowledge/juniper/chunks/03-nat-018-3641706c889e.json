@@ -1,0 +1,9 @@
+{
+  "chunk_id": "03-nat-018-3641706c889e",
+  "kb": "juniper",
+  "source_path": "docs/03-nat.md",
+  "source_title": "03-nat",
+  "section": "Public Release Guidance",
+  "sha256": "3641706c889edd795ed2e1c79955b3003200266e4bb068e3d9b0a95f0643a0b5",
+  "content": "# Public Release Guidance\n\nProduction NAT information may expose:\n\n- Public IP assignments\n- Internal addressing\n- Published services\n- Infrastructure relationships\n\nBefore public release or commercial distribution:\n\n- Replace production IP addresses with documentation ranges\n- Remove customer-specific addressing\n- Remove internal hostnames\n- Remove sensitive service mappings\n- Preserve the technical pattern without exposing the real environment\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "14-ha-clustering-and-redundancy-006-8e4b94dc296e",
+  "kb": "juniper",
+  "source_path": "docs/14-ha-clustering-and-redundancy.md",
+  "source_title": "14-ha-clustering-and-redundancy",
+  "section": "Control Link / Fabric Link",
+  "sha256": "8e4b94dc296e14b7a06432754cf7658c4c374a34150217a6e934c1d06819a42e",
+  "content": "# Control Link / Fabric Link\n\nCluster nodes require communication for control-plane coordination.\n\nControl links are used for functions such as:\n\n- Cluster state\n- Configuration synchronization\n- Node coordination\n\nA control-link failure can affect cluster operation.\n\n---\n\nFabric links may carry traffic and state information between cluster nodes.\n\nDepending on platform design, fabric connectivity may support:\n\n- Session synchronization\n- Packet forwarding\n- State exchange\n\nFabric-link health is critical to stable cluster operation.\n\n---"
+}

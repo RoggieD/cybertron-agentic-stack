@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-troubleshooting-methodology-010-3cdf3015f76e",
+  "kb": "juniper",
+  "source_path": "docs/06-troubleshooting-methodology.md",
+  "source_title": "06-troubleshooting-methodology",
+  "section": "Step 9 \u2014 Verify Session State",
+  "sha256": "3cdf3015f76e0e5169bae28b52b32217283613a64cc0145f5e1305ca6f971243",
+  "content": "# Step 9 \u2014 Verify Session State\n\nUseful commands may include:\n\nshow security flow session\n\nshow security flow session source-prefix <address>\n\nshow security flow session destination-prefix <address>\n\nSession information may reveal:\n\n- Policy match\n- NAT translation\n- Source and destination\n- Traffic direction\n- Session state\n\nExisting sessions may need to be considered after policy or NAT changes.\n\nDo not clear sessions unnecessarily.\n\n---"
+}

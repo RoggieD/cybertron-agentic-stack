@@ -1,0 +1,9 @@
+{
+  "chunk_id": "02-destination-nat-web-server-015-09320daecb18",
+  "kb": "juniper",
+  "source_path": "examples/02-destination-nat-web-server.md",
+  "source_title": "02-destination-nat-web-server",
+  "section": "Testing from Outside / Important Notes",
+  "sha256": "09320daecb1838c9908a8757225ef83d1b8dc21904fe68797e88a752574da3ac",
+  "content": "# Testing from Outside / Important Notes\n\nTest the published service from a genuinely external network where possible.\n\nTesting from inside the same network may involve different routing or NAT behavior and may not accurately represent Internet access.\n\n---\n\nThis example uses documentation-only IP ranges.\n\nDo not copy these addresses into production.\n\nDo not assume:\n\n- ge-0/0/0 is WAN\n- ge-0/0/1 is LAN\n- untrust and trust are the production zone names\n- TCP/443 is the desired published service\n- the public IP is configured directly on the SRX interface\n- this exact NAT design matches every ISP topology\n\nVerify the actual deployment first.\n\n---"
+}

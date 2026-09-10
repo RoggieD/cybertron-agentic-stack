@@ -1,0 +1,9 @@
+{
+  "chunk_id": "03-nat-020-01c105328183",
+  "kb": "juniper",
+  "source_path": "docs/03-nat.md",
+  "source_title": "03-nat",
+  "section": "Document Status",
+  "sha256": "01c10532818359746335e2adf2055fa9240f03cee652ff43b41f757d074503c0",
+  "content": "# Document Status\n\nDocument Type: Network Address Translation\n\nKnowledge Base: Juniper SRX320 Knowledge Base\n\nVersion: 0.1.0\n\nStatus: Initial Build"
+}

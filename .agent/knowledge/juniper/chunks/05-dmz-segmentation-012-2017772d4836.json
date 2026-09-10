@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-dmz-segmentation-012-2017772d4836",
+  "kb": "juniper",
+  "source_path": "examples/05-dmz-segmentation.md",
+  "source_title": "05-dmz-segmentation",
+  "section": "Publish HTTPS Service to DMZ",
+  "sha256": "2017772d4836b1fca5be9c118f47c797b92170a207293696d213f0b336bebe09",
+  "content": "# Publish HTTPS Service to DMZ\n\nExample public IP:\n\n198.51.100.20\n\nCreate destination NAT pool:\n\nset security nat destination pool DMZ-WEB-POOL address 198.18.0.20/32\n\nCreate rule set:\n\nset security nat destination rule-set INTERNET-TO-DMZ from zone untrust\n\nMatch public IP:\n\nset security nat destination rule-set INTERNET-TO-DMZ rule DMZ-HTTPS match destination-address 198.51.100.20/32\n\nMatch protocol:\n\nset security nat destination rule-set INTERNET-TO-DMZ rule DMZ-HTTPS match protocol tcp\n\nMatch HTTPS:\n\nset security nat destination rule-set INTERNET-TO-DMZ rule DMZ-HTTPS match destination-port 443\n\nApply destination NAT:\n\nset security nat destination rule-set INTERNET-TO-DMZ rule DMZ-HTTPS then destination-nat pool DMZ-WEB-POOL\n\n---"
+}

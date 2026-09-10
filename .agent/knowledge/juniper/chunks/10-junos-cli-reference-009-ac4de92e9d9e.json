@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-junos-cli-reference-009-ac4de92e9d9e",
+  "kb": "juniper",
+  "source_path": "docs/10-junos-cli-reference.md",
+  "source_title": "10-junos-cli-reference",
+  "section": "NAT Commands",
+  "sha256": "ac4de92e9d9e6988ae243592fd2ac3699b3af41a9bf1279d5d322fc1d020d3d1",
+  "content": "# NAT Commands\n\nShow all NAT configuration:\n\nshow configuration security nat\n\nShow source NAT configuration:\n\nshow configuration security nat source\n\nShow destination NAT configuration:\n\nshow configuration security nat destination\n\nShow static NAT configuration:\n\nshow configuration security nat static\n\nOperational source NAT rules:\n\nshow security nat source rule all\n\nOperational destination NAT rules:\n\nshow security nat destination rule all\n\nOperational static NAT rules:\n\nshow security nat static rule all\n\nExact syntax may vary by Junos version.\n\n---"
+}

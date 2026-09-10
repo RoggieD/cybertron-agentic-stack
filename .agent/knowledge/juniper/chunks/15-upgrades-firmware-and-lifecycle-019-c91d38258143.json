@@ -1,0 +1,9 @@
+{
+  "chunk_id": "15-upgrades-firmware-and-lifecycle-019-c91d38258143",
+  "kb": "juniper",
+  "source_path": "docs/15-upgrades-firmware-and-lifecycle.md",
+  "source_title": "15-upgrades-firmware-and-lifecycle",
+  "section": "Lifecycle Management",
+  "sha256": "c91d382581437706dc2037398432490a25991a625d33f798b3bad456eeeda918",
+  "content": "# Lifecycle Management\n\nLifecycle planning should consider:\n\n- Hardware age\n- Vendor support status\n- Software support\n- Security maintenance\n- Performance requirements\n- Feature requirements\n- Replacement planning\n\nA working firewall can still become an operational risk if software support ends.\n\n---"
+}

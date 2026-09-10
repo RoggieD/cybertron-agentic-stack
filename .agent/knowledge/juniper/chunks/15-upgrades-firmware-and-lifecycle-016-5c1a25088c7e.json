@@ -1,0 +1,9 @@
+{
+  "chunk_id": "15-upgrades-firmware-and-lifecycle-016-5c1a25088c7e",
+  "kb": "juniper",
+  "source_path": "docs/15-upgrades-firmware-and-lifecycle.md",
+  "source_title": "15-upgrades-firmware-and-lifecycle",
+  "section": "Rollback Strategy",
+  "sha256": "5c1a25088c7efcf0aaeef5fefccd492c85968dae69cb5a83fa016b7efd0b0c8e",
+  "content": "# Rollback Strategy\n\nRollback planning should identify:\n\n- Previous software version\n- Previous configuration\n- Recovery media\n- Console procedure\n- Decision point for rollback\n\nRollback should begin when defined failure criteria are met.\n\nDo not continue experimenting indefinitely during a production outage.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-vlan-trunk-and-irb-003-cf774772fdc4",
+  "kb": "juniper",
+  "source_path": "examples/09-vlan-trunk-and-irb.md",
+  "source_title": "09-vlan-trunk-and-irb",
+  "section": "Design Objective / Access Port Concept",
+  "sha256": "cf774772fdc400c37a3916b0641bbac0a8281798ab66ea0bc332f3f73d16fc94",
+  "content": "# Design Objective / Access Port Concept\n\nProvide Layer 2 segmentation between:\n\n- Users\n- Servers\n- Guests\n\nEach VLAN has a Layer 3 gateway on the SRX.\n\nSecurity policy controls traffic between VLANs because each routed VLAN interface belongs to a security zone.\n\n---\n\nAn access port carries traffic for one VLAN.\n\nExample intent:\n\nge-0/0/3\n\nbelongs to:\n\nVLAN 10 USERS\n\nAn endpoint connected to that port sends ordinary untagged Ethernet frames.\n\nThe switch function associates that traffic with VLAN 10.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-dual-wan-failover-concepts-006-9bb34438b278",
+  "kb": "juniper",
+  "source_path": "examples/08-dual-wan-failover-concepts.md",
+  "source_title": "08-dual-wan-failover-concepts",
+  "section": "Reachability Monitoring",
+  "sha256": "9bb34438b27822f85945fec3f43f4a26877c9ccc7455b7301ce035ef10c73bf3",
+  "content": "# Reachability Monitoring\n\nReachability monitoring may test one or more remote targets.\n\nPossible targets include:\n\n- ISP gateway\n- Provider upstream router\n- Stable public IP\n- Multiple independent external targets\n\nA single test target can create false failover if that target alone becomes unavailable.\n\nUse monitoring targets that accurately represent path health.\n\n---"
+}

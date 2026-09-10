@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-vlan-trunk-and-irb-005-039df8292158",
+  "kb": "juniper",
+  "source_path": "examples/09-vlan-trunk-and-irb.md",
+  "source_title": "09-vlan-trunk-and-irb",
+  "section": "Routed VLAN Interface",
+  "sha256": "039df82921589f29ba20cfbb2a515e85fc3993fdc9c50cf8e1eb70347877f9e0",
+  "content": "# Routed VLAN Interface\n\nA routed VLAN interface provides Layer 3 gateway functionality for a VLAN.\n\nOn Junos platforms, this may use an integrated routing and bridging interface.\n\nCommon conceptual naming includes:\n\nirb.10\n\nirb.20\n\nirb.30\n\nExample design:\n\nirb.10 -> 192.0.2.1/24\n\nirb.20 -> 198.18.0.1/24\n\nirb.30 -> 203.0.113.1/24\n\nDo not assume IRB syntax is identical across all SRX320 Junos releases.\n\n---"
+}

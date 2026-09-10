@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-routing-003-3e93c959eebb",
+  "kb": "juniper",
+  "source_path": "docs/04-routing.md",
+  "source_title": "04-routing",
+  "section": "Directly Connected Routes",
+  "sha256": "3e93c959eebb3e9b4fcc6c7187785d9abe3618386646918c0c1e8e310f530ada",
+  "content": "# Directly Connected Routes\n\nWhen an interface has an IP address configured and is operational, Junos typically installs a directly connected route for that subnet.\n\nExample:\n\nInterface:\n\nge-0/0/1.0\n\nAddress:\n\n192.0.2.1/24\n\nThe corresponding connected route may represent:\n\n192.0.2.0/24\n\nThis is an example only.\n\nConnected routes depend on actual interface state and configuration.\n\n---"
+}

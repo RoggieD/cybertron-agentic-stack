@@ -1,0 +1,9 @@
+{
+  "chunk_id": "01-basic-edge-firewall-007-498c1039d3ca",
+  "kb": "juniper",
+  "source_path": "examples/01-basic-edge-firewall.md",
+  "source_title": "01-basic-edge-firewall",
+  "section": "Expected Traffic Flow",
+  "sha256": "498c1039d3ca71deea8b38969491534ba1887958ab4dee55d4e51cf24d8443d4",
+  "content": "# Expected Traffic Flow\n\nA LAN host sends traffic toward the Internet.\n\nExpected processing:\n\n1. Packet enters ge-0/0/1.0.\n2. Source zone is trust.\n3. Routing selects the default route.\n4. Destination zone is untrust.\n5. Source NAT rule matches.\n6. Source address is translated to the WAN interface address.\n7. ALLOW-INTERNET policy permits traffic.\n8. A stateful session is created.\n9. Traffic exits ge-0/0/0.0.\n10. Return traffic follows the established session.\n\n---"
+}

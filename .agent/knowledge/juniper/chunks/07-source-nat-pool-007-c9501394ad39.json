@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-source-nat-pool-007-c9501394ad39",
+  "kb": "juniper",
+  "source_path": "examples/07-source-nat-pool.md",
+  "source_title": "07-source-nat-pool",
+  "section": "Proxy ARP Consideration",
+  "sha256": "c9501394ad394795c77036a5db08536140fdc96200dbf1b8662ec4847295f503",
+  "content": "# Proxy ARP Consideration\n\nIf the public NAT address resides on a directly connected Ethernet subnet and is not configured directly on an interface, proxy ARP may be required.\n\nWhether proxy ARP is necessary depends on the upstream Layer 2 and routing design.\n\nDo not configure proxy ARP automatically.\n\nVerify the ISP topology first.\n\n---"
+}

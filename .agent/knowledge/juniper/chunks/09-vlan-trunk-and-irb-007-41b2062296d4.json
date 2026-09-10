@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-vlan-trunk-and-irb-007-41b2062296d4",
+  "kb": "juniper",
+  "source_path": "examples/09-vlan-trunk-and-irb.md",
+  "source_title": "09-vlan-trunk-and-irb",
+  "section": "Example Users-to-Servers Policy",
+  "sha256": "41b2062296d474f451af045a6c1396ee94b66cc74052c7883663fc30cc32b217",
+  "content": "# Example Users-to-Servers Policy\n\nExample objective:\n\nAllow users to reach an HTTPS application on the server network.\n\nConceptually:\n\ntrust -> servers\n\nSource:\n\n192.0.2.0/24\n\nDestination:\n\n198.18.0.20\n\nApplication:\n\nHTTPS\n\nAction:\n\npermit\n\nProduction policy should use specific address objects and applications.\n\n---"
+}

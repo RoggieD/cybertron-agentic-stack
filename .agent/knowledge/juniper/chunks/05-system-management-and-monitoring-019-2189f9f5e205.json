@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-system-management-and-monitoring-019-2189f9f5e205",
+  "kb": "juniper",
+  "source_path": "docs/05-system-management-and-monitoring.md",
+  "source_title": "05-system-management-and-monitoring",
+  "section": "Software and Junos Version",
+  "sha256": "2189f9f5e20583327235c54546761c8a8e6906d22f24220210614a2fa1337492",
+  "content": "# Software and Junos Version\n\nThe installed Junos version should be recorded in production documentation.\n\nVersion information is important because:\n\n- Commands may differ\n- Features may differ\n- Security fixes may differ\n- Hardware support may differ\n- Upgrade paths may differ\n\nDo not assume all SRX320 devices behave identically across Junos releases.\n\n---"
+}

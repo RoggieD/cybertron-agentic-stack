@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-junos-cli-reference-010-027748a3e039",
+  "kb": "juniper",
+  "source_path": "docs/10-junos-cli-reference.md",
+  "source_title": "10-junos-cli-reference",
+  "section": "System Commands",
+  "sha256": "027748a3e039f1e057da90beb84e2c850f4461c90323792e41a340e2de946fcf",
+  "content": "# System Commands\n\nShow version:\n\nshow version\n\nShow hardware:\n\nshow chassis hardware\n\nShow chassis alarms:\n\nshow chassis alarms\n\nShow system alarms:\n\nshow system alarms\n\nShow uptime:\n\nshow system uptime\n\nShow storage:\n\nshow system storage\n\nShow processes:\n\nshow system processes extensive\n\n---"
+}

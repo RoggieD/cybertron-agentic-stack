@@ -1,0 +1,9 @@
+{
+  "chunk_id": "11-security-hardening-024-93c57d801d4c",
+  "kb": "juniper",
+  "source_path": "docs/11-security-hardening.md",
+  "source_title": "11-security-hardening",
+  "section": "Document Status",
+  "sha256": "93c57d801d4c134b879151c0a304db5101aa16f1764b476dcf8bbbecf6560108",
+  "content": "# Document Status\n\nDocument Type: Security Hardening\n\nKnowledge Base: Juniper SRX320 Knowledge Base\n\nVersion: 0.1.0\n\nStatus: Initial Build"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-management-hardening-016-dd6f3a813f7d",
+  "kb": "juniper",
+  "source_path": "examples/06-management-hardening.md",
+  "source_title": "06-management-hardening",
+  "section": "Important Notes",
+  "sha256": "dd6f3a813f7d501af360a4e5bc39f095900d6b57f6f5303786bb412346f4ffe4",
+  "content": "# Important Notes\n\nThis example uses documentation-only IP ranges.\n\nDo not copy the example values directly into production.\n\nDo not assume:\n\n- ge-0/0/1.0 is the management interface\n- trust is the correct management zone\n- SSH is the only required management protocol\n- HTTPS must be enabled\n- SNMP must be enabled\n- the management network is 192.0.2.0/24\n\nVerify the actual deployment.\n\n---"
+}

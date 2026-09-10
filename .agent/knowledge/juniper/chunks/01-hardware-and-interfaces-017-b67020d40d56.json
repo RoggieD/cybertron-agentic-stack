@@ -1,0 +1,9 @@
+{
+  "chunk_id": "01-hardware-and-interfaces-017-b67020d40d56",
+  "kb": "juniper",
+  "source_path": "docs/01-hardware-and-interfaces.md",
+  "source_title": "01-hardware-and-interfaces",
+  "section": "Document Status",
+  "sha256": "b67020d40d56d0a6f42bbd259171101412582614dc1ccd3adddd600294f18cc0",
+  "content": "# Document Status\n\nDocument Type: Hardware and Interfaces\n\nKnowledge Base: Juniper SRX320 Knowledge Base\n\nVersion: 0.1.0\n\nStatus: Initial Build"
+}

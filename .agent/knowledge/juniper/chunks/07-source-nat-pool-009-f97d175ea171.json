@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-source-nat-pool-009-f97d175ea171",
+  "kb": "juniper",
+  "source_path": "examples/07-source-nat-pool.md",
+  "source_title": "07-source-nat-pool",
+  "section": "Verify Operational NAT Rules / Verify Routing / Verify Security Policy",
+  "sha256": "f97d175ea17121752a99eba3446dc165764450b89855a30905025479e7ce731b",
+  "content": "# Verify Operational NAT Rules / Verify Routing / Verify Security Policy\n\nRun:\n\nshow security nat source rule all\n\nVerify that:\n\n- Rule set is active\n- Source match is correct\n- Translation pool is correct\n\n---\n\nRun:\n\nshow route 0.0.0.0/0\n\nAlso verify the path to any specific test destination.\n\n---\n\nRun:\n\nshow security policies\n\nVerify:\n\ntrust -> untrust\n\nis permitted.\n\n---"
+}

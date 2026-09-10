@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-system-management-and-monitoring-008-9256005d2212",
+  "kb": "juniper",
+  "source_path": "docs/05-system-management-and-monitoring.md",
+  "source_title": "05-system-management-and-monitoring",
+  "section": "Root Access",
+  "sha256": "9256005d22128962abe1b5b2fcad04148819b6fcea6abd0b8abcce00039db810",
+  "content": "# Root Access\n\nDirect root access should be handled carefully.\n\nWhere practical:\n\n- Use named administrative accounts\n- Limit direct root login\n- Protect root credentials\n- Avoid embedding privileged credentials in scripts or documentation\n\nProduction credentials must never be included in public knowledge-base releases.\n\n---"
+}

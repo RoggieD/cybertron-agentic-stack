@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-troubleshooting-published-service-008-1ebf35b90418",
+  "kb": "juniper",
+  "source_path": "examples/10-troubleshooting-published-service.md",
+  "source_title": "10-troubleshooting-published-service",
+  "section": "Step 9 \u2014 Verify Security Zone / Step 10 \u2014 Verify Security Policy",
+  "sha256": "1ebf35b90418ca33d11268f82a886bb1ec33bf14370cc9c0db47d301503b288c",
+  "content": "# Step 9 \u2014 Verify Security Zone / Step 10 \u2014 Verify Security Policy\n\nRun:\n\nshow configuration security zones\n\nConfirm:\n\n- Incoming interface belongs to expected external zone\n- Internal interface belongs to expected destination zone\n\nDo not assume zone assignments.\n\n---\n\nRun:\n\nshow security policies\n\nFor more detail:\n\nshow security policies detail\n\nUse show security match-policies with the actual flow criteria where appropriate.\n\nExample pattern:\n\nshow security match-policies from-zone <source-zone> to-zone <destination-zone> source-ip <source-ip> destination-ip <destination-ip> source-port <source-port> destination-port <destination-port> protocol <protocol>\n\nVerify:\n\n- Source zone\n- Destination zone\n- Source address\n- Destination address\n- Application\n- Action\n- Rule ordering\n\nUse values from the real flow. Do not invent placeholders during production troubleshooting.\n\n---"
+}

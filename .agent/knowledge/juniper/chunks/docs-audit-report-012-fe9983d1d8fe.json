@@ -1,0 +1,9 @@
+{
+  "chunk_id": "docs-audit-report-012-fe9983d1d8fe",
+  "kb": "juniper",
+  "source_path": "source-material/docs-audit-report.txt",
+  "source_title": "docs-audit-report",
+  "section": "Document \u2014 Part 12",
+  "sha256": "fe9983d1d8fedea4ae16ccdf32767b15ecbebac867f36be439873cf90fb364d4",
+  "content": "# Document \u2014 Part 12\n\n==============================================================================\n07-screenos-to-junos-migration.md\n==============================================================================\n  86 [JUNOS COMMAND] set ...\n  88 [JUNOS COMMAND] show | compare\n  90 [JUNOS COMMAND] commit check\n 108 [JUNOS COMMAND] commit check\n 110 [JUNOS COMMAND] commit confirmed\n 114 [JUNOS COMMAND] show | compare\n 186 [SECURITY POLICY] ## Security Policy Migration\n 252 [NAT] ## Source NAT Migration\n 254 [NAT] ScreenOS source NAT behavior may be implemented differently in Junos.\n 263 [NAT] Junos source NAT is typically configured under:\n 271 [NAT] ## Destination NAT Migration\n 284 [SECURITY POLICY] - Related security policy\n 286 [NAT] Then build equivalent Junos destination NAT and policy configuration.\n 303 [NAT] - Static NAT\n 307 [NAT] - Destination NAT\n 310 [VERSION-SENSITIVE] Verify actual behavior before choosing the Junos implementation.\n 314 [NAT] ## Static NAT Migration\n 327 [NAT] Then implement the equivalent Junos static NAT design.\n 376 [VPN] ## VPN Migration\n 378 [VPN] VPN configuration requires independent review.\n 382 [VPN] - VPN type\n 393 [VPN] Do not assume ScreenOS VPN configuration maps directly to Junos syntax.\n 423 [NAT] 7. Source NAT rules\n 424 [NAT] 8. Destination NAT rules\n 427 [VPN] 11. VPN configuration\n 494 [NAT] 6. Source NAT\n 497 [NAT] 9. Destination NAT\n 499 [NAT] 11. Static NAT\n 500 [VPN] 12. VPN\n 545 [JUNOS COMMAND] Rollback should be possible without redesigning the network during the outage.\n 599 [VPN] - Remove VPN secrets"
+}

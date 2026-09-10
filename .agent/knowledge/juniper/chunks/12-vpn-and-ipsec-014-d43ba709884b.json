@@ -1,0 +1,9 @@
+{
+  "chunk_id": "12-vpn-and-ipsec-014-d43ba709884b",
+  "kb": "juniper",
+  "source_path": "docs/12-vpn-and-ipsec.md",
+  "source_title": "12-vpn-and-ipsec",
+  "section": "Dead Peer Detection / Perfect Forward Secrecy",
+  "sha256": "d43ba709884b3466441411503cfb81d0828ed9bddd6b3e3e03705aa1772cfce4",
+  "content": "# Dead Peer Detection / Perfect Forward Secrecy\n\nDead Peer Detection may be used to detect unavailable peers.\n\nThis can improve tunnel recovery and failure detection.\n\nExact behavior and configuration depend on Junos version and peer compatibility.\n\n---\n\nPerfect Forward Secrecy may be used for IPsec key negotiation.\n\nPFS configuration should match the remote peer.\n\nA mismatch may prevent successful IPsec negotiation.\n\n---"
+}

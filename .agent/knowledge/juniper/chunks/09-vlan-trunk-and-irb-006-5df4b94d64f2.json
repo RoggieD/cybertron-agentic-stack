@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-vlan-trunk-and-irb-006-5df4b94d64f2",
+  "kb": "juniper",
+  "source_path": "examples/09-vlan-trunk-and-irb.md",
+  "source_title": "09-vlan-trunk-and-irb",
+  "section": "Security Zone Assignment / Inter-VLAN Routing",
+  "sha256": "5df4b94d64f2039876d4038670db8ef437edf1feff837c7f0b111c5595ea9f34",
+  "content": "# Security Zone Assignment / Inter-VLAN Routing\n\nEach routed VLAN interface may be assigned to a security zone.\n\nExample:\n\nirb.10 -> trust\n\nirb.20 -> servers\n\nirb.30 -> guest\n\nThis creates security boundaries between the VLANs.\n\n---\n\nBecause the SRX owns the Layer 3 gateway for each VLAN, traffic between VLANs is routed by the SRX.\n\nRouting alone does not imply permission.\n\nSecurity policy must permit the inter-zone traffic.\n\n---"
+}

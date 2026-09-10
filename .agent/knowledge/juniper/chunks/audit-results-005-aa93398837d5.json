@@ -1,0 +1,9 @@
+{
+  "chunk_id": "audit-results-005-aa93398837d5",
+  "kb": "juniper",
+  "source_path": "source-material/AUDIT-RESULTS.md",
+  "source_title": "AUDIT-RESULTS",
+  "section": "Troubleshooting / Chassis clustering",
+  "sha256": "aa93398837d580eb4b769bdae060919671c4c7ba3dc4797e9d9089f959a10b8e",
+  "content": "# Troubleshooting / Chassis clustering\n\n- Strengthened flow-tracing warnings to reflect Juniper guidance concerning performance and security impact and JTAC supervision.\n\n- Added SRX320-specific cluster interface repurposing guidance.\n- Documented that ge-0/0/0 becomes fxp0 and ge-0/0/1 becomes fxp1 after cluster formation/reboot.\n- Added warning that standalone interface assumptions cannot be carried directly into cluster mode."
+}

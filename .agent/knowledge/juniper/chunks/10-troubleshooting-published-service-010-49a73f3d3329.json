@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-troubleshooting-published-service-010-49a73f3d3329",
+  "kb": "juniper",
+  "source_path": "examples/10-troubleshooting-published-service.md",
+  "source_title": "10-troubleshooting-published-service",
+  "section": "Step 12 \u2014 Verify Session Table",
+  "sha256": "49a73f3d3329d5eb4ba70c7536fddfcb8869d8a9966e0f8f1b91966727222bcf",
+  "content": "# Step 12 \u2014 Verify Session Table\n\nDuring an external connection attempt:\n\nshow security flow session destination-prefix 192.0.2.20\n\nAlso inspect:\n\nshow security flow session\n\nLook for:\n\n- External source\n- Original destination\n- Translated destination\n- Policy\n- Session state\n- Return traffic\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-screenos-to-junos-migration-001-700c0d4f86e0",
+  "kb": "juniper",
+  "source_path": "docs/07-screenos-to-junos-migration.md",
+  "source_title": "07-screenos-to-junos-migration",
+  "section": "Scope",
+  "sha256": "700c0d4f86e0497c92c3edbf9690e34398cd3d8057ca6476b9408d1326d977d6",
+  "content": "# Scope\n\nThis document provides migration guidance for moving from Juniper SSG devices running ScreenOS to Juniper SRX devices running Junos OS.\n\nIt is intended to support:\n\n- Configuration migration\n- Feature mapping\n- Firewall replacement\n- Operational transition\n- Policy conversion\n- NAT conversion\n- Interface conversion\n- Troubleshooting during migration\n\nThis document focuses on translating configuration intent and architecture.\n\nIt does not support blind command-for-command conversion.\n\n---"
+}

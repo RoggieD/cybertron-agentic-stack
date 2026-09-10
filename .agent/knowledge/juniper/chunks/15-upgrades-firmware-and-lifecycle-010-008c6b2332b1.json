@@ -1,0 +1,9 @@
+{
+  "chunk_id": "15-upgrades-firmware-and-lifecycle-010-008c6b2332b1",
+  "kb": "juniper",
+  "source_path": "docs/15-upgrades-firmware-and-lifecycle.md",
+  "source_title": "15-upgrades-firmware-and-lifecycle",
+  "section": "Upgrade Path / Maintenance Window",
+  "sha256": "008c6b2332b19af70f10fa00f0bdeb473ee8a8e67afca8a4c0214a9c20fc34ac",
+  "content": "# Upgrade Path / Maintenance Window\n\nSome Junos upgrades may require intermediate versions.\n\nDo not assume a direct upgrade path is supported between arbitrary releases.\n\nVerify the supported upgrade path for:\n\n- Current version\n- Target version\n- SRX320 platform\n\n---\n\nPlan upgrades within an appropriate maintenance window.\n\nThe window should account for:\n\n- Image transfer\n- Installation\n- Reboot\n- Boot verification\n- Configuration validation\n- Traffic testing\n- Rollback time\n\nDo not allocate only enough time for the successful path.\n\nInclude recovery time.\n\n---"
+}

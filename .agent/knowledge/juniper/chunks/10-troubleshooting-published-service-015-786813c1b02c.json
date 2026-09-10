@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-troubleshooting-published-service-015-786813c1b02c",
+  "kb": "juniper",
+  "source_path": "examples/10-troubleshooting-published-service.md",
+  "source_title": "10-troubleshooting-published-service",
+  "section": "Step 18 \u2014 Verify Return Route",
+  "sha256": "786813c1b02c87fe9eb4333aad03c92f39162190c3517806010a4947dcd4e455",
+  "content": "# Step 18 \u2014 Verify Return Route\n\nCheck the network path from the internal server back toward the external client.\n\nConsider:\n\n- Default gateway\n- Static routes\n- Multiple routers\n- Multiple firewalls\n- Policy routing\n- Multiple WAN connections\n\nStateful firewalls depend on coherent session paths.\n\n---"
+}

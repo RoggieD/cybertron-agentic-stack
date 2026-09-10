@@ -1,0 +1,9 @@
+{
+  "chunk_id": "16-performance-capacity-and-sizing-020-e6f593786737",
+  "kb": "juniper",
+  "source_path": "docs/16-performance-capacity-and-sizing.md",
+  "source_title": "16-performance-capacity-and-sizing",
+  "section": "Upgrade Decision",
+  "sha256": "e6f593786737725e753adccfe36b4491f6df2c040a49c5ec5d1b1cd33ae4c10d",
+  "content": "# Upgrade Decision\n\nConsider replacement or redesign when:\n\n- Peak utilization consistently approaches practical limits\n- Session load approaches supported capacity\n- VPN requirements exceed platform performance\n- Required interfaces are insufficient\n- New security features materially reduce usable capacity\n- Growth projections exceed available headroom\n- Software support becomes limiting\n\nDo not replace hardware based only on age if capacity and support remain adequate.\n\n---"
+}

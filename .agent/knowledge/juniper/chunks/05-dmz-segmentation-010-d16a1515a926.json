@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-dmz-segmentation-010-d16a1515a926",
+  "kb": "juniper",
+  "source_path": "examples/05-dmz-segmentation.md",
+  "source_title": "05-dmz-segmentation",
+  "section": "Trust to DMZ Policy",
+  "sha256": "d16a1515a926e098754cc03cc91da612d07d89fe2c78c8204bd9b9ea81a8c1b5",
+  "content": "# Trust to DMZ Policy\n\nPermit trusted administrators to reach the DMZ web server using SSH:\n\nset security policies from-zone trust to-zone dmz policy TRUST-TO-DMZ-SSH match source-address any\n\nset security policies from-zone trust to-zone dmz policy TRUST-TO-DMZ-SSH match destination-address DMZ-WEB-SERVER\n\nset security policies from-zone trust to-zone dmz policy TRUST-TO-DMZ-SSH match application junos-ssh\n\nset security policies from-zone trust to-zone dmz policy TRUST-TO-DMZ-SSH then permit\n\nIn production, replace source-address any with a dedicated administrative source where practical.\n\n---"
+}

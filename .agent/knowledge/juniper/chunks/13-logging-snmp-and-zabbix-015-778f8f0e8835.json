@@ -1,0 +1,9 @@
+{
+  "chunk_id": "13-logging-snmp-and-zabbix-015-778f8f0e8835",
+  "kb": "juniper",
+  "source_path": "docs/13-logging-snmp-and-zabbix.md",
+  "source_title": "13-logging-snmp-and-zabbix",
+  "section": "Interface Thresholds",
+  "sha256": "778f8f0e8835731d3545fac4eb6a47687c83b617e1a250e6349a883ffc30553e",
+  "content": "# Interface Thresholds\n\nThresholds should reflect actual link capacity and business importance.\n\nExamples may include:\n\n- High bandwidth utilization\n- Interface down\n- Error-rate increase\n- Discard-rate increase\n\nAvoid generic thresholds without understanding the link.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-screenos-to-junos-migration-004-7dc9f95345f6",
+  "kb": "juniper",
+  "source_path": "docs/07-screenos-to-junos-migration.md",
+  "source_title": "07-screenos-to-junos-migration",
+  "section": "ScreenOS / Junos",
+  "sha256": "7dc9f95345f6ff6bf9e41f37cea6f12b5005ed268c85058e9c754a5160a8a1ed",
+  "content": "# ScreenOS / Junos\n\nScreenOS configuration changes may take effect immediately depending on the command.\n\nTypical administration uses commands beginning with:\n\nset\n\nunset\n\nget\n\nsave\n\nJunos configuration changes are staged in candidate configuration.\n\nTypical workflow:\n\nconfigure\n\nset ...\n\nshow | compare\n\ncommit check\n\ncommit\n\nexit\n\nThis transactional workflow is a major operational difference.\n\n---"
+}

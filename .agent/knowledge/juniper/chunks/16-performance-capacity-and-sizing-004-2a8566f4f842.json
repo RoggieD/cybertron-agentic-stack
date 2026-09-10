@@ -1,0 +1,9 @@
+{
+  "chunk_id": "16-performance-capacity-and-sizing-004-2a8566f4f842",
+  "kb": "juniper",
+  "source_path": "docs/16-performance-capacity-and-sizing.md",
+  "source_title": "16-performance-capacity-and-sizing",
+  "section": "Throughput",
+  "sha256": "2a8566f4f842af4b03b0e29ea2452a15d3c0b26b29f59ec07ca3ab86a0a63f80",
+  "content": "# Throughput\n\nThroughput measures the amount of traffic forwarded over time.\n\nCommon units include:\n\n- Mbps\n- Gbps\n\nThroughput should be evaluated separately for:\n\n- Plain firewall traffic\n- NAT traffic\n- VPN traffic\n- Traffic with additional inspection features\n\nDo not assume all traffic types achieve the same throughput.\n\n---"
+}

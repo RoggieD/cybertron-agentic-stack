@@ -1,0 +1,9 @@
+{
+  "chunk_id": "16-performance-capacity-and-sizing-022-3da984c6346c",
+  "kb": "juniper",
+  "source_path": "docs/16-performance-capacity-and-sizing.md",
+  "source_title": "16-performance-capacity-and-sizing",
+  "section": "AI Guidance",
+  "sha256": "3da984c6346c34a4952e3b487ba70ce67c035b530914cdf1117c7c234c025e20",
+  "content": "# AI Guidance\n\nWhen using this document:\n\n- Do not assume advertised throughput equals real-world throughput.\n- Evaluate packet rate, sessions, VPN, and logging separately.\n- Prefer measured data over theoretical limits.\n- Distinguish average utilization from peak utilization.\n- Identify the actual bottleneck before recommending hardware replacement.\n- Verify Junos version and enabled features.\n- Recommend headroom rather than continuous operation near maximum capacity.\n\n---"
+}

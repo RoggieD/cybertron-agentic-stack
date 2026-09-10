@@ -1,0 +1,9 @@
+{
+  "chunk_id": "changelog-001-bc80ca7dfd0f",
+  "kb": "juniper",
+  "source_path": "CHANGELOG.md",
+  "source_title": "CHANGELOG",
+  "section": "Changelog",
+  "sha256": "bc80ca7dfd0f95cb900537d963b8aa448663c71a76cdd50c701fa9410915856a",
+  "content": "# Changelog\n\nAll notable changes to the Juniper SRX320 Knowledge Base will be documented in this file.\n\nThe format follows semantic versioning principles:\n\n- MAJOR \u2014 Significant restructuring or compatibility change\n- MINOR \u2014 New technical content, features, or sections\n- PATCH \u2014 Corrections, clarifications, and minor updates\n\n---"
+}

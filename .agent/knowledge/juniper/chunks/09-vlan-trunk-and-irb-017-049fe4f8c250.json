@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-vlan-trunk-and-irb-017-049fe4f8c250",
+  "kb": "juniper",
+  "source_path": "examples/09-vlan-trunk-and-irb.md",
+  "source_title": "09-vlan-trunk-and-irb",
+  "section": "Public Release Guidance / AI Guidance",
+  "sha256": "049fe4f8c2501ca66d6381c518aad54c84b526b40a73e92b201625ed59b3c2eb",
+  "content": "# Public Release Guidance / AI Guidance\n\nBefore publishing VLAN examples:\n\n- Remove real VLAN IDs when sensitive\n- Remove internal subnets\n- Remove switch names\n- Remove hypervisor names\n- Remove SSID names\n- Replace environment-specific values with generic examples\n\n---\n\nWhen using this example:\n\n- Treat all VLAN IDs as examples.\n- Treat all interfaces as examples.\n- Verify Junos version before generating switching syntax.\n- Verify whether IRB is used in the target design.\n- Verify access vs trunk mode.\n- Verify security zones separately from VLAN membership.\n- Verify security policy separately from routing.\n- Do not assume VLAN segmentation alone provides firewall isolation.\n\n---"
+}

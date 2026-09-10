@@ -1,0 +1,9 @@
+{
+  "chunk_id": "02-destination-nat-web-server-011-0bcf17c08630",
+  "kb": "juniper",
+  "source_path": "examples/02-destination-nat-web-server.md",
+  "source_title": "02-destination-nat-web-server",
+  "section": "Destination NAT and Policy Lookup",
+  "sha256": "0bcf17c086300b9909885681a47d3734b69328976a1b211f496449a49f1c9a1c",
+  "content": "# Destination NAT and Policy Lookup\n\nDestination NAT and security policy are separate processing functions.\n\nThe NAT rule performs address translation.\n\nThe security policy provides authorization for the traffic.\n\nA destination NAT rule does not automatically permit the connection.\n\nFor destination-NAT traffic, policy design must account for the translated destination according to Junos security-processing behavior.\n\n---"
+}

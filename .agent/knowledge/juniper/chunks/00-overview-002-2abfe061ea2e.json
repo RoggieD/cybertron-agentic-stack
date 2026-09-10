@@ -1,0 +1,9 @@
+{
+  "chunk_id": "00-overview-002-2abfe061ea2e",
+  "kb": "juniper",
+  "source_path": "docs/00-overview.md",
+  "source_title": "00-overview",
+  "section": "Platform",
+  "sha256": "2abfe061ea2efee4dbe3bfa2055dd278b7ee0d48bb7379c759b16997894b8bdf",
+  "content": "# Platform\n\nVendor: Juniper Networks\n\nProduct Family: SRX Series Services Gateways\n\nModel: SRX320\n\nOperating System: Junos OS\n\nPrimary Functions:\n\n- Stateful firewalling\n- Security policy enforcement\n- Network Address Translation\n- Routing\n- VLAN and interface management\n- VPN services\n- Traffic inspection\n- Logging and monitoring\n- Network segmentation\n- Administrative access control\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "01-basic-edge-firewall-010-0d9c70f10602",
+  "kb": "juniper",
+  "source_path": "examples/01-basic-edge-firewall.md",
+  "source_title": "01-basic-edge-firewall",
+  "section": "AI Guidance",
+  "sha256": "0d9c70f10602025b03bd6673b4342be0149ebfe42487a60a5b6420641fd0b2d2",
+  "content": "# AI Guidance\n\nWhen using this example:\n\n- Treat all addresses as examples.\n- Treat all interfaces as examples.\n- Treat all zone names as examples.\n- Verify production interfaces before generating commands.\n- Verify Junos version.\n- Preserve management access.\n- Use commit check before activation.\n- Use commit confirmed when lockout risk exists.\n\n---"
+}

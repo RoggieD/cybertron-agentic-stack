@@ -1,0 +1,9 @@
+{
+  "chunk_id": "11-security-hardening-015-696354411153",
+  "kb": "juniper",
+  "source_path": "docs/11-security-hardening.md",
+  "source_title": "11-security-hardening",
+  "section": "Software Maintenance",
+  "sha256": "69635441115387820039cb8a3e268d12fe1b6f9e1a8445aa068e62fdccada910",
+  "content": "# Software Maintenance\n\nJunos should be maintained at a release appropriate for:\n\n- SRX320 hardware support\n- Security fixes\n- Feature requirements\n- Operational stability\n\nDo not upgrade production firewalls solely because a newer release exists.\n\nReview:\n\n- Release notes\n- Security advisories\n- Compatibility\n- Upgrade path\n- Rollback plan\n\n---"
+}

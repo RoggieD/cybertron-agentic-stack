@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-system-management-and-monitoring-002-9267402b901d",
+  "kb": "juniper",
+  "source_path": "docs/05-system-management-and-monitoring.md",
+  "source_title": "05-system-management-and-monitoring",
+  "section": "Management Overview",
+  "sha256": "9267402b901d860d76b205a2f8a3642e246d04cb85d57e5df2c16f66de65a816",
+  "content": "# Management Overview\n\nSRX320 management should be designed to provide reliable administrative access while limiting unnecessary exposure.\n\nCommon management functions include:\n\n- SSH\n- HTTPS\n- Console access\n- SNMP\n- Syslog\n- NTP\n- DNS\n- User authentication\n- Configuration backup\n- Software maintenance\n- Monitoring\n\nManagement access should follow least-privilege principles.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "01-basic-edge-firewall-001-86329b97b334",
+  "kb": "juniper",
+  "source_path": "examples/01-basic-edge-firewall.md",
+  "source_title": "01-basic-edge-firewall",
+  "section": "Scope",
+  "sha256": "86329b97b334df7be5e341051eaa911cc0e428bf7b57af0769f93ec77d7f80e5",
+  "content": "# Scope\n\nThis example demonstrates a simple SRX edge firewall design with:\n\n- WAN interface\n- LAN interface\n- Trust and untrust security zones\n- Default route\n- Source NAT\n- Basic outbound security policy\n\nThis configuration is an educational example only.\n\nIt is not production configuration.\n\n---"
+}

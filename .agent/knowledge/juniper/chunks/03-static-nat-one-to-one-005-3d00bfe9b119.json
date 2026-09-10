@@ -1,0 +1,9 @@
+{
+  "chunk_id": "03-static-nat-one-to-one-005-3d00bfe9b119",
+  "kb": "juniper",
+  "source_path": "examples/03-static-nat-one-to-one.md",
+  "source_title": "03-static-nat-one-to-one",
+  "section": "Create Security Policy",
+  "sha256": "3d00bfe9b119325372045858bcf755fa1410035b9930f32faead5cd601db5430",
+  "content": "# Create Security Policy\n\nCreate a policy from untrust to trust.\n\nExample permitting HTTPS only:\n\nset security policies from-zone untrust to-zone trust policy ALLOW-STATIC-SERVER-HTTPS match source-address any\n\nset security policies from-zone untrust to-zone trust policy ALLOW-STATIC-SERVER-HTTPS match destination-address STATIC-SERVER\n\nset security policies from-zone untrust to-zone trust policy ALLOW-STATIC-SERVER-HTTPS match application junos-https\n\nset security policies from-zone untrust to-zone trust policy ALLOW-STATIC-SERVER-HTTPS then permit\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "00-overview-014-1f061e1f5c82",
+  "kb": "juniper",
+  "source_path": "docs/00-overview.md",
+  "source_title": "00-overview",
+  "section": "ScreenOS and Junos",
+  "sha256": "1f061e1f5c820cb64dc456c12863f314a707f3046fd05ea0735513b42fc9406e",
+  "content": "# ScreenOS and Junos\n\nJuniper SSG devices commonly used ScreenOS.\n\nThe SRX320 uses Junos OS.\n\nScreenOS and Junos differ significantly in:\n\n- Command syntax\n- Configuration hierarchy\n- Policy structure\n- NAT configuration\n- Interface configuration\n- Administrative workflow\n- Commit behavior\n\nScreenOS commands must not be treated as Junos commands.\n\nMigration should focus on translating intent and function, not performing literal command conversion.\n\n---"
+}

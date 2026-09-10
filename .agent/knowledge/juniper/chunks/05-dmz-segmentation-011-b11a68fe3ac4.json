@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-dmz-segmentation-011-b11a68fe3ac4",
+  "kb": "juniper",
+  "source_path": "examples/05-dmz-segmentation.md",
+  "source_title": "05-dmz-segmentation",
+  "section": "DMZ to Trust Policy",
+  "sha256": "b11a68fe3ac43b4823faa91b9a5f212bac19169330c0db523d9b56fbb76a92e0",
+  "content": "# DMZ to Trust Policy\n\nDo not create broad DMZ-to-trust access by default.\n\nIf a DMZ server requires access to a trusted internal service, create a specific policy.\n\nExample concept:\n\nDMZ-WEB-SERVER -> internal database TCP/5432\n\nSuch a policy should explicitly define:\n\n- Source host\n- Destination host\n- Application\n- Business purpose\n\nDo not permit:\n\ndmz -> trust application any\n\nunless there is a specific justified requirement.\n\n---"
+}

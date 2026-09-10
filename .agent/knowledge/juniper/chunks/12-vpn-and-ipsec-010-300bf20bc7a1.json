@@ -1,0 +1,9 @@
+{
+  "chunk_id": "12-vpn-and-ipsec-010-300bf20bc7a1",
+  "kb": "juniper",
+  "source_path": "docs/12-vpn-and-ipsec.md",
+  "source_title": "12-vpn-and-ipsec",
+  "section": "Routing",
+  "sha256": "300bf20bc7a1ba01261359ca3de80be6dfd3efd7c28b9da2fb094321b32376f4",
+  "content": "# Routing\n\nRoute-based VPN traffic requires correct routing.\n\nVerify:\n\n- Destination route\n- Tunnel interface\n- Next-hop behavior\n- Return route\n- Routing instance\n\nA VPN may be established while application traffic still fails because routing is incorrect.\n\n---"
+}

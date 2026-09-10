@@ -1,0 +1,9 @@
+{
+  "chunk_id": "14-ha-clustering-and-redundancy-013-1f9f02b47b99",
+  "kb": "juniper",
+  "source_path": "docs/14-ha-clustering-and-redundancy.md",
+  "source_title": "14-ha-clustering-and-redundancy",
+  "section": "NAT and HA",
+  "sha256": "1f9f02b47b9933db405eff037c8aa497878a5dd7f6779c4b87ebcf8a1f858bee",
+  "content": "# NAT and HA\n\nNAT configuration in a cluster should be designed with failover behavior in mind.\n\nConsider:\n\n- Public IP ownership\n- Redundant interfaces\n- ARP behavior\n- Upstream routing\n- Session synchronization\n\nNAT should continue functioning after failover.\n\n---"
+}

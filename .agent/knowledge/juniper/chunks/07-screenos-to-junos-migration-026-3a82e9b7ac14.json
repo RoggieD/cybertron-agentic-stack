@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-screenos-to-junos-migration-026-3a82e9b7ac14",
+  "kb": "juniper",
+  "source_path": "docs/07-screenos-to-junos-migration.md",
+  "source_title": "07-screenos-to-junos-migration",
+  "section": "AI Guidance",
+  "sha256": "3a82e9b7ac1451e660ed70d75dd363aff4fbf3765879890443ec4fe3730e2eea",
+  "content": "# AI Guidance\n\nWhen using this document:\n\n- Never translate ScreenOS commands literally without understanding intent.\n- Never assume interface numbering maps directly.\n- Never assume MIP equals one exact Junos feature without verification.\n- Never assume VIP equals one exact Junos feature without verification.\n- Treat NAT, policy, and routing as separate migration tasks.\n- Identify obsolete legacy configuration instead of blindly copying it.\n- Preserve rollback capability.\n- Prefer verified behavior over configuration similarity.\n- Keep legacy and SRX configuration states clearly separated.\n\n---"
+}

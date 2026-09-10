@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-configuration-backup-and-recovery-006-b1b9096aff18",
+  "kb": "juniper",
+  "source_path": "docs/09-configuration-backup-and-recovery.md",
+  "source_title": "09-configuration-backup-and-recovery",
+  "section": "Rollback",
+  "sha256": "b1b9096aff18a7fe35f2e7a0445a5294044a04fe7f19af35a1222cb2a7f6103c",
+  "content": "# Rollback\n\nJunos stores previous configuration revisions.\n\nRollback can restore an earlier candidate configuration.\n\nCommon concepts include:\n\nrollback 0\n\nrollback 1\n\nrollback 2\n\nThe meaning of rollback numbers should be verified before use.\n\nReview differences before committing a rollback.\n\n---"
+}

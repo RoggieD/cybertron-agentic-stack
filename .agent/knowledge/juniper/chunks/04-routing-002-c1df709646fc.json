@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-routing-002-c1df709646fc",
+  "kb": "juniper",
+  "source_path": "docs/04-routing.md",
+  "source_title": "04-routing",
+  "section": "Routing Overview",
+  "sha256": "c1df709646fc71e10d0b03663cfd77fdad300201c8c24de093524ac6cb182994",
+  "content": "# Routing Overview\n\nThe SRX320 performs Layer 3 routing in addition to firewalling.\n\nTraffic forwarding depends on a valid route to the destination.\n\nRouting and security are separate functions.\n\nA packet may have:\n\n- A valid route but no permitting security policy\n- A valid security policy but no usable route\n- Correct NAT but incorrect routing\n- Correct routing but incorrect NAT\n\nTroubleshooting should verify each function independently.\n\n---"
+}

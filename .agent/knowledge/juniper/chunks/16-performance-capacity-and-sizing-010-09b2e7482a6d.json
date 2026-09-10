@@ -1,0 +1,9 @@
+{
+  "chunk_id": "16-performance-capacity-and-sizing-010-09b2e7482a6d",
+  "kb": "juniper",
+  "source_path": "docs/16-performance-capacity-and-sizing.md",
+  "source_title": "16-performance-capacity-and-sizing",
+  "section": "Memory Utilization / NAT Performance",
+  "sha256": "09b2e7482a6de4014f323d55830e87d3bafad9f2da4f196e417953f6751c3124",
+  "content": "# Memory Utilization / NAT Performance\n\nMemory should be monitored for:\n\n- Current usage\n- Trend\n- Session growth\n- Process behavior\n- System alarms\n\nHigh memory usage alone does not automatically indicate failure.\n\nEvaluate it in context.\n\n---\n\nNAT introduces state and translation processing.\n\nPerformance may be influenced by:\n\n- Number of translations\n- Session volume\n- Translation pools\n- Port utilization\n- Bidirectional traffic\n- Published services\n\nNAT troubleshooting should include both resource usage and rule correctness.\n\n---"
+}

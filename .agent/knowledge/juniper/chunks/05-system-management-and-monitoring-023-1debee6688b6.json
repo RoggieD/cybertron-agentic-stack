@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-system-management-and-monitoring-023-1debee6688b6",
+  "kb": "juniper",
+  "source_path": "docs/05-system-management-and-monitoring.md",
+  "source_title": "05-system-management-and-monitoring",
+  "section": "Public Release Guidance",
+  "sha256": "1debee6688b6bc48943dda1cba49856d7a21aa7e61a9ef9e8da1342b153ae56d",
+  "content": "# Public Release Guidance\n\nBefore publishing management examples:\n\n- Remove usernames\n- Remove passwords\n- Remove SSH keys\n- Remove SNMP credentials\n- Remove management IP addresses\n- Remove internal monitoring server names\n- Remove syslog destinations\n- Remove private NTP or DNS infrastructure\n- Replace sensitive examples with generic documentation values\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "01-hardware-and-interfaces-011-78516613d068",
+  "kb": "juniper",
+  "source_path": "docs/01-hardware-and-interfaces.md",
+  "source_title": "01-hardware-and-interfaces",
+  "section": "Host-Inbound and Management Access",
+  "sha256": "78516613d0684d404b5d22ff756974fe37a48afb19bfd19bb23f1770c451df31",
+  "content": "# Host-Inbound and Management Access\n\nTraffic destined to the SRX itself may be permitted selectively on security zones or specific interfaces using host-inbound configuration.\n\nExamples of supported host-inbound system services include:\n\n- ssh\n- https\n- ping\n- snmp\n- dhcp\n- dns\n\nSSH and HTTPS are commonly associated with administrative access.\n\nOther host-inbound services, such as DHCP or DNS, may serve operational functions and should not automatically be treated as management services.\n\nOnly required host-inbound services should be enabled.\n\nInternet-facing interfaces should use restrictive host-inbound access.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "16-performance-capacity-and-sizing-018-37b512e1dffd",
+  "kb": "juniper",
+  "source_path": "docs/16-performance-capacity-and-sizing.md",
+  "source_title": "16-performance-capacity-and-sizing",
+  "section": "Performance Troubleshooting",
+  "sha256": "37b512e1dffd1853259d89ef0fd1fc75f46db65f1dd398ad49cb5f271f991026",
+  "content": "# Performance Troubleshooting\n\nWhen performance degrades, verify:\n\n1. Scope of affected traffic\n2. Time problem began\n3. Interface utilization\n4. Interface errors\n5. CPU usage\n6. Memory usage\n7. Session count\n8. New session rate\n9. NAT behavior\n10. VPN load\n11. Logging volume\n12. Routing\n13. Upstream network health\n14. Application health\n\n---"
+}

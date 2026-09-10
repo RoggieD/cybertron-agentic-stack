@@ -1,0 +1,9 @@
+{
+  "chunk_id": "03-nat-010-3d7bb2986b9a",
+  "kb": "juniper",
+  "source_path": "docs/03-nat.md",
+  "source_title": "03-nat",
+  "section": "NAT Rule Matching",
+  "sha256": "3d7bb2986b9ae6e24029d02bdfb05cd73499c90fab69260e4482b18a32028c3d",
+  "content": "# NAT Rule Matching\n\nNAT rule matching may depend on:\n\n- Source zone\n- Destination zone\n- Incoming interface\n- Source address\n- Destination address\n- Protocol\n- Port\n\nRule order matters within applicable NAT rule sets.\n\nMore specific rules should generally be evaluated before broader rules where order affects matching.\n\n---"
+}

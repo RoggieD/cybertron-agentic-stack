@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-system-management-and-monitoring-013-addcaff1978e",
+  "kb": "juniper",
+  "source_path": "docs/05-system-management-and-monitoring.md",
+  "source_title": "05-system-management-and-monitoring",
+  "section": "SNMP",
+  "sha256": "addcaff1978e395d1e08119c2e0ff828c9e105ab032b4d283ed28714e38922f3",
+  "content": "# SNMP\n\nSNMP may be used for monitoring:\n\n- Interface status\n- Interface counters\n- CPU\n- Memory\n- Device health\n- System uptime\n\nSNMP configuration should be restricted to authorized monitoring systems.\n\nPrefer secure SNMP versions where practical.\n\nDo not expose SNMP to untrusted networks.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-source-nat-pool-001-6ba4db366f0f",
+  "kb": "juniper",
+  "source_path": "examples/07-source-nat-pool.md",
+  "source_title": "07-source-nat-pool",
+  "section": "Scope",
+  "sha256": "6ba4db366f0f7b90b581560f044f1a66893c5bed0219e4dd211014ba5e617cda",
+  "content": "# Scope\n\nThis example demonstrates source NAT using an explicitly defined public address pool.\n\nIt demonstrates:\n\n- Source NAT pool creation\n- Source NAT rule set\n- Source address matching\n- Public address translation\n- Security policy integration\n- Verification and troubleshooting\n\nThis configuration is an educational example only.\n\nIt is not production configuration.\n\n---"
+}

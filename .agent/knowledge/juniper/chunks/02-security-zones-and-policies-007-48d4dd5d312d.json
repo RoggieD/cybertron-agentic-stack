@@ -1,0 +1,9 @@
+{
+  "chunk_id": "02-security-zones-and-policies-007-48d4dd5d312d",
+  "kb": "juniper",
+  "source_path": "docs/02-security-zones-and-policies.md",
+  "source_title": "02-security-zones-and-policies",
+  "section": "Address Objects",
+  "sha256": "48d4dd5d312d7c65fcfcad1f21965c24bb6be1789ee2075e2ef6619df740cdc9",
+  "content": "# Address Objects\n\nSecurity policies commonly reference named address-book objects.\n\nExamples:\n\nWEB_SERVER\n\nMAIL_SERVER\n\nLAN_SUBNET\n\nDMZ_SUBNET\n\nAddress objects improve readability and reduce repeated literal IP usage.\n\nAddress sets may group multiple address objects.\n\n---"
+}

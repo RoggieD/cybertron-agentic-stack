@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-site-to-site-ipsec-vpn-012-1212b3bb7e48",
+  "kb": "juniper",
+  "source_path": "examples/04-site-to-site-ipsec-vpn.md",
+  "source_title": "04-site-to-site-ipsec-vpn",
+  "section": "NAT Considerations",
+  "sha256": "1212b3bb7e48a5ed6ab71bc4bd155d1cdd27f118d0c2282392bdd634be2a5da2",
+  "content": "# NAT Considerations\n\nSite-to-site VPN traffic normally should not be accidentally source-NATed to the Internet-facing address.\n\nReview existing source NAT rule sets carefully.\n\nIf source NAT rules are broad, ensure VPN traffic does not unintentionally match them.\n\nDo not add NAT exemptions blindly.\n\nVerify actual NAT processing and traffic design first.\n\n---"
+}

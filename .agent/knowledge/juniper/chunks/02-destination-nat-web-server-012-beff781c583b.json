@@ -1,0 +1,9 @@
+{
+  "chunk_id": "02-destination-nat-web-server-012-beff781c583b",
+  "kb": "juniper",
+  "source_path": "examples/02-destination-nat-web-server.md",
+  "source_title": "02-destination-nat-web-server",
+  "section": "Server Requirements",
+  "sha256": "beff781c583bfd35e5eb30685298c7ce191a46abbe6d41a82008a0497d7135ea",
+  "content": "# Server Requirements\n\nThe internal server must also be configured correctly.\n\nVerify:\n\n- Server is powered on\n- Correct IP address\n- Correct subnet mask\n- Correct default gateway\n- TCP/443 service is listening\n- Host firewall permits HTTPS\n- Application is healthy\n- Return traffic passes through the SRX\n\n---"
+}

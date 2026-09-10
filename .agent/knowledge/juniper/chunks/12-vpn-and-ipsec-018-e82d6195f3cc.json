@@ -1,0 +1,9 @@
+{
+  "chunk_id": "12-vpn-and-ipsec-018-e82d6195f3cc",
+  "kb": "juniper",
+  "source_path": "docs/12-vpn-and-ipsec.md",
+  "source_title": "12-vpn-and-ipsec",
+  "section": "Stage 7 \u2014 Application / Common VPN Failure Causes",
+  "sha256": "e82d6195f3ccad6782c4e9625cd8d948eb29c535ff05aabc6287e899054f4ca8",
+  "content": "# Stage 7 \u2014 Application / Common VPN Failure Causes\n\nVerify the actual service across the tunnel.\n\nTunnel establishment alone does not prove application connectivity.\n\n---\n\nCommon causes include:\n\n- Wrong peer IP\n- Incorrect pre-shared key\n- IKE version mismatch\n- Encryption mismatch\n- Authentication mismatch\n- Diffie-Hellman mismatch\n- PFS mismatch\n- Traffic selector mismatch\n- Missing route\n- Wrong security policy\n- NAT interference\n- Overlapping subnets\n- Return-routing failure\n\n---"
+}

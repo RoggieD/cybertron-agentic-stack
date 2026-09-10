@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-site-to-site-ipsec-vpn-019-522b50e824fc",
+  "kb": "juniper",
+  "source_path": "examples/04-site-to-site-ipsec-vpn.md",
+  "source_title": "04-site-to-site-ipsec-vpn",
+  "section": "Tunnel Interface / Routing / Security Policies / NAT / Application",
+  "sha256": "522b50e824fcd7ee0e12ad00b2757340a406df133896a0d9d69a3cb24a89cc65",
+  "content": "# Tunnel Interface / Routing / Security Policies / NAT / Application\n\nVerify:\n\n- st0.0 exists\n- st0.0 is in the expected zone\n\nVerify:\n\n- Remote route\n- Local route\n- Return route\n\nVerify:\n\n- trust to vpn\n- vpn to trust\n- Address objects\n- Applications\n\nVerify that VPN traffic is not being translated unexpectedly.\n\nTest the actual application across the tunnel.\n\nAn established VPN does not prove application connectivity.\n\n---"
+}

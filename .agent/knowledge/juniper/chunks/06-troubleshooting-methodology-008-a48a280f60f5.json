@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-troubleshooting-methodology-008-a48a280f60f5",
+  "kb": "juniper",
+  "source_path": "docs/06-troubleshooting-methodology.md",
+  "source_title": "06-troubleshooting-methodology",
+  "section": "Step 7 \u2014 Verify NAT",
+  "sha256": "a48a280f60f5412dc17798e5e565b81d092bf80c1be38ddea5d350188e0a95af",
+  "content": "# Step 7 \u2014 Verify NAT\n\nUseful commands may include:\n\nshow configuration security nat\n\nshow security nat source rule all\n\nshow security nat destination rule all\n\nshow security nat static rule all\n\nVerify:\n\n- Correct NAT type\n- Rule-set scope\n- Rule ordering\n- Address match\n- Protocol match\n- Port match\n- Translation pool\n- Translated destination or source\n\n---"
+}

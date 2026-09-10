@@ -1,0 +1,9 @@
+{
+  "chunk_id": "15-upgrades-firmware-and-lifecycle-021-b4c1d6a81481",
+  "kb": "juniper",
+  "source_path": "docs/15-upgrades-firmware-and-lifecycle.md",
+  "source_title": "15-upgrades-firmware-and-lifecycle",
+  "section": "Upgrade Documentation",
+  "sha256": "b4c1d6a81481fc7ba0b165b73049476ba4895c6251554861a75af3e011d744b6",
+  "content": "# Upgrade Documentation\n\nEach production upgrade should record:\n\nDevice:\n\nCurrent Version:\n\nTarget Version:\n\nUpgrade Path:\n\nMaintenance Window:\n\nAdministrator:\n\nBackup Completed:\n\nRescue Configuration Verified:\n\nConsole Access Verified:\n\nInstallation Method:\n\nValidation Results:\n\nProblems Encountered:\n\nRollback Required:\n\nFinal Version:\n\nConfiguration State:\n\nVerification Date:\n\nNotes:\n\n---"
+}

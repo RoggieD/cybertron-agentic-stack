@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-management-hardening-004-6dff605c1c60",
+  "kb": "juniper",
+  "source_path": "examples/06-management-hardening.md",
+  "source_title": "06-management-hardening",
+  "section": "Enable Ping on Trusted Interface / Do Not Enable Management on Untrust",
+  "sha256": "6dff605c1c60e568d05065269caee807511bcc0aee2e0b32b41dbe20209c93be",
+  "content": "# Enable Ping on Trusted Interface / Do Not Enable Management on Untrust\n\nPermit ICMP echo for monitoring and troubleshooting:\n\nset security zones security-zone trust interfaces ge-0/0/1.0 host-inbound-traffic system-services ping\n\n---\n\nAvoid enabling host-inbound management services on the Internet-facing interface.\n\nDo not add:\n\nssh\n\nhttps\n\ntelnet\n\nsnmp\n\nto the untrust interface unless explicitly required.\n\n---"
+}

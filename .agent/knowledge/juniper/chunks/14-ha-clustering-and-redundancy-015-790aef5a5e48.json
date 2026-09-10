@@ -1,0 +1,9 @@
+{
+  "chunk_id": "14-ha-clustering-and-redundancy-015-790aef5a5e48",
+  "kb": "juniper",
+  "source_path": "docs/14-ha-clustering-and-redundancy.md",
+  "source_title": "14-ha-clustering-and-redundancy",
+  "section": "Security Policies and HA / Monitoring HA",
+  "sha256": "790aef5a5e48a5880826931eca58fe6b27ad8eec7b0930b5452517fe887e5d5e",
+  "content": "# Security Policies and HA / Monitoring HA\n\nSecurity policy should remain logically consistent across cluster nodes.\n\nA clustered design should avoid configuration drift.\n\nConfiguration synchronization is therefore operationally important.\n\n---\n\nHA monitoring should include:\n\n- Node state\n- Redundancy group state\n- Control link\n- Fabric link\n- Redundant interfaces\n- Physical member interfaces\n- Cluster alarms\n- Routing\n- WAN state\n\nA cluster can be partially degraded while still forwarding traffic.\n\n---"
+}

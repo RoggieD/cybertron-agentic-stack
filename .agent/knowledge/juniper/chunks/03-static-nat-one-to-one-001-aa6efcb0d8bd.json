@@ -1,0 +1,9 @@
+{
+  "chunk_id": "03-static-nat-one-to-one-001-aa6efcb0d8bd",
+  "kb": "juniper",
+  "source_path": "examples/03-static-nat-one-to-one.md",
+  "source_title": "03-static-nat-one-to-one",
+  "section": "Scope",
+  "sha256": "aa6efcb0d8bd870e08d1a7e63e9c048584811dd9156b7ad821d1d19da2b91f9b",
+  "content": "# Scope\n\nThis example demonstrates a one-to-one static NAT mapping between a public IP address and an internal server.\n\nIt demonstrates:\n\n- Static NAT rule set\n- One-to-one address mapping\n- Security policy integration\n- Routing considerations\n- Verification and troubleshooting\n\nThis configuration is an educational example only.\n\nIt is not production configuration.\n\n---"
+}

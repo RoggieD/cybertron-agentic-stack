@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-dual-wan-failover-concepts-018-de097a1979df",
+  "kb": "juniper",
+  "source_path": "examples/08-dual-wan-failover-concepts.md",
+  "source_title": "08-dual-wan-failover-concepts",
+  "section": "Monitoring / Validation Tests",
+  "sha256": "de097a1979dfb4f01b13c2682df33891c3e1f265cb3b9c4e9c5572f9ceaea872",
+  "content": "# Monitoring / Validation Tests\n\nMonitor both WAN paths independently.\n\nRecommended metrics include:\n\n- Interface state\n- Gateway reachability\n- External probe reachability\n- Latency\n- Packet loss\n- Active default route\n- NAT behavior\n- Public IP\n- VPN state\n\n---\n\nA planned failover test should verify:\n\n1. Primary WAN normal operation\n2. Primary route active\n3. Primary NAT working\n4. Backup path reachable\n5. Primary failure detected\n6. Backup route becomes active\n7. New sessions use backup WAN\n8. Backup NAT works\n9. DNS still works\n10. Monitoring detects failover\n11. Primary recovery detected\n12. Failback behaves as designed\n\n---"
+}

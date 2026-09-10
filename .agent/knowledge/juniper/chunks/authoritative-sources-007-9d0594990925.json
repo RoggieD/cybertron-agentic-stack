@@ -1,0 +1,9 @@
+{
+  "chunk_id": "authoritative-sources-007-9d0594990925",
+  "kb": "juniper",
+  "source_path": "source-material/authoritative-sources.md",
+  "source_title": "authoritative-sources",
+  "section": "Junos System Services Documentation / Junos Routing Documentation",
+  "sha256": "9d0594990925b16babf04fe6c672ac72f809f13bc6798cdd2eb9db0a574fb856",
+  "content": "# Junos System Services Documentation / Junos Routing Documentation\n\nPrimary Topics:\n\n- SSH\n- HTTPS\n- Host-inbound services\n- System services\n- Administrative access\n- Management-plane configuration\n\nAuthority:\n\nJuniper Networks Junos OS CLI reference and system services documentation\n\n---\n\nPrimary Topics:\n\n- Static routes\n- Default routes\n- Route preference\n- Routing tables\n- Route verification\n- Routing instances\n\nAuthority:\n\nJuniper Networks Junos OS routing documentation\n\n---"
+}

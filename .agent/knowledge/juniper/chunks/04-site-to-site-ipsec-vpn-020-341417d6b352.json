@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-site-to-site-ipsec-vpn-020-341417d6b352",
+  "kb": "juniper",
+  "source_path": "examples/04-site-to-site-ipsec-vpn.md",
+  "source_title": "04-site-to-site-ipsec-vpn",
+  "section": "Traffic Selectors",
+  "sha256": "341417d6b352304a1e2edfe1d3c6c520d2325a6afea34c0415d2b533aa04dd26",
+  "content": "# Traffic Selectors\n\nSome deployments, especially interoperability with third-party VPN peers, may require explicit traffic selectors.\n\nTraffic selectors may define:\n\n- Local prefix\n- Remote prefix\n- Protocol\n- Source port\n- Destination port\n\nDo not add traffic selectors unless the VPN design or peer requirements call for them.\n\n---"
+}

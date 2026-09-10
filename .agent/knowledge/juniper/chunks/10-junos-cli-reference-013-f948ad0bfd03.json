@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-junos-cli-reference-013-f948ad0bfd03",
+  "kb": "juniper",
+  "source_path": "docs/10-junos-cli-reference.md",
+  "source_title": "10-junos-cli-reference",
+  "section": "Output Filtering / Configuration Navigation",
+  "sha256": "f948ad0bfd03f9ed1dab85a3e151e590b538e989599fdee7c4de71116b796c78",
+  "content": "# Output Filtering / Configuration Navigation\n\nCommon output filters include:\n\n| match\n\n| except\n\n| count\n\n| display set\n\n| no-more\n\nExamples:\n\nshow configuration | display set\n\nshow interfaces terse | match ge-\n\nshow route | no-more\n\nFilter availability may vary.\n\n---\n\nIn configuration mode, use hierarchy navigation such as:\n\nedit\n\nup\n\ntop\n\nExample:\n\nedit security policies\n\nReturn one level:\n\nup\n\nReturn to top:\n\ntop\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "audit-results-008-76035854bc01",
+  "kb": "juniper",
+  "source_path": "source-material/AUDIT-RESULTS.md",
+  "source_title": "AUDIT-RESULTS",
+  "section": "Publication / Commercial Packaging",
+  "sha256": "76035854bc01938fcec21ee31b62dd2d4fdd14f32bd03ac55a2141098267fe37",
+  "content": "# Publication / Commercial Packaging\n\nThe current package separates general technical material from the private production record and uses reserved/documentation address space in examples.\n\nBefore public release, perform a final secret/topology scan and keep the private directory out of the public package even if it currently contains only placeholders.\n\nDo not claim Juniper certification, Juniper endorsement, or live-device validation."
+}

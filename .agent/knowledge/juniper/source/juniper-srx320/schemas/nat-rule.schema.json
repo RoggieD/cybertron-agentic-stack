@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/juniper-srx320/nat-rule.schema.json",
+  "title": "Juniper SRX320 NAT Rule Record",
+  "description": "Structured record for a Junos source NAT, destination NAT, or static NAT rule.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "nat_type",
+    "rule_set_name",
+    "rule_name",
+    "configuration_state"
+  ],
+  "properties": {
+    "nat_type": {
+      "type": "string",
+      "enum": [
+        "source",
+        "destination",
+        "static"
+      ]
+    },
+    "rule_set_name": {
+      "type": "string"
+    },
+    "rule_name": {
+      "type": "string"
+    },
+    "from_zone": {
+      "type": ["string", "null"]
+    },
+    "to_zone": {
+      "type": ["string", "null"]
+    },
+    "from_interface": {
+      "type": ["string", "null"]
+    },
+    "to_interface": {
+      "type": ["string", "null"]
+    },
+    "match_source_addresses": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "match_destination_addresses": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "protocol": {
+      "type": ["string", "null"]
+    },
+    "source_port": {
+      "type": ["integer", "null"],
+      "minimum": 1,
+      "maximum": 65535
+    },
+    "destination_port": {
+      "type": ["integer", "null"],
+      "minimum": 1,
+      "maximum": 65535
+    },
+    "translation_type": {
+      "type": ["string", "null"],
+      "enum": [
+        "interface",
+        "pool",
+        "prefix",
+        "off",
+        null
+      ]
+    },
+    "translation_pool": {
+      "type": ["string", "null"]
+    },
+    "translated_address": {
+      "type": ["string", "null"]
+    },
+    "translated_port": {
+      "type": ["integer", "null"],
+      "minimum": 1,
+      "maximum": 65535
+    },
+    "proxy_arp_required": {
+      "type": ["boolean", "null"]
+    },
+    "business_purpose": {
+      "type": ["string", "null"]
+    },
+    "enabled": {
+      "type": ["boolean", "null"]
+    },
+    "rule_order": {
+      "type": ["integer", "null"],
+      "minimum": 1
+    },
+    "configuration_state": {
+      "type": "string",
+      "enum": [
+        "LEGACY_PRODUCTION",
+        "SRX320_TARGET",
+        "SRX320_VERIFIED_PRODUCTION"
+      ]
+    },
+    "verification_date": {
+      "type": ["string", "null"],
+      "format": "date"
+    },
+    "notes": {
+      "type": ["string", "null"]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "00-overview-007-01b11845b1bd",
+  "kb": "juniper",
+  "source_path": "docs/00-overview.md",
+  "source_title": "00-overview",
+  "section": "commit check / commit confirmed",
+  "sha256": "01b11845b1bdd15db599683dbb94aae8c20d62a755c844c23e5509a7a57dfd51",
+  "content": "# commit check / commit confirmed\n\nValidates configuration syntax and dependencies without activating the change.\n\nActivates the configuration temporarily.\n\nIf the configuration is not confirmed within the specified period, Junos automatically rolls back.\n\nThis is particularly useful when modifying:\n\n- management access\n- routing\n- firewall policies\n- interface addressing\n- security zones"
+}

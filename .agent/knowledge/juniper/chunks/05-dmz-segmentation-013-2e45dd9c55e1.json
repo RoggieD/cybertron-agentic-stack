@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-dmz-segmentation-013-2e45dd9c55e1",
+  "kb": "juniper",
+  "source_path": "examples/05-dmz-segmentation.md",
+  "source_title": "05-dmz-segmentation",
+  "section": "Untrust to DMZ Security Policy",
+  "sha256": "2e45dd9c55e10ff2649cd10eafbd819b782b2febda47484cc296ce60e116e4a2",
+  "content": "# Untrust to DMZ Security Policy\n\nPermit only HTTPS to the translated DMZ server:\n\nset security policies from-zone untrust to-zone dmz policy INTERNET-TO-DMZ-HTTPS match source-address any\n\nset security policies from-zone untrust to-zone dmz policy INTERNET-TO-DMZ-HTTPS match destination-address DMZ-WEB-SERVER\n\nset security policies from-zone untrust to-zone dmz policy INTERNET-TO-DMZ-HTTPS match application junos-https\n\nset security policies from-zone untrust to-zone dmz policy INTERNET-TO-DMZ-HTTPS then permit\n\n---"
+}

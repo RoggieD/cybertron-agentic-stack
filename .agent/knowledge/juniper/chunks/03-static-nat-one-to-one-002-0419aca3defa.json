@@ -1,0 +1,9 @@
+{
+  "chunk_id": "03-static-nat-one-to-one-002-0419aca3defa",
+  "kb": "juniper",
+  "source_path": "examples/03-static-nat-one-to-one.md",
+  "source_title": "03-static-nat-one-to-one",
+  "section": "Example Topology / Traffic Objective",
+  "sha256": "0419aca3defa4711d9cdc55cc7ce74a88940ebf78000bcd3849ca7a08802ef48",
+  "content": "# Example Topology / Traffic Objective\n\nPublic IP:\n\n198.51.100.30\n\nInternal Server:\n\n192.0.2.30\n\nWAN Zone:\n\nuntrust\n\nInternal Zone:\n\ntrust\n\nWAN Interface:\n\nge-0/0/0.0\n\nInternal Interface:\n\nge-0/0/1.0\n\n---\n\nMap:\n\n198.51.100.30\n\nto:\n\n192.0.2.30\n\nThe mapping is intended to provide a consistent one-to-one relationship between the public and internal addresses.\n\n---"
+}

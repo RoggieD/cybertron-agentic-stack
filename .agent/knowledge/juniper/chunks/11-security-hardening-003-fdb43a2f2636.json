@@ -1,0 +1,9 @@
+{
+  "chunk_id": "11-security-hardening-003-fdb43a2f2636",
+  "kb": "juniper",
+  "source_path": "docs/11-security-hardening.md",
+  "source_title": "11-security-hardening",
+  "section": "Management Plane Protection",
+  "sha256": "fdb43a2f2636b3752df86a0deadcc0b79a20893bedba75ce863e8f92b21e6fe4",
+  "content": "# Management Plane Protection\n\nAdministrative access should be limited to trusted systems and networks.\n\nManagement services may include:\n\n- SSH\n- HTTPS\n- SNMP\n- Console\n- NETCONF where used\n\nAvoid exposing management services directly to untrusted networks unless there is a documented requirement and appropriate protection.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "03-static-nat-one-to-one-015-82a6c3abcc3c",
+  "kb": "juniper",
+  "source_path": "examples/03-static-nat-one-to-one.md",
+  "source_title": "03-static-nat-one-to-one",
+  "section": "Public Release Guidance / AI Guidance",
+  "sha256": "82a6c3abcc3ce9de34278121fb31cea41818f87d8add429a363c895bc9efa125",
+  "content": "# Public Release Guidance / AI Guidance\n\nPublished examples should use:\n\n- Documentation address ranges\n- Generic hostnames\n- Generic interface roles\n- Generic service names\n\nDo not include real public IP addresses, internal hostnames, customer names, or sensitive topology.\n\n---\n\nWhen using this example:\n\n- Treat all values as examples.\n- Do not invent production public addresses.\n- Verify whether static NAT is actually appropriate.\n- Verify upstream routing.\n- Verify proxy ARP requirements separately.\n- Verify security policy separately.\n- Verify return routing.\n- Prefer live Junos output when diagnosing production traffic.\n\n---"
+}

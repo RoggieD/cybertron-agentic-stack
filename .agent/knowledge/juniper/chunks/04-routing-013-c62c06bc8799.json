@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-routing-013-c62c06bc8799",
+  "kb": "juniper",
+  "source_path": "docs/04-routing.md",
+  "source_title": "04-routing",
+  "section": "Asymmetric Routing",
+  "sha256": "c62c06bc8799321f2ecc2b0da6b9559c7d75ad8509d3271a7101aa8122027739",
+  "content": "# Asymmetric Routing\n\nAsymmetric routing occurs when forward and return traffic use different paths.\n\nThis may cause problems with:\n\n- Stateful session tracking\n- NAT\n- Security policy enforcement\n- Troubleshooting visibility\n\nWhen asymmetric routing is suspected, examine both traffic directions.\n\n---"
+}

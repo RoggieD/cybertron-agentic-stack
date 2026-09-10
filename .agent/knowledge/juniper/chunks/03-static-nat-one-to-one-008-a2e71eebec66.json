@@ -1,0 +1,9 @@
+{
+  "chunk_id": "03-static-nat-one-to-one-008-a2e71eebec66",
+  "kb": "juniper",
+  "source_path": "examples/03-static-nat-one-to-one.md",
+  "source_title": "03-static-nat-one-to-one",
+  "section": "Verify Security Policy / Verify Route to Internal Server / Verify Sessions",
+  "sha256": "a2e71eebec667203b9dc97caecb01a9442fa3a0f9d807eb421c9319fc6b7f620",
+  "content": "# Verify Security Policy / Verify Route to Internal Server / Verify Sessions\n\nRun:\n\nshow security policies\n\nFor more detail:\n\nshow security policies detail\n\n---\n\nRun:\n\nshow route 192.0.2.30\n\nThe translated destination must be reachable through the expected internal interface.\n\n---\n\nWhile testing:\n\nshow security flow session destination-prefix 192.0.2.30\n\nSession information may show:\n\n- Original public address\n- Internal translated address\n- Security policy\n- Protocol\n- Session state\n\n---"
+}

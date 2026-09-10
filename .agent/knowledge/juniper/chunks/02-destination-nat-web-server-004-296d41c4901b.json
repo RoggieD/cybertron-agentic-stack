@@ -1,0 +1,9 @@
+{
+  "chunk_id": "02-destination-nat-web-server-004-296d41c4901b",
+  "kb": "juniper",
+  "source_path": "examples/02-destination-nat-web-server.md",
+  "source_title": "02-destination-nat-web-server",
+  "section": "Create Destination NAT Rule Set / Create HTTPS Destination NAT Rule",
+  "sha256": "296d41c4901b306669b2b3e6ed43a5a503c7a5c0c04b54033a0216c42ce65545",
+  "content": "# Create Destination NAT Rule Set / Create HTTPS Destination NAT Rule\n\nCreate a rule set for traffic entering from the untrust zone:\n\nset security nat destination rule-set INTERNET-INBOUND from zone untrust\n\n---\n\nMatch the public IP:\n\nset security nat destination rule-set INTERNET-INBOUND rule HTTPS-WEB match destination-address 198.51.100.20/32\n\nMatch TCP:\n\nset security nat destination rule-set INTERNET-INBOUND rule HTTPS-WEB match protocol tcp\n\nMatch HTTPS:\n\nset security nat destination rule-set INTERNET-INBOUND rule HTTPS-WEB match destination-port 443\n\nApply destination NAT:\n\nset security nat destination rule-set INTERNET-INBOUND rule HTTPS-WEB then destination-nat pool WEB-SERVER-POOL\n\n---"
+}

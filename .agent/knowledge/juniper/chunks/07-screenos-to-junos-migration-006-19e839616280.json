@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-screenos-to-junos-migration-006-19e839616280",
+  "kb": "juniper",
+  "source_path": "docs/07-screenos-to-junos-migration.md",
+  "source_title": "07-screenos-to-junos-migration",
+  "section": "Interface Migration",
+  "sha256": "19e83961628027b62aca73128496c7a02b05f4dbbbdf02de2de40db8dcba2ba4",
+  "content": "# Interface Migration\n\nScreenOS interface naming differs from Junos.\n\nScreenOS examples may include:\n\nethernet0/0\n\nethernet0/1\n\nethernet0/2\n\nJunos examples may include:\n\nge-0/0/0\n\nge-0/0/1\n\nge-0/0/2\n\nDo not assume a direct numerical mapping.\n\nEach physical interface must be mapped by actual function.\n\nMigration documentation should record:\n\n- Legacy interface\n- Legacy role\n- Legacy IP\n- Legacy zone\n- New SRX interface\n- New logical unit\n- New IP\n- New zone\n- Verification state\n\n---"
+}

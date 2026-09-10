@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-routing-016-b107b7e62fc6",
+  "kb": "juniper",
+  "source_path": "docs/04-routing.md",
+  "source_title": "04-routing",
+  "section": "Connectivity Testing",
+  "sha256": "b107b7e62fc6b612847e44d67a7cd2e788d47e878ea4dcea1e1807b2c05fd7f2",
+  "content": "# Connectivity Testing\n\nUseful diagnostic tools may include:\n\nping <destination>\n\ntraceroute <destination>\n\nshow route <destination>\n\nshow arp\n\nshow security flow session\n\nWhen possible, test from:\n\n- The SRX itself\n- The source network\n- The destination network\n- Both directions\n\n---"
+}

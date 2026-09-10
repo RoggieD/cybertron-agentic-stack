@@ -1,0 +1,9 @@
+{
+  "chunk_id": "13-logging-snmp-and-zabbix-016-1584f8cc9884",
+  "kb": "juniper",
+  "source_path": "docs/13-logging-snmp-and-zabbix.md",
+  "source_title": "13-logging-snmp-and-zabbix",
+  "section": "CPU Monitoring",
+  "sha256": "1584f8cc9884ce3ee636de8c0a7d325072ac86dd6bd798257b590b77ec7acc50",
+  "content": "# CPU Monitoring\n\nCPU utilization should be monitored for abnormal sustained usage.\n\nShort spikes may be normal.\n\nSustained high CPU may indicate:\n\n- Excessive logging\n- High session load\n- Routing activity\n- Management activity\n- Software issue\n- Attack traffic\n\nCPU alerts should consider duration, not only instantaneous value.\n\n---"
+}

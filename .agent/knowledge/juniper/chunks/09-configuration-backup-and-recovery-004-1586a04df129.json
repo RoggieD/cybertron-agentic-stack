@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-configuration-backup-and-recovery-004-1586a04df129",
+  "kb": "juniper",
+  "source_path": "docs/09-configuration-backup-and-recovery.md",
+  "source_title": "09-configuration-backup-and-recovery",
+  "section": "Commit Confirmed",
+  "sha256": "1586a04df1290660b5f3748f2a6ef76f5beb577680e29a1ae6227f54637f5dcc",
+  "content": "# Commit Confirmed\n\ncommit confirmed is useful when a change could interrupt management access.\n\nExamples include changes to:\n\n- Management IP\n- Routing\n- Default route\n- Security zones\n- Host-inbound services\n- Interface addressing\n- Firewall filters\n- Administrative access\n\nA confirmed commit becomes temporary until explicitly confirmed.\n\nIf access is lost and the commit is not confirmed, Junos can automatically return to the previous configuration.\n\n---"
+}

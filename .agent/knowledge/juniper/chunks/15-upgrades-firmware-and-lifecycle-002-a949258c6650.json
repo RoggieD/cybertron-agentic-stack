@@ -1,0 +1,9 @@
+{
+  "chunk_id": "15-upgrades-firmware-and-lifecycle-002-a949258c6650",
+  "kb": "juniper",
+  "source_path": "docs/15-upgrades-firmware-and-lifecycle.md",
+  "source_title": "15-upgrades-firmware-and-lifecycle",
+  "section": "Upgrade Philosophy",
+  "sha256": "a949258c6650e390253cb66169718b42483c025fb781977a6d5a8e79a6763714",
+  "content": "# Upgrade Philosophy\n\nDo not upgrade a production SRX solely because a newer Junos release exists.\n\nUpgrade when there is a clear operational reason, such as:\n\n- Security fix\n- Hardware support\n- Required feature\n- Stability improvement\n- Vendor recommendation\n- Supportability requirement\n- Compatibility requirement\n\nEvery upgrade should have a rollback plan.\n\n---"
+}

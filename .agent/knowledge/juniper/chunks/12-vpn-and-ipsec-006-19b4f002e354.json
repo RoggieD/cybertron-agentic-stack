@@ -1,0 +1,9 @@
+{
+  "chunk_id": "12-vpn-and-ipsec-006-19b4f002e354",
+  "kb": "juniper",
+  "source_path": "docs/12-vpn-and-ipsec.md",
+  "source_title": "12-vpn-and-ipsec",
+  "section": "Route-Based VPN",
+  "sha256": "19b4f002e35437beb7d21805dae1af4e7cb4b8de31b6f25990d4a711c885c085",
+  "content": "# Route-Based VPN\n\nRoute-based VPNs commonly use secure tunnel interfaces.\n\nA common Junos tunnel interface family is:\n\nst0\n\nExample logical interface:\n\nst0.0\n\nRouting directs traffic into the VPN tunnel.\n\nRoute-based VPNs can provide flexible integration with:\n\n- Static routing\n- Dynamic routing\n- Multiple networks\n- Security zones\n\n---"
+}

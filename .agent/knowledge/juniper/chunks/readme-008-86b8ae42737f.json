@@ -1,0 +1,9 @@
+{
+  "chunk_id": "readme-008-86b8ae42737f",
+  "kb": "juniper",
+  "source_path": "README.md",
+  "source_title": "README",
+  "section": "AI / RAG Usage",
+  "sha256": "86b8ae42737f66ef32206921e3e43664f1a9d17b85190dbee67df664d78efa2c",
+  "content": "# AI / RAG Usage\n\nFiles should be written for reliable retrieval by AI systems.\n\nPreferred practices:\n\n- Clear descriptive headings\n- One primary technical topic per file\n- Short focused sections\n- Explicit terminology\n- Complete command context\n- Clear distinction between examples and verified configuration\n- Avoid ambiguous references such as \"this\", \"that\", or \"the interface\" when the actual object can be named"
+}

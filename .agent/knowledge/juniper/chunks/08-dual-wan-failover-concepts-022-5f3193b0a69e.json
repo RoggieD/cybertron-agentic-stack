@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-dual-wan-failover-concepts-022-5f3193b0a69e",
+  "kb": "juniper",
+  "source_path": "examples/08-dual-wan-failover-concepts.md",
+  "source_title": "08-dual-wan-failover-concepts",
+  "section": "Important Notes",
+  "sha256": "5f3193b0a69ea84e6f411f89f88828650b27b1519b1425fa482a8f5113125d32",
+  "content": "# Important Notes\n\nThis example uses documentation-only IP addresses.\n\nDo not copy these values into production.\n\nDo not assume:\n\n- ge-0/0/0.0 is the primary WAN\n- ge-0/0/2.0 is the backup WAN\n- separate untrust zones are required\n- interface NAT is always best\n- one probe target is sufficient\n- inbound services fail over automatically\n- existing sessions survive failover\n\nDesign should reflect the actual ISP topology.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-dual-wan-failover-concepts-021-70c7730bbe56",
+  "kb": "juniper",
+  "source_path": "examples/08-dual-wan-failover-concepts.md",
+  "source_title": "08-dual-wan-failover-concepts",
+  "section": "Failover Occurs but Internet Still Fails",
+  "sha256": "70c7730bbe56252f2acedf799c6f69435466e9a5e71b5b103724d989cdcab829",
+  "content": "# Failover Occurs but Internet Still Fails\n\nPossible causes include:\n\n- Backup NAT missing\n- Backup security policy missing\n- Backup DNS unavailable\n- Wrong backup route\n- ISP issue\n- Return routing problem\n- Old sessions still bound to primary path\n\nTest with new sessions after failover.\n\n---"
+}

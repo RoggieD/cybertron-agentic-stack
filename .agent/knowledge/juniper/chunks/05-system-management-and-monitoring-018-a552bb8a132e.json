@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-system-management-and-monitoring-018-a552bb8a132e",
+  "kb": "juniper",
+  "source_path": "docs/05-system-management-and-monitoring.md",
+  "source_title": "05-system-management-and-monitoring",
+  "section": "Rescue Configuration",
+  "sha256": "a552bb8a132e5a21a1a32b2f20941283148b816f8f36f40c89652c10032c53ca",
+  "content": "# Rescue Configuration\n\nJunos supports rescue configuration functionality.\n\nA known-good rescue configuration can provide an additional recovery option.\n\nThe rescue configuration should represent a stable, tested baseline.\n\nDo not create or update a rescue configuration until the active configuration has been verified.\n\n---"
+}

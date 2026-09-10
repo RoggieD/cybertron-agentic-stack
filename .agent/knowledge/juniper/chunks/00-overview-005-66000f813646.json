@@ -1,0 +1,9 @@
+{
+  "chunk_id": "00-overview-005-66000f813646",
+  "kb": "juniper",
+  "source_path": "docs/00-overview.md",
+  "source_title": "00-overview",
+  "section": "Configuration Mode / Configuration Hierarchy",
+  "sha256": "66000f81364665dcd500c28b0cad47de1daabc2e1af695a799d22853c0b636ec",
+  "content": "# Configuration Mode / Configuration Hierarchy\n\nConfiguration mode is used for modifying configuration.\n\nConfiguration mode prompt commonly ends with:\n\n#\n\nExample:\n\nuser@srx320#\n\nEnter configuration mode with:\n\nconfigure\n\nExit configuration mode with:\n\nexit\n\n---\n\nJunos configuration is hierarchical rather than based on a flat command list.\n\nExample hierarchy:\n\nsecurity\n  zones\n  policies\n  nat\n\ninterfaces\n  ge-0/0/0\n  ge-0/0/1\n\nrouting-options\n  static\n\nThis structure makes it important to understand where a configuration statement belongs.\n\n---"
+}

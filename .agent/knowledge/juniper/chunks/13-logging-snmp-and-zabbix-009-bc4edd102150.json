@@ -1,0 +1,9 @@
+{
+  "chunk_id": "13-logging-snmp-and-zabbix-009-bc4edd102150",
+  "kb": "juniper",
+  "source_path": "docs/13-logging-snmp-and-zabbix.md",
+  "source_title": "13-logging-snmp-and-zabbix",
+  "section": "Events Worth Logging / Security Policy Logging",
+  "sha256": "bc4edd102150688c7b87215ade8eeed93ae1a4afc95234a9b063271b7014233b",
+  "content": "# Events Worth Logging / Security Policy Logging\n\nUseful event categories may include:\n\n- Administrative login\n- Authentication failure\n- Configuration commit\n- Interface up/down\n- Chassis alarms\n- System alarms\n- Security policy events\n- Routing events\n- VPN events\n- Service failures\n\n---\n\nSecurity policies may log:\n\n- Session initiation\n- Session closure\n\nPolicy logging can help verify traffic behavior.\n\nExcessive logging can create unnecessary load.\n\nUse policy logging where it provides operational or security value.\n\n---"
+}

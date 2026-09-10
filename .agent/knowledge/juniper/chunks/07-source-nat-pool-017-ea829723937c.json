@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-source-nat-pool-017-ea829723937c",
+  "kb": "juniper",
+  "source_path": "examples/07-source-nat-pool.md",
+  "source_title": "07-source-nat-pool",
+  "section": "Document Status",
+  "sha256": "ea829723937c9056081294b34deba64468ea5460cd295e44c29ecaffa9161cc7",
+  "content": "# Document Status\n\nDocument Type: Configuration Example\n\nExample Type: Source NAT Pool\n\nKnowledge Base: Juniper SRX320 Knowledge Base\n\nVersion: 0.1.0\n\nStatus: Example / Non-Production"
+}

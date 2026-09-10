@@ -1,0 +1,9 @@
+{
+  "chunk_id": "13-logging-snmp-and-zabbix-023-573ef9439ff8",
+  "kb": "juniper",
+  "source_path": "docs/13-logging-snmp-and-zabbix.md",
+  "source_title": "13-logging-snmp-and-zabbix",
+  "section": "Configuration States / Public Release Guidance",
+  "sha256": "573ef9439ff888e1286643fcdc16b54e500f78b3a0db78b0ac037078f0caffb1",
+  "content": "# Configuration States / Public Release Guidance\n\nUse:\n\nLEGACY_PRODUCTION\n\nSRX320_TARGET\n\nSRX320_VERIFIED_PRODUCTION\n\nDo not mark monitoring as verified until data is successfully being collected.\n\n---\n\nBefore publishing monitoring examples:\n\n- Remove monitoring server IPs\n- Remove internal hostnames\n- Remove SNMP credentials\n- Remove community strings\n- Remove SNMPv3 secrets\n- Remove private syslog destinations\n- Replace environment-specific addresses with documentation values\n\nPreserve monitoring logic and architecture without exposing deployment-sensitive information.\n\n---"
+}

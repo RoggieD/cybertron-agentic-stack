@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-junos-cli-reference-008-ed728ded1721",
+  "kb": "juniper",
+  "source_path": "docs/10-junos-cli-reference.md",
+  "source_title": "10-junos-cli-reference",
+  "section": "Session Commands",
+  "sha256": "ed728ded1721efe50b3c08a6429b62803e0729433bd026004c53e248f0917d08",
+  "content": "# Session Commands\n\nShow active sessions:\n\nshow security flow session\n\nFilter by source:\n\nshow security flow session source-prefix <address>\n\nFilter by destination:\n\nshow security flow session destination-prefix <address>\n\nSession output can help identify:\n\n- Policy match\n- NAT translation\n- Protocol\n- Traffic direction\n- Session state\n\n---"
+}

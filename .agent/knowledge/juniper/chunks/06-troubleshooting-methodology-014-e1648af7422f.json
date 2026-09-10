@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-troubleshooting-methodology-014-e1648af7422f",
+  "kb": "juniper",
+  "source_path": "docs/06-troubleshooting-methodology.md",
+  "source_title": "06-troubleshooting-methodology",
+  "section": "Layer 2 / Layer 3 / Security Zone / NAT",
+  "sha256": "e1648af7422fb6e86b9add9e9ca9f0dde42ee702f4534f52dd28359576f74a2f",
+  "content": "# Layer 2 / Layer 3 / Security Zone / NAT\n\nExamples:\n\n- Wrong VLAN\n- Trunk mismatch\n- Switching issue\n\nExamples:\n\n- Wrong IP address\n- Wrong subnet mask\n- Missing route\n- Wrong next hop\n\nExamples:\n\n- Interface in wrong zone\n- Missing zone assignment\n- Incorrect host-inbound configuration\n\nExamples:\n\n- Wrong rule-set scope\n- Wrong address match\n- Wrong translation pool\n- Rule order problem"
+}

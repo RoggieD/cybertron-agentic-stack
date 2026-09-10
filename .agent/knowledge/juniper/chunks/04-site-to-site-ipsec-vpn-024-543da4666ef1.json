@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-site-to-site-ipsec-vpn-024-543da4666ef1",
+  "kb": "juniper",
+  "source_path": "examples/04-site-to-site-ipsec-vpn.md",
+  "source_title": "04-site-to-site-ipsec-vpn",
+  "section": "AI Guidance",
+  "sha256": "543da4666ef16bc78e6a2a0648367a7ec4589a8a71a8766b0e6239529726c7d4",
+  "content": "# AI Guidance\n\nWhen using this example:\n\n- Treat all IP addresses as examples.\n- Never invent VPN credentials.\n- Never expose production pre-shared keys.\n- Verify Junos version.\n- Verify remote-peer requirements.\n- Verify IKE before IPsec.\n- Verify IPsec before application troubleshooting.\n- Verify routing separately.\n- Verify security policies separately.\n- Verify NAT separately.\n- Do not assume an established tunnel means the service is working.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-troubleshooting-methodology-002-c329034b4979",
+  "kb": "juniper",
+  "source_path": "docs/06-troubleshooting-methodology.md",
+  "source_title": "06-troubleshooting-methodology",
+  "section": "Core Principle",
+  "sha256": "c329034b4979e0e799ec30dddc7fcf551d24616869415667df31435d26f6ab90",
+  "content": "# Core Principle\n\nDiagnose before changing.\n\nThe troubleshooting process should separate the problem into layers and verify each layer with evidence.\n\nAvoid changing multiple subsystems simultaneously.\n\nA controlled troubleshooting process should:\n\n1. Define the symptom.\n2. Identify the affected traffic path.\n3. Verify physical and interface state.\n4. Verify addressing.\n5. Verify routing.\n6. Verify security zones.\n7. Verify NAT.\n8. Verify security policy.\n9. Verify session state.\n10. Review logs.\n11. Make one controlled change.\n12. Test the result.\n13. Preserve rollback options.\n14. Document the outcome.\n\n---"
+}

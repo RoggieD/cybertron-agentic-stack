@@ -1,0 +1,9 @@
+{
+  "chunk_id": "01-hardware-and-interfaces-004-905817fbe17d",
+  "kb": "juniper",
+  "source_path": "docs/01-hardware-and-interfaces.md",
+  "source_title": "01-hardware-and-interfaces",
+  "section": "Routed Interfaces",
+  "sha256": "905817fbe17d3a7b532a57e00e46f9fa3d98cfef05ec307c929a0e86a3c627cf",
+  "content": "# Routed Interfaces\n\nA routed interface typically uses:\n\nfamily inet\n\nfor IPv4.\n\nExample structure:\n\ninterfaces {\n    ge-0/0/0 {\n        unit 0 {\n            family inet {\n                address 192.0.2.1/24;\n            }\n        }\n    }\n}\n\nThis is an example only.\n\nIt is not a production configuration.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-system-management-and-monitoring-007-3bd55e1554a2",
+  "kb": "juniper",
+  "source_path": "docs/05-system-management-and-monitoring.md",
+  "source_title": "05-system-management-and-monitoring",
+  "section": "Administrative Users",
+  "sha256": "3bd55e1554a24e23f252163e53fc7634730077c709e375e53e2663413bbb4935",
+  "content": "# Administrative Users\n\nAdministrative accounts should be individually identifiable when practical.\n\nAvoid unnecessary shared credentials.\n\nUser configuration may include:\n\n- Username\n- Authentication method\n- Login class\n- Privilege level\n- SSH public key\n\nAdministrative privilege should match operational need.\n\n---"
+}

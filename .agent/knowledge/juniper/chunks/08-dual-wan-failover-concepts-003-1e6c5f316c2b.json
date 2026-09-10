@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-dual-wan-failover-concepts-003-1e6c5f316c2b",
+  "kb": "juniper",
+  "source_path": "examples/08-dual-wan-failover-concepts.md",
+  "source_title": "08-dual-wan-failover-concepts",
+  "section": "Internal LAN / Design Objective",
+  "sha256": "1e6c5f316c2b38a69a3f4102bec80e8f96f7e6303c7fae3bc2f473a697692319",
+  "content": "# Internal LAN / Design Objective\n\nInterface:\n\nge-0/0/1.0\n\nZone:\n\ntrust\n\nNetwork:\n\n192.0.2.0/24\n\nGateway:\n\n192.0.2.1\n\n---\n\nNormal traffic should use the primary ISP.\n\nIf the primary path becomes unusable, traffic should fail over to the backup ISP.\n\nWhen the primary path becomes healthy again, traffic may return to the primary path according to the chosen recovery policy.\n\n---"
+}

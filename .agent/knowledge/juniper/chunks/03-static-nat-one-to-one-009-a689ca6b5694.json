@@ -1,0 +1,9 @@
+{
+  "chunk_id": "03-static-nat-one-to-one-009-a689ca6b5694",
+  "kb": "juniper",
+  "source_path": "examples/03-static-nat-one-to-one.md",
+  "source_title": "03-static-nat-one-to-one",
+  "section": "Expected Inbound Flow",
+  "sha256": "a689ca6b5694b491cb6b936834d0025a05d64854223f7e9e97664a90fa531154",
+  "content": "# Expected Inbound Flow\n\n1. External client connects to 198.51.100.30.\n2. Packet enters the untrust zone.\n3. Static NAT rule STATIC-SERVER-MAP matches.\n4. Destination is translated to 192.0.2.30.\n5. Routing identifies the internal path.\n6. Destination security zone is determined.\n7. Security policy permits the desired application.\n8. Stateful session is created.\n9. Traffic reaches the internal server.\n\n---"
+}

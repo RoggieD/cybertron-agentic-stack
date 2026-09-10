@@ -1,0 +1,9 @@
+{
+  "chunk_id": "02-security-zones-and-policies-012-39555e29a152",
+  "kb": "juniper",
+  "source_path": "docs/02-security-zones-and-policies.md",
+  "source_title": "02-security-zones-and-policies",
+  "section": "Intra-Zone Traffic",
+  "sha256": "39555e29a15202bc9b8d74ca9c2e836f2c60b777716255c99d0609a389a551bf",
+  "content": "# Intra-Zone Traffic\n\nSecurity policy lookup also applies to traffic passing between interfaces assigned to the same security zone.\n\nA permitting intrazone policy is therefore required unless the active configuration already provides an applicable policy, such as a factory-default trust-to-trust policy on supported SRX platforms.\n\nBehavior should be verified using:\n\n- Current Junos version\n- Active configuration\n- Zone structure\n- Policy configuration\n\nDo not assume same-zone traffic is automatically permitted.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-dual-wan-failover-concepts-008-872ed80633f5",
+  "kb": "juniper",
+  "source_path": "examples/08-dual-wan-failover-concepts.md",
+  "source_title": "08-dual-wan-failover-concepts",
+  "section": "Failure Thresholds",
+  "sha256": "872ed80633f525d35605f8adb29cf70a64295e4a9e447c17ede186683c917195",
+  "content": "# Failure Thresholds\n\nDo not fail over on a single lost packet.\n\nMonitoring should account for:\n\n- Probe interval\n- Successive loss\n- Recovery threshold\n- Latency\n- Packet loss\n- Flapping prevention\n\nFailover that is too sensitive can cause route instability.\n\nFailover that is too slow can extend outages.\n\n---"
+}

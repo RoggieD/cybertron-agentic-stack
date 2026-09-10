@@ -1,0 +1,9 @@
+{
+  "chunk_id": "12-vpn-and-ipsec-001-ad14dec553a5",
+  "kb": "juniper",
+  "source_path": "docs/12-vpn-and-ipsec.md",
+  "source_title": "12-vpn-and-ipsec",
+  "section": "Scope",
+  "sha256": "ad14dec553a5c1ed89d1ad1c121156fc32d2a1352b30bb4e5423d8726fd8aeda",
+  "content": "# Scope\n\nThis document explains VPN and IPsec concepts for the Juniper SRX320 running Junos OS.\n\nIt is intended for:\n\n- Site-to-site VPN planning\n- Remote connectivity\n- ScreenOS-to-Junos migration\n- VPN troubleshooting\n- Security policy integration\n- Routing validation\n- AI-assisted operations\n\nThis document provides platform-level guidance and does not represent a specific production VPN configuration unless explicitly labeled.\n\n---"
+}

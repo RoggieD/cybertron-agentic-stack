@@ -1,0 +1,9 @@
+{
+  "chunk_id": "02-security-zones-and-policies-006-e761c9d9c824",
+  "kb": "juniper",
+  "source_path": "docs/02-security-zones-and-policies.md",
+  "source_title": "02-security-zones-and-policies",
+  "section": "Policy Matching",
+  "sha256": "e761c9d9c8243f57d0ef1e5dadff4618e1c25d5734f093f358b1af20974328d3",
+  "content": "# Policy Matching\n\nSecurity policies are evaluated in order within the relevant source-zone and destination-zone policy set.\n\nMore specific policy logic should generally appear before broad catch-all rules when rule ordering affects behavior.\n\nA policy may match:\n\n- Any source\n- Any destination\n- A specific address object\n- An address set\n- A predefined application\n- A custom application\n- Multiple applications\n\n---"
+}

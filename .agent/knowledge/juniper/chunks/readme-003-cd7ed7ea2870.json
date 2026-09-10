@@ -1,0 +1,9 @@
+{
+  "chunk_id": "readme-003-cd7ed7ea2870",
+  "kb": "juniper",
+  "source_path": "README.md",
+  "source_title": "README",
+  "section": "Knowledge Base Design",
+  "sha256": "cd7ed7ea2870af71d316e6e034dc43e59f14b66af43caab012544a96de37ce08",
+  "content": "# Knowledge Base Design\n\nThe knowledge base is divided into focused files rather than one large document.\n\nThis improves retrieval accuracy for AI systems by allowing queries to match specific technical topics without loading unrelated material.\n\nDirectory structure:\n\n- docs/ \u2014 Primary technical knowledge\n- examples/ \u2014 Configuration examples and tested patterns\n- schemas/ \u2014 Structured metadata and reusable data definitions\n- source-material/ \u2014 Original reference material and research sources"
+}

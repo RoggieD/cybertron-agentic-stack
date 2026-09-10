@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-configuration-backup-and-recovery-013-fefdf438bc18",
+  "kb": "juniper",
+  "source_path": "docs/09-configuration-backup-and-recovery.md",
+  "source_title": "09-configuration-backup-and-recovery",
+  "section": "Console Recovery",
+  "sha256": "fefdf438bc18310f02ecd6c6ea68925141357d47c26f507f3a66aec2a9e1f0cb",
+  "content": "# Console Recovery\n\nSerial console access is especially valuable when:\n\n- Management IP is unknown\n- Routing is broken\n- Security policy blocks management\n- Host-inbound configuration is incorrect\n- Network interfaces are misconfigured\n- Administrative access is lost\n\nConsole access bypasses many network-dependent failure conditions.\n\n---"
+}

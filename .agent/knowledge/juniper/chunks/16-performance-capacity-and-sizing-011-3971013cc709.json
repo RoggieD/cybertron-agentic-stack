@@ -1,0 +1,9 @@
+{
+  "chunk_id": "16-performance-capacity-and-sizing-011-3971013cc709",
+  "kb": "juniper",
+  "source_path": "docs/16-performance-capacity-and-sizing.md",
+  "source_title": "16-performance-capacity-and-sizing",
+  "section": "VPN Performance",
+  "sha256": "3971013cc709a315dbf0082f71f0a20892545ff327aef4dbaff488c81f9ed9f0",
+  "content": "# VPN Performance\n\nVPN traffic adds encryption and decryption workload.\n\nVPN performance depends on:\n\n- Encryption algorithm\n- Authentication algorithm\n- Tunnel count\n- Packet size\n- Traffic volume\n- Concurrent sessions\n- Hardware acceleration\n- Junos version\n\nDo not assume plain firewall throughput equals VPN throughput.\n\n---"
+}

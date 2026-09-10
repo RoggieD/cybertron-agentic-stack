@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-troubleshooting-published-service-005-0d7de017124d",
+  "kb": "juniper",
+  "source_path": "examples/10-troubleshooting-published-service.md",
+  "source_title": "10-troubleshooting-published-service",
+  "section": "Step 4 \u2014 Verify Public Routing",
+  "sha256": "0d7de017124d11441f897ff823347a5ef356a2655d7523d359ab22432c6e6ef4",
+  "content": "# Step 4 \u2014 Verify Public Routing\n\nConfirm that traffic for the public IP is expected to reach the SRX.\n\nPossible delivery models include:\n\n- Address configured on WAN subnet\n- Routed public subnet\n- Static route from ISP\n- Proxy ARP on directly connected subnet\n\nIf the provider does not deliver the public IP to the SRX, NAT configuration cannot fix the problem.\n\n---"
+}

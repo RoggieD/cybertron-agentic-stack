@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-troubleshooting-methodology-015-ac4c23b708b2",
+  "kb": "juniper",
+  "source_path": "docs/06-troubleshooting-methodology.md",
+  "source_title": "06-troubleshooting-methodology",
+  "section": "Security Policy / Stateful Session / Application",
+  "sha256": "ac4c23b708b20a202b951810b64583f18302e971120dc7c493fcc8b5354a471d",
+  "content": "# Security Policy / Stateful Session / Application\n\nExamples:\n\n- Missing policy\n- Wrong direction\n- Wrong address object\n- Wrong application\n- Policy order issue\n\nExamples:\n\n- Stale session\n- Asymmetric path\n- Return traffic does not match expected session\n\nExamples:\n\n- Service not listening\n- Wrong destination port\n- TLS problem\n- Application failure\n\nDo not assume the SRX is responsible until the failure domain is identified.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-site-to-site-ipsec-vpn-023-ddfa18982e05",
+  "kb": "juniper",
+  "source_path": "examples/04-site-to-site-ipsec-vpn.md",
+  "source_title": "04-site-to-site-ipsec-vpn",
+  "section": "Public Release Guidance",
+  "sha256": "ddfa18982e05f292e636cc8163828e344c8de42786976ab0cf672e5069293ff1",
+  "content": "# Public Release Guidance\n\nBefore publishing VPN examples:\n\n- Remove real peer IP addresses\n- Remove pre-shared keys\n- Remove private keys\n- Remove internal network information\n- Remove internal hostnames\n- Replace sensitive values with documentation examples\n\nNever distribute live VPN secrets.\n\n---"
+}

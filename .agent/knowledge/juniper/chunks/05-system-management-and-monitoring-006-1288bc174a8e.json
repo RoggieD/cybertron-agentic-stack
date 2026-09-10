@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-system-management-and-monitoring-006-1288bc174a8e",
+  "kb": "juniper",
+  "source_path": "docs/05-system-management-and-monitoring.md",
+  "source_title": "05-system-management-and-monitoring",
+  "section": "Host-Inbound Services",
+  "sha256": "1288bc174a8e35c64aecc1164b11ea555e76e1d379526fb871383fdc6453bf84",
+  "content": "# Host-Inbound Services\n\nManagement services destined to the SRX itself are controlled through host-inbound traffic configuration.\n\nExamples include:\n\n- ssh\n- https\n- ping\n- snmp\n- dns\n- dhcp\n- ntp-related traffic where applicable\n\nHost-inbound services should be enabled only where required.\n\n---"
+}

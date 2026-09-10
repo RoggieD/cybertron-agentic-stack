@@ -1,0 +1,9 @@
+{
+  "chunk_id": "15-upgrades-firmware-and-lifecycle-017-3ad1d09b003d",
+  "kb": "juniper",
+  "source_path": "docs/15-upgrades-firmware-and-lifecycle.md",
+  "source_title": "15-upgrades-firmware-and-lifecycle",
+  "section": "Failure Criteria",
+  "sha256": "3ad1d09b003dbc5e187fe5c518835262dd4ae0f507efe89ae2ed909fbc77d7d0",
+  "content": "# Failure Criteria\n\nExamples of rollback triggers may include:\n\n- Loss of management access\n- Critical interface failure\n- Routing failure\n- NAT failure\n- VPN failure\n- Published service failure\n- Severe performance degradation\n- Unrecoverable configuration error\n\nDefine failure criteria before maintenance begins.\n\n---"
+}

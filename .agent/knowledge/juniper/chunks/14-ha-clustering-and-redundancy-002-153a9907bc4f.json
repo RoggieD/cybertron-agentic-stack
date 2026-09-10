@@ -1,0 +1,9 @@
+{
+  "chunk_id": "14-ha-clustering-and-redundancy-002-153a9907bc4f",
+  "kb": "juniper",
+  "source_path": "docs/14-ha-clustering-and-redundancy.md",
+  "source_title": "14-ha-clustering-and-redundancy",
+  "section": "High Availability Overview",
+  "sha256": "153a9907bc4fbd99cf6968a505d1e2e8513d15ee239be8b4e3c1c8a589ea42d1",
+  "content": "# High Availability Overview\n\nHigh availability is intended to reduce service interruption when a firewall component, interface, node, or path fails.\n\nHA design may involve:\n\n- Redundant SRX nodes\n- Chassis clustering\n- Redundant Ethernet links\n- Redundant switches\n- Redundant WAN connections\n- Redundant power\n- Redundant routing paths\n\nHigh availability should be designed as an end-to-end system.\n\nTwo firewalls alone do not create complete redundancy.\n\n---"
+}

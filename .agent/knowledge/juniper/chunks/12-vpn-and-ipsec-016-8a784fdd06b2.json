@@ -1,0 +1,9 @@
+{
+  "chunk_id": "12-vpn-and-ipsec-016-8a784fdd06b2",
+  "kb": "juniper",
+  "source_path": "docs/12-vpn-and-ipsec.md",
+  "source_title": "12-vpn-and-ipsec",
+  "section": "VPN Troubleshooting / Stage 1 \u2014 Peer Reachability / Stage 2 \u2014 IKE Negotiation / Stage 3 \u2014 IPsec Negotiation",
+  "sha256": "8a784fdd06b2a557732b296357d6941bf12e7498ebab87e98b33e7411fba3dbb",
+  "content": "# VPN Troubleshooting / Stage 1 \u2014 Peer Reachability / Stage 2 \u2014 IKE Negotiation / Stage 3 \u2014 IPsec Negotiation\n\nWhen a VPN fails, separate the problem into stages.\n\nVerify:\n\n- Peer IP\n- Routing\n- WAN connectivity\n- Upstream firewall behavior\n\nVerify:\n\n- IKE version\n- Authentication\n- Proposal\n- Diffie-Hellman group\n- Lifetime\n- Peer identity\n\nVerify:\n\n- IPsec proposal\n- PFS\n- Traffic selectors\n- Proxy IDs\n- Lifetime"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "03-nat-019-831fce72488a",
+  "kb": "juniper",
+  "source_path": "docs/03-nat.md",
+  "source_title": "03-nat",
+  "section": "AI Guidance",
+  "sha256": "831fce72488a0fec9921ea27c1f5afd738a9065bb33e5f170f7bb99bc733ae58",
+  "content": "# AI Guidance\n\nWhen using this document:\n\n- Do not assume NAT is required.\n- Do not assume NAT alone permits traffic.\n- Do not invent public IP addresses.\n- Do not invent internal destinations.\n- Do not invent NAT pools.\n- Verify rule direction.\n- Verify rule order.\n- Verify associated security policy.\n- Verify routing separately.\n- Treat examples as non-production unless explicitly marked verified.\n\n---"
+}

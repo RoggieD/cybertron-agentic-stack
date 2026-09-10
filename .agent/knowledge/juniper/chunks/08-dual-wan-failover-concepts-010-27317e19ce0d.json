@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-dual-wan-failover-concepts-010-27317e19ce0d",
+  "kb": "juniper",
+  "source_path": "examples/08-dual-wan-failover-concepts.md",
+  "source_title": "08-dual-wan-failover-concepts",
+  "section": "Security Policies / Source NAT",
+  "sha256": "27317e19ce0dc52018ca162eefe4938a97beba47d396a5764bfa10eea8104907",
+  "content": "# Security Policies / Source NAT\n\nInternal users may require outbound policies toward both WAN zones.\n\nExample concepts:\n\ntrust -> untrust-primary\n\ntrust -> untrust-backup\n\nPolicies should permit only required traffic.\n\nDo not assume one policy automatically covers both zones.\n\n---\n\nSource NAT must account for the active egress WAN.\n\nInterface-based NAT can simplify failover because traffic may use the address assigned to the active egress interface.\n\nExample concept:\n\ntrust -> untrust-primary uses primary interface source NAT\n\ntrust -> untrust-backup uses backup interface source NAT\n\n---"
+}

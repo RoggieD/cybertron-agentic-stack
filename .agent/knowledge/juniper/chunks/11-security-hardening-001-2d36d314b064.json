@@ -1,0 +1,9 @@
+{
+  "chunk_id": "11-security-hardening-001-2d36d314b064",
+  "kb": "juniper",
+  "source_path": "docs/11-security-hardening.md",
+  "source_title": "11-security-hardening",
+  "section": "Scope",
+  "sha256": "2d36d314b064454782c20c2857289d616d65a09732a311317ca39a69bb27dc80",
+  "content": "# Scope\n\nThis document provides security-hardening guidance for the Juniper SRX320 running Junos OS.\n\nIt is intended for:\n\n- Production deployment\n- Firewall migration\n- Administrative access control\n- Exposure reduction\n- Configuration review\n- Monitoring\n- Incident prevention\n- AI-assisted security analysis\n\nThis document provides platform-level guidance and does not represent a specific production hardening configuration unless explicitly labeled.\n\n---"
+}

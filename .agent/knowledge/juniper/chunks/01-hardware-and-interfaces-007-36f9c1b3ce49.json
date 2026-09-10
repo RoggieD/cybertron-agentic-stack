@@ -1,0 +1,9 @@
+{
+  "chunk_id": "01-hardware-and-interfaces-007-36f9c1b3ce49",
+  "kb": "juniper",
+  "source_path": "docs/01-hardware-and-interfaces.md",
+  "source_title": "01-hardware-and-interfaces",
+  "section": "Interface Descriptions",
+  "sha256": "36f9c1b3ce49ceceb5d9f5c18ed35a66b7d3d7d3bc91af8affbd41c0e0637fd7",
+  "content": "# Interface Descriptions\n\nInterface descriptions should be used whenever practical.\n\nGood descriptions identify the connected device or function.\n\nExamples:\n\nWAN_TO_ISP\n\nLAN_CORE_SWITCH\n\nDMZ_SWITCH\n\nMGMT_NETWORK\n\nDescriptions improve:\n\n- Troubleshooting\n- Change control\n- Configuration review\n- AI retrieval accuracy\n\n---"
+}

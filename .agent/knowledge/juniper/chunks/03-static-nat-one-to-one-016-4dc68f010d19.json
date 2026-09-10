@@ -1,0 +1,9 @@
+{
+  "chunk_id": "03-static-nat-one-to-one-016-4dc68f010d19",
+  "kb": "juniper",
+  "source_path": "examples/03-static-nat-one-to-one.md",
+  "source_title": "03-static-nat-one-to-one",
+  "section": "Document Status",
+  "sha256": "4dc68f010d19b8b60c5fe9ce1ff003adfd2a8492a1c237182660f27cc4b364ea",
+  "content": "# Document Status\n\nDocument Type: Configuration Example\n\nExample Type: Static NAT One-to-One Mapping\n\nKnowledge Base: Juniper SRX320 Knowledge Base\n\nVersion: 0.1.0\n\nStatus: Example / Non-Production"
+}

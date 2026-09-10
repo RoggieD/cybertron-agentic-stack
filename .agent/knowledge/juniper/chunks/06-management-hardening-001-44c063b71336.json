@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-management-hardening-001-44c063b71336",
+  "kb": "juniper",
+  "source_path": "examples/06-management-hardening.md",
+  "source_title": "06-management-hardening",
+  "section": "Scope",
+  "sha256": "44c063b7133640746eab270fee92c58acca532a9febb69b05cb64959e78150b2",
+  "content": "# Scope\n\nThis example demonstrates a basic management-plane hardening pattern for a Juniper SRX320.\n\nIt demonstrates:\n\n- Restricting management to a trusted network\n- Enabling only required host-inbound services\n- SSH-focused administration\n- Avoiding management exposure on untrusted interfaces\n- Administrative account principles\n- Logging and verification\n\nThis configuration is an educational example only.\n\nIt is not production configuration.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-junos-cli-reference-019-227fcb886f81",
+  "kb": "juniper",
+  "source_path": "docs/10-junos-cli-reference.md",
+  "source_title": "10-junos-cli-reference",
+  "section": "Document Status",
+  "sha256": "227fcb886f81b6366ec08f8b264c2e774c9128cc4b2dd356d3693cafd9c57f49",
+  "content": "# Document Status\n\nDocument Type: Junos CLI Reference\n\nKnowledge Base: Juniper SRX320 Knowledge Base\n\nVersion: 0.1.0\n\nStatus: Initial Build"
+}

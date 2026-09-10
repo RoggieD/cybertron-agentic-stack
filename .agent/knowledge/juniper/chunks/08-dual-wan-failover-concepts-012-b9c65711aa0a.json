@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-dual-wan-failover-concepts-012-b9c65711aa0a",
+  "kb": "juniper",
+  "source_path": "examples/08-dual-wan-failover-concepts.md",
+  "source_title": "08-dual-wan-failover-concepts",
+  "section": "Published Services",
+  "sha256": "b9c65711aa0aa844b370d16c02eca6e607407b5c9a4d58066af015d9f50a9660",
+  "content": "# Published Services\n\nInbound service failover is more complex than outbound Internet failover.\n\nPublished services may depend on:\n\n- Public DNS\n- Public IP ownership\n- Destination NAT\n- Provider routing\n- TTL\n- Dynamic DNS\n- External load balancing\n- BGP\n- Application-level failover\n\nTwo WAN circuits do not automatically make an inbound service redundant.\n\n---"
+}

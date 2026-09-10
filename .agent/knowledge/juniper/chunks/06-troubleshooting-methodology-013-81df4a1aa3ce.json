@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-troubleshooting-methodology-013-81df4a1aa3ce",
+  "kb": "juniper",
+  "source_path": "docs/06-troubleshooting-methodology.md",
+  "source_title": "06-troubleshooting-methodology",
+  "section": "Step 12 \u2014 Test Both Directions / Physical",
+  "sha256": "81df4a1aa3ced5923ed32a48d023d2ebf34a9a7d1eb731ad74307f17170e2e83",
+  "content": "# Step 12 \u2014 Test Both Directions / Physical\n\nWhere practical, verify:\n\nSource -> Destination\n\nand\n\nDestination -> Source\n\nThis helps identify:\n\n- Return routing problems\n- Asymmetric routing\n- NAT problems\n- Stateful session problems\n- Upstream firewall issues\n\n---\n\nExamples:\n\n- Cable failure\n- Interface down\n- Speed negotiation issue\n- Hardware alarm"
+}

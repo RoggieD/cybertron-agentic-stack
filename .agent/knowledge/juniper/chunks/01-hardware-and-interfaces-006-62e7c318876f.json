@@ -1,0 +1,9 @@
+{
+  "chunk_id": "01-hardware-and-interfaces-006-62e7c318876f",
+  "kb": "juniper",
+  "source_path": "docs/01-hardware-and-interfaces.md",
+  "source_title": "01-hardware-and-interfaces",
+  "section": "VLANs",
+  "sha256": "62e7c318876f2ed25dba1fcc7525b3f22f7095b21b4e4f9d9605c7b52f277cd9",
+  "content": "# VLANs\n\nVLANs provide Layer 2 segmentation.\n\nA VLAN configuration may include:\n\n- VLAN name\n- VLAN ID\n- Member interfaces\n- Routed VLAN interface\n- Security zone assignment\n\nDo not assume a VLAN is routed simply because it exists.\n\nLayer 2 membership and Layer 3 routing are separate functions.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-dual-wan-failover-concepts-017-81407f210052",
+  "kb": "juniper",
+  "source_path": "examples/08-dual-wan-failover-concepts.md",
+  "source_title": "08-dual-wan-failover-concepts",
+  "section": "DNS",
+  "sha256": "81407f210052c475e03a30b8b524e75aaa4e15f6abb12ea5aac058ea7a73a138",
+  "content": "# DNS\n\nOutbound failover may succeed while users still experience apparent failure due to DNS.\n\nVerify:\n\n- Resolver reachability\n- Resolver routing\n- ISP-specific DNS dependencies\n- Public DNS accessibility\n\nAvoid relying exclusively on provider DNS if the design requires ISP independence.\n\n---"
+}

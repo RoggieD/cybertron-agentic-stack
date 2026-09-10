@@ -1,0 +1,9 @@
+{
+  "chunk_id": "02-security-zones-and-policies-016-bba03a5b986c",
+  "kb": "juniper",
+  "source_path": "docs/02-security-zones-and-policies.md",
+  "source_title": "02-security-zones-and-policies",
+  "section": "Policy Design Principles",
+  "sha256": "bba03a5b986c201ad064087a88b06703303f72ef9bb42117e0b9abb4729963fc",
+  "content": "# Policy Design Principles\n\nRecommended principles include:\n\n- Least privilege\n- Clear policy names\n- Descriptive address objects\n- Explicit applications\n- Limited use of application any\n- Logging where operationally useful\n- Avoid broad permit rules when narrower rules are practical\n- Document business purpose\n- Review stale rules periodically\n\n---"
+}

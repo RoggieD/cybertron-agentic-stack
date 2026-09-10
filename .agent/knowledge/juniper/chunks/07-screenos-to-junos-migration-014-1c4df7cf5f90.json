@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-screenos-to-junos-migration-014-1c4df7cf5f90",
+  "kb": "juniper",
+  "source_path": "docs/07-screenos-to-junos-migration.md",
+  "source_title": "07-screenos-to-junos-migration",
+  "section": "Static NAT Migration",
+  "sha256": "1c4df7cf5f90fd3333ea3f17defd72808a99bb2ca0d8413eac317ab716f44bc8",
+  "content": "# Static NAT Migration\n\nOne-to-one address mappings should be documented independently of legacy syntax.\n\nRecord:\n\n- Public address\n- Internal address\n- Directionality\n- Related policy\n- Routing requirements\n- Service purpose\n\nThen implement the equivalent Junos static NAT design.\n\n---"
+}

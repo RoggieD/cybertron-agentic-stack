@@ -1,0 +1,9 @@
+{
+  "chunk_id": "13-logging-snmp-and-zabbix-022-6ddead388b2d",
+  "kb": "juniper",
+  "source_path": "docs/13-logging-snmp-and-zabbix.md",
+  "source_title": "13-logging-snmp-and-zabbix",
+  "section": "Monitoring Documentation",
+  "sha256": "6ddead388b2d31f10b9e23a729c59ef42b230509e6c468ecd0632d2b6255fbc3",
+  "content": "# Monitoring Documentation\n\nProduction monitoring records should identify:\n\n- Monitoring platform\n- Monitoring server\n- Management address\n- SNMP version\n- Template\n- Monitored interfaces\n- Alert thresholds\n- Syslog destination\n- VPN monitoring\n- Route monitoring\n- Published service monitoring\n- Configuration state\n- Verification date\n\n---"
+}

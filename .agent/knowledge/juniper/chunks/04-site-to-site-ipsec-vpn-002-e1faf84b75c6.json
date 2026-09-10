@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-site-to-site-ipsec-vpn-002-e1faf84b75c6",
+  "kb": "juniper",
+  "source_path": "examples/04-site-to-site-ipsec-vpn.md",
+  "source_title": "04-site-to-site-ipsec-vpn",
+  "section": "Local Site / Remote Site / Tunnel / Traffic Objective",
+  "sha256": "e1faf84b75c67a7ba4d15f0aa64aa0c779336d0a3da91a35e2ba7b5e351127fd",
+  "content": "# Local Site / Remote Site / Tunnel / Traffic Objective\n\nLocal Public IP:\n\n198.51.100.10\n\nLocal LAN:\n\n192.0.2.0/24\n\nWAN Interface:\n\nge-0/0/0.0\n\nLAN Zone:\n\ntrust\n\nWAN Zone:\n\nuntrust\n\nVPN Zone:\n\nvpn\n\nRemote Public IP:\n\n203.0.113.10\n\nRemote LAN:\n\n203.0.113.128/25\n\nSecure Tunnel Interface:\n\nst0.0\n\n---\n\nTraffic between:\n\n192.0.2.0/24\n\nand:\n\n203.0.113.128/25\n\nshould traverse the encrypted IPsec tunnel.\n\nRouting determines that the remote network is reachable through:\n\nst0.0\n\nSecurity policies separately determine whether traffic is permitted.\n\n---"
+}

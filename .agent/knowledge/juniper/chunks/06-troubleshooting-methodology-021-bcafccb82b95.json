@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-troubleshooting-methodology-021-bcafccb82b95",
+  "kb": "juniper",
+  "source_path": "docs/06-troubleshooting-methodology.md",
+  "source_title": "06-troubleshooting-methodology",
+  "section": "Troubleshooting Discipline",
+  "sha256": "bcafccb82b95eaabec08292a9bdb6022e5e5893ca5ac8ce4eed1d008445796aa",
+  "content": "# Troubleshooting Discipline\n\nAvoid:\n\n- Random configuration changes\n- Changing routing and policy simultaneously\n- Broad permit-any rules as a permanent fix\n- Disabling security features without evidence\n- Clearing all sessions without cause\n- Rebooting as the first troubleshooting step\n\nPrefer:\n\n- Evidence\n- Controlled tests\n- Narrow changes\n- Verification\n- Rollback capability\n- Documentation\n\n---"
+}

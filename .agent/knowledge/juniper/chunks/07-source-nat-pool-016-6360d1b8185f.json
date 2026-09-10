@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-source-nat-pool-016-6360d1b8185f",
+  "kb": "juniper",
+  "source_path": "examples/07-source-nat-pool.md",
+  "source_title": "07-source-nat-pool",
+  "section": "Public Release Guidance / AI Guidance",
+  "sha256": "6360d1b8185fcdc4de352f0861cdb4355f88ac0f7b245a86e4454ebafd6b3824",
+  "content": "# Public Release Guidance / AI Guidance\n\nBefore publishing source NAT examples:\n\n- Replace real public addresses\n- Remove internal hostnames\n- Remove customer-specific networks\n- Remove provider identifiers\n- Replace environment-specific data with documentation values\n\n---\n\nWhen using this example:\n\n- Treat all values as examples.\n- Do not invent production public IP addresses.\n- Verify public address ownership and routing.\n- Verify whether proxy ARP is required.\n- Verify NAT rule matching.\n- Verify security policy separately.\n- Verify routing separately.\n- Prefer live session output during troubleshooting.\n\n---"
+}

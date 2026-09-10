@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-configuration-backup-and-recovery-007-3ae11d4b8677",
+  "kb": "juniper",
+  "source_path": "docs/09-configuration-backup-and-recovery.md",
+  "source_title": "09-configuration-backup-and-recovery",
+  "section": "Review Before Rollback / Commit History",
+  "sha256": "3ae11d4b867757e2dbacc9ee38c9ea950907d061ed1e1876d1b87d7f0f0c7d13",
+  "content": "# Review Before Rollback / Commit History\n\nBefore activating a rollback:\n\nshow | compare\n\nReview what will change.\n\nA rollback may revert more than the one configuration item currently under investigation.\n\nDo not assume rollback affects only the most recent line change.\n\n---\n\nUseful operational commands may include:\n\nshow system commit\n\nCommit history can help identify:\n\n- Commit time\n- Administrator\n- Commit method\n- Previous revisions\n- Potential rollback points\n\nThis information is useful when troubleshooting changes that occurred recently.\n\n---"
+}

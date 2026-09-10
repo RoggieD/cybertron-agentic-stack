@@ -1,0 +1,9 @@
+{
+  "chunk_id": "readme-010-854ae3b78192",
+  "kb": "juniper",
+  "source_path": "README.md",
+  "source_title": "README",
+  "section": "Versioning / Status",
+  "sha256": "854ae3b7819212370189e265edd2496299f36aa1ca0aa9e3c115ccaca0f622b9",
+  "content": "# Versioning / Status\n\nChanges to the knowledge base should be tracked.\n\nMajor technical updates, Junos behavior changes, corrected procedures, and verified production findings should be recorded in CHANGELOG.md.\n\nProject status: Initial build\n\nPlatform: Juniper SRX320\n\nKnowledge Base Type: Technical / Infrastructure / AI RAG"
+}

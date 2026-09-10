@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-site-to-site-ipsec-vpn-017-a2656d9604db",
+  "kb": "juniper",
+  "source_path": "examples/04-site-to-site-ipsec-vpn.md",
+  "source_title": "04-site-to-site-ipsec-vpn",
+  "section": "Remote to Local",
+  "sha256": "a2656d9604db82dc9e75eac7fbbddb8a21198c2b905e87b3254ae5405338ba1f",
+  "content": "# Remote to Local\n\n1. Encrypted traffic arrives from the remote peer.\n2. IPsec processing decrypts the packet.\n3. Traffic enters through st0.0 in the vpn zone.\n4. Routing selects the local LAN.\n5. SITE-A-TO-LOCAL policy permits the traffic.\n6. Traffic exits toward the local host.\n\n---"
+}

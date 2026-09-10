@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-dmz-segmentation-021-fc6443024523",
+  "kb": "juniper",
+  "source_path": "examples/05-dmz-segmentation.md",
+  "source_title": "05-dmz-segmentation",
+  "section": "AI Guidance",
+  "sha256": "fc6443024523c0f5b399d3a7c1b44f5baccaedac4c41c745c9b37c0bd2647556",
+  "content": "# AI Guidance\n\nWhen using this example:\n\n- Treat all values as examples.\n- Do not assume DMZ topology.\n- Do not invent production interface assignments.\n- Do not create broad DMZ-to-trust policies without justification.\n- Verify NAT separately.\n- Verify security policy separately.\n- Verify return routing.\n- Prefer live Junos output when troubleshooting.\n\n---"
+}

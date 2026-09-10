@@ -1,0 +1,9 @@
+{
+  "chunk_id": "11-security-hardening-010-6c2ad0c3ee3f",
+  "kb": "juniper",
+  "source_path": "docs/11-security-hardening.md",
+  "source_title": "11-security-hardening",
+  "section": "Deny and Logging Strategy",
+  "sha256": "6c2ad0c3ee3f93ac1dc13d76d301bf6ad33a99dd6e2af709dcf641a67fce5086",
+  "content": "# Deny and Logging Strategy\n\nNot every denied packet needs to be logged.\n\nLogging should provide useful security and troubleshooting visibility without overwhelming storage or processing resources.\n\nConsider logging:\n\n- Administrative access attempts\n- Important security policy matches\n- Critical denied traffic\n- Configuration events\n- Authentication failures\n\n---"
+}

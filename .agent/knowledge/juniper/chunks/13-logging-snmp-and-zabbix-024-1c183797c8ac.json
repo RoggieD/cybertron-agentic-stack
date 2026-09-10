@@ -1,0 +1,9 @@
+{
+  "chunk_id": "13-logging-snmp-and-zabbix-024-1c183797c8ac",
+  "kb": "juniper",
+  "source_path": "docs/13-logging-snmp-and-zabbix.md",
+  "source_title": "13-logging-snmp-and-zabbix",
+  "section": "AI Guidance",
+  "sha256": "1c183797c8ac9552b7ae35f67b82961ed4f7e2fd80b038df58102a3b5106e6a1",
+  "content": "# AI Guidance\n\nWhen using this document:\n\n- Do not invent SNMP credentials.\n- Do not assume SNMP is enabled.\n- Verify host-inbound configuration.\n- Verify monitoring-server routing.\n- Treat ICMP, SNMP, and service monitoring as separate checks.\n- Do not assume tunnel-up means service-up.\n- Prefer trend analysis over single-point metrics.\n- Verify Junos version before relying on version-specific OIDs or behavior.\n\n---"
+}

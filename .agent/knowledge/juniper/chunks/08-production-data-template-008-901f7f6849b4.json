@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-production-data-template-008-901f7f6849b4",
+  "kb": "juniper",
+  "source_path": "docs/08-production-data-template.md",
+  "source_title": "08-production-data-template",
+  "section": "VLANs / Monitoring",
+  "sha256": "901f7f6849b4e3de8c1415fdb4a4c48ec2f1d2d2666905c24f59a7153b5d0c9f",
+  "content": "# VLANs / Monitoring\n\nFor each VLAN, record:\n\nVLAN Name:\n\nVLAN ID:\n\nSubnet:\n\nGateway:\n\nMember Interfaces:\n\nTagged Interfaces:\n\nUntagged Interfaces:\n\nSecurity Zone:\n\nPurpose:\n\nConfiguration State:\n\nVerification Date:\n\nNotes:\n\n---\n\nMonitoring Platform:\n\nMonitoring Address:\n\nProtocol:\n\nSNMP Version:\n\nSNMP Source Restrictions:\n\nSyslog Destination:\n\nNTP Servers:\n\nDNS Servers:\n\nMonitored Interfaces:\n\nAlerting Enabled:\n\nConfiguration State:\n\nVerification Date:\n\nNotes:\n\n---"
+}

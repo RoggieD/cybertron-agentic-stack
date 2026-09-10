@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-site-to-site-ipsec-vpn-016-030a2ebc40bc",
+  "kb": "juniper",
+  "source_path": "examples/04-site-to-site-ipsec-vpn.md",
+  "source_title": "04-site-to-site-ipsec-vpn",
+  "section": "Local to Remote",
+  "sha256": "030a2ebc40bc5d9c7b7348378bba5a43e3ae9d85a705a116a6eb315b8ec2f8af",
+  "content": "# Local to Remote\n\n1. Host in 192.0.2.0/24 sends traffic to 203.0.113.128/25.\n2. SRX receives the packet from the trust zone.\n3. Route lookup selects st0.0.\n4. Destination zone is vpn.\n5. LOCAL-TO-SITE-A policy permits the traffic.\n6. IPsec processing encrypts the packet.\n7. Encrypted traffic exits the WAN interface toward the remote peer."
+}

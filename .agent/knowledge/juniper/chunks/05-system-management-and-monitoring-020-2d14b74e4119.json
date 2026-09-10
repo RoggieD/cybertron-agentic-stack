@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-system-management-and-monitoring-020-2d14b74e4119",
+  "kb": "juniper",
+  "source_path": "docs/05-system-management-and-monitoring.md",
+  "source_title": "05-system-management-and-monitoring",
+  "section": "Useful Version and Platform Commands",
+  "sha256": "2d14b74e4119d6f53403a737b900b83ddfc48977166ca7197586749ac273999f",
+  "content": "# Useful Version and Platform Commands\n\nUse:\n\nshow version\n\nto identify the running Junos OS release.\n\nAdditional platform information may be gathered with:\n\nshow chassis hardware\n\nThe command show system software displays loaded Junos software extensions on classic Junos OS and should not be treated as the primary command for identifying the base Junos release.\n\nExact output and available options vary by Junos release.\n\n---"
+}

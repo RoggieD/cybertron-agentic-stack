@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-troubleshooting-methodology-020-d2a8bdd57a35",
+  "kb": "juniper",
+  "source_path": "docs/06-troubleshooting-methodology.md",
+  "source_title": "06-troubleshooting-methodology",
+  "section": "Rollback",
+  "sha256": "d2a8bdd57a35ba9d193ac4f7c3d6c8cc0dba6d8821e1ed5cce824afdbfd0f64a",
+  "content": "# Rollback\n\nRollback is a recovery mechanism, not a substitute for understanding the problem.\n\nBefore rollback:\n\n- Identify which configuration version is required.\n- Review differences.\n- Understand what other changes may also be reverted.\n\nUseful concepts include:\n\nshow system commit\n\nrollback <number>\n\nshow | compare\n\ncommit\n\n---"
+}

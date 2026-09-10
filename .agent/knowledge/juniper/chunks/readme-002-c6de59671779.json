@@ -1,0 +1,9 @@
+{
+  "chunk_id": "readme-002-c6de59671779",
+  "kb": "juniper",
+  "source_path": "README.md",
+  "source_title": "README",
+  "section": "Primary Platform",
+  "sha256": "c6de596717798a62da0503e766c534dde0814b945d53bf54b2c38a1a2dd5614f",
+  "content": "# Primary Platform\n\nVendor: Juniper Networks\n\nPlatform: SRX320\n\nOperating System: Junos OS\n\nPrimary Use Cases:\n\n- Firewall configuration\n- Security zones\n- Security policies\n- Source NAT\n- Destination NAT\n- Static NAT\n- Routing\n- Interface configuration\n- VLANs\n- System management\n- Logging\n- Monitoring\n- Troubleshooting\n- ScreenOS-to-Junos migration\n- Production firewall operations"
+}

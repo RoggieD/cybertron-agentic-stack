@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-management-hardening-010-8c21bc9a3770",
+  "kb": "juniper",
+  "source_path": "examples/06-management-hardening.md",
+  "source_title": "06-management-hardening",
+  "section": "Host-Inbound vs Transit Traffic",
+  "sha256": "8c21bc9a3770386a87351e4b0a7109bbe36b603b6ddcf6cea880fbb41210b20b",
+  "content": "# Host-Inbound vs Transit Traffic\n\nTraffic destined to the SRX itself is host-inbound traffic.\n\nTraffic passing through the SRX is transit traffic.\n\nThis distinction is critical.\n\nA transit security policy does not replace host-inbound configuration for services such as:\n\n- SSH to the firewall\n- HTTPS to the firewall\n- Ping to an SRX interface\n- SNMP to the firewall\n\n---"
+}

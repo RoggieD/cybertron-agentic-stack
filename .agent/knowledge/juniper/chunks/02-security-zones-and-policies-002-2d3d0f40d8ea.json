@@ -1,0 +1,9 @@
+{
+  "chunk_id": "02-security-zones-and-policies-002-2d3d0f40d8ea",
+  "kb": "juniper",
+  "source_path": "docs/02-security-zones-and-policies.md",
+  "source_title": "02-security-zones-and-policies",
+  "section": "Zone Membership",
+  "sha256": "2d3d0f40d8ead0824145ed94a3f8c4613fb00fbd4e4aa919986d4f23b0a866cd",
+  "content": "# Zone Membership\n\nA routed interface normally participates in security policy processing through zone membership.\n\nExample logical interface:\n\nge-0/0/1.0\n\nAn interface assigned to a zone inherits the security context of that zone.\n\nTraffic behavior depends on:\n\n- Source zone\n- Destination zone\n- Security policy\n- Routing\n- NAT\n- Host-inbound settings\n- Session state\n\n---"
+}

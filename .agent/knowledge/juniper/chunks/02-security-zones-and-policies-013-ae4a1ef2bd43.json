@@ -1,0 +1,9 @@
+{
+  "chunk_id": "02-security-zones-and-policies-013-ae4a1ef2bd43",
+  "kb": "juniper",
+  "source_path": "docs/02-security-zones-and-policies.md",
+  "source_title": "02-security-zones-and-policies",
+  "section": "Policy Logging",
+  "sha256": "ae4a1ef2bd431d3781d0491dbc5a22742398ea42a84e1ae6974af8b264e634a8",
+  "content": "# Policy Logging\n\nSecurity policies may log:\n\n- Session initialization\n- Session closure\n\nLogging is useful for:\n\n- Troubleshooting\n- Security auditing\n- Policy validation\n- Identifying unexpected traffic\n\nExcessive session logging can create unnecessary load and storage consumption.\n\n---"
+}

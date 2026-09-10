@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-configuration-backup-and-recovery-017-0b28bf7b2a82",
+  "kb": "juniper",
+  "source_path": "docs/09-configuration-backup-and-recovery.md",
+  "source_title": "09-configuration-backup-and-recovery",
+  "section": "Backup Security",
+  "sha256": "0b28bf7b2a82ff1a41ca7c6e34bc0776faa649e560fda71ad53bb71e2cbe1012",
+  "content": "# Backup Security\n\nConfiguration backups may contain sensitive information.\n\nProtect:\n\n- Password hashes\n- Authentication configuration\n- SNMP credentials\n- VPN configuration\n- Certificates\n- Internal addressing\n- Public service mappings\n- Administrative usernames\n\nDo not publish raw production configurations.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-source-nat-pool-008-44145394b53c",
+  "kb": "juniper",
+  "source_path": "examples/07-source-nat-pool.md",
+  "source_title": "07-source-nat-pool",
+  "section": "Review Candidate Configuration / Validate Configuration / Safe Commit / Verify Source NAT Configuration",
+  "sha256": "44145394b53c1a19af4358dcce894f8b39f622581b605d4cb893b659e9b0d74a",
+  "content": "# Review Candidate Configuration / Validate Configuration / Safe Commit / Verify Source NAT Configuration\n\nRun:\n\nshow | compare\n\n---\n\nRun:\n\ncommit check\n\nCorrect any errors before activation.\n\n---\n\nIf the change may affect remote access:\n\ncommit confirmed\n\nVerify traffic before confirming the commit.\n\n---\n\nRun:\n\nshow configuration security nat source\n\n---"
+}

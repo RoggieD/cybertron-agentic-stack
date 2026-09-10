@@ -1,0 +1,9 @@
+{
+  "chunk_id": "14-ha-clustering-and-redundancy-019-8ea06e5203b5",
+  "kb": "juniper",
+  "source_path": "docs/14-ha-clustering-and-redundancy.md",
+  "source_title": "14-ha-clustering-and-redundancy",
+  "section": "Split-Brain Risk / Configuration Backup",
+  "sha256": "8ea06e5203b55cc1e4a2f2eb94eca4eb87b3f80c3e764d0ca2c77a7d565725ad",
+  "content": "# Split-Brain Risk / Configuration Backup\n\nCluster designs must avoid conditions where both nodes incorrectly believe they should act independently.\n\nControl and fabric health are important to preventing inconsistent cluster behavior.\n\nExact safeguards depend on platform implementation.\n\n---\n\nCluster configuration should be backed up regularly.\n\nBackups should include:\n\n- Cluster configuration\n- Node-specific configuration\n- Interface mappings\n- Redundancy groups\n- Routing\n- Security policies\n- NAT\n- Monitoring configuration\n\n---"
+}

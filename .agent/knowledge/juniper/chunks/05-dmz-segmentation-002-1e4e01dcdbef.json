@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-dmz-segmentation-002-1e4e01dcdbef",
+  "kb": "juniper",
+  "source_path": "examples/05-dmz-segmentation.md",
+  "source_title": "05-dmz-segmentation",
+  "section": "Trust Network / DMZ Network / Untrust Network",
+  "sha256": "1e4e01dcdbef44245187ee056eb654ee205815d3cd73327ef806f2fc94c077d7",
+  "content": "# Trust Network / DMZ Network / Untrust Network\n\nNetwork:\n\n192.0.2.0/24\n\nGateway:\n\n192.0.2.1\n\nInterface:\n\nge-0/0/1.0\n\nZone:\n\ntrust\n\n---\n\nNetwork:\n\n198.18.0.0/24\n\nGateway:\n\n198.18.0.1\n\nInterface:\n\nge-0/0/2.0\n\nZone:\n\ndmz\n\nExample Web Server:\n\n198.18.0.20\n\n---\n\nWAN Address:\n\n198.51.100.10/24\n\nISP Gateway:\n\n198.51.100.1\n\nInterface:\n\nge-0/0/0.0\n\nZone:\n\nuntrust\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "16-performance-capacity-and-sizing-007-c03b9cbde9d4",
+  "kb": "juniper",
+  "source_path": "docs/16-performance-capacity-and-sizing.md",
+  "source_title": "16-performance-capacity-and-sizing",
+  "section": "Concurrent Sessions",
+  "sha256": "c03b9cbde9d48928c6bda135684f447cca7b24a526090fe641f3394fd3544559",
+  "content": "# Concurrent Sessions\n\nStateful firewalls maintain connection state.\n\nConcurrent session load may increase with:\n\n- Large user populations\n- Web browsing\n- Cloud applications\n- Streaming\n- NAT\n- Server publishing\n- Scanning\n- Long-lived sessions\n\nSession capacity should be considered independently from bandwidth.\n\n---"
+}

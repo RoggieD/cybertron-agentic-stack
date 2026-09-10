@@ -1,0 +1,9 @@
+{
+  "chunk_id": "01-hardware-and-interfaces-008-467b16bf4f35",
+  "kb": "juniper",
+  "source_path": "docs/01-hardware-and-interfaces.md",
+  "source_title": "01-hardware-and-interfaces",
+  "section": "Interface Status Verification",
+  "sha256": "467b16bf4f35538c2dd55ee03f1b8928441eb6ef52fb40eb409a9c06c2009807",
+  "content": "# Interface Status Verification\n\nUseful operational commands include:\n\nshow interfaces terse\n\nshow interfaces\n\nshow interfaces extensive\n\nshow interfaces ge-0/0/0\n\nThese commands may help verify:\n\n- Administrative state\n- Link state\n- Logical units\n- IP addressing\n- Traffic counters\n- Errors\n- Negotiated link parameters\n\n---"
+}

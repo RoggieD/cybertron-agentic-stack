@@ -1,0 +1,9 @@
+{
+  "chunk_id": "16-performance-capacity-and-sizing-013-615a07073353",
+  "kb": "juniper",
+  "source_path": "docs/16-performance-capacity-and-sizing.md",
+  "source_title": "16-performance-capacity-and-sizing",
+  "section": "Interface Capacity / WAN Sizing",
+  "sha256": "615a0707335300fecf68b03de998a79aa26f78769fff4949c7430af929e0d9b2",
+  "content": "# Interface Capacity / WAN Sizing\n\nAn interface should be monitored for:\n\n- Utilization\n- Errors\n- Discards\n- Drops\n- Link speed\n- Duplex\n- Bursts\n- Congestion\n\nA firewall performance issue may actually be an interface or upstream-network issue.\n\n---\n\nWAN capacity planning should consider:\n\n- Internet circuit speed\n- Expected peak usage\n- Growth\n- VPN traffic\n- Public services\n- Backup traffic\n- Cloud applications\n- Monitoring\n- Protocol overhead\n\nThe firewall should have sufficient headroom above normal expected load.\n\n---"
+}

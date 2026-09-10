@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-configuration-backup-and-recovery-009-5d374089a2ec",
+  "kb": "juniper",
+  "source_path": "docs/09-configuration-backup-and-recovery.md",
+  "source_title": "09-configuration-backup-and-recovery",
+  "section": "Rescue Configuration Principles",
+  "sha256": "5d374089a2ec3960e41360026dca67700164f526f2f166c52ca0f70282be81d7",
+  "content": "# Rescue Configuration Principles\n\nBefore saving a rescue configuration, verify:\n\n- Management access\n- Interface configuration\n- Routing\n- Security zones\n- Security policies\n- NAT\n- Required services\n- Monitoring\n- Administrative access\n\nThe rescue configuration should represent stable operation.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "authoritative-sources-014-e28ee77a6862",
+  "kb": "juniper",
+  "source_path": "source-material/authoritative-sources.md",
+  "source_title": "authoritative-sources",
+  "section": "Commercial Distribution",
+  "sha256": "e28ee77a686208143d5ad57f945365966fc772b6d116e37a20d1582c204c4b8d",
+  "content": "# Commercial Distribution\n\nCommercial value should come from original material such as:\n\n- Explanations\n- Operational procedures\n- Troubleshooting methodology\n- Migration guidance\n- Configuration patterns\n- AI schemas\n- Validation frameworks\n- Checklists\n- Tested examples\n- Automation tooling\n\nVendor documentation remains the intellectual property of its respective owner.\n\n---"
+}

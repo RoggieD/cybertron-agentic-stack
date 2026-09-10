@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-system-management-and-monitoring-021-fb566147687d",
+  "kb": "juniper",
+  "source_path": "docs/05-system-management-and-monitoring.md",
+  "source_title": "05-system-management-and-monitoring",
+  "section": "Management Troubleshooting",
+  "sha256": "fb566147687d9eec9de912f038e5f172bca0a9421c85e0447674a307a69cef67",
+  "content": "# Management Troubleshooting\n\nWhen management access fails, verify:\n\n1. Physical interface state\n2. Logical interface state\n3. Management IP\n4. Routing\n5. Security zone\n6. Host-inbound service configuration\n7. Firewall filter if applicable\n8. Source address\n9. SSH or HTTPS service status\n10. Authentication\n11. Logs\n12. Return path\n\nDo not immediately change security policy without confirming whether the traffic is transit traffic or host-inbound traffic.\n\n---"
+}

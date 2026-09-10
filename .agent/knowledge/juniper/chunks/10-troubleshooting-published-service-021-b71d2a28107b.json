@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-troubleshooting-published-service-021-b71d2a28107b",
+  "kb": "juniper",
+  "source_path": "examples/10-troubleshooting-published-service.md",
+  "source_title": "10-troubleshooting-published-service",
+  "section": "Incident Record",
+  "sha256": "b71d2a28107b35dcde18d3048dd43e34dc9aa8808db42df25061079affbe30b2",
+  "content": "# Incident Record\n\nRecommended fields:\n\nDate:\n\nPublic Service:\n\nPublic Address:\n\nPublic Port:\n\nProtocol:\n\nInternal Server:\n\nInternal Port:\n\nObserved Symptom:\n\nNAT Result:\n\nPolicy Result:\n\nRouting Result:\n\nServer Result:\n\nRoot Cause:\n\nChange Made:\n\nValidation:\n\nRollback Method:\n\nConfiguration State:\n\nNotes:\n\n---"
+}

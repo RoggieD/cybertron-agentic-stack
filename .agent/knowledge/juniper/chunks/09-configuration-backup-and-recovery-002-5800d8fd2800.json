@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-configuration-backup-and-recovery-002-5800d8fd2800",
+  "kb": "juniper",
+  "source_path": "docs/09-configuration-backup-and-recovery.md",
+  "source_title": "09-configuration-backup-and-recovery",
+  "section": "Recovery Philosophy",
+  "sha256": "5800d8fd2800e0fd68c7a2cdbe6f0e6afa169513fb4a281097062eb9b87b48f2",
+  "content": "# Recovery Philosophy\n\nRecovery capability should exist before risky changes are made.\n\nBefore modifying critical configuration, identify:\n\n- Current configuration state\n- Known-good rollback point\n- Console access\n- Backup location\n- Recovery method\n- Expected validation steps\n\nDo not rely on memory during an outage.\n\n---"
+}

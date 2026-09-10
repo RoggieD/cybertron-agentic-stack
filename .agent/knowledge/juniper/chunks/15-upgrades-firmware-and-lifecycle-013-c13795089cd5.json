@@ -1,0 +1,9 @@
+{
+  "chunk_id": "15-upgrades-firmware-and-lifecycle-013-c13795089cd5",
+  "kb": "juniper",
+  "source_path": "docs/15-upgrades-firmware-and-lifecycle.md",
+  "source_title": "15-upgrades-firmware-and-lifecycle",
+  "section": "Post-Upgrade Validation",
+  "sha256": "c13795089cd5b1d71ccd2e26b5f1bf229dc47b2ae8cd991af78e9b4608f7ba2f",
+  "content": "# Post-Upgrade Validation\n\nAfter the SRX returns to service, verify:\n\n1. Junos version\n2. System alarms\n3. Chassis alarms\n4. Interface status\n5. Routing\n6. Security zones\n7. Security policies\n8. NAT\n9. Internet connectivity\n10. Published services\n11. VPNs\n12. Monitoring\n13. Logging\n14. Management access\n15. Performance\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "11-security-hardening-013-7140e5b89d5e",
+  "kb": "juniper",
+  "source_path": "docs/11-security-hardening.md",
+  "source_title": "11-security-hardening",
+  "section": "Syslog",
+  "sha256": "7140e5b89d5e765054ccfcb44915d9e6364856c78d4fdc16447519fc48efc677",
+  "content": "# Syslog\n\nRemote logging can improve security visibility.\n\nImportant events may include:\n\n- Administrative login\n- Failed authentication\n- Configuration changes\n- Security policy events\n- System alarms\n- Interface changes\n\nLogs should be protected against unauthorized modification.\n\n---"
+}

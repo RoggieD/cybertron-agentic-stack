@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-troubleshooting-methodology-012-518e20d1e05b",
+  "kb": "juniper",
+  "source_path": "docs/06-troubleshooting-methodology.md",
+  "source_title": "06-troubleshooting-methodology",
+  "section": "Step 11 \u2014 Test from the SRX",
+  "sha256": "518e20d1e05b9f8a8e7a30042827117b6f10f93db7ab55b3dc2e9dab17968ae3",
+  "content": "# Step 11 \u2014 Test from the SRX\n\nTesting directly from the SRX can help isolate the failure domain.\n\nUseful commands may include:\n\nping <destination>\n\ntraceroute <destination>\n\nWhere supported, specify a source address or interface when necessary.\n\nA successful test from the SRX does not automatically prove that transit traffic is working.\n\n---"
+}

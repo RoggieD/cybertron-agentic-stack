@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-vlan-trunk-and-irb-011-06b335906c13",
+  "kb": "juniper",
+  "source_path": "examples/09-vlan-trunk-and-irb.md",
+  "source_title": "09-vlan-trunk-and-irb",
+  "section": "Native VLAN",
+  "sha256": "06b335906c138dd3abafc4eca2df0e350949cc0cdecdf4238cffffa9fe1a1b09",
+  "content": "# Native VLAN\n\nSome trunk designs use a native or untagged VLAN.\n\nNative VLAN behavior must match on both ends of the trunk.\n\nMismatch can cause:\n\n- Unexpected untagged traffic placement\n- Management loss\n- Connectivity problems\n- Security exposure\n\nDo not configure a native VLAN without a clear design requirement.\n\n---"
+}

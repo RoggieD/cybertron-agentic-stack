@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-management-hardening-019-729b1af18093",
+  "kb": "juniper",
+  "source_path": "examples/06-management-hardening.md",
+  "source_title": "06-management-hardening",
+  "section": "Document Status",
+  "sha256": "729b1af18093a1687da8a72741caebe23657165743bc5159deba5b8baeff9020",
+  "content": "# Document Status\n\nDocument Type: Configuration Example\n\nExample Type: Management Hardening\n\nKnowledge Base: Juniper SRX320 Knowledge Base\n\nVersion: 0.1.0\n\nStatus: Example / Non-Production"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "14-ha-clustering-and-redundancy-022-9d21ab8f729c",
+  "kb": "juniper",
+  "source_path": "docs/14-ha-clustering-and-redundancy.md",
+  "source_title": "14-ha-clustering-and-redundancy",
+  "section": "AI Guidance",
+  "sha256": "9d21ab8f729ca10c2f92d2097d643b8c44ddc6e7ae9b3929257a3952623c1fff",
+  "content": "# AI Guidance\n\nWhen using this document:\n\n- Do not assume clustering is configured.\n- Do not assume two firewalls means true redundancy.\n- Identify shared failure domains.\n- Treat WAN redundancy separately from firewall redundancy.\n- Verify cluster health before recommending failover.\n- Do not recommend uncontrolled failover testing in production.\n- Prefer maintenance-window testing for disruptive HA validation.\n- Distinguish design guidance from verified deployment state.\n\n---"
+}

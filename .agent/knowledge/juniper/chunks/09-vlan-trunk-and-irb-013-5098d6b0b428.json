@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-vlan-trunk-and-irb-013-5098d6b0b428",
+  "kb": "juniper",
+  "source_path": "examples/09-vlan-trunk-and-irb.md",
+  "source_title": "09-vlan-trunk-and-irb",
+  "section": "Management VLAN / Internet Access",
+  "sha256": "5098d6b0b428fe8f4bcce44d5e80cc35fe37b4560b66e7f8197d35c697f06306",
+  "content": "# Management VLAN / Internet Access\n\nA dedicated management VLAN may be used for:\n\n- Switches\n- Hypervisors\n- Access points\n- Network appliances\n- Administrative interfaces\n\nManagement networks should receive restrictive policy.\n\n---\n\nEach VLAN requiring Internet access may need:\n\n- Route\n- Security policy\n- Source NAT\n\nExample paths:\n\ntrust -> untrust\n\nservers -> untrust\n\nguest -> untrust\n\nDo not assume one NAT rule or policy automatically covers all security zones.\n\n---"
+}

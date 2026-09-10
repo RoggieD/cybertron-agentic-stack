@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-vlan-trunk-and-irb-002-734b6bd0a70a",
+  "kb": "juniper",
+  "source_path": "examples/09-vlan-trunk-and-irb.md",
+  "source_title": "09-vlan-trunk-and-irb",
+  "section": "VLAN 10 / VLAN 20 / VLAN 30",
+  "sha256": "734b6bd0a70a1848ec6cbadc9294db502a494c1d196ae8162d94217d1b776ad8",
+  "content": "# VLAN 10 / VLAN 20 / VLAN 30\n\nName:\n\nUSERS\n\nSubnet:\n\n192.0.2.0/24\n\nGateway:\n\n192.0.2.1\n\nSecurity Zone:\n\ntrust\n\n---\n\nName:\n\nSERVERS\n\nSubnet:\n\n198.18.0.0/24\n\nGateway:\n\n198.18.0.1\n\nSecurity Zone:\n\nservers\n\n---\n\nName:\n\nGUEST\n\nSubnet:\n\n203.0.113.0/24\n\nGateway:\n\n203.0.113.1\n\nSecurity Zone:\n\nguest\n\n---"
+}

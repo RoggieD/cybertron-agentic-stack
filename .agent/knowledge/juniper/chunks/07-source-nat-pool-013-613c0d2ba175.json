@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-source-nat-pool-013-613c0d2ba175",
+  "kb": "juniper",
+  "source_path": "examples/07-source-nat-pool.md",
+  "source_title": "07-source-nat-pool",
+  "section": "Troubleshooting Sequence",
+  "sha256": "613c0d2ba1757a1fbe080d04f2cf02a109ca9417802897bb7933592bf33fdc57",
+  "content": "# Troubleshooting Sequence\n\nIf source NAT pool traffic fails, verify:\n\n1. Internal interface state\n2. Internal host gateway\n3. Source zone\n4. Source NAT rule set\n5. Source NAT rule match\n6. NAT pool\n7. Security policy\n8. Default route\n9. Upstream gateway\n10. Public address routing\n11. Proxy ARP if applicable\n12. Session table\n13. Return path\n14. DNS separately from IP connectivity\n\n---"
+}

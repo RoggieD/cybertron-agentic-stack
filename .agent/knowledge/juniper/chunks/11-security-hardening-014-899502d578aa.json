@@ -1,0 +1,9 @@
+{
+  "chunk_id": "11-security-hardening-014-899502d578aa",
+  "kb": "juniper",
+  "source_path": "docs/11-security-hardening.md",
+  "source_title": "11-security-hardening",
+  "section": "NTP / DNS",
+  "sha256": "899502d578aab67a1fa568601c3ced1962ee84cc8db7ceb72684d5fe0fc507e4",
+  "content": "# NTP / DNS\n\nAccurate time improves:\n\n- Log correlation\n- Incident investigation\n- Authentication\n- Certificate validation\n- Monitoring\n\nUse trusted NTP sources.\n\n---\n\nUse trusted DNS resolvers where the SRX requires name resolution.\n\nDo not confuse DNS failure with network failure.\n\nAvoid configuring unnecessary external resolver dependencies.\n\n---"
+}

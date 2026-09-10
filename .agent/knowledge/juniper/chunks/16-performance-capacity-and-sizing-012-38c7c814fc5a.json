@@ -1,0 +1,9 @@
+{
+  "chunk_id": "16-performance-capacity-and-sizing-012-38c7c814fc5a",
+  "kb": "juniper",
+  "source_path": "docs/16-performance-capacity-and-sizing.md",
+  "source_title": "16-performance-capacity-and-sizing",
+  "section": "Logging Impact / Flow Tracing Impact",
+  "sha256": "38c7c814fc5a6915007b799e2f22fd50911bc5fce9edb6f8f0f3eebb3feef0bc",
+  "content": "# Logging Impact / Flow Tracing Impact\n\nExcessive logging can affect:\n\n- CPU\n- Storage\n- Network utilization\n- Remote syslog systems\n- Troubleshooting clarity\n\nAvoid enabling high-volume logging without a defined purpose.\n\n---\n\nFlow tracing can generate significant diagnostic data.\n\nIt should be:\n\n- Narrowly scoped\n- Used temporarily\n- Disabled after troubleshooting\n\nBroad tracing on a busy production firewall may materially affect performance.\n\n---"
+}

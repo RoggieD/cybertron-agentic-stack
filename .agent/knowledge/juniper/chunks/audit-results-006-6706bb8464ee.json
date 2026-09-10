@@ -1,0 +1,9 @@
+{
+  "chunk_id": "audit-results-006-6706bb8464ee",
+  "kb": "juniper",
+  "source_path": "source-material/AUDIT-RESULTS.md",
+  "source_title": "AUDIT-RESULTS",
+  "section": "Software upgrades / documentation-checked",
+  "sha256": "6706bb8464eef8cc9b18d93a8fbc9d5df5f43f55de046f3101fbaad566c52578",
+  "content": "# Software upgrades / documentation-checked\n\n- Added stronger release-specific upgrade-path guidance for the SRX300 line.\n- Explicitly requires current Juniper documentation before reusing request system software add options.\n\nMeans the content has been compared with authoritative Juniper documentation.\n\nIt does not mean the configuration has passed commit check on the target device."
+}

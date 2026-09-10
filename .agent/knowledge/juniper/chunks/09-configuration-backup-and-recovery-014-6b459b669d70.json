@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-configuration-backup-and-recovery-014-6b459b669d70",
+  "kb": "juniper",
+  "source_path": "docs/09-configuration-backup-and-recovery.md",
+  "source_title": "09-configuration-backup-and-recovery",
+  "section": "Recovery Decision Process",
+  "sha256": "6b459b669d70594bdaeeab008ab0eb93549ef89aef2837fcde2cdae8e855ffe6",
+  "content": "# Recovery Decision Process\n\nWhen recovery is required:\n\n1. Identify the failure.\n2. Determine whether management access is still available.\n3. Review recent commit history.\n4. Identify a known-good revision.\n5. Review rollback differences.\n6. Restore the minimum necessary configuration.\n7. Validate management access.\n8. Validate production traffic.\n9. Document the recovery.\n\n---"
+}

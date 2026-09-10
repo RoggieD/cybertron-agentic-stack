@@ -1,0 +1,9 @@
+{
+  "chunk_id": "14-ha-clustering-and-redundancy-016-017925e5dd6b",
+  "kb": "juniper",
+  "source_path": "docs/14-ha-clustering-and-redundancy.md",
+  "source_title": "14-ha-clustering-and-redundancy",
+  "section": "Useful Operational Concepts",
+  "sha256": "017925e5dd6bd19b154e96eb2cb36b5aa943baca77eb5690717a9c5738a1c973",
+  "content": "# Useful Operational Concepts\n\nDepending on platform and Junos version, useful operational commands may include commands related to:\n\n- chassis cluster status\n- redundancy group state\n- interface state\n- alarms\n- system health\n\nExact syntax should be verified against the installed Junos version.\n\n---"
+}

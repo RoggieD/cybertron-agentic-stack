@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-dmz-segmentation-019-0fbc2ddf4dd6",
+  "kb": "juniper",
+  "source_path": "examples/05-dmz-segmentation.md",
+  "source_title": "05-dmz-segmentation",
+  "section": "Important Notes",
+  "sha256": "0fbc2ddf4dd6cfed5c0c4190bc0f6967ab5adf2717d44279b94bcd7910cde4eb",
+  "content": "# Important Notes\n\nThis example uses reserved non-production example address ranges.\n\nThe public-facing addresses use documentation ranges, while the DMZ example uses a benchmarking/test range.\n\nDo not copy these values directly into production.\n\nDo not assume:\n\n- ge-0/0/0 is WAN\n- ge-0/0/1 is trust\n- ge-0/0/2 is DMZ\n- trust, dmz, and untrust are the correct production zone names\n- all DMZ hosts should receive Internet access\n- all trusted hosts should administer the DMZ\n- destination NAT is required for every DMZ service\n\nAdapt the pattern to the actual environment.\n\n---"
+}

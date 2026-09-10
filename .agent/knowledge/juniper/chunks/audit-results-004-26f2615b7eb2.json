@@ -1,0 +1,9 @@
+{
+  "chunk_id": "audit-results-004-26f2615b7eb2",
+  "kb": "juniper",
+  "source_path": "source-material/AUDIT-RESULTS.md",
+  "source_title": "AUDIT-RESULTS",
+  "section": "NAT / Management and version identification",
+  "sha256": "26f2615b7eb297c12e7b053f685e6d152414ccb1297ba6149c6dd989f2c53d15",
+  "content": "# NAT / Management and version identification\n\n- Clarified destination NAT processing relative to route and security-policy lookup.\n\n- Corrected guidance that could imply show system software is the primary Junos version command.\n- show version is now identified as the base Junos release command."
+}

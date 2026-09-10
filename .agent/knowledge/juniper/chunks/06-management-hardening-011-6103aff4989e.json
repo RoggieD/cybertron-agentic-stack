@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-management-hardening-011-6103aff4989e",
+  "kb": "juniper",
+  "source_path": "examples/06-management-hardening.md",
+  "source_title": "06-management-hardening",
+  "section": "Logging Administrative Activity / Review Candidate Configuration",
+  "sha256": "6103aff4989e46c4da357f216807b3a40f0d8848063758430bfc39815c93c9f9",
+  "content": "# Logging Administrative Activity / Review Candidate Configuration\n\nAdministrative activity should be observable where practical.\n\nUseful evidence may include:\n\n- Login events\n- Authentication failures\n- Commit history\n- System logs\n\nOperational commands may include:\n\nshow system commit\n\nshow log messages\n\n---\n\nBefore commit:\n\nshow | compare\n\n---"
+}

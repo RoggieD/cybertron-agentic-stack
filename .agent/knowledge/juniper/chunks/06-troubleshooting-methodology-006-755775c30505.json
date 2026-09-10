@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-troubleshooting-methodology-006-755775c30505",
+  "kb": "juniper",
+  "source_path": "docs/06-troubleshooting-methodology.md",
+  "source_title": "06-troubleshooting-methodology",
+  "section": "Step 4 \u2014 Verify Addressing / Step 5 \u2014 Verify Routing",
+  "sha256": "755775c3050503674a4ea29bf48ec44664da5818fd4cdad96e20e6a147057270",
+  "content": "# Step 4 \u2014 Verify Addressing / Step 5 \u2014 Verify Routing\n\nConfirm:\n\n- Source subnet\n- Destination subnet\n- Interface IP\n- Prefix length\n- Default gateway\n- Public address when applicable\n- Translated address when applicable\n\nDo not assume an IP address or prefix is correct because it appears familiar.\n\n---\n\nUseful commands may include:\n\nshow route <destination>\n\nshow route 0.0.0.0/0\n\nshow route protocol static\n\nshow route forwarding-table\n\nVerify:\n\n- Active route\n- Next hop\n- Outgoing interface\n- Route preference\n- Routing instance\n- Return route\n\n---"
+}

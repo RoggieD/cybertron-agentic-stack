@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-routing-008-b872564158ee",
+  "kb": "juniper",
+  "source_path": "docs/04-routing.md",
+  "source_title": "04-routing",
+  "section": "Next-Hop Reachability / Routing Tables",
+  "sha256": "b872564158ee26da1ab939b56ca9948848cddaaf323878854c7eafb4d0302d7f",
+  "content": "# Next-Hop Reachability / Routing Tables\n\nA static route requires a usable next hop.\n\nIf the next hop is not reachable, the route may not be usable.\n\nVerify:\n\n- Interface state\n- Neighbor reachability\n- ARP or neighbor discovery\n- Connected subnet\n- Route recursion\n- Routing instance\n\n---\n\nThe main IPv4 routing table is commonly:\n\ninet.0\n\nIPv6 routing commonly uses:\n\ninet6.0\n\nAdditional routing tables may exist when using:\n\n- Routing instances\n- Virtual routers\n- VPNs\n- Specialized services\n\nDo not assume all routes are present in the default routing table.\n\n---"
+}

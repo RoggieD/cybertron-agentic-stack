@@ -1,0 +1,9 @@
+{
+  "chunk_id": "03-nat-016-ce7fc4bbfea6",
+  "kb": "juniper",
+  "source_path": "docs/03-nat.md",
+  "source_title": "03-nat",
+  "section": "Useful Verification Commands",
+  "sha256": "ce7fc4bbfea64b3b0893677a1c3acf86885c24e73354466a3826f808354a324f",
+  "content": "# Useful Verification Commands\n\nUseful commands may include:\n\nshow configuration security nat\n\nshow configuration security nat source\n\nshow configuration security nat destination\n\nshow configuration security nat static\n\nshow security nat source rule all\n\nshow security nat destination rule all\n\nshow security nat static rule all\n\nshow security flow session\n\nshow security flow session source-prefix <address>\n\nshow security flow session destination-prefix <address>\n\nshow route\n\nExact command syntax and availability may vary by Junos version.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "14-ha-clustering-and-redundancy-011-c499558b8531",
+  "kb": "juniper",
+  "source_path": "docs/14-ha-clustering-and-redundancy.md",
+  "source_title": "14-ha-clustering-and-redundancy",
+  "section": "Failure Domains",
+  "sha256": "c499558b85317a2b6c453b8dcdd58ac1522a4dfb2e7d9d36656f52a27683ce62",
+  "content": "# Failure Domains\n\nIdentify failure domains explicitly.\n\nExamples include:\n\n- SRX node failure\n- Power supply failure\n- Switch failure\n- WAN circuit failure\n- ISP failure\n- Cable failure\n- Interface failure\n- Control-link failure\n- Fabric-link failure\n- Routing failure\n\nA strong HA design minimizes shared failure domains.\n\n---"
+}

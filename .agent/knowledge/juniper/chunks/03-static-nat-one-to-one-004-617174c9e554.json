@@ -1,0 +1,9 @@
+{
+  "chunk_id": "03-static-nat-one-to-one-004-617174c9e554",
+  "kb": "juniper",
+  "source_path": "examples/03-static-nat-one-to-one.md",
+  "source_title": "03-static-nat-one-to-one",
+  "section": "Create Static NAT Rule",
+  "sha256": "617174c9e554b0fb76fd436f8bfd5a835e94b516cf03cb8ccee17fd3cc3f2490",
+  "content": "# Create Static NAT Rule\n\nMatch the public address:\n\nset security nat static rule-set INTERNET-STATIC rule STATIC-SERVER-MAP match destination-address 198.51.100.30/32\n\nTranslate to the internal address:\n\nset security nat static rule-set INTERNET-STATIC rule STATIC-SERVER-MAP then static-nat prefix 192.0.2.30/32\n\n---"
+}

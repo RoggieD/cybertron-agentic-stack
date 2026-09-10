@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/juniper-srx320/interface-record.schema.json",
+  "title": "Juniper SRX320 Interface Record",
+  "description": "Structured record for a physical or logical interface on a Juniper SRX320.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "interface_name",
+    "configuration_state"
+  ],
+  "properties": {
+    "interface_name": {
+      "type": "string",
+      "description": "Physical or logical Junos interface name, such as ge-0/0/0 or ge-0/0/0.0."
+    },
+    "physical_interface": {
+      "type": ["string", "null"]
+    },
+    "logical_unit": {
+      "type": ["integer", "null"],
+      "minimum": 0
+    },
+    "description": {
+      "type": ["string", "null"]
+    },
+    "role": {
+      "type": ["string", "null"],
+      "enum": [
+        "WAN",
+        "LAN",
+        "DMZ",
+        "MANAGEMENT",
+        "VPN",
+        "TRUNK",
+        "ACCESS",
+        "LOOPBACK",
+        "HA",
+        "OTHER",
+        null
+      ]
+    },
+    "ipv4_address": {
+      "type": ["string", "null"]
+    },
+    "ipv6_address": {
+      "type": ["string", "null"]
+    },
+    "prefix_length": {
+      "type": ["integer", "null"],
+      "minimum": 0,
+      "maximum": 128
+    },
+    "vlan_id": {
+      "type": ["integer", "null"],
+      "minimum": 1,
+      "maximum": 4094
+    },
+    "security_zone": {
+      "type": ["string", "null"]
+    },
+    "connected_device": {
+      "type": ["string", "null"]
+    },
+    "link_speed_mbps": {
+      "type": ["integer", "null"],
+      "minimum": 1
+    },
+    "admin_status": {
+      "type": ["string", "null"],
+      "enum": [
+        "up",
+        "down",
+        "unknown",
+        null
+      ]
+    },
+    "oper_status": {
+      "type": ["string", "null"],
+      "enum": [
+        "up",
+        "down",
+        "unknown",
+        null
+      ]
+    },
+    "tagged": {
+      "type": ["boolean", "null"]
+    },
+    "host_inbound_services": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "configuration_state": {
+      "type": "string",
+      "enum": [
+        "LEGACY_PRODUCTION",
+        "SRX320_TARGET",
+        "SRX320_VERIFIED_PRODUCTION"
+      ]
+    },
+    "verification_date": {
+      "type": ["string", "null"],
+      "format": "date"
+    },
+    "notes": {
+      "type": ["string", "null"]
+    }
+  }
+}

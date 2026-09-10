@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-screenos-to-junos-migration-018-5d4c8980b369",
+  "kb": "juniper",
+  "source_path": "docs/07-screenos-to-junos-migration.md",
+  "source_title": "07-screenos-to-junos-migration",
+  "section": "Logging Migration / Migration Inventory",
+  "sha256": "5d4c8980b369b6a0a3e87b9ae54116dd12603cd10ba32f9854e8fa8cd5d9b8d9",
+  "content": "# Logging Migration / Migration Inventory\n\nRecord legacy logging behavior before migration.\n\nInclude:\n\n- Policy logging\n- Syslog destinations\n- SNMP monitoring\n- Event logging\n- Administrative logging\n\nVerify equivalent logging after migration.\n\n---\n\nBefore configuring the SRX, collect:\n\n1. Legacy configuration backup\n2. Interface map\n3. Zone map\n4. Address objects\n5. Service objects\n6. Security policies\n7. Source NAT rules\n8. Destination NAT rules\n9. Static mappings\n10. Routes\n11. VPN configuration\n12. Management services\n13. Logging configuration\n14. Monitoring configuration\n15. Public IP assignments\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-site-to-site-ipsec-vpn-009-23d496b46950",
+  "kb": "juniper",
+  "source_path": "examples/04-site-to-site-ipsec-vpn.md",
+  "source_title": "04-site-to-site-ipsec-vpn",
+  "section": "Configure Route to Remote Network / Create Remote Network Address Object",
+  "sha256": "23d496b46950bbf2edcc02f321ae67ded8c32d446cafc28cd520a03ba68e8ddc",
+  "content": "# Configure Route to Remote Network / Create Remote Network Address Object\n\nRoute the remote network through the secure tunnel:\n\nset routing-options static route 203.0.113.128/25 next-hop st0.0\n\nRouting, not the security policy, determines that traffic should use the route-based VPN.\n\n---\n\nCreate an address object for the remote network:\n\nset security zones security-zone vpn address-book address REMOTE-LAN 203.0.113.128/25\n\n---"
+}

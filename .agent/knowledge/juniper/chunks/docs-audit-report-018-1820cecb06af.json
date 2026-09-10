@@ -1,0 +1,9 @@
+{
+  "chunk_id": "docs-audit-report-018-1820cecb06af",
+  "kb": "juniper",
+  "source_path": "source-material/docs-audit-report.txt",
+  "source_title": "docs-audit-report",
+  "section": "Document \u2014 Part 18",
+  "sha256": "1820cecb06afcf5c9019b68ed338cfe0a4f913ff414c1b58f3b2952814c73e3e",
+  "content": "# Document \u2014 Part 18\n\n==============================================================================\n11-security-hardening.md\n==============================================================================\n  94 [SECURITY POLICY] - Limited by host-inbound configuration\n 146 [SECURITY POLICY] ## Host-Inbound Services\n 148 [SECURITY POLICY] Host-inbound traffic determines which services can reach the SRX itself.\n 159 [SECURITY POLICY] Review host-inbound configuration on each security zone and interface.\n 171 [SECURITY POLICY] - Host-inbound services\n 213 [SECURITY POLICY] - Important security policy matches\n 222 [NAT] Destination NAT and static NAT may expose internal systems externally.\n 230 [SECURITY POLICY] - Security policy\n 249 [VPN] - Unused VPN services\n 279 [SECURITY POLICY] - Security policy events\n 399 [VPN] ## VPN Security\n 401 [VPN] VPN security should consider:\n 412 [VPN] Do not store VPN secrets in this knowledge base.\n 427 [SECURITY POLICY] - Unnecessary host-inbound services\n 428 [VPN] - Unused VPN definitions\n 439 [SECURITY POLICY] 3. Host-inbound services\n 482 [VPN] - Remove VPN peer information"
+}

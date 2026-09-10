@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-vlan-trunk-and-irb-014-7bf2fd85cc07",
+  "kb": "juniper",
+  "source_path": "examples/09-vlan-trunk-and-irb.md",
+  "source_title": "09-vlan-trunk-and-irb",
+  "section": "Security Design / Verification Commands",
+  "sha256": "7bf2fd85cc07d78f57cda2dee112d70645e02b03b37ddccad8146e852ee8f77e",
+  "content": "# Security Design / Verification Commands\n\nVLANs provide segmentation at Layer 2.\n\nSecurity zones and policies provide Layer 3/4 access control.\n\nA VLAN alone is not a firewall boundary.\n\nUse both mechanisms intentionally.\n\n---\n\nDepending on Junos release and switching mode, useful commands may include:\n\nshow interfaces terse\n\nshow configuration interfaces\n\nshow configuration vlans\n\nshow ethernet-switching table\n\nshow security zones\n\nshow security policies\n\nExact command availability may vary.\n\n---"
+}

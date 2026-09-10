@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-site-to-site-ipsec-vpn-011-47b384595a13",
+  "kb": "juniper",
+  "source_path": "examples/04-site-to-site-ipsec-vpn.md",
+  "source_title": "04-site-to-site-ipsec-vpn",
+  "section": "Allow Remote-to-Local Traffic",
+  "sha256": "47b384595a1339b97eeb0525acfcbbf64aa3567d84b3a9d8cf5bbd0269bddcbc",
+  "content": "# Allow Remote-to-Local Traffic\n\nCreate the reverse-direction policy:\n\nset security policies from-zone vpn to-zone trust policy SITE-A-TO-LOCAL match source-address REMOTE-LAN\n\nset security policies from-zone vpn to-zone trust policy SITE-A-TO-LOCAL match destination-address LOCAL-LAN\n\nset security policies from-zone vpn to-zone trust policy SITE-A-TO-LOCAL match application any\n\nset security policies from-zone vpn to-zone trust policy SITE-A-TO-LOCAL then permit\n\nFor production use, replace application any with specific applications whenever practical.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-vlan-trunk-and-irb-016-aebf54f284f2",
+  "kb": "juniper",
+  "source_path": "examples/09-vlan-trunk-and-irb.md",
+  "source_title": "09-vlan-trunk-and-irb",
+  "section": "Important Notes",
+  "sha256": "aebf54f284f26b095252019370fc187eecb2e6d4c997dead69e20764ad27e698",
+  "content": "# Important Notes\n\nThis example is intentionally version-aware.\n\nDo not assume:\n\n- IRB is configured the same way on every Junos release\n- ge-0/0/3 is an access port\n- ge-0/0/4 is a trunk port\n- VLAN IDs 10, 20, and 30 are appropriate\n- trust, servers, and guest are production zone names\n- SRX should perform switching in every architecture\n\nVerify installed Junos version and intended switching model before generating production commands.\n\n---"
+}

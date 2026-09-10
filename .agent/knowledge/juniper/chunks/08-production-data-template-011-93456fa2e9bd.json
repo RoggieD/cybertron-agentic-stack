@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-production-data-template-011-93456fa2e9bd",
+  "kb": "juniper",
+  "source_path": "docs/08-production-data-template.md",
+  "source_title": "08-production-data-template",
+  "section": "Validation Checklist",
+  "sha256": "93456fa2e9bda8e7afa9d394fe93a258887b677755b9ec20786b32349023cf6f",
+  "content": "# Validation Checklist\n\nManagement access verified:\n\nWAN link verified:\n\nDefault route verified:\n\nDNS verified:\n\nNTP verified:\n\nInternet access verified:\n\nSource NAT verified:\n\nLAN routing verified:\n\nDMZ routing verified:\n\nSecurity policy verified:\n\nDestination NAT verified:\n\nStatic NAT verified:\n\nPublished services verified:\n\nMonitoring verified:\n\nLogging verified:\n\nVPN verified:\n\nConfiguration backup completed:\n\nRollback method confirmed:\n\n---"
+}

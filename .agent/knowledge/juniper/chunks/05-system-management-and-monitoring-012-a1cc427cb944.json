@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-system-management-and-monitoring-012-a1cc427cb944",
+  "kb": "juniper",
+  "source_path": "docs/05-system-management-and-monitoring.md",
+  "source_title": "05-system-management-and-monitoring",
+  "section": "Local Logs / Remote Syslog",
+  "sha256": "a1cc427cb9444905a1b355d9b623e1a4d428e1c1e29f52c9ea68fd98a9c5dd07",
+  "content": "# Local Logs / Remote Syslog\n\nCommon operational log review may include:\n\nshow log messages\n\nAdditional log files may exist depending on configuration.\n\nWhen troubleshooting, use logs as evidence rather than assuming the cause.\n\n---\n\nRemote logging can improve:\n\n- Historical retention\n- Centralized analysis\n- Correlation\n- Incident investigation\n\nDocumentation should identify:\n\n- Syslog destination\n- Source interface or address if configured\n- Facility\n- Severity\n- Purpose\n\nDo not publish real logging destinations in public releases.\n\n---"
+}

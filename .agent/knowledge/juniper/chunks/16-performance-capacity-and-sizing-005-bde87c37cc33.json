@@ -1,0 +1,9 @@
+{
+  "chunk_id": "16-performance-capacity-and-sizing-005-bde87c37cc33",
+  "kb": "juniper",
+  "source_path": "docs/16-performance-capacity-and-sizing.md",
+  "source_title": "16-performance-capacity-and-sizing",
+  "section": "Packet Size",
+  "sha256": "bde87c37cc33cdfe5efcb089f9f3dfba814be2a586b82e7e3850e32e25e693c4",
+  "content": "# Packet Size\n\nPacket size can materially affect firewall performance.\n\nA device may process fewer packets per second when handling a large number of small packets compared with larger packets at the same bandwidth.\n\nPerformance analysis should consider:\n\n- Bandwidth\n- Packet rate\n- Average packet size\n\n---"
+}

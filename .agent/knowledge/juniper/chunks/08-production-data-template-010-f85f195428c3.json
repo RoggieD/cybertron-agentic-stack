@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-production-data-template-010-f85f195428c3",
+  "kb": "juniper",
+  "source_path": "docs/08-production-data-template.md",
+  "source_title": "08-production-data-template",
+  "section": "Published Services",
+  "sha256": "f85f195428c321001cbc033fce535bc23014c8b363ec317e9790a4c6dc520e55",
+  "content": "# Published Services\n\nFor each externally published service, record:\n\nService Name:\n\nPublic Address:\n\nPublic Port:\n\nProtocol:\n\nInternal Address:\n\nInternal Port:\n\nDestination NAT Rule:\n\nSecurity Policy:\n\nInternal Hostname:\n\nBusiness Purpose:\n\nMonitoring:\n\nConfiguration State:\n\nVerification Date:\n\nNotes:\n\n---"
+}

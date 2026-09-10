@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-troubleshooting-methodology-007-6d758e5f8e63",
+  "kb": "juniper",
+  "source_path": "docs/06-troubleshooting-methodology.md",
+  "source_title": "06-troubleshooting-methodology",
+  "section": "Step 6 \u2014 Verify Security Zones",
+  "sha256": "6d758e5f8e63a8a7c54b90dafab98e26146319779704b74c8f45c27d4c4c06c1",
+  "content": "# Step 6 \u2014 Verify Security Zones\n\nUseful commands may include:\n\nshow configuration security zones\n\nshow security zones\n\nConfirm:\n\n- Source interface zone\n- Destination interface zone\n- Host-inbound settings when traffic terminates on the SRX\n\nDo not assume interface roles from physical port numbers.\n\n---"
+}

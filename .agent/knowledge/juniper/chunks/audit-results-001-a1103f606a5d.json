@@ -1,0 +1,9 @@
+{
+  "chunk_id": "audit-results-001-a1103f606a5d",
+  "kb": "juniper",
+  "source_path": "source-material/AUDIT-RESULTS.md",
+  "source_title": "AUDIT-RESULTS",
+  "section": "Audit Date / Scope",
+  "sha256": "a1103f606a5d2f73b8972d54f43b8c61496b723d558fa0b2240065e24b1dc6cb",
+  "content": "# Audit Date / Scope\n\n2026-09-09\n\nThe uploaded knowledge base was reviewed as a package rather than document-by-document.\n\nReviewed:\n\n- 17 core documentation files\n- 10 configuration/design/troubleshooting examples\n- 9 JSON Schema files\n- validation manifest\n- authoritative-source registry\n- private production template"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-source-nat-pool-005-62f89584b878",
+  "kb": "juniper",
+  "source_path": "examples/07-source-nat-pool.md",
+  "source_title": "07-source-nat-pool",
+  "section": "Configure Security Policy",
+  "sha256": "62f89584b878a805875599c036a65920fa5fed4c2a262b1c4d9e111b1d0b5b83",
+  "content": "# Configure Security Policy\n\nAllow trusted hosts outbound access:\n\nset security policies from-zone trust to-zone untrust policy TRUST-INTERNET match source-address any\n\nset security policies from-zone trust to-zone untrust policy TRUST-INTERNET match destination-address any\n\nset security policies from-zone trust to-zone untrust policy TRUST-INTERNET match application any\n\nset security policies from-zone trust to-zone untrust policy TRUST-INTERNET then permit\n\nFor production use, narrow applications where practical.\n\n---"
+}

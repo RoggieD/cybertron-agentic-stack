@@ -1,0 +1,9 @@
+{
+  "chunk_id": "15-upgrades-firmware-and-lifecycle-022-3871f03ebf94",
+  "kb": "juniper",
+  "source_path": "docs/15-upgrades-firmware-and-lifecycle.md",
+  "source_title": "15-upgrades-firmware-and-lifecycle",
+  "section": "Configuration States / Public Release Guidance",
+  "sha256": "3871f03ebf944ca89000407b8771f2c137094235d43217c3683fd34e11577719",
+  "content": "# Configuration States / Public Release Guidance\n\nUse:\n\nLEGACY_PRODUCTION\n\nSRX320_TARGET\n\nSRX320_VERIFIED_PRODUCTION\n\nA successful software installation does not automatically mean the firewall is fully verified.\n\nOperational testing is required.\n\n---\n\nBefore publishing upgrade examples:\n\n- Remove hostnames\n- Remove serial numbers\n- Remove internal IP addresses\n- Remove usernames\n- Remove maintenance-ticket information\n- Remove private software repository details\n\nPreserve upgrade methodology and validation logic while sanitizing deployment-specific information.\n\n---"
+}

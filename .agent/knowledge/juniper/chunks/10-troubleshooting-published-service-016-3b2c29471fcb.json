@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-troubleshooting-published-service-016-3b2c29471fcb",
+  "kb": "juniper",
+  "source_path": "examples/10-troubleshooting-published-service.md",
+  "source_title": "10-troubleshooting-published-service",
+  "section": "Step 19 \u2014 Review Logs / Step 20 \u2014 Packet Capture",
+  "sha256": "3b2c29471fcb2126ce053d548a7e16009620a4e726a1040190c3ebddfd61533b",
+  "content": "# Step 19 \u2014 Review Logs / Step 20 \u2014 Packet Capture\n\nRun:\n\nshow log messages\n\nIf security policy logging is enabled, review the relevant policy events.\n\nLook for:\n\n- Denies\n- Session activity\n- Interface changes\n- Errors\n- Unexpected resets\n\n---\n\nIf the problem remains unclear, use a narrowly scoped packet capture.\n\nFilter by:\n\n- External source\n- Public destination\n- Internal destination\n- Protocol\n- Port\n\nAvoid broad captures on busy production systems.\n\n---"
+}

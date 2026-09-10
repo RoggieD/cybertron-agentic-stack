@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-vlan-trunk-and-irb-008-31cb184b13a4",
+  "kb": "juniper",
+  "source_path": "examples/09-vlan-trunk-and-irb.md",
+  "source_title": "09-vlan-trunk-and-irb",
+  "section": "Example Guest Policy",
+  "sha256": "31cb184b13a4abeaaf00ea8bf3d2f0b0a253f6027f112067b9f7d212d6647ef6",
+  "content": "# Example Guest Policy\n\nGuest traffic should generally be isolated from trusted internal resources.\n\nExample objective:\n\nguest -> untrust\n\nPermit Internet access.\n\nguest -> trust\n\nDeny unless there is a specific requirement.\n\nguest -> servers\n\nDeny unless there is a specific requirement.\n\n---"
+}

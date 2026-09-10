@@ -1,0 +1,9 @@
+{
+  "chunk_id": "02-security-zones-and-policies-009-a69254747ad6",
+  "kb": "juniper",
+  "source_path": "docs/02-security-zones-and-policies.md",
+  "source_title": "02-security-zones-and-policies",
+  "section": "Permit Policies",
+  "sha256": "a69254747ad6a038948477f921275a83ca3b361ae6efa24bbe25818b96ef4719",
+  "content": "# Permit Policies\n\nA permit policy allows matching traffic to create a stateful session.\n\nPermit policies may also include:\n\n- Logging\n- Application services\n- User identity features\n- Advanced inspection features\n\nSimple permit example concept:\n\nsecurity {\n    policies {\n        from-zone trust to-zone untrust {\n            policy ALLOW-INTERNET {\n                match {\n                    source-address any;\n                    destination-address any;\n                    application any;\n                }\n                then {\n                    permit;\n                }\n            }\n        }\n    }\n}\n\nThis is an example only.\n\n---"
+}

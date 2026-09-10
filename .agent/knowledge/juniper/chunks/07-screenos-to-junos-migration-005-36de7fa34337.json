@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-screenos-to-junos-migration-005-36de7fa34337",
+  "kb": "juniper",
+  "source_path": "docs/07-screenos-to-junos-migration.md",
+  "source_title": "07-screenos-to-junos-migration",
+  "section": "Commit and Rollback",
+  "sha256": "36de7fa34337dbabde151daedfe50fdd7dfb33184ad7cf55e73d3cbaf3cbc609",
+  "content": "# Commit and Rollback\n\nJunos supports configuration rollback.\n\nUseful concepts include:\n\ncommit\n\ncommit check\n\ncommit confirmed\n\nrollback\n\nshow | compare\n\nScreenOS administrators should become comfortable with the candidate configuration model before production migration.\n\n---"
+}

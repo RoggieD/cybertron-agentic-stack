@@ -1,0 +1,9 @@
+{
+  "chunk_id": "11-security-hardening-005-427de2b5d7bd",
+  "kb": "juniper",
+  "source_path": "docs/11-security-hardening.md",
+  "source_title": "11-security-hardening",
+  "section": "Telnet / HTTPS",
+  "sha256": "427de2b5d7bdac17b1dd057b47125fdf267bf1ed312c7bd439d1f735ceb03056",
+  "content": "# Telnet / HTTPS\n\nTelnet transmits data without modern encryption protections.\n\nIt should generally be disabled unless required for a tightly controlled legacy use case.\n\nDo not enable Telnet merely for convenience.\n\n---\n\nHTTPS management should be:\n\n- Restricted to trusted networks\n- Protected with TLS\n- Disabled if not required\n- Reviewed for certificate quality\n- Limited by host-inbound configuration\n\nAvoid exposing browser-based administration to untrusted networks without a specific operational requirement.\n\n---"
+}

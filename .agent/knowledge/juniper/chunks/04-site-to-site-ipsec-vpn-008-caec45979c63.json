@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-site-to-site-ipsec-vpn-008-caec45979c63",
+  "kb": "juniper",
+  "source_path": "examples/04-site-to-site-ipsec-vpn.md",
+  "source_title": "04-site-to-site-ipsec-vpn",
+  "section": "Configure IPsec Policy / Configure IPsec VPN",
+  "sha256": "caec45979c638107709e1ba394c72c964d23ac917c964bed1931b99b05f369a0",
+  "content": "# Configure IPsec Policy / Configure IPsec VPN\n\nCreate the IPsec policy:\n\nset security ipsec policy SITE-A-IPSEC-POLICY perfect-forward-secrecy keys group14\n\nset security ipsec policy SITE-A-IPSEC-POLICY proposals SITE-A-IPSEC-PROPOSAL\n\n---\n\nCreate the VPN object:\n\nset security ipsec vpn SITE-A-VPN bind-interface st0.0\n\nset security ipsec vpn SITE-A-VPN ike gateway SITE-A-GATEWAY\n\nset security ipsec vpn SITE-A-VPN ike ipsec-policy SITE-A-IPSEC-POLICY\n\nset security ipsec vpn SITE-A-VPN establish-tunnels immediately\n\n---"
+}

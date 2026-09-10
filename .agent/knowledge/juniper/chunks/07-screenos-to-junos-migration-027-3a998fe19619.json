@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-screenos-to-junos-migration-027-3a998fe19619",
+  "kb": "juniper",
+  "source_path": "docs/07-screenos-to-junos-migration.md",
+  "source_title": "07-screenos-to-junos-migration",
+  "section": "Public Release Guidance",
+  "sha256": "3a998fe19619fcd86189ce67ab280f77903ed7fd11810eb482fecd6efe9ebb53",
+  "content": "# Public Release Guidance\n\nBefore publishing migration examples:\n\n- Remove real public IP addresses\n- Remove private production addressing\n- Remove internal hostnames\n- Remove usernames\n- Remove VPN secrets\n- Remove customer identifiers\n- Replace sensitive topology with documentation examples\n\nThe commercial value should come from the migration methodology, mappings, troubleshooting logic, and tested examples rather than reproducing proprietary vendor documentation.\n\n---"
+}

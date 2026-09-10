@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-troubleshooting-methodology-005-b2f5e8c1d5ca",
+  "kb": "juniper",
+  "source_path": "docs/06-troubleshooting-methodology.md",
+  "source_title": "06-troubleshooting-methodology",
+  "section": "Step 3 \u2014 Verify Interface State",
+  "sha256": "b2f5e8c1d5cad5b68f05a122ff4772e09125363fb1ed6668be241a1d6da163b3",
+  "content": "# Step 3 \u2014 Verify Interface State\n\nUseful commands may include:\n\nshow interfaces terse\n\nshow interfaces <interface>\n\nshow interfaces extensive\n\nVerify:\n\n- Physical link state\n- Administrative state\n- Logical unit\n- IP address\n- Interface errors\n- VLAN configuration\n- Link speed where relevant\n\n---"
+}

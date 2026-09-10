@@ -1,0 +1,9 @@
+{
+  "chunk_id": "02-destination-nat-web-server-005-3e21c7b4fd95",
+  "kb": "juniper",
+  "source_path": "examples/02-destination-nat-web-server.md",
+  "source_title": "02-destination-nat-web-server",
+  "section": "Create Security Policy",
+  "sha256": "3e21c7b4fd95980853f4a7c1c22fef779d7206e24c6c29aa808ffa9a4d0adab5",
+  "content": "# Create Security Policy\n\nCreate a policy from untrust to trust:\n\nset security policies from-zone untrust to-zone trust policy ALLOW-WEB-HTTPS match source-address any\n\nMatch the translated internal server object:\n\nset security policies from-zone untrust to-zone trust policy ALLOW-WEB-HTTPS match destination-address WEB-SERVER\n\nMatch HTTPS:\n\nset security policies from-zone untrust to-zone trust policy ALLOW-WEB-HTTPS match application junos-https\n\nPermit the traffic:\n\nset security policies from-zone untrust to-zone trust policy ALLOW-WEB-HTTPS then permit\n\n---"
+}

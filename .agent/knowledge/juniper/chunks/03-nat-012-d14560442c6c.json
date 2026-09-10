@@ -1,0 +1,9 @@
+{
+  "chunk_id": "03-nat-012-d14560442c6c",
+  "kb": "juniper",
+  "source_path": "docs/03-nat.md",
+  "source_title": "03-nat",
+  "section": "NAT and Routing",
+  "sha256": "d14560442c6cde33cdec045feeb6ce02a3193f2f4119a8d779f0243ed3d4f2e0",
+  "content": "# NAT and Routing\n\nRouting is also independent of NAT.\n\nTraffic may match NAT correctly but still fail because:\n\n- No route exists\n- The wrong next hop is selected\n- Return routing is incorrect\n- The translated destination is unreachable\n- Asymmetric routing exists\n\nAlways verify routing independently.\n\n---"
+}

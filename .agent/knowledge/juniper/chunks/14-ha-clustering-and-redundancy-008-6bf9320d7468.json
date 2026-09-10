@@ -1,0 +1,9 @@
+{
+  "chunk_id": "14-ha-clustering-and-redundancy-008-6bf9320d7468",
+  "kb": "juniper",
+  "source_path": "docs/14-ha-clustering-and-redundancy.md",
+  "source_title": "14-ha-clustering-and-redundancy",
+  "section": "Physical Member Interfaces",
+  "sha256": "6bf9320d7468de5782418837bbec807a3f4a88c22b2568789b78025d5a81d153",
+  "content": "# Physical Member Interfaces\n\nPhysical interfaces may be assigned as members of a redundant Ethernet interface.\n\nDocumentation should record:\n\n- Node\n- Physical interface\n- Redundant Ethernet interface\n- Role\n- Connected switch\n- VLAN\n- Security zone\n\nDo not assume symmetric physical connectivity unless verified.\n\n---"
+}

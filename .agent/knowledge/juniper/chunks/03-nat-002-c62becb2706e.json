@@ -1,0 +1,9 @@
+{
+  "chunk_id": "03-nat-002-c62becb2706e",
+  "kb": "juniper",
+  "source_path": "docs/03-nat.md",
+  "source_title": "03-nat",
+  "section": "NAT Overview",
+  "sha256": "c62becb2706e87add2cb13892ee26d3535d10d9565538dc1635b427daa9275bb",
+  "content": "# NAT Overview\n\nNetwork Address Translation changes IP addressing information as traffic passes through the SRX firewall.\n\nPrimary NAT types on Junos include:\n\n- Source NAT\n- Destination NAT\n- Static NAT\n\nEach NAT type serves a different purpose.\n\nNAT does not replace:\n\n- Routing\n- Security policies\n- Interface configuration\n- Security zones\n\nA NAT rule may be correct while traffic still fails because another required component is incorrect.\n\n---"
+}

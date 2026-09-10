@@ -1,0 +1,9 @@
+{
+  "chunk_id": "03-nat-009-5ce3fb608181",
+  "kb": "juniper",
+  "source_path": "docs/03-nat.md",
+  "source_title": "03-nat",
+  "section": "Static NAT",
+  "sha256": "5ce3fb60818148fd9b04e7e3d385514cd34498653cda04d05d0d759f222cf591",
+  "content": "# Static NAT\n\nStatic NAT provides a fixed one-to-one mapping between addresses.\n\nCommon use cases include:\n\n- Dedicated public address for an internal server\n- Bidirectional address translation\n- Consistent public identity for an internal system\n\nStatic NAT behaves differently from simple destination NAT and should not be treated as identical.\n\n---"
+}

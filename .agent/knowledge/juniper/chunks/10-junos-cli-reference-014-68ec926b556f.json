@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-junos-cli-reference-014-68ec926b556f",
+  "kb": "juniper",
+  "source_path": "docs/10-junos-cli-reference.md",
+  "source_title": "10-junos-cli-reference",
+  "section": "Set and Delete / Rename and Replace",
+  "sha256": "68ec926b556f0e1455a9b9d16efb8547e4333b9d7b842d6f670575d968b0c5f2",
+  "content": "# Set and Delete / Rename and Replace\n\nAdd configuration:\n\nset <hierarchy>\n\nRemove configuration:\n\ndelete <hierarchy>\n\nDo not delete configuration without reviewing dependencies and rollback options.\n\n---\n\nJunos supports configuration manipulation functions such as:\n\nrename\n\nreplace\n\nThese can be useful but should be handled carefully because they may affect multiple references.\n\nVerify changes with:\n\nshow | compare\n\nbefore commit.\n\n---"
+}

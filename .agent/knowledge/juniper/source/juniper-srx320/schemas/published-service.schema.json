@@ -1,0 +1,146 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/juniper-srx320/published-service.schema.json",
+  "title": "Juniper SRX320 Published Service Record",
+  "description": "Structured record for an externally published service traversing a Juniper SRX320.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "service_name",
+    "protocol",
+    "configuration_state"
+  ],
+  "properties": {
+    "service_name": {
+      "type": "string"
+    },
+    "business_purpose": {
+      "type": ["string", "null"]
+    },
+    "public_hostname": {
+      "type": ["string", "null"]
+    },
+    "public_ip": {
+      "type": ["string", "null"]
+    },
+    "public_port": {
+      "type": ["integer", "null"],
+      "minimum": 1,
+      "maximum": 65535
+    },
+    "protocol": {
+      "type": "string",
+      "enum": [
+        "tcp",
+        "udp",
+        "icmp",
+        "other"
+      ]
+    },
+    "external_zone": {
+      "type": ["string", "null"]
+    },
+    "external_interface": {
+      "type": ["string", "null"]
+    },
+    "nat_type": {
+      "type": ["string", "null"],
+      "enum": [
+        "destination",
+        "static",
+        "none",
+        null
+      ]
+    },
+    "nat_rule_set": {
+      "type": ["string", "null"]
+    },
+    "nat_rule_name": {
+      "type": ["string", "null"]
+    },
+    "translated_ip": {
+      "type": ["string", "null"]
+    },
+    "translated_port": {
+      "type": ["integer", "null"],
+      "minimum": 1,
+      "maximum": 65535
+    },
+    "internal_zone": {
+      "type": ["string", "null"]
+    },
+    "internal_interface": {
+      "type": ["string", "null"]
+    },
+    "internal_host": {
+      "type": ["string", "null"]
+    },
+    "security_policy_name": {
+      "type": ["string", "null"]
+    },
+    "application": {
+      "type": ["string", "null"]
+    },
+    "source_restrictions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "proxy_arp_required": {
+      "type": ["boolean", "null"]
+    },
+    "upstream_routing_verified": {
+      "type": ["boolean", "null"]
+    },
+    "internal_route_verified": {
+      "type": ["boolean", "null"]
+    },
+    "return_path_verified": {
+      "type": ["boolean", "null"]
+    },
+    "host_firewall_verified": {
+      "type": ["boolean", "null"]
+    },
+    "application_health_verified": {
+      "type": ["boolean", "null"]
+    },
+    "tls_enabled": {
+      "type": ["boolean", "null"]
+    },
+    "monitoring_enabled": {
+      "type": ["boolean", "null"]
+    },
+    "monitor_name": {
+      "type": ["string", "null"]
+    },
+    "log_session_init": {
+      "type": ["boolean", "null"]
+    },
+    "log_session_close": {
+      "type": ["boolean", "null"]
+    },
+    "enabled": {
+      "type": ["boolean", "null"]
+    },
+    "last_verified": {
+      "type": ["string", "null"],
+      "format": "date"
+    },
+    "configuration_state": {
+      "type": "string",
+      "enum": [
+        "LEGACY_PRODUCTION",
+        "SRX320_TARGET",
+        "SRX320_VERIFIED_PRODUCTION"
+      ]
+    },
+    "sensitive_data_present": {
+      "type": ["boolean", "null"]
+    },
+    "notes": {
+      "type": ["string", "null"]
+    }
+  }
+}

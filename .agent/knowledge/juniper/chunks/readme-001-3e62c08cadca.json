@@ -1,0 +1,9 @@
+{
+  "chunk_id": "readme-001-3e62c08cadca",
+  "kb": "juniper",
+  "source_path": "README.md",
+  "source_title": "README",
+  "section": "Purpose",
+  "sha256": "3e62c08cadca947164c4e88593f016ec82e5864274f7f7ad9989477e80cd8f2c",
+  "content": "# Purpose\n\nThis knowledge base provides structured technical information for the Juniper SRX320 firewall platform.\n\nIt is designed for use with local AI and retrieval-augmented generation systems such as Open WebUI, while remaining portable enough for publication, redistribution, or commercial packaging."
+}

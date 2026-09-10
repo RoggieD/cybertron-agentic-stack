@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-configuration-backup-and-recovery-003-225faa84c1ce",
+  "kb": "juniper",
+  "source_path": "docs/09-configuration-backup-and-recovery.md",
+  "source_title": "09-configuration-backup-and-recovery",
+  "section": "Candidate Configuration / Commit Check",
+  "sha256": "225faa84c1ce897ceb19b1d07e8270f572f5c731f08a5cae1a54068fd18dd891",
+  "content": "# Candidate Configuration / Commit Check\n\nJunos uses a candidate configuration model.\n\nChanges are staged before activation.\n\nTypical workflow:\n\nconfigure\n\nshow | compare\n\ncommit check\n\ncommit\n\nThe active configuration remains unchanged until commit succeeds.\n\n---\n\nUse:\n\ncommit check\n\nto validate the candidate configuration before activation.\n\nThis may detect:\n\n- Syntax errors\n- Invalid references\n- Dependency problems\n- Configuration inconsistencies\n\nA successful commit check does not guarantee that the resulting network behavior will be correct.\n\nOperational validation is still required.\n\n---"
+}

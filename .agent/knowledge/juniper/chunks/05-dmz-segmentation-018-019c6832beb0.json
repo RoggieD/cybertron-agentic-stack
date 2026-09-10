@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-dmz-segmentation-018-019c6832beb0",
+  "kb": "juniper",
+  "source_path": "examples/05-dmz-segmentation.md",
+  "source_title": "05-dmz-segmentation",
+  "section": "Troubleshooting",
+  "sha256": "019c6832beb0f467c19c2b8d5aef3a759ac4d912c8bc5bd3b82ecb504b0e04e3",
+  "content": "# Troubleshooting\n\nIf DMZ traffic fails, verify:\n\n1. Interface state\n2. IP addressing\n3. Zone assignment\n4. Route\n5. NAT if required\n6. Policy direction\n7. Address object\n8. Application\n9. Session table\n10. Server default gateway\n11. Server host firewall\n12. Return path\n13. Logs\n\n---"
+}

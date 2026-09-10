@@ -1,0 +1,9 @@
+{
+  "chunk_id": "15-upgrades-firmware-and-lifecycle-001-910b119fb7fa",
+  "kb": "juniper",
+  "source_path": "docs/15-upgrades-firmware-and-lifecycle.md",
+  "source_title": "15-upgrades-firmware-and-lifecycle",
+  "section": "Scope",
+  "sha256": "910b119fb7fa922f218e2048cc90c96600bfcb322fa403d66eec86b00a3168de",
+  "content": "# Scope\n\nThis document explains Junos software maintenance, upgrade planning, firmware considerations, lifecycle management, and rollback strategy for the Juniper SRX320.\n\nIt is intended for:\n\n- Junos upgrades\n- Security maintenance\n- Platform lifecycle planning\n- Maintenance-window preparation\n- Recovery planning\n- AI-assisted operational guidance\n\nThis document provides platform-level guidance and does not represent a specific production upgrade plan unless explicitly labeled.\n\n---"
+}

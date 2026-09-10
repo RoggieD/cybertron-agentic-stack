@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-troubleshooting-published-service-002-4310080b16eb",
+  "kb": "juniper",
+  "source_path": "examples/10-troubleshooting-published-service.md",
+  "source_title": "10-troubleshooting-published-service",
+  "section": "Primary Principle",
+  "sha256": "4310080b16eba8b2808de02f9072257a260209f27015cc03015be2ee5b362158",
+  "content": "# Primary Principle\n\nDo not change NAT or security policy first.\n\nIdentify the failure domain.\n\nA published service depends on multiple layers:\n\n1. Public DNS if used\n2. Public IP routing\n3. WAN interface\n4. NAT rule\n5. Security policy\n6. Internal route\n7. Internal server\n8. Return path\n9. Application\n10. Session state\n\nEach layer should be verified independently.\n\n---"
+}

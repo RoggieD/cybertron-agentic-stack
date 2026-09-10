@@ -1,0 +1,9 @@
+{
+  "chunk_id": "authoritative-sources-012-34248f3f4188",
+  "kb": "juniper",
+  "source_path": "source-material/authoritative-sources.md",
+  "source_title": "authoritative-sources",
+  "section": "Version Awareness",
+  "sha256": "34248f3f4188338aaf17719057958b1879c1eff6a25d7c94a52383e90989197d",
+  "content": "# Version Awareness\n\nJunos behavior and syntax may vary by:\n\n- Junos release\n- Platform\n- Feature support\n- Licensing\n- Hardware generation\n- Enhanced Layer 2 Software behavior\n- Security feature implementation\n\nDo not treat documentation for another platform or release as proof of SRX320 behavior unless applicability is established.\n\n---"
+}

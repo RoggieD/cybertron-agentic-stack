@@ -1,0 +1,9 @@
+{
+  "chunk_id": "13-logging-snmp-and-zabbix-004-0301c5a355d1",
+  "kb": "juniper",
+  "source_path": "docs/13-logging-snmp-and-zabbix.md",
+  "source_title": "13-logging-snmp-and-zabbix",
+  "section": "ICMP Reachability",
+  "sha256": "0301c5a355d1080e0ab4fb3c7d97a43379c8bfb01191b03e676b3895df3adb9d",
+  "content": "# ICMP Reachability\n\nICMP may be used for basic availability monitoring.\n\nPing can indicate:\n\n- Device reachability\n- Basic network path availability\n- Approximate latency\n\nPing does not validate:\n\n- SNMP\n- Routing policy\n- NAT\n- Security policy\n- Application health\n\nICMP should be treated as a basic availability signal only.\n\n---"
+}

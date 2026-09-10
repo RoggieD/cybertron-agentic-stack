@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-vlan-trunk-and-irb-001-f06956a2b867",
+  "kb": "juniper",
+  "source_path": "examples/09-vlan-trunk-and-irb.md",
+  "source_title": "09-vlan-trunk-and-irb",
+  "section": "Scope",
+  "sha256": "f06956a2b86798ba6c5aaa21e374c440de073c34d42e7b6913f9a9e49a71c161",
+  "content": "# Scope\n\nThis example explains a VLAN-based segmentation design using:\n\n- Ethernet switching\n- Access ports\n- Trunk ports\n- VLAN membership\n- Routed VLAN interfaces\n- Security zones\n- Inter-VLAN policy control\n\nThis is a design and configuration-pattern example.\n\nExact syntax must be verified against the installed Junos release and active SRX320 switching model before production use.\n\n---"
+}

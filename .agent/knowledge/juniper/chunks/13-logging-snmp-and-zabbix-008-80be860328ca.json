@@ -1,0 +1,9 @@
+{
+  "chunk_id": "13-logging-snmp-and-zabbix-008-80be860328ca",
+  "kb": "juniper",
+  "source_path": "docs/13-logging-snmp-and-zabbix.md",
+  "source_title": "13-logging-snmp-and-zabbix",
+  "section": "Useful SNMP Verification / Syslog",
+  "sha256": "80be860328ca0c959dbbd238eb9741f0d430860e59c9a2c75e8679a38b750c49",
+  "content": "# Useful SNMP Verification / Syslog\n\nUseful Junos configuration review may include:\n\nshow configuration snmp\n\nshow configuration security zones\n\nshow interfaces terse\n\nshow system uptime\n\nExact command availability may vary by Junos version.\n\n---\n\nThe SRX may send system logs to an external syslog server.\n\nRemote syslog improves:\n\n- Retention\n- Centralization\n- Searchability\n- Incident correlation\n- Audit history\n\nSyslog should complement, not replace, direct operational commands.\n\n---"
+}

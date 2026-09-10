@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-troubleshooting-published-service-001-8727da8609df",
+  "kb": "juniper",
+  "source_path": "examples/10-troubleshooting-published-service.md",
+  "source_title": "10-troubleshooting-published-service",
+  "section": "Scope",
+  "sha256": "8727da8609df517fe9f8003882665d981f0c5d6c7f038057dfb388175a1d4558",
+  "content": "# Scope\n\nThis document provides a structured troubleshooting workflow for externally published services behind a Juniper SRX320.\n\nIt applies to services using:\n\n- Destination NAT\n- Static NAT\n- Security policies\n- Public IP routing\n- Internal servers\n- Stateful sessions\n\nExamples include:\n\n- HTTPS\n- SMTP\n- SSH\n- Custom TCP services\n- Custom UDP services\n\nThis is a troubleshooting methodology example.\n\nIt is not production configuration.\n\n---"
+}

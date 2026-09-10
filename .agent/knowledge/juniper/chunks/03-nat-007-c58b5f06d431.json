@@ -1,0 +1,9 @@
+{
+  "chunk_id": "03-nat-007-c58b5f06d431",
+  "kb": "juniper",
+  "source_path": "docs/03-nat.md",
+  "source_title": "03-nat",
+  "section": "Destination NAT Pools",
+  "sha256": "c58b5f06d431a6c48ec78eb498b415f204c3a395998d9b3c3ece70b17a72160a",
+  "content": "# Destination NAT Pools\n\nDestination NAT commonly uses a destination NAT pool that identifies the internal translated destination.\n\nConceptual example:\n\nsecurity {\n    nat {\n        destination {\n            pool WEB_SERVER {\n                address 10.0.2.10/32;\n            }\n        }\n    }\n}\n\nThis is an example only.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "01-hardware-and-interfaces-013-664e05378a8b",
+  "kb": "juniper",
+  "source_path": "docs/01-hardware-and-interfaces.md",
+  "source_title": "01-hardware-and-interfaces",
+  "section": "Interface Addressing Principles",
+  "sha256": "664e05378a8b09317c2659fce9d3e96d842b5efd32fd1d6d82aff47495882d80",
+  "content": "# Interface Addressing Principles\n\nWhen documenting interface addressing:\n\n- Record CIDR notation\n- Identify subnet role\n- Identify security zone\n- Identify connected device or network\n- Identify whether the address is static or dynamic\n- Identify whether NAT applies\n- Identify whether the interface is production, target, or legacy\n\n---"
+}

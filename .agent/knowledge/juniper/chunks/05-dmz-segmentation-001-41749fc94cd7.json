@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-dmz-segmentation-001-41749fc94cd7",
+  "kb": "juniper",
+  "source_path": "examples/05-dmz-segmentation.md",
+  "source_title": "05-dmz-segmentation",
+  "section": "Scope",
+  "sha256": "41749fc94cd7ced8974cf5260faf85f119d17b2d9dfeabe8a10ebbb6fbc3b37f",
+  "content": "# Scope\n\nThis example demonstrates a basic three-zone firewall design using:\n\n- trust\n- dmz\n- untrust\n\nIt demonstrates:\n\n- Separate routed interfaces\n- Security-zone assignment\n- Inter-zone policy control\n- Limited inbound access to a DMZ server\n- Controlled DMZ-to-trust access\n- Internet access from the DMZ\n- Source NAT\n- Verification and troubleshooting\n\nThis configuration is an educational example only.\n\nIt is not production configuration.\n\n---"
+}

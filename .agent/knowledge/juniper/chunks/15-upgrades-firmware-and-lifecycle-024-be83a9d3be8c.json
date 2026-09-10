@@ -1,0 +1,9 @@
+{
+  "chunk_id": "15-upgrades-firmware-and-lifecycle-024-be83a9d3be8c",
+  "kb": "juniper",
+  "source_path": "docs/15-upgrades-firmware-and-lifecycle.md",
+  "source_title": "15-upgrades-firmware-and-lifecycle",
+  "section": "Document Status",
+  "sha256": "be83a9d3be8cb9430bba0d4ea3f0065219bcce26c0f6feece444417928e95817",
+  "content": "# Document Status\n\nDocument Type: Upgrades, Firmware, and Lifecycle\n\nKnowledge Base: Juniper SRX320 Knowledge Base\n\nVersion: 0.1.0\n\nStatus: Initial Build"
+}

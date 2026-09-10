@@ -1,0 +1,9 @@
+{
+  "chunk_id": "authoritative-sources-009-4c4fe26d7776",
+  "kb": "juniper",
+  "source_path": "source-material/authoritative-sources.md",
+  "source_title": "authoritative-sources",
+  "section": "Audit References Used \u2014 2026-09-09",
+  "sha256": "4c4fe26d7776304584aea615e57390c9433733e54d2ffdba293e455810877744",
+  "content": "# Audit References Used \u2014 2026-09-09\n\nThe batch technical audit used current Juniper documentation covering:\n\n- Security Policies Overview\n- Security Zones\n- show security match-policies\n- NAT processing and NAT rule documentation\n- IPsec VPN User Guide and route-based VPN guidance\n- Traffic Selectors in Route-Based VPNs\n- SNMP community/client restrictions\n- System and security logging\n- Chassis Cluster User Guide and SRX320 interface renumbering\n- Junos commit, rollback, and rescue configuration behavior\n- SRX Series software installation and upgrade procedures\n- SRX320 platform documentation\n\nExact URLs should be rechecked during future release audits because Juniper documentation locations and platform/release guidance may change.\n\n---"
+}

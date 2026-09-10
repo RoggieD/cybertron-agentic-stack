@@ -1,0 +1,9 @@
+{
+  "chunk_id": "16-performance-capacity-and-sizing-014-9b6814410744",
+  "kb": "juniper",
+  "source_path": "docs/16-performance-capacity-and-sizing.md",
+  "source_title": "16-performance-capacity-and-sizing",
+  "section": "Headroom",
+  "sha256": "9b6814410744eff2f0aba0e4eeac3e0e4deed29d8522d7d89204399c0f6aca28",
+  "content": "# Headroom\n\nAvoid designing a firewall to operate continuously near maximum capacity.\n\nOperational headroom is useful for:\n\n- Traffic bursts\n- Growth\n- Failover\n- Attacks\n- Logging spikes\n- New services\n- Troubleshooting\n\nA device regularly operating near its limits should be reviewed for upgrade or traffic redistribution.\n\n---"
+}

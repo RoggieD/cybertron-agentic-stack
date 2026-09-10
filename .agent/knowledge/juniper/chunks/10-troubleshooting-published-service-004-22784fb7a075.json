@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-troubleshooting-published-service-004-22784fb7a075",
+  "kb": "juniper",
+  "source_path": "examples/10-troubleshooting-published-service.md",
+  "source_title": "10-troubleshooting-published-service",
+  "section": "Step 2 \u2014 Confirm DNS Separately / Step 3 \u2014 Test from a Real External Network",
+  "sha256": "22784fb7a075a8d8c19e15f73bc409fdc591cbb35bc032e541ab9153e0b0bfdc",
+  "content": "# Step 2 \u2014 Confirm DNS Separately / Step 3 \u2014 Test from a Real External Network\n\nIf a hostname is used, resolve it.\n\nVerify that the public DNS record points to the expected public IP.\n\nA DNS problem is not a NAT problem.\n\nTest the public IP directly when appropriate.\n\n---\n\nUse a genuinely external source where practical.\n\nInternal testing may behave differently because of:\n\n- Routing\n- NAT reflection\n- Split DNS\n- Internal address resolution\n- Different security policy\n\nExternal validation should reflect the actual client path.\n\n---"
+}

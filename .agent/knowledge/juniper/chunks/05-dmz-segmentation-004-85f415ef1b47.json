@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-dmz-segmentation-004-85f415ef1b47",
+  "kb": "juniper",
+  "source_path": "examples/05-dmz-segmentation.md",
+  "source_title": "05-dmz-segmentation",
+  "section": "Configure Interfaces / Configure Security Zones",
+  "sha256": "85f415ef1b472f5c9e7be1a05d8916f7303404d47bbf16b15ac7769e9cbd6d53",
+  "content": "# Configure Interfaces / Configure Security Zones\n\nWAN:\n\nset interfaces ge-0/0/0 unit 0 family inet address 198.51.100.10/24\n\nTrust:\n\nset interfaces ge-0/0/1 unit 0 family inet address 192.0.2.1/24\n\nDMZ:\n\nset interfaces ge-0/0/2 unit 0 family inet address 198.18.0.1/24\n\n---\n\nWAN:\n\nset security zones security-zone untrust interfaces ge-0/0/0.0\n\nTrust:\n\nset security zones security-zone trust interfaces ge-0/0/1.0\n\nDMZ:\n\nset security zones security-zone dmz interfaces ge-0/0/2.0\n\n---"
+}

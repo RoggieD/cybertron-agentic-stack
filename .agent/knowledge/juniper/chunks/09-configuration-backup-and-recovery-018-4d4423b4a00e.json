@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-configuration-backup-and-recovery-018-4d4423b4a00e",
+  "kb": "juniper",
+  "source_path": "docs/09-configuration-backup-and-recovery.md",
+  "source_title": "09-configuration-backup-and-recovery",
+  "section": "Public Release Guidance",
+  "sha256": "4d4423b4a00ee94c51eafc5e49ef22379d032fd6e2001b09566c340fe36b2d3b",
+  "content": "# Public Release Guidance\n\nBefore including configuration examples in a public or commercial package:\n\n- Remove credentials\n- Remove public IP addresses\n- Remove private topology\n- Remove internal hostnames\n- Remove serial numbers\n- Remove VPN secrets\n- Replace environment-specific values with documentation examples\n\nPreserve the recovery procedure while removing deployment-specific data.\n\n---"
+}

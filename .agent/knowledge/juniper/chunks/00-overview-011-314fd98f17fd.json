@@ -1,0 +1,9 @@
+{
+  "chunk_id": "00-overview-011-314fd98f17fd",
+  "kb": "juniper",
+  "source_path": "docs/00-overview.md",
+  "source_title": "00-overview",
+  "section": "Static NAT / Routing",
+  "sha256": "314fd98f17fdb9df3513fd1bbd7acf20595053003118acc0af0e694bdd15f104",
+  "content": "# Static NAT / Routing\n\nCreates a fixed one-to-one address translation.\n\nStatic NAT may be used when an internal system must consistently map to a public address.\n\n---\n\nThe SRX320 can perform routing in addition to firewalling.\n\nCommon routing functions include:\n\n- Default routes\n- Static routes\n- Dynamic routing protocols\n- Directly connected networks\n\nRouting and security policy are separate concepts.\n\nA valid route does not automatically permit traffic.\n\nA security policy does not create a route.\n\nBoth must be correct for traffic to pass successfully.\n\n---"
+}

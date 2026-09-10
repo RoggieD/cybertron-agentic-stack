@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-troubleshooting-published-service-007-bcf4559a5d62",
+  "kb": "juniper",
+  "source_path": "examples/10-troubleshooting-published-service.md",
+  "source_title": "10-troubleshooting-published-service",
+  "section": "Step 7 \u2014 Verify Static NAT if Used / Step 8 \u2014 Verify Internal Route",
+  "sha256": "bcf4559a5d624ba6aa193ff11cd61011ab72beb3b8ab80b1649b6c45862d3b19",
+  "content": "# Step 7 \u2014 Verify Static NAT if Used / Step 8 \u2014 Verify Internal Route\n\nIf static NAT is used instead of destination NAT:\n\nshow configuration security nat static\n\nshow security nat static rule all\n\nDo not troubleshoot both NAT types unless both are actually present.\n\n---\n\nRun:\n\nshow route 192.0.2.20\n\nConfirm:\n\n- Route exists\n- Correct egress interface\n- Correct destination zone\n- No unexpected more-specific route\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "00-overview-010-a26892218084",
+  "kb": "juniper",
+  "source_path": "docs/00-overview.md",
+  "source_title": "00-overview",
+  "section": "Network Address Translation / Source NAT / Destination NAT",
+  "sha256": "a26892218084fc86aa159deb84db90a18aa21e3905167567296d1cb0f4143d0f",
+  "content": "# Network Address Translation / Source NAT / Destination NAT\n\nThe SRX platform supports several NAT types.\n\nPrimary NAT categories include:\n\n- Source NAT\n- Destination NAT\n- Static NAT\n\nChanges the source address of outbound traffic.\n\nCommonly used for Internet access from private networks.\n\nChanges the destination address of incoming traffic.\n\nCommonly used for port forwarding or publishing internal services."
+}

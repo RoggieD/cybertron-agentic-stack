@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-dmz-segmentation-015-9c556c5b273c",
+  "kb": "juniper",
+  "source_path": "examples/05-dmz-segmentation.md",
+  "source_title": "05-dmz-segmentation",
+  "section": "Review Candidate Configuration / Validate Configuration / Safe Commit / Verification",
+  "sha256": "9c556c5b273cf516965c998156df77efcf316b17edfc9bf5e7a96173df182243",
+  "content": "# Review Candidate Configuration / Validate Configuration / Safe Commit / Verification\n\nRun:\n\nshow | compare\n\n---\n\nRun:\n\ncommit check\n\nCorrect any errors before activation.\n\n---\n\nIf remote access could be affected:\n\ncommit confirmed\n\nVerify all required traffic paths before confirming.\n\n---\n\nVerify interfaces:\n\nshow interfaces terse\n\nVerify zones:\n\nshow security zones\n\nVerify routing:\n\nshow route\n\nVerify security policies:\n\nshow security policies\n\nVerify NAT:\n\nshow configuration security nat\n\nVerify sessions:\n\nshow security flow session\n\n---"
+}

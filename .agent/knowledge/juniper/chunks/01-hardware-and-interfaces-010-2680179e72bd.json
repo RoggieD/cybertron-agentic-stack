@@ -1,0 +1,9 @@
+{
+  "chunk_id": "01-hardware-and-interfaces-010-2680179e72bd",
+  "kb": "juniper",
+  "source_path": "docs/01-hardware-and-interfaces.md",
+  "source_title": "01-hardware-and-interfaces",
+  "section": "Security Zone Relationship",
+  "sha256": "2680179e72bd4d289c039ca250b815e822fba080e2426dfc94c9944d7f5f55ff",
+  "content": "# Security Zone Relationship\n\nA routed interface typically participates in SRX security processing through security-zone assignment.\n\nAn interface may be technically up and routed while traffic still fails because:\n\n- It is in the wrong security zone\n- It is not assigned to a security zone\n- No policy permits the traffic\n- NAT is incorrect\n- Routing is incorrect\n\nInterface troubleshooting must therefore include security context.\n\n---"
+}

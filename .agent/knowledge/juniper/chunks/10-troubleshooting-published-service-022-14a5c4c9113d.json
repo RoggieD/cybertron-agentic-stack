@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-troubleshooting-published-service-022-14a5c4c9113d",
+  "kb": "juniper",
+  "source_path": "examples/10-troubleshooting-published-service.md",
+  "source_title": "10-troubleshooting-published-service",
+  "section": "Important Notes / Public Release Guidance",
+  "sha256": "14a5c4c9113dbc6319a02c7032212b48c2dfdfa1abb7bcdaafd38b8c53954b9c",
+  "content": "# Important Notes / Public Release Guidance\n\nDo not assume every published-service failure is caused by the SRX.\n\nThe fault may exist in:\n\n- DNS\n- ISP\n- Upstream routing\n- NAT\n- Policy\n- Internal routing\n- Server firewall\n- Application\n- TLS\n- Return path\n\nTroubleshoot the full path.\n\n---\n\nBefore publishing troubleshooting examples:\n\n- Remove real public IPs\n- Remove internal IPs\n- Remove hostnames\n- Remove customer identifiers\n- Remove packet captures containing sensitive data\n- Remove credentials\n- Replace environment-specific values with documentation examples\n\n---"
+}

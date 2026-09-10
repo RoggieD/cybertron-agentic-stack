@@ -1,0 +1,9 @@
+{
+  "chunk_id": "02-security-zones-and-policies-014-31b97e694c2d",
+  "kb": "juniper",
+  "source_path": "docs/02-security-zones-and-policies.md",
+  "source_title": "02-security-zones-and-policies",
+  "section": "Policy Troubleshooting",
+  "sha256": "31b97e694c2d2bfc83ae2901de007125dbedc8ec712d2eeb8b583d37d4b4a71d",
+  "content": "# Policy Troubleshooting\n\nWhen expected traffic is blocked, verify:\n\n1. Source interface\n2. Source security zone\n3. Destination route\n4. Destination security zone\n5. NAT processing\n6. Source address object\n7. Destination address object\n8. Application match\n9. Policy ordering\n10. Session state\n11. Logs\n\nDo not modify policies before confirming which policy is actually matching or failing to match.\n\n---"
+}

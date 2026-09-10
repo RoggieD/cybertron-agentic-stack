@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-dual-wan-failover-concepts-016-16a4005445fe",
+  "kb": "juniper",
+  "source_path": "examples/08-dual-wan-failover-concepts.md",
+  "source_title": "08-dual-wan-failover-concepts",
+  "section": "Failback",
+  "sha256": "16a4005445fecca8a59bd2091f4b9528c7d68a850b3c262da96029da21de7a74",
+  "content": "# Failback\n\nWhen the primary WAN recovers, automatic failback may occur.\n\nConsider whether immediate failback is desirable.\n\nRapid failback can cause additional disruption if the primary circuit is unstable.\n\nRecovery logic may need hold-down or stability timers.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-site-to-site-ipsec-vpn-018-9586d2fe06fc",
+  "kb": "juniper",
+  "source_path": "examples/04-site-to-site-ipsec-vpn.md",
+  "source_title": "04-site-to-site-ipsec-vpn",
+  "section": "Troubleshooting Sequence / Peer Reachability / IKE / IPsec",
+  "sha256": "9586d2fe06fcbe07b89408d094fa69a56312d68d53d68f35f9ae7de28a28b79e",
+  "content": "# Troubleshooting Sequence / Peer Reachability / IKE / IPsec\n\nIf the VPN does not work, troubleshoot in layers.\n\nVerify:\n\n- Remote public IP\n- WAN routing\n- ISP connectivity\n- External interface\n\nVerify:\n\n- IKE version\n- Pre-shared key\n- Encryption\n- Authentication\n- Diffie-Hellman group\n- Peer address\n\nVerify:\n\n- IPsec proposal\n- PFS\n- Encryption\n- Authentication\n- Security association state"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-dual-wan-failover-concepts-019-9c56be2e2d63",
+  "kb": "juniper",
+  "source_path": "examples/08-dual-wan-failover-concepts.md",
+  "source_title": "08-dual-wan-failover-concepts",
+  "section": "Controlled Failure Testing",
+  "sha256": "9c56be2e2d63c22378bad95e42de2b4a74042486574b4edbb6d3c649a0290272",
+  "content": "# Controlled Failure Testing\n\nPossible tests include:\n\n- Disconnect primary WAN cable\n- Disable primary interface\n- Block monitored upstream path\n- Simulate gateway loss\n\nTesting should occur during an approved maintenance window.\n\nDo not perform uncontrolled production failover testing.\n\n---"
+}

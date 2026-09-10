@@ -1,0 +1,9 @@
+{
+  "chunk_id": "12-vpn-and-ipsec-019-422a84af179f",
+  "kb": "juniper",
+  "source_path": "docs/12-vpn-and-ipsec.md",
+  "source_title": "12-vpn-and-ipsec",
+  "section": "ScreenOS Migration",
+  "sha256": "422a84af179fd88dfbbebbf297569b342f6ab9cf914f32b8d7aeabefb5f794cf",
+  "content": "# ScreenOS Migration\n\nWhen migrating a ScreenOS VPN, inventory:\n\n- Legacy VPN name\n- Peer address\n- Authentication method\n- IKE settings\n- IPsec settings\n- Local networks\n- Remote networks\n- Proxy IDs\n- Routing\n- Policies\n- NAT exemptions\n- Monitoring\n\nTranslate the VPN design, not the literal commands.\n\n---"
+}

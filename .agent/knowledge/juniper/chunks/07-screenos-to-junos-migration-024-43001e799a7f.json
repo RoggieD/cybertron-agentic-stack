@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-screenos-to-junos-migration-024-43001e799a7f",
+  "kb": "juniper",
+  "source_path": "docs/07-screenos-to-junos-migration.md",
+  "source_title": "07-screenos-to-junos-migration",
+  "section": "Rollback Planning",
+  "sha256": "43001e799a7f683ae3dbd3b1c68d0127adf6a06cab6968977544a4cd54f44a78",
+  "content": "# Rollback Planning\n\nRollback should be possible without redesigning the network during the outage.\n\nA practical rollback plan may include:\n\n- Preserved legacy firewall configuration\n- Documented cable locations\n- Known-good legacy device\n- Saved SRX configuration\n- Clear decision point for rollback\n\nDo not dismantle the rollback path before the SRX has been verified.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "02-destination-nat-web-server-003-c507db291b74",
+  "kb": "juniper",
+  "source_path": "examples/02-destination-nat-web-server.md",
+  "source_title": "02-destination-nat-web-server",
+  "section": "Create Internal Server Address Object / Create Destination NAT Pool",
+  "sha256": "c507db291b74973675006def0ee8244e6d05de0682f51c6b9fc728c9186269f1",
+  "content": "# Create Internal Server Address Object / Create Destination NAT Pool\n\nCreate an address-book object in the destination security zone:\n\nset security zones security-zone trust address-book address WEB-SERVER 192.0.2.20/32\n\n---\n\nCreate a destination NAT pool pointing to the internal server:\n\nset security nat destination pool WEB-SERVER-POOL address 192.0.2.20/32\n\n---"
+}

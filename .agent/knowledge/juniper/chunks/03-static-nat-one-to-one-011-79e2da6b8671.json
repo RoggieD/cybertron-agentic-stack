@@ -1,0 +1,9 @@
+{
+  "chunk_id": "03-static-nat-one-to-one-011-79e2da6b8671",
+  "kb": "juniper",
+  "source_path": "examples/03-static-nat-one-to-one.md",
+  "source_title": "03-static-nat-one-to-one",
+  "section": "Security Policy Still Required / Public Address Routing",
+  "sha256": "79e2da6b8671c083c1cc4b5ad9ddc3875cb05927a1ba7c3ac72c933f1e4ee015",
+  "content": "# Security Policy Still Required / Public Address Routing\n\nStatic NAT does not automatically permit inbound traffic.\n\nA security policy is still required for the allowed traffic path.\n\nUse least privilege.\n\nIf only HTTPS is required, do not automatically permit all applications.\n\n---\n\nThe upstream network must deliver traffic for the public IP to the SRX.\n\nDepending on ISP design, this may involve:\n\n- Public subnet directly connected to the SRX\n- Routed public address block\n- Upstream static routing\n- Proxy ARP requirements\n- Provider-specific behavior\n\nDo not assume a static NAT rule alone makes the public IP reachable.\n\n---"
+}

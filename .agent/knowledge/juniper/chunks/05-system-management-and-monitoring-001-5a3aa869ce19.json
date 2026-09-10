@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-system-management-and-monitoring-001-5a3aa869ce19",
+  "kb": "juniper",
+  "source_path": "docs/05-system-management-and-monitoring.md",
+  "source_title": "05-system-management-and-monitoring",
+  "section": "Scope",
+  "sha256": "5a3aa869ce191f6261a584a91dc70e9b0cbb0d3e512f3aa7bbb617350f0b916d",
+  "content": "# Scope\n\nThis document explains system management, administrative access, logging, monitoring, and operational verification concepts for the Juniper SRX320.\n\nIt provides platform-level guidance and does not represent a specific production management configuration unless explicitly labeled.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-troubleshooting-published-service-003-b0a15d67d3e2",
+  "kb": "juniper",
+  "source_path": "examples/10-troubleshooting-published-service.md",
+  "source_title": "10-troubleshooting-published-service",
+  "section": "Example Service / Step 1 \u2014 Define the Failure",
+  "sha256": "b0a15d67d3e20032fc4e407019444e50d2473bbf2c17b548bff0d2e932f8a5ff",
+  "content": "# Example Service / Step 1 \u2014 Define the Failure\n\nPublic Address:\n\n198.51.100.20\n\nPublic Port:\n\n443\n\nProtocol:\n\nTCP\n\nInternal Server:\n\n192.0.2.20\n\nInternal Port:\n\n443\n\nExternal Zone:\n\nuntrust\n\nInternal Zone:\n\ntrust\n\nThis example uses documentation-only addresses.\n\n---\n\nRecord the exact symptom.\n\nExamples:\n\n- Connection timeout\n- Connection refused\n- TLS handshake failure\n- Service reachable internally but not externally\n- Service works from some locations only\n- NAT counter does not increment\n- Security policy does not match\n\nAvoid vague descriptions such as:\n\n\"The firewall is blocking it.\"\n\n---"
+}

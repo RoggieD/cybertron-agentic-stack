@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-system-management-and-monitoring-010-6845528d12d6",
+  "kb": "juniper",
+  "source_path": "docs/05-system-management-and-monitoring.md",
+  "source_title": "05-system-management-and-monitoring",
+  "section": "DNS",
+  "sha256": "6845528d12d65343c77bc2e8e6a720ef1d4131bc0c3780a1b87211ea423649f6",
+  "content": "# DNS\n\nThe SRX may require DNS resolution for administrative or service functions.\n\nDNS configuration should identify reliable resolvers.\n\nDNS failure should not be confused with general IP connectivity failure.\n\nWhen troubleshooting:\n\n1. Test IP connectivity.\n2. Test DNS resolution separately.\n\n---"
+}

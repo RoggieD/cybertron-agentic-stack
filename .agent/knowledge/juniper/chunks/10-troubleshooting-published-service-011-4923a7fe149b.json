@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-troubleshooting-published-service-011-4923a7fe149b",
+  "kb": "juniper",
+  "source_path": "examples/10-troubleshooting-published-service.md",
+  "source_title": "10-troubleshooting-published-service",
+  "section": "No Session / Session Exists but No Return Traffic",
+  "sha256": "4923a7fe149ba105197ba3eb7314c5640e94ce2a4fdf249e03ed90052041ed46",
+  "content": "# No Session / Session Exists but No Return Traffic\n\nPossible causes:\n\n- Public routing failure\n- NAT rule not matching\n- Security policy deny\n- Traffic never reaches SRX\n\nPossible causes:\n\n- Internal server down\n- Wrong server gateway\n- Host firewall\n- Application not listening\n- Return routing problem"
+}

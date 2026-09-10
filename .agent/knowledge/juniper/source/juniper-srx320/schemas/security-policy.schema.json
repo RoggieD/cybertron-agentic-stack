@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/juniper-srx320/security-policy.schema.json",
+  "title": "Juniper SRX320 Security Policy Record",
+  "description": "Structured record for a Junos security policy.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "policy_name",
+    "source_zone",
+    "destination_zone",
+    "action",
+    "configuration_state"
+  ],
+  "properties": {
+    "policy_name": {
+      "type": "string"
+    },
+    "source_zone": {
+      "type": "string"
+    },
+    "destination_zone": {
+      "type": "string"
+    },
+    "source_addresses": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "destination_addresses": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "applications": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "action": {
+      "type": "string",
+      "enum": [
+        "permit",
+        "deny",
+        "reject"
+      ]
+    },
+    "log_session_init": {
+      "type": ["boolean", "null"]
+    },
+    "log_session_close": {
+      "type": ["boolean", "null"]
+    },
+    "business_purpose": {
+      "type": ["string", "null"]
+    },
+    "enabled": {
+      "type": ["boolean", "null"]
+    },
+    "policy_order": {
+      "type": ["integer", "null"],
+      "minimum": 1
+    },
+    "configuration_state": {
+      "type": "string",
+      "enum": [
+        "LEGACY_PRODUCTION",
+        "SRX320_TARGET",
+        "SRX320_VERIFIED_PRODUCTION"
+      ]
+    },
+    "verification_date": {
+      "type": ["string", "null"],
+      "format": "date"
+    },
+    "notes": {
+      "type": ["string", "null"]
+    }
+  }
+}

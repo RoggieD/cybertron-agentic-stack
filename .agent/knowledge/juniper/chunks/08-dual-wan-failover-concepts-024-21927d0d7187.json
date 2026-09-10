@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-dual-wan-failover-concepts-024-21927d0d7187",
+  "kb": "juniper",
+  "source_path": "examples/08-dual-wan-failover-concepts.md",
+  "source_title": "08-dual-wan-failover-concepts",
+  "section": "AI Guidance",
+  "sha256": "21927d0d7187e8db1853d5b7fcdf821c197443affe4734c834861f153e016939",
+  "content": "# AI Guidance\n\nWhen using this example:\n\n- Treat all interfaces and addresses as examples.\n- Distinguish link failure from upstream path failure.\n- Do not assume dual WAN means inbound redundancy.\n- Verify NAT for each egress path.\n- Verify routing independently.\n- Verify monitoring logic independently.\n- Expect existing sessions to potentially break during failover.\n- Recommend controlled maintenance-window testing.\n- Verify Junos version before generating RPM or IP-monitoring syntax.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-routing-011-7d7129f56d1f",
+  "kb": "juniper",
+  "source_path": "docs/04-routing.md",
+  "source_title": "04-routing",
+  "section": "Routing and NAT",
+  "sha256": "7d7129f56d1f5c91ebb7556eef0bff58b6de587bfc21c44e637f42dd2e2e4022",
+  "content": "# Routing and NAT\n\nRouting and NAT interact but are separate.\n\nPossible failure scenarios include:\n\n- Correct source NAT with wrong default route\n- Correct destination NAT with no route to the translated host\n- Correct route with incorrect NAT rule match\n- Correct inbound path with incorrect return route\n- Asymmetric routing after translation\n\nAlways verify both forward and return paths.\n\n---"
+}

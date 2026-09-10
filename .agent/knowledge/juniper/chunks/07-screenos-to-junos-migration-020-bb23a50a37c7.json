@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-screenos-to-junos-migration-020-bb23a50a37c7",
+  "kb": "juniper",
+  "source_path": "docs/07-screenos-to-junos-migration.md",
+  "source_title": "07-screenos-to-junos-migration",
+  "section": "Migration States / LEGACY_PRODUCTION / SRX320_TARGET / SRX320_VERIFIED_PRODUCTION",
+  "sha256": "bb23a50a37c77dd324960f459fd3003d0ef70ce0b24793cc4094086443b40364",
+  "content": "# Migration States / LEGACY_PRODUCTION / SRX320_TARGET / SRX320_VERIFIED_PRODUCTION\n\nUse the following configuration states:\n\nConfirmed configuration operating on the legacy ScreenOS firewall.\n\nPlanned replacement configuration on the SRX320.\n\nConfiguration confirmed to be operating correctly on the SRX320.\n\nDo not mark migrated items as verified until tested.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "12-vpn-and-ipsec-002-8b6cdee4b7fe",
+  "kb": "juniper",
+  "source_path": "docs/12-vpn-and-ipsec.md",
+  "source_title": "12-vpn-and-ipsec",
+  "section": "VPN Overview",
+  "sha256": "8b6cdee4b7fe22424297332139f596522340ba269e03baf3fa0f97088a6382f4",
+  "content": "# VPN Overview\n\nThe SRX320 can provide encrypted connectivity between networks or endpoints.\n\nCommon VPN use cases include:\n\n- Site-to-site VPN\n- Branch connectivity\n- Partner connectivity\n- Remote network access\n- Secure traffic over untrusted networks\n\nVPN operation depends on multiple components working together.\n\nThese may include:\n\n- IKE\n- IPsec\n- Authentication\n- Routing\n- Security policies\n- Traffic selectors\n- NAT behavior\n- Interface configuration\n\n---"
+}

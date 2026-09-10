@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-dmz-segmentation-020-a9c3d7736396",
+  "kb": "juniper",
+  "source_path": "examples/05-dmz-segmentation.md",
+  "source_title": "05-dmz-segmentation",
+  "section": "Security Guidance",
+  "sha256": "a9c3d7736396906563d8d6bfb475dec9c61903de1135bbbb5ad2b89315f329ba",
+  "content": "# Security Guidance\n\nFor production DMZ design:\n\n- Minimize DMZ-to-trust access\n- Limit inbound services\n- Patch DMZ systems\n- Monitor published services\n- Restrict administration\n- Log important policy events\n- Separate management traffic where practical\n- Review exposed services regularly\n\n---"
+}

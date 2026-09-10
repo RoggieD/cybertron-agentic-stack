@@ -1,0 +1,9 @@
+{
+  "chunk_id": "03-static-nat-one-to-one-007-c7ac09292430",
+  "kb": "juniper",
+  "source_path": "examples/03-static-nat-one-to-one.md",
+  "source_title": "03-static-nat-one-to-one",
+  "section": "Review Candidate Configuration / Validate Configuration / Safe Commit / Verify Static NAT",
+  "sha256": "c7ac092924307d2ba73d182de6d57fd34f4ab9607e7a27b1270eee0be31bed99",
+  "content": "# Review Candidate Configuration / Validate Configuration / Safe Commit / Verify Static NAT\n\nRun:\n\nshow | compare\n\n---\n\nRun:\n\ncommit check\n\nCorrect any reported errors before commit.\n\n---\n\nIf remote management could be affected:\n\ncommit confirmed\n\nVerify both management access and the published service before confirming.\n\n---\n\nReview configuration:\n\nshow configuration security nat static\n\nReview operational rule information:\n\nshow security nat static rule all\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "03-static-nat-one-to-one-012-6058466ebe56",
+  "kb": "juniper",
+  "source_path": "examples/03-static-nat-one-to-one.md",
+  "source_title": "03-static-nat-one-to-one",
+  "section": "Proxy ARP",
+  "sha256": "6058466ebe56a386b68febbb24f46b86f15690f7bc13fdb60c1cc51750383366",
+  "content": "# Proxy ARP\n\nSome deployments may require proxy ARP so the SRX responds for a translated public address on a directly connected Ethernet network.\n\nWhether proxy ARP is required depends on the upstream addressing and routing design.\n\nDo not add proxy ARP automatically.\n\nVerify the ISP and Layer 2 topology first.\n\n---"
+}

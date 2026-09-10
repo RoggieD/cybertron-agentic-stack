@@ -1,0 +1,9 @@
+{
+  "chunk_id": "11-security-hardening-011-129e4a0a84ed",
+  "kb": "juniper",
+  "source_path": "docs/11-security-hardening.md",
+  "source_title": "11-security-hardening",
+  "section": "NAT Exposure",
+  "sha256": "129e4a0a84edb4ecdbfdad3c4d314cb37f6bac7b9fb0427453e79d1fa600a1c9",
+  "content": "# NAT Exposure\n\nDestination NAT and static NAT may expose internal systems externally.\n\nEvery published service should be reviewed for:\n\n- Business need\n- Public IP\n- Public port\n- Internal destination\n- Security policy\n- Source restrictions\n- Application security\n- Monitoring\n- Patch status\n\nDo not treat NAT as a security control by itself.\n\n---"
+}

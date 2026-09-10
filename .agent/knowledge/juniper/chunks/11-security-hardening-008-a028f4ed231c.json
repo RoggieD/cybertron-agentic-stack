@@ -1,0 +1,9 @@
+{
+  "chunk_id": "11-security-hardening-008-a028f4ed231c",
+  "kb": "juniper",
+  "source_path": "docs/11-security-hardening.md",
+  "source_title": "11-security-hardening",
+  "section": "Untrusted Interfaces",
+  "sha256": "a028f4ed231c0f2894168bff8ab81f49a968b95b5269d6f8d851a99427418675",
+  "content": "# Untrusted Interfaces\n\nInternet-facing or otherwise untrusted interfaces should receive especially restrictive management configuration.\n\nReview:\n\n- Host-inbound services\n- Firewall filters\n- Routing protocol exposure\n- Management access\n- Discovery protocols\n- Published services\n\nThe default posture should minimize unnecessary exposure.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "02-destination-nat-web-server-010-8881b4a7a8ea",
+  "kb": "juniper",
+  "source_path": "examples/02-destination-nat-web-server.md",
+  "source_title": "02-destination-nat-web-server",
+  "section": "Expected Traffic Flow",
+  "sha256": "8881b4a7a8ea99b13689fc7f650dcf0b188f7217678498abc6a214a91a19a00d",
+  "content": "# Expected Traffic Flow\n\n1. External client connects to 198.51.100.20 TCP/443.\n2. Packet enters the untrust zone.\n3. Destination NAT rule HTTPS-WEB matches.\n4. Destination address is translated to 192.0.2.20.\n5. Route lookup identifies the internal destination path.\n6. Destination security zone is determined.\n7. Security policy ALLOW-WEB-HTTPS permits the traffic.\n8. Stateful session is created.\n9. Traffic reaches 192.0.2.20 TCP/443.\n10. Return traffic follows the established session.\n\n---"
+}

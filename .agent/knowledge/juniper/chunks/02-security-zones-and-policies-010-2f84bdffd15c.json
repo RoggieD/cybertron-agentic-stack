@@ -1,0 +1,9 @@
+{
+  "chunk_id": "02-security-zones-and-policies-010-2f84bdffd15c",
+  "kb": "juniper",
+  "source_path": "docs/02-security-zones-and-policies.md",
+  "source_title": "02-security-zones-and-policies",
+  "section": "Deny Policies",
+  "sha256": "2f84bdffd15cd82323a611187e0636576c8e401d32eee40c0ba2e6773e0766ac",
+  "content": "# Deny Policies\n\nA deny policy explicitly blocks matching traffic.\n\nDeny policies may be used to:\n\n- Block known destinations\n- Prevent inter-zone access\n- Enforce segmentation\n- Create explicit audit points\n- Log unauthorized traffic\n\nLogging should be used selectively to avoid unnecessary log volume.\n\n---"
+}

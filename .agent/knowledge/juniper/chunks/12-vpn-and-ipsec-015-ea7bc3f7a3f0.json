@@ -1,0 +1,9 @@
+{
+  "chunk_id": "12-vpn-and-ipsec-015-ea7bc3f7a3f0",
+  "kb": "juniper",
+  "source_path": "docs/12-vpn-and-ipsec.md",
+  "source_title": "12-vpn-and-ipsec",
+  "section": "VPN Monitoring / Useful VPN Commands",
+  "sha256": "ea7bc3f7a3f06e97ff369117384e3b4f2115311c58a15709701d606b49334340",
+  "content": "# VPN Monitoring / Useful VPN Commands\n\nVPN monitoring may include:\n\n- IKE status\n- IPsec status\n- Tunnel interface state\n- Traffic counters\n- Peer reachability\n- Routing\n- Application tests\n\nMonitoring should verify actual traffic flow, not just tunnel establishment.\n\n---\n\nOperational commands may include:\n\nshow security ike security-associations\n\nshow security ike security-associations detail\n\nshow security ipsec security-associations\n\nshow security ipsec security-associations detail\n\nshow interfaces st0 terse\n\nshow security flow session\n\nshow route\n\nExact syntax and output may vary by Junos version.\n\n---"
+}

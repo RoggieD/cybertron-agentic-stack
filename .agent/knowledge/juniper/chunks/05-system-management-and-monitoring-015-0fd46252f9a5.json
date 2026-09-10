@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-system-management-and-monitoring-015-0fd46252f9a5",
+  "kb": "juniper",
+  "source_path": "docs/05-system-management-and-monitoring.md",
+  "source_title": "05-system-management-and-monitoring",
+  "section": "Interface Monitoring / System Health",
+  "sha256": "0fd46252f9a5eda24d59a32994796ae53e1de88fccb55082e6a02cf94aff77fb",
+  "content": "# Interface Monitoring / System Health\n\nUseful commands include:\n\nshow interfaces terse\n\nshow interfaces\n\nshow interfaces extensive\n\nMonitor for:\n\n- Link state\n- Errors\n- Drops\n- CRC errors\n- Traffic rate\n- Negotiated speed\n- Duplex behavior\n\n---\n\nUseful health checks may include:\n\nshow system uptime\n\nshow system processes extensive\n\nshow system storage\n\nshow chassis hardware\n\nshow chassis alarms\n\nshow system alarms\n\nExact command support may vary by Junos version.\n\n---"
+}

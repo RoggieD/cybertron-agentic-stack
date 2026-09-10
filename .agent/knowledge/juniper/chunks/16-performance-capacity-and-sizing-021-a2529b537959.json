@@ -1,0 +1,9 @@
+{
+  "chunk_id": "16-performance-capacity-and-sizing-021-a2529b537959",
+  "kb": "juniper",
+  "source_path": "docs/16-performance-capacity-and-sizing.md",
+  "source_title": "16-performance-capacity-and-sizing",
+  "section": "Public Release Guidance",
+  "sha256": "a2529b5379599f8e8f00f361315c6a48ad5dec5e4edf5f4b0d31716a72f284d5",
+  "content": "# Public Release Guidance\n\nBefore publishing performance examples:\n\n- Remove customer traffic volumes where sensitive\n- Remove internal hostnames\n- Remove public IP addresses\n- Remove topology-specific identifiers\n- Remove proprietary business usage data\n\nPreserve capacity-planning methodology while sanitizing deployment-specific information.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-dual-wan-failover-concepts-020-fcb1f7d39ff2",
+  "kb": "juniper",
+  "source_path": "examples/08-dual-wan-failover-concepts.md",
+  "source_title": "08-dual-wan-failover-concepts",
+  "section": "Troubleshooting Sequence",
+  "sha256": "fcb1f7d39ff2dc033936d9a07ad7586b5333034c7935090a7904ea49a6aee17d",
+  "content": "# Troubleshooting Sequence\n\nIf failover does not occur:\n\n1. Verify backup interface state\n2. Verify backup gateway\n3. Verify backup route\n4. Verify route preference\n5. Verify monitoring probes\n6. Verify probe source interface\n7. Verify IP-monitoring action\n8. Verify security policy\n9. Verify backup source NAT\n10. Verify active route\n11. Verify session behavior\n12. Review logs\n\n---"
+}

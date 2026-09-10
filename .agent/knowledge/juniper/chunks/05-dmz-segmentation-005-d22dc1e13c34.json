@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-dmz-segmentation-005-d22dc1e13c34",
+  "kb": "juniper",
+  "source_path": "examples/05-dmz-segmentation.md",
+  "source_title": "05-dmz-segmentation",
+  "section": "Allow Management from Trust",
+  "sha256": "d22dc1e13c346960803b12e588e50c2114320a99dc750530c44a579e99ffd7b2",
+  "content": "# Allow Management from Trust\n\nPermit ping:\n\nset security zones security-zone trust interfaces ge-0/0/1.0 host-inbound-traffic system-services ping\n\nPermit SSH:\n\nset security zones security-zone trust interfaces ge-0/0/1.0 host-inbound-traffic system-services ssh\n\nThis example does not enable administrative management from the DMZ or untrust zones.\n\n---"
+}

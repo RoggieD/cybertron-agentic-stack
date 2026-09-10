@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-configuration-backup-and-recovery-008-c238fcd0a514",
+  "kb": "juniper",
+  "source_path": "docs/09-configuration-backup-and-recovery.md",
+  "source_title": "09-configuration-backup-and-recovery",
+  "section": "Rescue Configuration",
+  "sha256": "c238fcd0a514264b7bfca8e0231944649a1f9d337562286c3461a90be45b2eac",
+  "content": "# Rescue Configuration\n\nJunos supports a rescue configuration.\n\nA rescue configuration should represent a known-good baseline.\n\nIt can provide an additional recovery path when the active configuration becomes unusable.\n\nA rescue configuration should not be created from an unverified configuration.\n\n---"
+}

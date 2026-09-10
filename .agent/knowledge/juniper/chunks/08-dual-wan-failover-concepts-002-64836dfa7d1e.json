@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-dual-wan-failover-concepts-002-64836dfa7d1e",
+  "kb": "juniper",
+  "source_path": "examples/08-dual-wan-failover-concepts.md",
+  "source_title": "08-dual-wan-failover-concepts",
+  "section": "Primary ISP / Backup ISP",
+  "sha256": "64836dfa7d1e560f471aaf61f8622cc0b1d4287f5c997944b2f1975c5fbcf754",
+  "content": "# Primary ISP / Backup ISP\n\nInterface:\n\nge-0/0/0.0\n\nZone:\n\nuntrust-primary\n\nPublic Network:\n\n198.51.100.0/24\n\nSRX Address:\n\n198.51.100.10/24\n\nGateway:\n\n198.51.100.1\n\n---\n\nInterface:\n\nge-0/0/2.0\n\nZone:\n\nuntrust-backup\n\nPublic Network:\n\n203.0.113.0/24\n\nSRX Address:\n\n203.0.113.10/24\n\nGateway:\n\n203.0.113.1\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-production-data-template-004-1a07b9e6194a",
+  "kb": "juniper",
+  "source_path": "docs/08-production-data-template.md",
+  "source_title": "08-production-data-template",
+  "section": "LAN Configuration / DMZ Configuration",
+  "sha256": "1a07b9e6194ae15230d43197d40fa1102b7a67bf1f6860cfa9848ba44e6593b9",
+  "content": "# LAN Configuration / DMZ Configuration\n\nLAN Interface:\n\nLAN Logical Unit:\n\nLAN Network:\n\nGateway Address:\n\nSecurity Zone:\n\nVLAN:\n\nConnected Switch:\n\nDHCP Role:\n\nDNS Role:\n\nRouting Notes:\n\nConfiguration State:\n\nVerification Date:\n\nNotes:\n\n---\n\nDMZ Interface:\n\nDMZ Logical Unit:\n\nDMZ Network:\n\nGateway Address:\n\nSecurity Zone:\n\nVLAN:\n\nConnected Switch:\n\nPublished Services:\n\nRouting Notes:\n\nConfiguration State:\n\nVerification Date:\n\nNotes:\n\n---"
+}

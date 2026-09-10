@@ -1,0 +1,9 @@
+{
+  "chunk_id": "15-upgrades-firmware-and-lifecycle-015-a01db61db066",
+  "kb": "juniper",
+  "source_path": "docs/15-upgrades-firmware-and-lifecycle.md",
+  "source_title": "15-upgrades-firmware-and-lifecycle",
+  "section": "Configuration Migration",
+  "sha256": "a01db61db06634d25368f562c7eae792f287b79a1244bb4fc0209d43c8698d7a",
+  "content": "# Configuration Migration\n\nJunos may automatically migrate or reinterpret configuration during upgrade.\n\nAfter upgrade, inspect:\n\n- Commit warnings\n- Configuration differences\n- Deprecated syntax\n- Unsupported features\n- Interface behavior\n- Security behavior\n\nDo not assume a successful boot means the configuration migrated perfectly.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-troubleshooting-published-service-020-a2b158718e91",
+  "kb": "juniper",
+  "source_path": "examples/10-troubleshooting-published-service.md",
+  "source_title": "10-troubleshooting-published-service",
+  "section": "Change Discipline / Validation After Fix",
+  "sha256": "a2b158718e91ee5e762af3d6f9bb722424c3a5738a2951a7c225b55fd3f62280",
+  "content": "# Change Discipline / Validation After Fix\n\nOnly make a configuration change when evidence identifies a likely cause.\n\nBefore change:\n\nshow | compare\n\nThen:\n\ncommit check\n\nUse:\n\ncommit confirmed\n\nwhen management connectivity could be affected.\n\nMake one controlled change at a time.\n\n---\n\nAfter resolving the issue, verify:\n\n- External DNS\n- External connectivity\n- NAT rule\n- Security policy\n- Session state\n- Internal service\n- Return path\n- Logging\n- Monitoring\n\nDocument the root cause.\n\n---"
+}

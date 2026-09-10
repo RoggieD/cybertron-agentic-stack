@@ -1,0 +1,9 @@
+{
+  "chunk_id": "03-nat-004-a86ab15e260d",
+  "kb": "juniper",
+  "source_path": "docs/03-nat.md",
+  "source_title": "03-nat",
+  "section": "Interface Source NAT",
+  "sha256": "a86ab15e260dcfca1717365b0e1b242cca88126e88a4b3f7e807e13a3134e5ae",
+  "content": "# Interface Source NAT\n\nInterface source NAT uses the IP address assigned to the egress interface.\n\nConceptual example:\n\nsecurity {\n    nat {\n        source {\n            rule-set TRUST-TO-INTERNET {\n                from zone trust;\n                to zone untrust;\n\n                rule INTERNET-SNAT {\n                    match {\n                        source-address 10.0.0.0/24;\n                    }\n\n                    then {\n                        source-nat {\n                            interface;\n                        }\n                    }\n                }\n            }\n        }\n    }\n}\n\nThis is an example only.\n\nIt is not a production configuration.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "15-upgrades-firmware-and-lifecycle-009-0ac5fc32a730",
+  "kb": "juniper",
+  "source_path": "docs/15-upgrades-firmware-and-lifecycle.md",
+  "source_title": "15-upgrades-firmware-and-lifecycle",
+  "section": "Storage Verification / Image Verification",
+  "sha256": "0ac5fc32a73088e34204ca7709b11bf4b9c9d981e94e659582843e137f0adb61",
+  "content": "# Storage Verification / Image Verification\n\nVerify sufficient storage before transferring or installing software.\n\nUseful commands may include:\n\nshow system storage\n\nDo not begin an upgrade if available storage is uncertain.\n\n---\n\nSoftware images should be obtained from an authorized and trusted source.\n\nWhere checksums or signatures are provided:\n\n- Verify integrity\n- Confirm image name\n- Confirm platform compatibility\n- Confirm expected release\n\nDo not install unverified images.\n\n---"
+}

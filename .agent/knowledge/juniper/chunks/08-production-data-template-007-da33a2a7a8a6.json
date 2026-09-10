@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-production-data-template-007-da33a2a7a8a6",
+  "kb": "juniper",
+  "source_path": "docs/08-production-data-template.md",
+  "source_title": "08-production-data-template",
+  "section": "Static NAT / Routing",
+  "sha256": "da33a2a7a8a6b7b4c0b55c0c80db4537adac842d56cdf565a2151d41782fd37f",
+  "content": "# Static NAT / Routing\n\nFor each static NAT mapping, record:\n\nRule Name:\n\nPublic Address:\n\nPrivate Address:\n\nIncoming Zone:\n\nRelated Policy:\n\nBusiness Purpose:\n\nConfiguration State:\n\nVerification Date:\n\nNotes:\n\n---\n\nFor each route, record:\n\nDestination Prefix:\n\nRoute Type:\n\nNext Hop:\n\nOutgoing Interface:\n\nRouting Instance:\n\nPreference:\n\nPurpose:\n\nConfiguration State:\n\nVerification Date:\n\nNotes:\n\n---"
+}

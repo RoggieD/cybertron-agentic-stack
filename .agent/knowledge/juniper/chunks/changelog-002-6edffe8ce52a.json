@@ -1,0 +1,9 @@
+{
+  "chunk_id": "changelog-002-6edffe8ce52a",
+  "kb": "juniper",
+  "source_path": "CHANGELOG.md",
+  "source_title": "CHANGELOG",
+  "section": "Added",
+  "sha256": "6edffe8ce52af6031fde4b245f8aabae3f5181f41534828b0c729e5d118aab42",
+  "content": "# Added\n\n- Initial Juniper SRX320 Knowledge Base project structure\n- README.md\n- metadata.json\n- docs/ directory\n- examples/ directory\n- schemas/ directory\n- source-material/ directory\n- Configuration state model:\n  - LEGACY_PRODUCTION\n  - SRX320_TARGET\n  - SRX320_VERIFIED_PRODUCTION\n- Initial publication and commercial packaging guidelines"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "authoritative-sources-016-8538086bc94c",
+  "kb": "juniper",
+  "source_path": "source-material/authoritative-sources.md",
+  "source_title": "authoritative-sources",
+  "section": "Current Validation State / Document Status",
+  "sha256": "8538086bc94c6c687169b82c7b985cc89585b100eebebf8df0a055ca10476094",
+  "content": "# Current Validation State / Document Status\n\nKnowledge Base Version:\n\n0.1.0\n\nTarget Platform:\n\nJuniper SRX320\n\nTarget Junos Version:\n\nUnknown until live device access is available\n\nCurrent Device State:\n\nSRX320_TARGET\n\nLive Device Validation:\n\nNot yet available\n\n---\n\nDocument Type: Source Registry\n\nKnowledge Base: Juniper SRX320 Knowledge Base\n\nVersion: 0.1.0\n\nStatus: Active"
+}

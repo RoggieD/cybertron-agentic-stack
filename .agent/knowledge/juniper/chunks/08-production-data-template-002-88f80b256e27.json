@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-production-data-template-002-88f80b256e27",
+  "kb": "juniper",
+  "source_path": "docs/08-production-data-template.md",
+  "source_title": "08-production-data-template",
+  "section": "Administrative Access / Interface Map",
+  "sha256": "88f80b256e27707977e322034d42f2f20a6f672ece563b176eb67f8fb47fb000",
+  "content": "# Administrative Access / Interface Map\n\nManagement IP:\n\nManagement Interface:\n\nManagement Zone:\n\nSSH Enabled:\n\nHTTPS Enabled:\n\nConsole Access Available:\n\nPrimary Admin Network:\n\nSecondary Admin Network:\n\nAuthentication Method:\n\nNotes:\n\n---\n\nFor each interface, record:\n\nPhysical Interface:\n\nLogical Unit:\n\nDescription:\n\nRole:\n\nIPv4 Address:\n\nIPv6 Address:\n\nPrefix Length:\n\nVLAN ID:\n\nSecurity Zone:\n\nConnected Device:\n\nLink Speed:\n\nConfiguration State:\n\nVerification Date:\n\nNotes:\n\n---"
+}

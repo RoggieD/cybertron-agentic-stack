@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-troubleshooting-methodology-011-be78e5dbcc09",
+  "kb": "juniper",
+  "source_path": "docs/06-troubleshooting-methodology.md",
+  "source_title": "06-troubleshooting-methodology",
+  "section": "Step 10 \u2014 Review Logs",
+  "sha256": "be78e5dbcc0922086ac1c697745c029ba1812b7df4ea39d3f03f2a9ad6bb3c65",
+  "content": "# Step 10 \u2014 Review Logs\n\nUseful commands may include:\n\nshow log messages\n\nPolicy-specific logs may also be available when logging is enabled.\n\nLook for:\n\n- Denied traffic\n- Interface transitions\n- Authentication failure\n- Commit errors\n- Routing events\n- System alarms\n- Service failures\n\nLogs should be treated as evidence.\n\n---"
+}

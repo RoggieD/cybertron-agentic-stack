@@ -1,0 +1,9 @@
+{
+  "chunk_id": "02-security-zones-and-policies-011-da1a6f6b23cf",
+  "kb": "juniper",
+  "source_path": "docs/02-security-zones-and-policies.md",
+  "source_title": "02-security-zones-and-policies",
+  "section": "Default Behavior",
+  "sha256": "da1a6f6b23cff6a1b43aaba7681beff78dfab7effdb9874a64460464d4644b13",
+  "content": "# Default Behavior\n\nTraffic that does not match a permitting policy may be denied.\n\nDo not assume traffic is permitted merely because:\n\n- A route exists\n- NAT is configured\n- The interface is up\n- The destination responds locally\n\nSecurity policy must still permit transit traffic where required.\n\n---"
+}

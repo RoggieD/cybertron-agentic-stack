@@ -1,0 +1,53 @@
+{
+  "name": "Juniper SRX320 Knowledge Base",
+  "short_name": "juniper-srx320-kb",
+  "version": "0.1.0",
+  "status": "initial-build",
+  "vendor": "Juniper Networks",
+  "platform": "SRX320",
+  "operating_system": "Junos OS",
+  "knowledge_base_type": [
+    "technical",
+    "infrastructure",
+    "network-security",
+    "firewall",
+    "AI-RAG"
+  ],
+  "primary_topics": [
+    "firewall-configuration",
+    "security-zones",
+    "security-policies",
+    "nat",
+    "routing",
+    "interfaces",
+    "vlans",
+    "management",
+    "monitoring",
+    "troubleshooting",
+    "screenos-to-junos-migration"
+  ],
+  "supported_ai_use": [
+    "Open WebUI",
+    "RAG",
+    "local-LLM",
+    "knowledge-retrieval"
+  ],
+  "configuration_states": [
+    "LEGACY_PRODUCTION",
+    "SRX320_TARGET",
+    "SRX320_VERIFIED_PRODUCTION"
+  ],
+  "source_policy": {
+    "original_content_preferred": true,
+    "vendor_documentation_may_be_referenced": true,
+    "vendor_documentation_should_not_be_republished_wholesale": true,
+    "production_sensitive_data_must_be_sanitized_for_public_release": true
+  },
+  "distribution_targets": [
+    "private-local",
+    "Open WebUI",
+    "GitHub",
+    "Hugging Face",
+    "commercial-package"
+  ]
+}

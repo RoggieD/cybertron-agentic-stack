@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-troubleshooting-published-service-006-afe1c9c9db46",
+  "kb": "juniper",
+  "source_path": "examples/10-troubleshooting-published-service.md",
+  "source_title": "10-troubleshooting-published-service",
+  "section": "Step 5 \u2014 Verify WAN Interface / Step 6 \u2014 Verify Destination NAT",
+  "sha256": "afe1c9c9db460ea2ee3c62fde62fcc27c42600afa86c4a6ba1afaa13a02bbc24",
+  "content": "# Step 5 \u2014 Verify WAN Interface / Step 6 \u2014 Verify Destination NAT\n\nRun:\n\nshow interfaces terse\n\nVerify:\n\n- Expected WAN interface is up\n- Logical unit exists\n- Expected address is present if applicable\n\nFor more detail:\n\nshow interfaces <wan-interface>\n\n---\n\nRun:\n\nshow configuration security nat destination\n\nThen:\n\nshow security nat destination rule all\n\nVerify:\n\n- Correct rule set\n- Correct incoming scope\n- Correct public destination\n- Correct protocol\n- Correct destination port\n- Correct NAT pool\n- Correct rule order\n\n---"
+}

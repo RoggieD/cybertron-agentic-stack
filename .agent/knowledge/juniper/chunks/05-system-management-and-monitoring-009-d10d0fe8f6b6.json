@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-system-management-and-monitoring-009-d10d0fe8f6b6",
+  "kb": "juniper",
+  "source_path": "docs/05-system-management-and-monitoring.md",
+  "source_title": "05-system-management-and-monitoring",
+  "section": "NTP",
+  "sha256": "d10d0fe8f6b62d0345c79f2666128f2b8a659ee8af5b08c94d3fc38938a13bea",
+  "content": "# NTP\n\nAccurate time is important for:\n\n- Logs\n- Security investigations\n- Monitoring\n- VPN operation\n- Certificate validation\n- Event correlation\n\nThe SRX should use reliable NTP sources.\n\nVerify time using operational commands appropriate to the installed Junos version.\n\n---"
+}

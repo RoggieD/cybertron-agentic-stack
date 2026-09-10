@@ -1,0 +1,9 @@
+{
+  "chunk_id": "03-nat-014-9b5894a638f3",
+  "kb": "juniper",
+  "source_path": "docs/03-nat.md",
+  "source_title": "03-nat",
+  "section": "Multiple Public IP Addresses",
+  "sha256": "9b5894a638f3420be03e59300712f97cb9b2066efba48007a14f777cf6a5c04b",
+  "content": "# Multiple Public IP Addresses\n\nAn SRX may use multiple public addresses for:\n\n- Static NAT\n- Destination NAT\n- Source NAT pools\n- Dedicated services\n- Multiple hosted systems\n\nWhen multiple public IPs exist, documentation should clearly identify:\n\n- Address owner or service\n- Translation type\n- Internal destination\n- Required policy\n- Required route\n- Verification status\n\n---"
+}

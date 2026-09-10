@@ -1,0 +1,9 @@
+{
+  "chunk_id": "12-vpn-and-ipsec-005-3a7447d952c3",
+  "kb": "juniper",
+  "source_path": "docs/12-vpn-and-ipsec.md",
+  "source_title": "12-vpn-and-ipsec",
+  "section": "IPsec",
+  "sha256": "3a7447d952c305bb2587f6005457e1e7335f3b97ce52b2c79b06cea7187c0c63",
+  "content": "# IPsec\n\nIPsec protects the actual data traffic after successful IKE negotiation.\n\nIPsec configuration may define:\n\n- Encryption\n- Authentication\n- Protocol\n- Lifetime\n- Perfect Forward Secrecy\n- Traffic selectors\n\nThe exact configuration model depends on VPN type and Junos release.\n\n---"
+}

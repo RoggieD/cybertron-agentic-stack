@@ -1,0 +1,9 @@
+{
+  "chunk_id": "14-ha-clustering-and-redundancy-005-f97e3c71e606",
+  "kb": "juniper",
+  "source_path": "docs/14-ha-clustering-and-redundancy.md",
+  "source_title": "14-ha-clustering-and-redundancy",
+  "section": "SRX320 Cluster Interface Repurposing",
+  "sha256": "f97e3c71e606838642be445d757b652e50f6162fb28ca2e913313aaf7a0a8b8a",
+  "content": "# SRX320 Cluster Interface Repurposing\n\nOn an SRX320, enabling chassis clustering and rebooting changes the role and numbering of several built-in interfaces.\n\nIn chassis cluster mode:\n\n- ge-0/0/0 is repurposed as the fxp0 management interface.\n- ge-0/0/1 is repurposed as the fxp1 control-link interface.\n- Interfaces on node 1 are renumbered using the SRX320 cluster offset.\n- Fabric links are user-selected Gigabit Ethernet interfaces supported for the platform.\n\nAny standalone configuration using ge-0/0/0 or ge-0/0/1 must therefore be reviewed before cluster formation.\n\nDo not design an SRX320 cluster as though the standalone interface map remains unchanged after clustering is enabled.\n\n---"
+}

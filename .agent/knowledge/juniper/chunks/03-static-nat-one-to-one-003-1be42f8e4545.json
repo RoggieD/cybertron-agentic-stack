@@ -1,0 +1,9 @@
+{
+  "chunk_id": "03-static-nat-one-to-one-003-1be42f8e4545",
+  "kb": "juniper",
+  "source_path": "examples/03-static-nat-one-to-one.md",
+  "source_title": "03-static-nat-one-to-one",
+  "section": "Create Internal Address Object / Create Static NAT Rule Set",
+  "sha256": "1be42f8e45453c6f7ded2f811a2fecbeaa25c043991a2974de7754d02bd4c0c0",
+  "content": "# Create Internal Address Object / Create Static NAT Rule Set\n\nCreate an address-book object for the internal server:\n\nset security zones security-zone trust address-book address STATIC-SERVER 192.0.2.30/32\n\n---\n\nCreate a static NAT rule set for traffic entering from the untrust zone:\n\nset security nat static rule-set INTERNET-STATIC from zone untrust\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "01-basic-edge-firewall-006-a286420639b4",
+  "kb": "juniper",
+  "source_path": "examples/01-basic-edge-firewall.md",
+  "source_title": "01-basic-edge-firewall",
+  "section": "Review Candidate Configuration / Validate Configuration / Safe Commit / Verification",
+  "sha256": "a286420639b431da093baeaa1fde85fcd36b8ab7c7dcda4e6421f72adad1f52d",
+  "content": "# Review Candidate Configuration / Validate Configuration / Safe Commit / Verification\n\nBefore committing:\n\nshow | compare\n\n---\n\nRun:\n\ncommit check\n\nCorrect any errors before continuing.\n\n---\n\nIf management connectivity could be affected:\n\ncommit confirmed\n\nVerify connectivity before confirming the commit.\n\n---\n\nAfter commit, verify interfaces:\n\nshow interfaces terse\n\nVerify default route:\n\nshow route 0.0.0.0/0\n\nVerify security zones:\n\nshow security zones\n\nVerify security policy:\n\nshow security policies\n\nVerify source NAT:\n\nshow security nat source rule all\n\nVerify active sessions:\n\nshow security flow session\n\n---"
+}

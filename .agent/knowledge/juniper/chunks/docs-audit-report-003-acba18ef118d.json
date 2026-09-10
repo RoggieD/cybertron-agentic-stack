@@ -1,0 +1,9 @@
+{
+  "chunk_id": "docs-audit-report-003-acba18ef118d",
+  "kb": "juniper",
+  "source_path": "source-material/docs-audit-report.txt",
+  "source_title": "docs-audit-report",
+  "section": "Document \u2014 Part 3",
+  "sha256": "acba18ef118df1b913bb9c6ba1a924c2a0d059112222d3b33f37b66393047f9d",
+  "content": "# Document \u2014 Part 3\n\n281 [SECURITY POLICY] Internet-facing interfaces should use restrictive host-inbound access.\n 292 [VPN] - VPN endpoints\n 327 [SWITCHING] - VLAN trunks\n 341 [JUNOS COMMAND] show interfaces terse\n 343 [JUNOS COMMAND] show configuration interfaces\n 345 [JUNOS COMMAND] show configuration security zones\n 347 [JUNOS COMMAND] show route\n 349 [JUNOS COMMAND] show ethernet-switching table\n 349 [SWITCHING] show ethernet-switching table\n 351 [VERSION-SENSITIVE] Availability and output may vary depending on Junos version and interface mode."
+}

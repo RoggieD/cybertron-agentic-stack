@@ -1,0 +1,9 @@
+{
+  "chunk_id": "14-ha-clustering-and-redundancy-009-392a24e17684",
+  "kb": "juniper",
+  "source_path": "docs/14-ha-clustering-and-redundancy.md",
+  "source_title": "14-ha-clustering-and-redundancy",
+  "section": "Switch Redundancy",
+  "sha256": "392a24e17684aa3c270367d6830d0cdc989d8a97572cd267d5bb3e4af28213c9",
+  "content": "# Switch Redundancy\n\nFirewall HA should consider upstream and downstream switching.\n\nA cluster connected to only one physical switch may still have a major single point of failure.\n\nConsider:\n\n- Dual switches\n- Independent power\n- Link aggregation where appropriate\n- Redundant uplinks\n- Spanning-tree behavior\n- VLAN consistency\n\n---"
+}

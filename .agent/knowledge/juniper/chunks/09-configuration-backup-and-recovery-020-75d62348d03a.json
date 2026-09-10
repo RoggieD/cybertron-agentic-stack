@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-configuration-backup-and-recovery-020-75d62348d03a",
+  "kb": "juniper",
+  "source_path": "docs/09-configuration-backup-and-recovery.md",
+  "source_title": "09-configuration-backup-and-recovery",
+  "section": "Document Status",
+  "sha256": "75d62348d03a0cc62b129c5ba777fcec462371df32fd03725ce7e37aa336f812",
+  "content": "# Document Status\n\nDocument Type: Configuration Backup and Recovery\n\nKnowledge Base: Juniper SRX320 Knowledge Base\n\nVersion: 0.1.0\n\nStatus: Initial Build"
+}

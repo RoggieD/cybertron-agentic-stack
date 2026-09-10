@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/juniper-srx320/configuration-validation.schema.json",
+  "title": "Juniper SRX320 Configuration Validation Record",
+  "description": "Structured validation record for Junos commands, configuration examples, procedures, and operational guidance.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "item_id",
+    "validation_status"
+  ],
+  "properties": {
+    "item_id": {
+      "type": "string",
+      "description": "Unique identifier for the command, configuration block, example, or procedure being validated."
+    },
+    "item_type": {
+      "type": ["string", "null"],
+      "enum": [
+        "command",
+        "configuration-block",
+        "example",
+        "procedure",
+        "schema",
+        "document",
+        "other",
+        null
+      ]
+    },
+    "source_file": {
+      "type": ["string", "null"]
+    },
+    "section": {
+      "type": ["string", "null"]
+    },
+    "junos_version": {
+      "type": ["string", "null"]
+    },
+    "platform": {
+      "type": ["string", "null"],
+      "enum": [
+        "SRX320",
+        "SRX-Series",
+        "Junos-General",
+        "Other",
+        null
+      ]
+    },
+    "validation_status": {
+      "type": "string",
+      "enum": [
+        "unverified",
+        "documentation-checked",
+        "syntax-validated",
+        "lab-verified",
+        "live-device-verified",
+        "deprecated",
+        "invalid"
+      ]
+    },
+    "authoritative_source": {
+      "type": ["string", "null"]
+    },
+    "source_reference": {
+      "type": ["string", "null"]
+    },
+    "source_date": {
+      "type": ["string", "null"],
+      "format": "date"
+    },
+    "validation_date": {
+      "type": ["string", "null"],
+      "format": "date"
+    },
+    "validation_method": {
+      "type": ["string", "null"]
+    },
+    "tested_command": {
+      "type": ["string", "null"]
+    },
+    "expected_result": {
+      "type": ["string", "null"]
+    },
+    "observed_result": {
+      "type": ["string", "null"]
+    },
+    "device_hostname": {
+      "type": ["string", "null"]
+    },
+    "device_serial": {
+      "type": ["string", "null"]
+    },
+    "configuration_state": {
+      "type": ["string", "null"],
+      "enum": [
+        "LEGACY_PRODUCTION",
+        "SRX320_TARGET",
+        "SRX320_VERIFIED_PRODUCTION",
+        null
+      ]
+    },
+    "safe_for_public_release": {
+      "type": ["boolean", "null"]
+    },
+    "sensitive_data_present": {
+      "type": ["boolean", "null"]
+    },
+    "limitations": {
+      "type": ["string", "null"]
+    },
+    "notes": {
+      "type": ["string", "null"]
+    }
+  }
+}

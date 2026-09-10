@@ -1,0 +1,9 @@
+{
+  "chunk_id": "02-security-zones-and-policies-018-e00c2c9b441c",
+  "kb": "juniper",
+  "source_path": "docs/02-security-zones-and-policies.md",
+  "source_title": "02-security-zones-and-policies",
+  "section": "AI Guidance",
+  "sha256": "e00c2c9b441c35a58ca6c64475820c9fb9de4476bd316c4a24673b0bb3c35aef",
+  "content": "# AI Guidance\n\nWhen using this document:\n\n- Do not invent security policies.\n- Do not assume zone names.\n- Do not assume interface-to-zone assignments.\n- Do not assume a route implies permission.\n- Do not assume NAT implies permission.\n- Distinguish host-inbound traffic from transit traffic.\n- Verify policy direction.\n- Prefer actual policy output when diagnosing production behavior.\n\n---"
+}

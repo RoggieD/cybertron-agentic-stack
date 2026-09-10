@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-site-to-site-ipsec-vpn-021-83aa5207dc42",
+  "kb": "juniper",
+  "source_path": "examples/04-site-to-site-ipsec-vpn.md",
+  "source_title": "04-site-to-site-ipsec-vpn",
+  "section": "Important Notes",
+  "sha256": "83aa5207dc42d041855d4132c9a7eda988ceeccc2d7d49bd5ff2773cd8c38de7",
+  "content": "# Important Notes\n\nThis example uses documentation-only IP address ranges.\n\nDo not copy these addresses into production.\n\nDo not assume:\n\n- ge-0/0/0.0 is the WAN interface\n- st0.0 is available\n- trust, untrust, and vpn are the correct zone names\n- group14 is appropriate for every deployment\n- AES-256-CBC is the preferred algorithm for every Junos release\n- IKEv2 is supported by every remote peer\n- application any is appropriate for production\n- no traffic selectors are required\n\nVerify platform, Junos version, and peer requirements.\n\n---"
+}

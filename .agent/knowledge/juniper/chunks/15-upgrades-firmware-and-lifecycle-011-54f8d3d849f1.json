@@ -1,0 +1,9 @@
+{
+  "chunk_id": "15-upgrades-firmware-and-lifecycle-011-54f8d3d849f1",
+  "kb": "juniper",
+  "source_path": "docs/15-upgrades-firmware-and-lifecycle.md",
+  "source_title": "15-upgrades-firmware-and-lifecycle",
+  "section": "Upgrade Execution",
+  "sha256": "54f8d3d849f14e713c72b7b7e93114d0fb36d7022036b235228e3095d0ef69f0",
+  "content": "# Upgrade Execution\n\nExact installation commands depend on Junos version and deployment method.\n\nBefore executing an upgrade:\n\n- Confirm image path\n- Confirm platform\n- Confirm target release\n- Confirm backup\n- Confirm console access\n- Confirm rollback plan\n\nUse authoritative version-specific Juniper documentation for exact upgrade commands.\n\nSRX300-line upgrade procedures can contain release-specific requirements and exceptions. For example, particular upgrade or downgrade paths can require specific request system software add options. Never reuse an installation command from another Junos release without checking the current SRX upgrade documentation and supported upgrade path.\n\n---"
+}

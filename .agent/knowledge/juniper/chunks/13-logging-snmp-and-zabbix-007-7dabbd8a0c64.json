@@ -1,0 +1,9 @@
+{
+  "chunk_id": "13-logging-snmp-and-zabbix-007-7dabbd8a0c64",
+  "kb": "juniper",
+  "source_path": "docs/13-logging-snmp-and-zabbix.md",
+  "source_title": "13-logging-snmp-and-zabbix",
+  "section": "SNMP Credentials / Host-Inbound SNMP",
+  "sha256": "7dabbd8a0c643ba7ae07abaa72675b658ee78618065d2eebfeb0da66d6ed32fd",
+  "content": "# SNMP Credentials / Host-Inbound SNMP\n\nProduction SNMP credentials must not be stored in public documentation.\n\nDo not publish:\n\n- Community strings\n- Authentication passwords\n- Privacy passwords\n- SNMPv3 secrets\n\nPublic examples should use placeholders.\n\n---\n\nSNMP traffic destined to the SRX itself may require host-inbound permission on the appropriate security zone or interface.\n\nIf SNMP monitoring fails, verify:\n\n1. IP reachability\n2. Routing\n3. Security zone\n4. Host-inbound SNMP permission\n5. SNMP configuration\n6. Source restrictions\n7. Credentials\n8. Monitoring-server configuration\n\n---"
+}

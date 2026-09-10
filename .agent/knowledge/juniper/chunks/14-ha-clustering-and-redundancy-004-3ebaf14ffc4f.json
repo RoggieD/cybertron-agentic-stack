@@ -1,0 +1,9 @@
+{
+  "chunk_id": "14-ha-clustering-and-redundancy-004-3ebaf14ffc4f",
+  "kb": "juniper",
+  "source_path": "docs/14-ha-clustering-and-redundancy.md",
+  "source_title": "14-ha-clustering-and-redundancy",
+  "section": "Cluster Nodes / Redundancy Groups",
+  "sha256": "3ebaf14ffc4fa34fe9dd57fe4dfe7abc0af92cc48a50ea03f49386672e1a4ca7",
+  "content": "# Cluster Nodes / Redundancy Groups\n\nA chassis cluster typically contains two nodes.\n\nConceptually:\n\nNode 0\n\nNode 1\n\nOne node may hold the active role for a redundancy group while the other provides backup capability.\n\nDifferent redundancy groups may control different resources.\n\n---\n\nRedundancy groups define failover ownership.\n\nCommon concepts include:\n\n- Redundancy group 0\n- Redundancy group 1 and higher\n\nRedundancy group 0 commonly relates to control-plane redundancy.\n\nAdditional redundancy groups may manage data-plane interface ownership.\n\nExact behavior should be verified against the platform and Junos release.\n\n---"
+}

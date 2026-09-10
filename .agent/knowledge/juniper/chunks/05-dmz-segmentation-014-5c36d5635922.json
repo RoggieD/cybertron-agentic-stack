@@ -1,0 +1,9 @@
+{
+  "chunk_id": "05-dmz-segmentation-014-5c36d5635922",
+  "kb": "juniper",
+  "source_path": "examples/05-dmz-segmentation.md",
+  "source_title": "05-dmz-segmentation",
+  "section": "Optional Logging",
+  "sha256": "5c36d5635922c6c2ca46efd1a77037899ab8689f13fa8578107fa295f4b67db1",
+  "content": "# Optional Logging\n\nEnable session logging if operationally useful:\n\nset security policies from-zone untrust to-zone dmz policy INTERNET-TO-DMZ-HTTPS then log session-init\n\nset security policies from-zone untrust to-zone dmz policy INTERNET-TO-DMZ-HTTPS then log session-close\n\nUse logging selectively for high-volume services.\n\n---"
+}

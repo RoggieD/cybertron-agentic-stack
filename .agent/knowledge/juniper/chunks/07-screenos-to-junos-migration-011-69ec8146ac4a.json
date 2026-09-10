@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-screenos-to-junos-migration-011-69ec8146ac4a",
+  "kb": "juniper",
+  "source_path": "docs/07-screenos-to-junos-migration.md",
+  "source_title": "07-screenos-to-junos-migration",
+  "section": "Source NAT Migration",
+  "sha256": "69ec8146ac4a13cd2abd171ade674281f1469e078ae62a16063fc59edd2000ea",
+  "content": "# Source NAT Migration\n\nScreenOS source NAT behavior may be implemented differently in Junos.\n\nLegacy configuration should be analyzed for:\n\n- Interface NAT\n- Policy-based NAT\n- Source translation pools\n- Public address usage\n\nJunos source NAT is typically configured under:\n\nsecurity nat source\n\nMigration should reproduce intended behavior, not syntax.\n\n---"
+}

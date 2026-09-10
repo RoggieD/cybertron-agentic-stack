@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-troubleshooting-published-service-019-84172a4bf1ac",
+  "kb": "juniper",
+  "source_path": "examples/10-troubleshooting-published-service.md",
+  "source_title": "10-troubleshooting-published-service",
+  "section": "Policy Matches but Server Never Responds / TCP Connects but TLS Fails",
+  "sha256": "84172a4bf1acae9231d764e81de54d5a1b434dc8b3870313c438f93756fea2da",
+  "content": "# Policy Matches but Server Never Responds / TCP Connects but TLS Fails\n\nLikely areas:\n\n- Server offline\n- Host firewall\n- Wrong service port\n- Wrong gateway\n- Return routing\n\nLikely areas:\n\n- Certificate\n- TLS configuration\n- Reverse proxy\n- Application\n- SNI or hostname behavior\n\nDo not change firewall policy to fix an application-layer TLS problem.\n\n---"
+}

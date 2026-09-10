@@ -1,0 +1,9 @@
+{
+  "chunk_id": "01-basic-edge-firewall-011-8f4f5af00ec9",
+  "kb": "juniper",
+  "source_path": "examples/01-basic-edge-firewall.md",
+  "source_title": "01-basic-edge-firewall",
+  "section": "Document Status",
+  "sha256": "8f4f5af00ec9bad48e4f74b919d071f01f5a0daf9da10fdf5c0aac9c11089c4b",
+  "content": "# Document Status\n\nDocument Type: Configuration Example\n\nExample Type: Basic Edge Firewall\n\nKnowledge Base: Juniper SRX320 Knowledge Base\n\nVersion: 0.1.0\n\nStatus: Example / Non-Production"
+}

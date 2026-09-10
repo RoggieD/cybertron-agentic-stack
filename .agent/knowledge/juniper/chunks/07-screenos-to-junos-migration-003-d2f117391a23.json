@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-screenos-to-junos-migration-003-d2f117391a23",
+  "kb": "juniper",
+  "source_path": "docs/07-screenos-to-junos-migration.md",
+  "source_title": "07-screenos-to-junos-migration",
+  "section": "Platform Difference",
+  "sha256": "d2f117391a23364cd72817eb69990e13c64257b448459f57757b3edd61db67e7",
+  "content": "# Platform Difference\n\nScreenOS commonly appears on:\n\n- SSG-series devices\n- NetScreen platforms\n\nJunos commonly appears on:\n\n- SRX-series devices\n- Juniper routing and switching platforms\n\nScreenOS typically uses a flatter command model.\n\nJunos uses a hierarchical candidate configuration with commit behavior.\n\n---"
+}

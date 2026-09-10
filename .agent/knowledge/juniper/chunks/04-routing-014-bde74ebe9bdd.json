@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-routing-014-bde74ebe9bdd",
+  "kb": "juniper",
+  "source_path": "docs/04-routing.md",
+  "source_title": "04-routing",
+  "section": "Routing Instances",
+  "sha256": "bde74ebe9bdd68860eeb1e94eb526986eab6b51acc1435cdaf4a1a2696b4c230",
+  "content": "# Routing Instances\n\nJunos supports routing instances for logical separation of routing domains.\n\nRouting instances may be used for:\n\n- Virtual routing\n- VPNs\n- Tenant separation\n- Specialized service paths\n\nDo not assume an interface or route belongs to the default routing instance.\n\nVerify active configuration when routing behavior appears inconsistent.\n\n---"
+}

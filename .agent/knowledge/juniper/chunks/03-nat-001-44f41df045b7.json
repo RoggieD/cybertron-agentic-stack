@@ -1,0 +1,9 @@
+{
+  "chunk_id": "03-nat-001-44f41df045b7",
+  "kb": "juniper",
+  "source_path": "docs/03-nat.md",
+  "source_title": "03-nat",
+  "section": "Scope",
+  "sha256": "44f41df045b70f78e024cd8438233f00de3b8fd4e9a0cf5c172d14f4211e148e",
+  "content": "# Scope\n\nThis document explains NAT concepts on the Juniper SRX320 using Junos OS.\n\nIt provides platform-level guidance for:\n\n- Source NAT\n- Destination NAT\n- Static NAT\n- NAT troubleshooting\n- NAT rule design\n- NAT interaction with routing and security policies\n\nIt does not represent a specific production NAT configuration unless explicitly labeled.\n\n---"
+}

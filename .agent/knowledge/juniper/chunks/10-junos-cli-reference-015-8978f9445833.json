@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-junos-cli-reference-015-8978f9445833",
+  "kb": "juniper",
+  "source_path": "docs/10-junos-cli-reference.md",
+  "source_title": "10-junos-cli-reference",
+  "section": "Deactivate and Activate / Commit Safety Workflow",
+  "sha256": "8978f94458337ec0d3f529bee23f06bf0475469cff43931c9a37f2edea3faba5",
+  "content": "# Deactivate and Activate / Commit Safety Workflow\n\nConfiguration may be deactivated without deleting it.\n\nConcepts include:\n\ndeactivate\n\nactivate\n\nThis can be useful when temporarily disabling configuration while preserving it.\n\nAlways verify version-specific behavior.\n\n---\n\nRecommended workflow:\n\n1. configure\n2. Make one logical change.\n3. show | compare\n4. commit check\n5. commit confirmed when lockout risk exists\n6. Test\n7. Confirm commit\n8. Document result\n\n---"
+}

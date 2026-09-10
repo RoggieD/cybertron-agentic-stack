@@ -1,0 +1,9 @@
+{
+  "chunk_id": "02-destination-nat-web-server-002-09823adaeaaa",
+  "kb": "juniper",
+  "source_path": "examples/02-destination-nat-web-server.md",
+  "source_title": "02-destination-nat-web-server",
+  "section": "Example Topology / Traffic Objective",
+  "sha256": "09823adaeaaad220c378af748643a7fedd0b7e99243173b35229e6323ceafe42",
+  "content": "# Example Topology / Traffic Objective\n\nPublic IP:\n\n198.51.100.20\n\nInternal Web Server:\n\n192.0.2.20\n\nPublic Service:\n\nHTTPS TCP/443\n\nWAN Interface:\n\nge-0/0/0.0\n\nLAN Interface:\n\nge-0/0/1.0\n\nWAN Zone:\n\nuntrust\n\nLAN Zone:\n\ntrust\n\n---\n\nExternal clients connect to:\n\n198.51.100.20 TCP/443\n\nThe SRX translates the destination to:\n\n192.0.2.20 TCP/443\n\nThe traffic is then permitted by a security policy from:\n\nuntrust -> trust\n\n---"
+}

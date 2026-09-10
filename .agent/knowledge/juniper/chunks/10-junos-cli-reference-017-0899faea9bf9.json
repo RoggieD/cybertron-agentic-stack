@@ -1,0 +1,9 @@
+{
+  "chunk_id": "10-junos-cli-reference-017-0899faea9bf9",
+  "kb": "juniper",
+  "source_path": "docs/10-junos-cli-reference.md",
+  "source_title": "10-junos-cli-reference",
+  "section": "Commands to Treat Carefully",
+  "sha256": "0899faea9bf9cf3e193e1456368255235d1fa2fa3bc3f86ab246bb836aa70245",
+  "content": "# Commands to Treat Carefully\n\nUse caution with commands or actions that:\n\n- Clear sessions\n- Delete configuration\n- Roll back multiple revisions\n- Reboot the device\n- Restart services\n- Change management addressing\n- Change default routing\n- Change zone membership\n- Change NAT rules\n- Change security policies\n\nAlways understand impact before execution.\n\n---"
+}

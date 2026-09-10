@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-screenos-to-junos-migration-023-583412aaa916",
+  "kb": "juniper",
+  "source_path": "docs/07-screenos-to-junos-migration.md",
+  "source_title": "07-screenos-to-junos-migration",
+  "section": "Cutover Planning",
+  "sha256": "583412aaa91692396cc2d71dda26661db4e1064b711df598eef1ddde4e16ccab",
+  "content": "# Cutover Planning\n\nA firewall migration should define:\n\n- Maintenance window\n- Current configuration backup\n- Target configuration backup\n- Console access\n- Physical cable map\n- Public IP mapping\n- Rollback procedure\n- Test plan\n- Success criteria\n- Failure criteria\n\n---"
+}

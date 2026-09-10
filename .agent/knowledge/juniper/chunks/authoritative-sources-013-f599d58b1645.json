@@ -1,0 +1,9 @@
+{
+  "chunk_id": "authoritative-sources-013-f599d58b1645",
+  "kb": "juniper",
+  "source_path": "source-material/authoritative-sources.md",
+  "source_title": "authoritative-sources",
+  "section": "Publication Rules",
+  "sha256": "f599d58b1645fa10c452170f79080716172fac2bcdc35f99caa76d2c66a7327a",
+  "content": "# Publication Rules\n\nWhen this knowledge base is published:\n\n- Do not redistribute Juniper documentation wholesale.\n- Do not reproduce large vendor documentation sections.\n- Prefer original explanation and synthesis.\n- Cite or reference authoritative vendor documentation where appropriate.\n- Do not imply Juniper endorsement.\n- Do not label content vendor-certified unless such certification exists.\n- Maintain validation status separately from documentation quality.\n\n---"
+}

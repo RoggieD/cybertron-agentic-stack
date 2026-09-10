@@ -1,0 +1,9 @@
+{
+  "chunk_id": "14-ha-clustering-and-redundancy-018-6c60d861d11f",
+  "kb": "juniper",
+  "source_path": "docs/14-ha-clustering-and-redundancy.md",
+  "source_title": "14-ha-clustering-and-redundancy",
+  "section": "Maintenance",
+  "sha256": "6c60d861d11f1a6795ff171fb20ad28e213f55e8334d02608b7b4c4ada93f2d7",
+  "content": "# Maintenance\n\nHA can enable maintenance with reduced downtime, but failover should be validated before relying on it.\n\nBefore maintenance:\n\n1. Verify both nodes are healthy.\n2. Verify synchronization.\n3. Verify redundancy groups.\n4. Verify interface state.\n5. Verify routing.\n6. Verify monitoring.\n7. Confirm rollback options.\n\n---"
+}

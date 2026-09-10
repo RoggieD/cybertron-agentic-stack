@@ -1,0 +1,9 @@
+{
+  "chunk_id": "07-source-nat-pool-014-b31b272ef2a8",
+  "kb": "juniper",
+  "source_path": "examples/07-source-nat-pool.md",
+  "source_title": "07-source-nat-pool",
+  "section": "Rule Does Not Match / Translation Occurs but No Return Traffic / Traffic Leaves but Application Fails",
+  "sha256": "b31b272ef2a867699e2fae8ad495920fd26e3c632fff78fa0930b92c99344306",
+  "content": "# Rule Does Not Match / Translation Occurs but No Return Traffic / Traffic Leaves but Application Fails\n\nPossible causes:\n\n- Wrong source zone\n- Wrong destination zone\n- Wrong source subnet\n- Rule ordering issue\n\nPossible causes:\n\n- Public address not routed to SRX\n- Proxy ARP requirement\n- Upstream routing problem\n- Asymmetric return path\n\nPossible causes:\n\n- DNS\n- Remote service\n- MTU\n- Application issue\n- Upstream filtering\n\nDo not assume every failure is caused by NAT.\n\n---"
+}

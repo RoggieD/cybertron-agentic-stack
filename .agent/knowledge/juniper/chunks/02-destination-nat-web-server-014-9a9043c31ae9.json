@@ -1,0 +1,9 @@
+{
+  "chunk_id": "02-destination-nat-web-server-014-9a9043c31ae9",
+  "kb": "juniper",
+  "source_path": "examples/02-destination-nat-web-server.md",
+  "source_title": "02-destination-nat-web-server",
+  "section": "Troubleshooting Sequence",
+  "sha256": "9a9043c31ae95815cccd4ad60365eb345a1fb513c26ce14328aadea02e22ad4e",
+  "content": "# Troubleshooting Sequence\n\nIf HTTPS is not reachable externally, verify:\n\n1. WAN interface state\n2. Public IP routing\n3. Destination NAT rule match\n4. Destination NAT pool\n5. Internal route\n6. Destination security zone\n7. Address object\n8. Security policy\n9. Session table\n10. Internal server state\n11. Internal server gateway\n12. Return path\n13. Logs\n\n---"
+}

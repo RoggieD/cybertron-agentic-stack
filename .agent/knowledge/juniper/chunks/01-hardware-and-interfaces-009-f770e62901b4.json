@@ -1,0 +1,9 @@
+{
+  "chunk_id": "01-hardware-and-interfaces-009-f770e62901b4",
+  "kb": "juniper",
+  "source_path": "docs/01-hardware-and-interfaces.md",
+  "source_title": "01-hardware-and-interfaces",
+  "section": "Interface Troubleshooting",
+  "sha256": "f770e62901b4ca123905fb44934294fa58dd4c7658dd90d6eb35944e20f86a91",
+  "content": "# Interface Troubleshooting\n\nWhen troubleshooting an interface, verify:\n\n1. Physical link state\n2. Administrative state\n3. Logical unit configuration\n4. IP addressing\n5. VLAN membership\n6. Routing\n7. Security-zone assignment\n8. Security policy\n9. NAT behavior\n10. Error counters\n\nDo not jump directly to firewall policy troubleshooting before verifying basic interface state.\n\n---"
+}

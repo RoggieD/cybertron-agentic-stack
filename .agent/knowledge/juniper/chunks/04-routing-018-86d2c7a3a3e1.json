@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-routing-018-86d2c7a3a3e1",
+  "kb": "juniper",
+  "source_path": "docs/04-routing.md",
+  "source_title": "04-routing",
+  "section": "Public Release Guidance",
+  "sha256": "86d2c7a3a3e16cc068206b6adea6ea3bf6c8576197ece5cd7ec900d9c04af799",
+  "content": "# Public Release Guidance\n\nBefore publishing routing examples:\n\n- Replace real public IP addresses\n- Remove internal infrastructure identifiers\n- Remove private hostnames\n- Remove customer-specific routes\n- Preserve technical patterns without exposing topology\n\nUse documentation address ranges when examples require public IP addressing.\n\n---"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "11-security-hardening-018-1c2377600d4c",
+  "kb": "juniper",
+  "source_path": "docs/11-security-hardening.md",
+  "source_title": "11-security-hardening",
+  "section": "Routing Protocol Security",
+  "sha256": "1c2377600d4c549573f5ebf617447add7c46539f95570e5c19f1514e2e7613a9",
+  "content": "# Routing Protocol Security\n\nIf dynamic routing protocols are used, consider:\n\n- Authentication\n- Neighbor restrictions\n- Interface scope\n- Route filtering\n- Route policy\n- Management-plane exposure\n\nDo not enable routing protocols on interfaces where they are not required.\n\n---"
+}

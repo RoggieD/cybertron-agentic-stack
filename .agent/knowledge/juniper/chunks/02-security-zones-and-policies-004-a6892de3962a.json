@@ -1,0 +1,9 @@
+{
+  "chunk_id": "02-security-zones-and-policies-004-a6892de3962a",
+  "kb": "juniper",
+  "source_path": "docs/02-security-zones-and-policies.md",
+  "source_title": "02-security-zones-and-policies",
+  "section": "Security Policies",
+  "sha256": "a6892de3962a717d1088cfe05b5b0b71ff4de2f096185925fe76e1b8ccea43d3",
+  "content": "# Security Policies\n\nSecurity policies control transit traffic between security zones.\n\nA policy normally evaluates:\n\n- Source zone\n- Destination zone\n- Source address\n- Destination address\n- Application\n- Action\n- Logging behavior\n\nA typical policy action is:\n\npermit\n\nor\n\ndeny\n\n---"
+}

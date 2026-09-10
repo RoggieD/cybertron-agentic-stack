@@ -1,0 +1,9 @@
+{
+  "chunk_id": "01-hardware-and-interfaces-005-1499db038bdf",
+  "kb": "juniper",
+  "source_path": "docs/01-hardware-and-interfaces.md",
+  "source_title": "01-hardware-and-interfaces",
+  "section": "IPv6 Interfaces / Ethernet Switching",
+  "sha256": "1499db038bdf1008fb8403251fbe3c6530cce7e40027ba26da47ac41498a6697",
+  "content": "# IPv6 Interfaces / Ethernet Switching\n\nIPv6 commonly uses:\n\nfamily inet6\n\nExample structure:\n\ninterfaces {\n    ge-0/0/0 {\n        unit 0 {\n            family inet6 {\n                address 2001:db8::1/64;\n            }\n        }\n    }\n}\n\nThis is an example only.\n\n---\n\nSRX interfaces may be configured for Ethernet switching depending on Junos version and platform configuration.\n\nSwitching-related interface configuration may use:\n\nfamily ethernet-switching\n\nCommon use cases include:\n\n- Access ports\n- VLAN membership\n- Internal switched LAN segments\n\nSwitching behavior must be verified against the installed Junos version and active device configuration.\n\n---"
+}

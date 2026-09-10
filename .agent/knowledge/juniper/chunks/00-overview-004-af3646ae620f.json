@@ -1,0 +1,9 @@
+{
+  "chunk_id": "00-overview-004-af3646ae620f",
+  "kb": "juniper",
+  "source_path": "docs/00-overview.md",
+  "source_title": "00-overview",
+  "section": "Operational Modes / Operational Mode",
+  "sha256": "af3646ae620fc9cb29c46dccbe4e1d516afb3159b00b357473b08cc897d762f4",
+  "content": "# Operational Modes / Operational Mode\n\nJunos commonly uses two primary CLI modes.\n\nOperational mode is used for:\n\n- Viewing system status\n- Running diagnostic commands\n- Viewing interfaces\n- Viewing routes\n- Viewing sessions\n- Viewing logs\n- Testing connectivity\n\nOperational mode prompt commonly ends with:\n\n>\n\nExample:\n\nuser@srx320>"
+}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "08-dual-wan-failover-concepts-011-22a5a7ae411e",
+  "kb": "juniper",
+  "source_path": "examples/08-dual-wan-failover-concepts.md",
+  "source_title": "08-dual-wan-failover-concepts",
+  "section": "NAT Pool Considerations",
+  "sha256": "22a5a7ae411ef4b9d12146b3676d3e12ad7f1d4faea6c4d815bf401e8dc264da",
+  "content": "# NAT Pool Considerations\n\nExplicit public NAT pools can complicate failover.\n\nA public IP assigned by ISP-A may not be usable through ISP-B.\n\nTherefore, failover design must distinguish between:\n\n- Provider-specific public IPs\n- Portable address space\n- Interface NAT\n- NAT pools\n- Static NAT\n- Published services\n\nDo not assume outbound and inbound failover have the same design requirements.\n\n---"
+}

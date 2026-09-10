@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-management-hardening-005-be2e1d4ebffd",
+  "kb": "juniper",
+  "source_path": "examples/06-management-hardening.md",
+  "source_title": "06-management-hardening",
+  "section": "SSH Service / Administrative Users",
+  "sha256": "be2e1d4ebffd83c6ba6be6f6ee8311a131681383e015b64db3df46a970a9a879",
+  "content": "# SSH Service / Administrative Users\n\nEnable the SSH system service:\n\nset system services ssh\n\nHost-inbound SSH permission and the SSH system service are separate requirements.\n\nExact optional SSH parameters may vary by Junos version.\n\n---\n\nUse named administrative users rather than shared credentials where practical.\n\nA production account design should identify:\n\n- Username\n- Role\n- Login class\n- Authentication method\n- Operational purpose\n\nDo not include real passwords or keys in public documentation.\n\n---"
+}

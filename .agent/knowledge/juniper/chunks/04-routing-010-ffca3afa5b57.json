@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-routing-010-ffca3afa5b57",
+  "kb": "juniper",
+  "source_path": "docs/04-routing.md",
+  "source_title": "04-routing",
+  "section": "Route Verification / Routing and Security Zones",
+  "sha256": "ffca3afa5b573da6fe64cfd4b1942d6c8af85e90698b4794026867d8a0271ec6",
+  "content": "# Route Verification / Routing and Security Zones\n\nWhen verifying a route, confirm:\n\n1. Destination prefix\n2. Active route\n3. Route protocol\n4. Preference\n5. Next hop\n6. Outgoing interface\n7. Next-hop reachability\n8. Routing instance\n9. More-specific competing routes\n\n---\n\nRouting determines where traffic should go.\n\nSecurity zones define trust boundaries.\n\nA route may direct traffic toward an interface in a specific zone.\n\nSecurity policy must still permit the traffic between the applicable source and destination zones.\n\nRouting does not bypass security policy.\n\n---"
+}

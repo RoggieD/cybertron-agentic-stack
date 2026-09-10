@@ -1,0 +1,9 @@
+{
+  "chunk_id": "11-security-hardening-009-c607401b40c3",
+  "kb": "juniper",
+  "source_path": "docs/11-security-hardening.md",
+  "source_title": "11-security-hardening",
+  "section": "Security Policies",
+  "sha256": "c607401b40c30ffd218a01c33c16d70c406ef7afc948ee782aae3f14a194f10a",
+  "content": "# Security Policies\n\nSecurity policies should follow least-privilege principles.\n\nPrefer:\n\n- Specific source networks\n- Specific destinations\n- Specific applications\n- Clear policy names\n- Documented business purpose\n\nAvoid broad rules such as:\n\nsource-address any\ndestination-address any\napplication any\n\nunless they are justified and understood.\n\n---"
+}

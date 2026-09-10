@@ -1,0 +1,9 @@
+{
+  "chunk_id": "12-vpn-and-ipsec-008-ca397b28c47a",
+  "kb": "juniper",
+  "source_path": "docs/12-vpn-and-ipsec.md",
+  "source_title": "12-vpn-and-ipsec",
+  "section": "Secure Tunnel Interfaces / VPN Security Zones",
+  "sha256": "ca397b28c47a30fc7ce0ba1267bb4af4620b56d916800c35819a04f6419b4de7",
+  "content": "# Secure Tunnel Interfaces / VPN Security Zones\n\nTunnel interfaces should be documented with:\n\n- Interface name\n- Logical unit\n- Security zone\n- IP addressing if used\n- VPN association\n- Routing purpose\n- Monitoring state\n\nDo not assume all VPNs use the same tunnel interface.\n\n---\n\nRoute-based VPN tunnel interfaces may be assigned to security zones.\n\nA dedicated VPN zone may be used.\n\nExample concepts include:\n\nvpn\n\npartners\n\nbranches\n\nZone names are deployment-specific.\n\nDo not assume a particular zone name.\n\n---"
+}

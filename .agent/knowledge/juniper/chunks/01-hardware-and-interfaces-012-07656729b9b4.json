@@ -1,0 +1,9 @@
+{
+  "chunk_id": "01-hardware-and-interfaces-012-07656729b9b4",
+  "kb": "juniper",
+  "source_path": "docs/01-hardware-and-interfaces.md",
+  "source_title": "01-hardware-and-interfaces",
+  "section": "Loopback Interfaces",
+  "sha256": "07656729b9b442a6d4fa4ad74ea3482d1745db134b7b9be569b5120496e05e75",
+  "content": "# Loopback Interfaces\n\nLoopback interfaces may be used for:\n\n- Stable management addressing\n- Routing protocol identifiers\n- Monitoring\n- VPN endpoints\n- Service binding\n\nCommon Junos loopback interface name:\n\nlo0\n\nA loopback address is independent of the operational state of a specific physical Ethernet port.\n\n---"
+}

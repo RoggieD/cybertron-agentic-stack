@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-configuration-backup-and-recovery-012-85ca0bb71e0b",
+  "kb": "juniper",
+  "source_path": "docs/09-configuration-backup-and-recovery.md",
+  "source_title": "09-configuration-backup-and-recovery",
+  "section": "File Naming / Backup Integrity",
+  "sha256": "85ca0bb71e0b959ead01472c2835cee48cf7b0eed63d1c5318d90227281297d3",
+  "content": "# File Naming / Backup Integrity\n\nUse descriptive backup names.\n\nExample pattern:\n\nsrx320-config-YYYY-MM-DD-HHMM.conf\n\nOptional additions may include:\n\n- hostname\n- environment\n- change ticket\n- version\n\nAvoid ambiguous names such as:\n\nbackup.conf\n\nnew.conf\n\nfinal.conf\n\n---\n\nA backup should be:\n\n- Readable\n- Complete\n- Stored off-device\n- Protected from unauthorized access\n- Versioned\n- Tested when practical\n\nA backup that cannot be restored is not a reliable recovery mechanism.\n\n---"
+}

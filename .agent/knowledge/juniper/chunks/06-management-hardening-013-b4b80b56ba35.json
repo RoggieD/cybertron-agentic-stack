@@ -1,0 +1,9 @@
+{
+  "chunk_id": "06-management-hardening-013-b4b80b56ba35",
+  "kb": "juniper",
+  "source_path": "examples/06-management-hardening.md",
+  "source_title": "06-management-hardening",
+  "section": "Verification",
+  "sha256": "b4b80b56ba352cafccca52cacdfef50861fcf3407ad3dae0251c5fdb71b204e9",
+  "content": "# Verification\n\nVerify interface:\n\nshow interfaces terse\n\nVerify zone:\n\nshow security zones\n\nVerify system services:\n\nshow configuration system services\n\nVerify host-inbound configuration:\n\nshow configuration security zones\n\nVerify commit history:\n\nshow system commit\n\n---"
+}

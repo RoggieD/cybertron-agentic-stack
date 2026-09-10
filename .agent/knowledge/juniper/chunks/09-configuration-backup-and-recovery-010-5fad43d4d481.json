@@ -1,0 +1,9 @@
+{
+  "chunk_id": "09-configuration-backup-and-recovery-010-5fad43d4d481",
+  "kb": "juniper",
+  "source_path": "docs/09-configuration-backup-and-recovery.md",
+  "source_title": "09-configuration-backup-and-recovery",
+  "section": "Configuration Backup",
+  "sha256": "5fad43d4d481dc57ef8ed3fed41e326729f433e8ba28817e3e1a616cec288d72",
+  "content": "# Configuration Backup\n\nConfiguration backups should be stored outside the SRX.\n\nRecommended backup events include:\n\n- Initial deployment\n- Before major changes\n- After successful migration\n- Before Junos upgrades\n- After verified policy changes\n- After NAT changes\n- After routing changes\n- After management changes\n\n---"
+}

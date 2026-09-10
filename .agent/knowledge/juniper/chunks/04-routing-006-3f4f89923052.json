@@ -1,0 +1,9 @@
+{
+  "chunk_id": "04-routing-006-3f4f89923052",
+  "kb": "juniper",
+  "source_path": "docs/04-routing.md",
+  "source_title": "04-routing",
+  "section": "Route Preference",
+  "sha256": "3f4f899230523d852246299bd2f909b7f4969bbe1fbb8b155669105a785b448c",
+  "content": "# Route Preference\n\nJunos uses route preference values to select among competing routes.\n\nLower preference values are generally preferred over higher values.\n\nRoute selection may depend on:\n\n- Route protocol\n- Preference\n- Route specificity\n- Next-hop reachability\n- Routing instance\n- Policy\n\nWhen multiple routes exist, verify which route is active rather than assuming one is being used.\n\n---"
+}

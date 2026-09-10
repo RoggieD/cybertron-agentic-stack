@@ -1,0 +1,9 @@
+{
+  "chunk_id": "13-logging-snmp-and-zabbix-021-fbf4079ffa39",
+  "kb": "juniper",
+  "source_path": "docs/13-logging-snmp-and-zabbix.md",
+  "source_title": "13-logging-snmp-and-zabbix",
+  "section": "Useful Operational Commands",
+  "sha256": "fbf4079ffa397b91b2688f367c7cfad77d677b2129392c69c11cdfb35bd79ac5",
+  "content": "# Useful Operational Commands\n\nCommands may include:\n\nshow interfaces terse\n\nshow interfaces extensive\n\nshow system uptime\n\nshow chassis alarms\n\nshow system alarms\n\nshow system processes extensive\n\nshow system storage\n\nshow configuration snmp\n\nshow configuration system syslog\n\nshow system commit\n\nExact support and syntax may vary by Junos version.\n\n---"
+}
