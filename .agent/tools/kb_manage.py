@@ -973,11 +973,22 @@ def refresh_kb(kb_id: str):
 
     print(f"REFRESH KB: {kb_id}")
 
-    source_backup = backup_source(kb_id)
+    source_value = kb.get("source_path")
+    source_path = (
+        resolve_agent_path(source_value)
+        if source_value
+        else None
+    )
 
-    if source_backup is None:
-        print("REFRESH: FAIL (source backup failed)")
-        return 1
+    if source_path and source_path.exists():
+        source_backup = backup_source(kb_id)
+
+        if source_backup is None:
+            print("REFRESH: FAIL (source backup failed)")
+            return 1
+    else:
+        source_backup = None
+        print("SOURCE BACKUP: SKIP (source not yet materialized)")
 
     chunk_backup = backup_chunks(kb_id)
 
