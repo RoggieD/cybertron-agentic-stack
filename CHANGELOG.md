@@ -5,6 +5,88 @@ All notable changes to this project.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and the project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## CyberTron releases
+
+## [0.1.0] — 2026-09-10
+
+Initial public release of CyberTron Agentic Stack.
+
+CyberTron is a derivative of the original Agentic Stack project and extends
+the upstream architecture with a local-first, model-independent operational
+layer focused on persistent memory, local inference, knowledge-base lifecycle
+management, and multi-harness AI workflows.
+
+### Added
+
+- **Local-first Ollama inference.** Ollama is the default provider, with
+  `qwen3.5:9b` as the default local model and configurable model and endpoint
+  settings through environment variables.
+- **Persistent CyberTron memory architecture.** Model-independent memory is
+  maintained separately from reference knowledge so the agent's operational
+  history and learned context are not tied to a single LLM provider.
+- **Knowledge-base lifecycle tooling.** Added commands for listing, inspecting,
+  verifying, rebuilding, refreshing, rolling back, and maintaining provenance
+  for managed knowledge bases.
+- **Open WebUI knowledge base integration.** Open WebUI documentation can be
+  retrieved from its authoritative upstream repository and reconstructed
+  locally instead of redistributing the documentation corpus.
+- **Juniper SRX320 knowledge base.** Added a sanitized, structured technical
+  knowledge base with source provenance and publication boundaries.
+- **Multi-harness support.** CyberTron can operate across supported harnesses
+  including Claude Code, Codex, Copilot CLI, Cursor, Gemini, Hermes, OpenClaw,
+  OpenCode, Pi, Windsurf, standalone Python, and others inherited from the
+  Agentic Stack architecture.
+- **Bounded agent-loop support.** Retained and extended the upstream bounded
+  workflow framework for controlled maker, verifier, and checker operations.
+- **Source-checkout installation.** CyberTron installation and management are
+  documented around the repository's `install.sh` and `install.ps1` entry
+  points rather than the inherited upstream Homebrew package.
+
+### Security and release preparation
+
+- Sanitized CyberTron-specific Git history before public publication.
+- Removed private infrastructure paths and deployment-specific identifiers.
+- Verified the public CyberTron commit range with Gitleaks.
+- Added `SECURITY.md`.
+- Added CyberTron-specific licensing and provenance documentation.
+- Kept Open WebUI source documents and generated chunks out of the distributed
+  repository; they are reconstructed locally.
+- Sanitized the public Juniper knowledge base and verified its provenance.
+- Removed the inherited upstream Homebrew formula to prevent users from
+  accidentally installing the upstream package as CyberTron.
+
+### Validation
+
+The release candidate passed:
+
+- Juniper knowledge-base verification: 32 documents / 626 chunks.
+- Open WebUI knowledge-base status: 427 documents / 5,046 chunks with current
+  upstream provenance.
+- Python compilation checks for `.agent` and `harness_manager`.
+- POSIX shell syntax validation for `install.sh`.
+- Git whitespace and working-tree cleanliness checks.
+- Bounded-loop validation: 3/3 valid.
+
+### Release
+
+- Release tag: `v0.1.0`
+- Release commit: `ed3fe05c36f75493585cd9beb63555a0277a87a0`
+- Repository: <https://github.com/RoggieD/cybertron-agentic-stack>
+- Release: <https://github.com/RoggieD/cybertron-agentic-stack/releases/tag/v0.1.0>
+
+### Attribution
+
+CyberTron Agentic Stack is a derivative work based on the original
+[Agentic Stack](https://github.com/codejunkie99/agentic-stack) project by
+Avidlive / @AV1DLIVE.
+
+The historical release notes below are retained from the upstream project for
+provenance and development history. They are not CyberTron release numbers.
+
+---
+
+## Upstream Agentic Stack release history
+
 ## [0.19.1] — 2026-08-07
 
 Patch release. Four correctness fixes in memory retrieval, project upgrade, and
