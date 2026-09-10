@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "knowledge_base": "juniper-srx320",
-  "source_type": "local_snapshot",
-  "source_path": ".agent/knowledge/juniper/source/juniper-srx320",
-  "snapshot_path": ".agent/knowledge/juniper/source/juniper-srx320",
-  "generated_utc": "2026-09-10T12:00:56.116414+00:00",
-  "file_count": 43,
-  "private_content_included": false,
-  "excluded_paths": [
-    "private/srx320-production.md"
-  ],
+  "knowledge_base": "juniper",
+  "source_type": "local",
+  "source_repository": null,
+  "source_branch": null,
+  "source_commit": null,
+  "generated_utc": "2026-09-10T16:46:24.713606+00:00",
+  "source_file_count": 43,
+  "chunk_count": 626,
+  "source_root": ".agent/knowledge/juniper/source/juniper-srx320",
+  "excluded_from_chunking": [],
   "files": [
     {
       "path": "CHANGELOG.md",
@@ -18,8 +18,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 4266,
-      "sha256": "066a631e08ac643f26d19f1516c11648b80745cff71b98ca9ed158359738af3d"
+      "size_bytes": 4226,
+      "sha256": "daaf63fb672da66117e5759411edac43d50a0766d92817c2352c181ee62bdad6"
     },
     {
       "path": "docs/00-overview.md",

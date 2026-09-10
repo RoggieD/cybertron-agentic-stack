@@ -1,0 +1,9 @@
+{
+  "chunk_id": "readme-004-684eb3d58be9",
+  "kb": "juniper",
+  "source_path": "README.md",
+  "source_title": "README",
+  "section": "Configuration State Model / LEGACY PRODUCTION / SRX320 TARGET / SRX320 VERIFIED PRODUCTION",
+  "sha256": "684eb3d58be9aba9a72d2537f9a632f9fd5b9eb76085363c0a07deeff81ffdd8",
+  "content": "# Configuration State Model / LEGACY PRODUCTION / SRX320 TARGET / SRX320 VERIFIED PRODUCTION\n\nDeployment-specific information must clearly identify one of the following states:\n\nConfiguration associated with the previous Juniper SSG-series firewall using ScreenOS.\n\nPlanned SRX320 configuration that has not yet been verified in production.\n\nConfiguration that has been deployed and successfully tested on the production SRX320.\n\nPlanned configuration must never be represented as verified production state."
+}

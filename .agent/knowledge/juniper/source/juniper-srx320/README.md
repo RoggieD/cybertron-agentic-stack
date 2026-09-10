@@ -47,7 +47,7 @@ Directory structure:
 
 ## Configuration State Model
 
-Information related to the Grid Micro / Stony Point Partners deployment must clearly identify one of the following states:
+Deployment-specific information must clearly identify one of the following states:
 
 ### LEGACY PRODUCTION
 

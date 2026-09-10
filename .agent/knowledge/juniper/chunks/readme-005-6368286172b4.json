@@ -1,9 +1,0 @@
-{
-  "chunk_id": "readme-005-6368286172b4",
-  "kb": "juniper",
-  "source_path": "README.md",
-  "source_title": "README",
-  "section": "SRX320 VERIFIED PRODUCTION / ScreenOS and Junos",
-  "sha256": "6368286172b45c0617c259cbc81db63f69854c8132d5cc91f7daedf9670d274d",
-  "content": "# SRX320 VERIFIED PRODUCTION / ScreenOS and Junos\n\nConfiguration that has been deployed and successfully tested on the production SRX320.\n\nPlanned configuration must never be represented as verified production state.\n\nScreenOS and Junos are different operating systems with different configuration models.\n\nCommands or configuration syntax from ScreenOS must not be presented as valid Junos syntax unless explicitly translated and verified.\n\nMigration documentation should explain functional equivalence rather than performing blind command substitution."
-}

@@ -1,0 +1,9 @@
+{
+  "chunk_id": "readme-005-23bff8d206a8",
+  "kb": "juniper",
+  "source_path": "README.md",
+  "source_title": "README",
+  "section": "ScreenOS and Junos",
+  "sha256": "23bff8d206a8b9ced5093c3007a594dd82780910526a5e1f6d4e7acd987c764b",
+  "content": "# ScreenOS and Junos\n\nScreenOS and Junos are different operating systems with different configuration models.\n\nCommands or configuration syntax from ScreenOS must not be presented as valid Junos syntax unless explicitly translated and verified.\n\nMigration documentation should explain functional equivalence rather than performing blind command substitution."
+}
