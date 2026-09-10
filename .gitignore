@@ -52,3 +52,8 @@ venv/
 
 # CyberTron KB lifecycle rollback snapshots
 .agent/knowledge/*/backups/
+
+# Open WebUI KB source and generated chunks
+# Reconstructed locally from the authoritative upstream repository.
+.agent/knowledge/open-webui/source/
+.agent/knowledge/open-webui/chunks/
