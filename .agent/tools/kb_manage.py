@@ -222,6 +222,101 @@ def backup_chunks(kb_id: str):
     return backup_path
 
 
+def source_check_kb(kb_id: str):
+    kb = get_kb(kb_id)
+    refresh = kb.get("source_refresh")
+
+    if not refresh:
+        print(f"SOURCE CHECK: SKIP ({kb_id} has no source_refresh metadata)")
+        return 0
+
+    refresh_type = refresh.get("type")
+
+    if refresh_type != "git":
+        print(
+            f"SOURCE CHECK: SKIP "
+            f"(unsupported source type: {refresh_type})"
+        )
+        return 0
+
+    repository = refresh.get("repository")
+    branch = refresh.get("branch", "main")
+
+    if not repository:
+        print("SOURCE CHECK: FAIL (repository not configured)")
+        return 1
+
+    manifest_path = (
+        ROOT
+        / "knowledge"
+        / kb_id
+        / "metadata"
+        / "source-manifest.json"
+    )
+
+    if not manifest_path.exists():
+        print("SOURCE CHECK: FAIL (source manifest missing)")
+        return 1
+
+    try:
+        manifest = json.loads(
+            manifest_path.read_text(encoding="utf-8")
+        )
+    except json.JSONDecodeError:
+        print("SOURCE CHECK: FAIL (invalid source manifest JSON)")
+        return 1
+
+    local_commit = manifest.get("source_commit")
+
+    if not local_commit:
+        print("SOURCE CHECK: FAIL (manifest has no source_commit)")
+        return 1
+
+    print(f"KB: {kb_id}")
+    print(f"REPOSITORY: {repository}")
+    print(f"BRANCH: {branch}")
+    print(f"LOCAL SNAPSHOT: {local_commit}")
+
+    result = subprocess.run(
+        [
+            "git",
+            "ls-remote",
+            repository,
+            f"refs/heads/{branch}",
+        ],
+        capture_output=True,
+        text=True,
+    )
+
+    if result.returncode != 0:
+        print("SOURCE CHECK: FAIL")
+        if result.stderr.strip():
+            print(result.stderr.strip())
+        return result.returncode or 1
+
+    output = result.stdout.strip()
+
+    if not output:
+        print(
+            f"SOURCE CHECK: FAIL "
+            f"(branch not found: {branch})"
+        )
+        return 1
+
+    remote_commit = output.split()[0]
+
+    print(f"REMOTE HEAD: {remote_commit}")
+
+    if remote_commit == local_commit:
+        print("SOURCE STATUS: CURRENT")
+        print("SOURCE CHECK: PASS")
+        return 0
+
+    print("SOURCE STATUS: UPDATE AVAILABLE")
+    print("SOURCE CHECK: PASS")
+    return 0
+
+
 def rollback_kb(kb_id: str):
     kb = get_kb(kb_id)
 
@@ -383,7 +478,8 @@ def usage():
         "  kb_manage.py verify all\n"
         "  kb_manage.py rebuild <kb-id>\n"
         "  kb_manage.py refresh <kb-id>\n"
-        "  kb_manage.py rollback <kb-id>",
+        "  kb_manage.py rollback <kb-id>\n"
+        "  kb_manage.py source-check <kb-id>",
         file=sys.stderr,
     )
 
@@ -437,6 +533,13 @@ def main():
             return 2
 
         return rollback_kb(sys.argv[2])
+
+    if command == "source-check":
+        if len(sys.argv) != 3:
+            usage()
+            return 2
+
+        return source_check_kb(sys.argv[2])
 
     usage()
     return 2

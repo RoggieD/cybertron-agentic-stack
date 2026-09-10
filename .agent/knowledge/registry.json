@@ -91,6 +91,12 @@
         "retrieval": 5,
         "embedding": 5,
         "embeddings": 5
+      },
+      "source_refresh": {
+        "type": "git",
+        "repository": "https://github.com/open-webui/docs.git",
+        "branch": "main",
+        "subdirectory": "docs"
       }
     }
   ]
