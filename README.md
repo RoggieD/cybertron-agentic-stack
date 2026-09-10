@@ -168,14 +168,13 @@ synthesizes `install.json` from on-disk adapter signals so the new
 backend can track them. Installing on top without migration would
 orphan the prior installs.
 
-Upgrading an already-installed project after `brew upgrade`? Run
-`agentic-stack upgrade --dry-run` in the project first, then
-`agentic-stack upgrade --yes` to refresh only skeleton-owned `.agent`
+Upgrading an already-installed project from a CyberTron source checkout? Run
+`./install.sh upgrade --dry-run` in the project first, then
+`./install.sh upgrade --yes` to refresh only skeleton-owned `.agent`
 infrastructure (`harness/**/*.py`, top-level `memory/*.py`, `tools/*.py`,
 the generated skill index, and new skill directories). It does not rewrite
 `CLAUDE.md`, `.claude/settings.json`, personal/semantic/episodic/working
-memory, candidates, or existing skill directories. `agentic-stack
-sync-manifest` is available as a repair command if `_manifest.jsonl` drifts
+memory, candidates, or existing skill directories. `./install.sh sync-manifest` is available as a repair command if `_manifest.jsonl` drifts
 from installed `SKILL.md` files.
 
 ## Onboarding wizard
@@ -407,7 +406,6 @@ schemas/flywheel/               # data-flywheel artifact schemas
 examples/flywheel/              # sanitized approved-run examples
 install.sh                      # mac / linux / git-bash installer (thin Python dispatcher)
 install.ps1                     # Windows PowerShell installer (thin Python dispatcher)
-Formula/agentic-stack.rb        # Homebrew formula
 CHANGELOG.md                    # per-version release notes (v0.1.0 onward)
 onboard.py                      # onboarding wizard entry point
 onboard_features.py             # .features.json read/write
