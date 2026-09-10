@@ -1,13 +1,28 @@
-# Domain Knowledge
+# CyberTron Domain Knowledge
 
-> Stable facts about the domains you work in. Not procedures (those go in
-> skills), not preferences (those go in `personal/PREFERENCES.md`), not
-> time-bound events (those go in `episodic/`). Pure reference material.
+Stable reference facts that are useful across sessions but do not belong in:
+- personal preferences
+- working memory
+- episodic memory
+- procedural skills
 
-## Example sections
-- API contracts you reuse
-- Vendor quirks ("service X rate-limits at 60 rpm, not the documented 100")
-- Domain-specific terminology
+## Scope
 
-## Seeds
-_(empty — populate as you go)_
+Use this file for compact, durable facts such as:
+- model/runtime capabilities
+- stable vendor quirks
+- reusable infrastructure conventions
+- persistent product behavior
+- terminology and naming conventions
+
+Do not store:
+- credentials
+- secrets
+- transient incidents
+- large documentation dumps
+- step-by-step procedures
+- sensitive internal configuration
+
+## Current Knowledge
+
+_None yet._

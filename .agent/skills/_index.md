@@ -81,3 +81,11 @@ The loop skills read `.agent/loops` contracts and `.agent/runtime` state before
 acting. `loop-triage` is read-only reporting; `loop-verifier` runs configured
 deterministic checks; `loop-constraints` enforces path and approval gates; and
 `loop-guard` enforces pause, budget, and stagnation decisions.
+
+## ollama-diagnostics
+Diagnoses CyberTron's local Ollama runtime, model loading, GPU use, API connectivity, context behavior, and application-to-Ollama failures.
+Triggers: "ollama", "ollama error", "ollama failing", "model not loading",
+"model won't load", "ollama connectivity", "ollama performance",
+"ollama gpu", "local model", "11434"
+Constraints: inspect before changing; one controlled change at a time;
+do not restart Ollama or pull/delete models without approval.
