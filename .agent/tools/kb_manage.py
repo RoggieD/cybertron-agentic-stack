@@ -2,6 +2,7 @@
 
 from pathlib import Path
 import json
+import subprocess
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -87,10 +88,30 @@ def verify_kb(kb_id: str):
                 if path.is_file()
             ]
 
+            exclude_paths = kb.get("exclude_paths", [])
+
+            def is_excluded(path):
+                rel = path.relative_to(source_path).as_posix()
+
+                for excluded in exclude_paths:
+                    excluded = str(excluded).strip()
+
+                    if not excluded:
+                        continue
+
+                    if excluded.endswith("/"):
+                        if rel.startswith(excluded):
+                            return True
+                    elif rel == excluded:
+                        return True
+
+                return False
+
             source_count = sum(
                 1
                 for path in source_files
                 if path.suffix.lower() in extensions
+                and not is_excluded(path)
             )
 
             print(f"SOURCE FILES TOTAL: {len(source_files)}")
@@ -165,6 +186,47 @@ def verify_kb(kb_id: str):
     return 0
 
 
+def rebuild_kb(kb_id: str):
+    kb = get_kb(kb_id)
+
+    if kb.get("type") != "chunk_directory":
+        print(
+            f"REBUILD: SKIP ({kb_id} is not a chunk_directory KB)"
+        )
+        return 0
+
+    chunker = ROOT / "tools" / "kb_chunk.py"
+
+    if not chunker.exists():
+        print(f"REBUILD: FAIL (chunker missing: {chunker})")
+        return 1
+
+    print(f"REBUILD KB: {kb_id}")
+    print(f"CHUNKER: {chunker}")
+
+    result = subprocess.run(
+        [
+            sys.executable,
+            str(chunker),
+            kb_id,
+        ],
+        cwd=ROOT.parent,
+    )
+
+    if result.returncode != 0:
+        print(
+            f"REBUILD: FAIL (chunker exit code {result.returncode})"
+        )
+        return result.returncode
+
+    print("REBUILD: PASS")
+
+    print()
+    print("POST-REBUILD VERIFICATION")
+
+    return verify_kb(kb_id)
+
+
 def verify_all():
     failures = 0
 
@@ -193,7 +255,8 @@ def usage():
         "  kb_manage.py list\n"
         "  kb_manage.py show <kb-id>\n"
         "  kb_manage.py verify <kb-id>\n"
-        "  kb_manage.py verify all",
+        "  kb_manage.py verify all\n"
+        "  kb_manage.py rebuild <kb-id>",
         file=sys.stderr,
     )
 
@@ -226,6 +289,13 @@ def main():
             return verify_all()
 
         return verify_kb(sys.argv[2])
+
+    if command == "rebuild":
+        if len(sys.argv) != 3:
+            usage()
+            return 2
+
+        return rebuild_kb(sys.argv[2])
 
     usage()
     return 2
