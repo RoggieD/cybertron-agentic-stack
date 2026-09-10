@@ -68,39 +68,43 @@ refresh/bootstrap operations.
 ### macOS / Linux
 
 ```bash
-# tap + install (one-time — both lines required)
-brew tap codejunkie99/agentic-stack https://github.com/codejunkie99/agentic-stack
-brew install agentic-stack
+# clone CyberTron
+git clone https://github.com/RoggieD/cybertron-agentic-stack.git
+cd cybertron-agentic-stack
 
-# drop the brain into any project — the onboarding wizard runs automatically
-cd your-project
-agentic-stack claude-code
-# or: cursor | windsurf | opencode | openclaw | copilot-cli | gemini | hermes | pi | codex | autohand-code | standalone-python | antigravity
+# install into the project you want to wire
+./install.sh claude-code /path/to/your-project
+
+# adapters:
+# claude-code | cursor | windsurf | opencode | openclaw | copilot-cli
+# gemini | hermes | pi | codex | autohand-code | standalone-python | antigravity
 ```
 
 ### Windows (PowerShell)
 
 ```powershell
 # clone + run the native installer
-git clone https://github.com/codejunkie99/agentic-stack.git
-cd agentic-stack
+git clone https://github.com/RoggieD/cybertron-agentic-stack.git
+cd cybertron-agentic-stack
 .\install.ps1 claude-code C:\path\to\your-project
 ```
 
-### Already installed?
+### Already cloned?
+
+From the CyberTron repository, use the installer for ongoing management:
 
 ```bash
-brew update && brew upgrade agentic-stack
-agentic-stack dashboard
+./install.sh dashboard /path/to/your/project
+./install.sh status /path/to/your/project
+./install.sh doctor /path/to/your/project
 ```
 
-### Clone instead?
+On Windows PowerShell:
 
-```bash
-git clone https://github.com/codejunkie99/agentic-stack.git
-cd agentic-stack && ./install.sh claude-code         # mac / linux / git-bash
-# or on Windows PowerShell: .\install.ps1 claude-code
-# adapters: claude-code | cursor | windsurf | opencode | openclaw | copilot-cli | gemini | hermes | pi | codex | autohand-code | standalone-python | antigravity
+```powershell
+.\install.ps1 dashboard C:\path\to\your-project
+.\install.ps1 status C:\path\to\your-project
+.\install.ps1 doctor C:\path\to\your-project
 ```
 
 ### Once installed: manage what's wired

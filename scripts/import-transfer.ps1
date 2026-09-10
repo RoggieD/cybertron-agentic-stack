@@ -19,7 +19,7 @@ if ($env:AGENTIC_STACK_ROOT -and (Test-Path (Join-Path $env:AGENTIC_STACK_ROOT '
     $Temp = Join-Path ([System.IO.Path]::GetTempPath()) ("agentic-stack-transfer-" + [System.Guid]::NewGuid().ToString("N"))
     New-Item -ItemType Directory -Force -Path $Temp | Out-Null
     $Archive = Join-Path $Temp 'agentic-stack.tar.gz'
-    Invoke-WebRequest -Uri 'https://github.com/codejunkie99/agentic-stack/archive/refs/heads/master.tar.gz' -OutFile $Archive
+    Invoke-WebRequest -Uri 'https://github.com/RoggieD/cybertron-agentic-stack/archive/refs/heads/main.tar.gz' -OutFile $Archive
     tar -xzf $Archive -C $Temp --strip-components 1
     $Root = $Temp
 }

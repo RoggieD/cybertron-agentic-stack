@@ -39,7 +39,7 @@ elif [ -d "./harness_manager" ] && [ -d "./adapters" ]; then
 else
   TMPDIR="${TMPDIR:-/tmp}/agentic-stack-transfer.$$"
   mkdir -p "$TMPDIR"
-  curl -fsSL "https://github.com/codejunkie99/agentic-stack/archive/refs/heads/master.tar.gz" \
+  curl -fsSL "https://github.com/RoggieD/cybertron-agentic-stack/archive/refs/heads/main.tar.gz" \
     | tar -xz -C "$TMPDIR" --strip-components 1
   ROOT="$TMPDIR"
 fi

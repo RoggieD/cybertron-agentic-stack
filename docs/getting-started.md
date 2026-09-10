@@ -1,51 +1,42 @@
 # Getting Started
 
-## 1. Install agentic-stack
+## 1. Install CyberTron Agentic Stack
 
-### macOS / Linux with Homebrew (recommended)
-
-```bash
-brew tap codejunkie99/agentic-stack https://github.com/codejunkie99/agentic-stack
-brew install agentic-stack
-```
-
-This installs the `agentic-stack` command.
-
-### Source checkout (no Homebrew)
-
-If you prefer not to use Homebrew, clone the repo and run `install.sh`
-against the project you want to wire:
+### macOS / Linux
 
 ```bash
-git clone https://github.com/codejunkie99/agentic-stack.git
-cd agentic-stack
+git clone https://github.com/RoggieD/cybertron-agentic-stack.git
+cd cybertron-agentic-stack
 ./install.sh claude-code /path/to/your-project
 ```
 
-This path does not install a global `agentic-stack` command. Keep the clone
-around and run future management commands through `./install.sh`.
+Keep the CyberTron repository clone available for future management commands.
+The source checkout uses `./install.sh` directly and does not require a
+globally installed `agentic-stack` command.
 
 ### Windows (PowerShell)
 
 ```powershell
-git clone https://github.com/codejunkie99/agentic-stack.git
-cd agentic-stack
+git clone https://github.com/RoggieD/cybertron-agentic-stack.git
+cd cybertron-agentic-stack
 .\install.ps1 claude-code C:\path\to\your-project
 ```
 
 ## 2. Pick your harness
 
-If you installed with Homebrew, run the CLI from your project root:
+The install command above already selects the initial harness.
+
+To add another adapter later, run this from the CyberTron repository:
 
 ```bash
-cd your-project
-agentic-stack claude-code
-# or: cursor | windsurf | opencode | openclaw | copilot-cli | gemini | hermes | pi | codex | autohand-code | standalone-python | antigravity
+./install.sh add <adapter> /path/to/your-project
 ```
 
-If you are using a source checkout, the install command above already picked
-the harness. To add another adapter later, run
-`./install.sh add <adapter> /path/to/your-project` from the clone.
+Supported adapters include:
+
+`claude-code`, `cursor`, `windsurf`, `opencode`, `openclaw`, `copilot-cli`,
+`gemini`, `hermes`, `pi`, `codex`, `autohand-code`, `standalone-python`,
+and `antigravity`.
 
 The onboarding wizard runs automatically, populating
 `.agent/memory/personal/PREFERENCES.md` and `.agent/memory/.features.json`.
@@ -75,18 +66,18 @@ failures with reflection, and (if you let it) proposing skill rewrites.
 
 ## Managing your project
 
-After the initial setup, Homebrew users can run verb-style subcommands from
-the project root:
+After the initial setup, run verb-style management commands from the
+CyberTron repository:
 
 ```bash
-agentic-stack dashboard           # TUI dashboard: health, verify, memory, team, skills
-agentic-stack mission-control     # beta local web dashboard; Ctrl-C turns it off
-agentic-stack brain status        # optional external Brain CLI integration
-agentic-stack status              # one-screen view: which adapters, brain stats
-agentic-stack doctor              # read-only audit; green / yellow / red per adapter
-agentic-stack upgrade --dry-run   # preview safe .agent infrastructure refresh
-agentic-stack upgrade --yes       # apply latest harness/memory/tools + new skills
-agentic-stack sync-manifest       # rebuild .agent/skills/_manifest.jsonl from SKILL.md
+./install.sh dashboard /path/to/your-project           # TUI dashboard: health, verify, memory, team, skills
+./install.sh mission-control /path/to/your-project     # beta local web dashboard; Ctrl-C turns it off
+./install.sh brain status        # optional external Brain CLI integration
+./install.sh status /path/to/your-project              # one-screen view: which adapters, brain stats
+./install.sh doctor /path/to/your-project              # read-only audit; green / yellow / red per adapter
+./install.sh upgrade /path/to/your-project --dry-run   # preview safe .agent infrastructure refresh
+./install.sh upgrade /path/to/your-project --yes       # apply latest harness/memory/tools + new skills
+./install.sh sync-manifest /path/to/your-project       # rebuild .agent/skills/_manifest.jsonl from SKILL.md
 ```
 
 ### Bounded agentic loops
@@ -94,10 +85,10 @@ agentic-stack sync-manifest       # rebuild .agent/skills/_manifest.jsonl from S
 Initialize and inspect the portable loop contracts before running an action loop:
 
 ```bash
-agentic-stack loop init /path/to/your-project
-agentic-stack loop validate /path/to/your-project
-agentic-stack loop run ci-sweeper "make the failing test green" /path/to/your-project --yes
-agentic-stack loop status /path/to/your-project
+./install.sh loop init /path/to/your-project
+./install.sh loop validate /path/to/your-project
+./install.sh loop run ci-sweeper "make the failing test green" /path/to/your-project --yes
+./install.sh loop status /path/to/your-project
 ```
 
 The lifecycle is maker → deterministic verifier → independent checker. L1
@@ -124,21 +115,15 @@ Source checkout users can run the same verbs through the clone:
 
 PowerShell users can run the same verbs through `.\install.ps1`.
 
-Adding or removing adapters with Homebrew:
-
-```bash
-agentic-stack add cursor          # add a second adapter alongside Claude Code
-agentic-stack remove cursor       # confirm prompt + delete
-agentic-stack manage              # interactive TUI for add/remove/audit
-```
-
-Source checkout equivalents:
+Adding or removing adapters:
 
 ```bash
 ./install.sh add cursor /path/to/your-project
 ./install.sh remove cursor /path/to/your-project
 ./install.sh manage /path/to/your-project
 ```
+
+PowerShell users can use the equivalent `.\install.ps1` commands.
 
 ## Optional: add a visual system with `DESIGN.md`
 
@@ -155,23 +140,16 @@ npx @google/design.md lint DESIGN.md
 
 ## Keeping up to date
 
-```bash
-brew update && brew upgrade agentic-stack
-cd your-project
-agentic-stack upgrade --dry-run   # preview changes
-agentic-stack upgrade --yes       # apply; won't overwrite your memory or config
-```
-
-Source checkout users should update the clone first:
+Update the CyberTron repository clone first:
 
 ```bash
-cd /path/to/agentic-stack
+cd /path/to/cybertron-agentic-stack
 git pull --ff-only
 ./install.sh upgrade /path/to/your-project --dry-run
 ./install.sh upgrade /path/to/your-project --yes
 ```
 
-The upgrade command refreshes skeleton-owned `.agent` infrastructure
+The upgrade command refreshes skeleton-owned
 (harness scripts, top-level memory/tools Python files, skill index, and new
 skill directories) but never overwrites `CLAUDE.md`, `.claude/settings.json`,
 personal/semantic/episodic/working memory, candidates, or existing skill
