@@ -29,6 +29,176 @@ def get_kb(kb_id: str):
     )
 
 
+def status_kbs():
+    registry = load_registry()
+
+    print(
+        f"{'KB':15} "
+        f"{'ENABLED':8} "
+        f"{'TYPE':16} "
+        f"{'SOURCE':8} "
+        f"{'DOCS':7} "
+        f"{'CHUNKS':8} "
+        f"{'PROVENANCE':12} "
+        f"{'REMOTE':16}"
+    )
+
+    print("-" * 105)
+
+    for kb in registry.get("knowledge_bases", []):
+        kb_id = kb.get("id", "")
+        enabled = "yes" if kb.get("enabled") else "no"
+        kb_type = kb.get("type", "unknown")
+
+        source_status = "-"
+        source_docs = "-"
+        chunk_count = "-"
+        provenance_status = "none"
+        remote_status = "-"
+
+        source_value = kb.get("source_path")
+
+        if source_value:
+            source_path = resolve_agent_path(source_value)
+
+            if source_path.exists():
+                source_status = "ok"
+
+                extensions = {
+                    ext.lower()
+                    for ext in kb.get(
+                        "source_extensions",
+                        [".md", ".txt"],
+                    )
+                }
+
+                exclude_paths = kb.get("exclude_paths", [])
+
+                def is_excluded(path):
+                    rel = path.relative_to(
+                        source_path
+                    ).as_posix()
+
+                    for excluded in exclude_paths:
+                        excluded = str(excluded).strip()
+
+                        if not excluded:
+                            continue
+
+                        if excluded.endswith("/"):
+                            if rel.startswith(excluded):
+                                return True
+                        elif rel == excluded:
+                            return True
+
+                    return False
+
+                source_docs = sum(
+                    1
+                    for item in source_path.rglob("*")
+                    if item.is_file()
+                    and item.suffix.lower() in extensions
+                    and not is_excluded(item)
+                )
+
+            else:
+                source_status = "missing"
+
+        chunk_value = kb.get("chunk_path")
+
+        if chunk_value:
+            chunk_path = resolve_agent_path(chunk_value)
+
+            if chunk_path.exists():
+                chunk_count = len(
+                    list(chunk_path.glob("*.json"))
+                )
+            else:
+                chunk_count = "missing"
+
+        manifest_path = (
+            ROOT
+            / "knowledge"
+            / kb_id
+            / "metadata"
+            / "source-manifest.json"
+        )
+
+        if manifest_path.exists():
+            try:
+                manifest = json.loads(
+                    manifest_path.read_text(
+                        encoding="utf-8"
+                    )
+                )
+
+                provenance_status = "ok"
+
+                refresh = kb.get("source_refresh")
+
+                if refresh and refresh.get("type") == "git":
+                    local_commit = manifest.get(
+                        "source_commit"
+                    )
+
+                    repository = refresh.get(
+                        "repository"
+                    )
+
+                    branch = refresh.get(
+                        "branch",
+                        "main",
+                    )
+
+                    result = subprocess.run(
+                        [
+                            "git",
+                            "ls-remote",
+                            repository,
+                            f"refs/heads/{branch}",
+                        ],
+                        capture_output=True,
+                        text=True,
+                        env={
+                            **os.environ,
+                            "GIT_TERMINAL_PROMPT": "0",
+                        },
+                        timeout=30,
+                    )
+
+                    if (
+                        result.returncode == 0
+                        and result.stdout.strip()
+                    ):
+                        remote_commit = (
+                            result.stdout.split()[0]
+                        )
+
+                        if remote_commit == local_commit:
+                            remote_status = "current"
+                        else:
+                            remote_status = "update-available"
+                    else:
+                        remote_status = "check-failed"
+
+            except (
+                json.JSONDecodeError,
+                subprocess.TimeoutExpired,
+            ):
+                provenance_status = "invalid"
+
+        print(
+            f"{kb_id:15} "
+            f"{enabled:8} "
+            f"{kb_type:16} "
+            f"{str(source_status):8} "
+            f"{str(source_docs):7} "
+            f"{str(chunk_count):8} "
+            f"{provenance_status:12} "
+            f"{remote_status:16}"
+        )
+
+
 def list_kbs():
     for kb in load_registry().get("knowledge_bases", []):
         status = "enabled" if kb.get("enabled") else "disabled"
@@ -954,6 +1124,7 @@ def usage():
     print(
         "usage:\n"
         "  kb_manage.py list\n"
+        "  kb_manage.py status\n"
         "  kb_manage.py show <kb-id>\n"
         "  kb_manage.py verify <kb-id>\n"
         "  kb_manage.py verify all\n"
@@ -977,6 +1148,10 @@ def main():
 
     if command == "list":
         list_kbs()
+        return 0
+
+    if command == "status":
+        status_kbs()
         return 0
 
     if command == "show":
