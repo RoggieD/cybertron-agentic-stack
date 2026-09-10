@@ -1,0 +1,2519 @@
+{
+  "schema_version": 1,
+  "knowledge_base": "open-webui",
+  "source_type": "git_snapshot",
+  "source_repository": "https://github.com/open-webui/docs.git",
+  "source_commit": "2fd335b063277389849d5651f397c4769d01d1d8",
+  "source_branch": "main",
+  "generated_utc": "2026-09-10T14:35:48.720585+00:00",
+  "source_file_count": 499,
+  "chunk_count": 5046,
+  "source_root": ".agent/knowledge/open-webui/source/docs",
+  "excluded_from_chunking": [
+    "alternatives/",
+    "brand.mdx",
+    "contributing.mdx",
+    "intro.mdx",
+    "license.mdx",
+    "mission.mdx",
+    "sponsorships.mdx",
+    "team.mdx"
+  ],
+  "files": [
+    {
+      "path": "alternatives/anythingllm.mdx",
+      "size_bytes": 8694,
+      "sha256": "5825e41d398ddb3934f299dc6e8330717b5bcdf18b95ac04a0b9cfa8763008e9"
+    },
+    {
+      "path": "alternatives/chatgpt.mdx",
+      "size_bytes": 8717,
+      "sha256": "44c26718a64b80713e5d9ff9157f2a5b3a6568dfbcbbcd7bfbd895fdf65ad4f5"
+    },
+    {
+      "path": "alternatives/claude.mdx",
+      "size_bytes": 8093,
+      "sha256": "8536690c2c1be2972403efd7f117002840fee180eec69fd491317091293c2850"
+    },
+    {
+      "path": "alternatives/dify.mdx",
+      "size_bytes": 7094,
+      "sha256": "7030c91cde302902d40ac4ad14a6aeb03cbfaa82a553761bf04f91ad02302902"
+    },
+    {
+      "path": "alternatives/gemini.mdx",
+      "size_bytes": 6942,
+      "sha256": "8b6713d56f359e9071f3b6cb1d72981777982641375fd93358af9f4002b701c9"
+    },
+    {
+      "path": "alternatives/index.mdx",
+      "size_bytes": 6477,
+      "sha256": "5c0e0997dc96ebcbef52a9095b0f23668a783c5b188c2da7d13db42bf3ddc4ee"
+    },
+    {
+      "path": "alternatives/jan.mdx",
+      "size_bytes": 5750,
+      "sha256": "2d447c448cf83bc50d900c3dc03b724bc22e5a3cbe841bd47efca534ff2efcb2"
+    },
+    {
+      "path": "alternatives/librechat.mdx",
+      "size_bytes": 6302,
+      "sha256": "39424298ee976f48f3193a79a8a293c29c6d169d949382238f0f95baaebc6df2"
+    },
+    {
+      "path": "alternatives/llama-cpp.mdx",
+      "size_bytes": 6005,
+      "sha256": "d983d0a8b8eaf31e67da92ed533f71168ec6547d9878dfcbfd255aae39b1f030"
+    },
+    {
+      "path": "alternatives/lm-studio.mdx",
+      "size_bytes": 6755,
+      "sha256": "8f001cf890f548d5f1be2f58bbd9c114fdf7d5e11f8fd2ee7ca4c4825fc8a1fe"
+    },
+    {
+      "path": "alternatives/msty.mdx",
+      "size_bytes": 5867,
+      "sha256": "451b2839b51cbfa97accda646781e15c697992836185a9e6bb368df818c96921"
+    },
+    {
+      "path": "alternatives/ollama.mdx",
+      "size_bytes": 6849,
+      "sha256": "a6e7718bf6e1e4f5a588cfe40c12f7f197fbe4dd056c5a694bf3f51ad31c4ae4"
+    },
+    {
+      "path": "alternatives/onyx.mdx",
+      "size_bytes": 16070,
+      "sha256": "b2fb62fdbe398681861ab7a6918eb886666da9a6ec7c354cf7cbbf93521139dc"
+    },
+    {
+      "path": "brand.mdx",
+      "size_bytes": 5303,
+      "sha256": "6212d8af433da8afd24625d69e0eb3e910a87f37b996243586885ba6b753b1f7"
+    },
+    {
+      "path": "contributing.mdx",
+      "size_bytes": 6069,
+      "sha256": "b673bdb62a6a97d214b092f87ab4730287ab4bd27a24c4562a02113d94022d1a"
+    },
+    {
+      "path": "ecosystem/_category_.json",
+      "size_bytes": 87,
+      "sha256": "3a8f98cf614c99bc18edc22ef5e2636733a1284c2b866291f38de24ebd52801b"
+    },
+    {
+      "path": "ecosystem/computer/_category_.json",
+      "size_bytes": 95,
+      "sha256": "fcfa329420d5200cde678d9b78f78e3536c83bac8aa6013ae5023367368685a7"
+    },
+    {
+      "path": "ecosystem/computer/ai/_category_.json",
+      "size_bytes": 51,
+      "sha256": "f71ebf41154daf4208786872d9e07beeb83de162bac09e51a36e95674f2d19e2"
+    },
+    {
+      "path": "ecosystem/computer/ai/approvals-and-plan-mode.md",
+      "size_bytes": 2659,
+      "sha256": "be086f75d5d0e5983eec2c5d6a112f9f598b033814d1711b341d3dbf01bcabb5"
+    },
+    {
+      "path": "ecosystem/computer/ai/chat-features.md",
+      "size_bytes": 1740,
+      "sha256": "7819f7f9ca34ad979ddbbeaf00f6ab63a0b2940963e40f7835a21967d42bc798"
+    },
+    {
+      "path": "ecosystem/computer/ai/coding-agents.md",
+      "size_bytes": 3563,
+      "sha256": "cd929ec4cd9fe73f49199a6c4493c2f43c9d91047b7cba877bd158d56edd9032"
+    },
+    {
+      "path": "ecosystem/computer/ai/connect-a-model.md",
+      "size_bytes": 2370,
+      "sha256": "df8b6385faac02b6e4edba94e0f09390e5b75aef9f6290f90cd1f18c2f5421ab"
+    },
+    {
+      "path": "ecosystem/computer/ai/index.md",
+      "size_bytes": 2511,
+      "sha256": "e012d0153dc1cbb75c3b3c8b1dd15a0c1d044fb35eaa149f2ef3c130666ab65b"
+    },
+    {
+      "path": "ecosystem/computer/ai/skills-and-memory.md",
+      "size_bytes": 2691,
+      "sha256": "f32e4a9f3d28fb6b7c5c802be4807b809ea906f7298641bca43b2159f2c4cf74"
+    },
+    {
+      "path": "ecosystem/computer/ai/subagents.md",
+      "size_bytes": 1477,
+      "sha256": "1b591bee3de1fbd2feb328f675590129fc5a19d2cf729404518ca26c5d8a0b71"
+    },
+    {
+      "path": "ecosystem/computer/ai/voice-and-audio.md",
+      "size_bytes": 1562,
+      "sha256": "b3b6793922fddd0bf8d22ac136a478be871838429375f717c669d5b38acd1139"
+    },
+    {
+      "path": "ecosystem/computer/ai/web-search-and-browsing.md",
+      "size_bytes": 2065,
+      "sha256": "5905483d9d3f600414ec394e77f63a8042efaff125fa717c93fe931441548bbb"
+    },
+    {
+      "path": "ecosystem/computer/automate/_category_.json",
+      "size_bytes": 53,
+      "sha256": "45d4d7e1ad7c333845b524a61daea7835a6d995c67efbcd01df512db66a8307c"
+    },
+    {
+      "path": "ecosystem/computer/automate/index.md",
+      "size_bytes": 1762,
+      "sha256": "57e67c4e91820d3adc8a69e107c6ebf8373f00eae32c8eb974ce664a381177a1"
+    },
+    {
+      "path": "ecosystem/computer/automate/messaging-bots.md",
+      "size_bytes": 4772,
+      "sha256": "b41d5fac83e7e345138deeee9315579e29f89964abc0c5a8f4125d908024c21c"
+    },
+    {
+      "path": "ecosystem/computer/automate/notifications.md",
+      "size_bytes": 2322,
+      "sha256": "b407ed908bbb1a4ef4ebaaabc1c11999e5c45f6bc0eaf4a6d70b950d3fabca71"
+    },
+    {
+      "path": "ecosystem/computer/automate/open-webui.md",
+      "size_bytes": 3294,
+      "sha256": "a6de4e4bbd12469d3b55ddf715b54ff1d59328e1f1a27ec0f591fcc765d9da61"
+    },
+    {
+      "path": "ecosystem/computer/automate/scheduled-tasks.md",
+      "size_bytes": 2921,
+      "sha256": "225be621a88ec26425f2feb90f362baa9997db5ee51ea3799a638921a4541884"
+    },
+    {
+      "path": "ecosystem/computer/automate/tool-servers.md",
+      "size_bytes": 1807,
+      "sha256": "c761f3de2244a243c781924ffb4b814fdd8aebc3c0158c30cea46b1aaa2f7afd"
+    },
+    {
+      "path": "ecosystem/computer/choose.md",
+      "size_bytes": 3989,
+      "sha256": "d50447086c0b7ea9bbb67b664ad98a39b14ad43eb5d3d5f507c287216c0d419c"
+    },
+    {
+      "path": "ecosystem/computer/faq.md",
+      "size_bytes": 6121,
+      "sha256": "c4f0aaabb5830268f39c882d54237597a93af0e7f15047fceecec499b4626236"
+    },
+    {
+      "path": "ecosystem/computer/index.md",
+      "size_bytes": 4698,
+      "sha256": "64888d912e16987a29ee1da82f1b08f793f808c30d5eb3aa88050f8daa4dd3ca"
+    },
+    {
+      "path": "ecosystem/computer/install/_category_.json",
+      "size_bytes": 45,
+      "sha256": "b61ecdca9902a12745d054a0d667dbf7682c70d8dfc5d0dc27cafa426ae12936"
+    },
+    {
+      "path": "ecosystem/computer/install/air-gapped.md",
+      "size_bytes": 1757,
+      "sha256": "674077ea85c69b6b621268b61d988b652ba9b155e2c3481dd1c1c97e379259e2"
+    },
+    {
+      "path": "ecosystem/computer/install/docker.md",
+      "size_bytes": 2690,
+      "sha256": "e964a4c2d56be63f15d2e636a518df056d1ff11baca2826293be3dece9e0bd5d"
+    },
+    {
+      "path": "ecosystem/computer/install/index.md",
+      "size_bytes": 1082,
+      "sha256": "064f2885a9425c9f858c0f75f3ece1882e420e716d2df70758eb47687c0e390d"
+    },
+    {
+      "path": "ecosystem/computer/install/updating.md",
+      "size_bytes": 1148,
+      "sha256": "bbab21c06f1134fd91b3f3a79f1964b196ec114c99276f0a244f8f25b3a2e472"
+    },
+    {
+      "path": "ecosystem/computer/install/windows.md",
+      "size_bytes": 1091,
+      "sha256": "7dc1aba0c1449b28c83fb370e472fe0f690895a0f0e6aaf84cb24c70482b5747"
+    },
+    {
+      "path": "ecosystem/computer/operate/_category_.json",
+      "size_bytes": 158,
+      "sha256": "97bf8a963d0a47b74409e0cfd2f1374f3993268c8f03d879b21abfb48eafcb48"
+    },
+    {
+      "path": "ecosystem/computer/operate/data-and-backups.md",
+      "size_bytes": 3213,
+      "sha256": "fa17e852da7c78367aedb93844856068c89376ce9489b04622eaa7d13b0ce7a7"
+    },
+    {
+      "path": "ecosystem/computer/operate/index.md",
+      "size_bytes": 634,
+      "sha256": "8bfa4d6cc8d25c9a4775333540c00e479e001fc00b2aea5faaa690333e0115b3"
+    },
+    {
+      "path": "ecosystem/computer/operate/logs-and-health.md",
+      "size_bytes": 2553,
+      "sha256": "eb2895a09af013b9ba14bba6dd09c5f84ad3c1d6316a22c37c1f2c14df64c9f6"
+    },
+    {
+      "path": "ecosystem/computer/phone-and-remote/_category_.json",
+      "size_bytes": 54,
+      "sha256": "31ea5b775e4abf98db603bebb505b126dea93ca1494a0466ca56c1162e2be8a9"
+    },
+    {
+      "path": "ecosystem/computer/phone-and-remote/cloudflare-and-ngrok.md",
+      "size_bytes": 2103,
+      "sha256": "37d16aaa4f2e5fe05f0b121e3393b4845b2f0f8f536e6966d3fcc44a61ee5cfd"
+    },
+    {
+      "path": "ecosystem/computer/phone-and-remote/index.md",
+      "size_bytes": 2152,
+      "sha256": "e17150d0eff170a627acae640f054ca6c787c082a7d68b1ad94b4c78e37779c1"
+    },
+    {
+      "path": "ecosystem/computer/phone-and-remote/keep-it-running.md",
+      "size_bytes": 3827,
+      "sha256": "de3e0a281979adb0168870bd3a6bdb241db57a478d7201e7bfd06e841f8fa247"
+    },
+    {
+      "path": "ecosystem/computer/phone-and-remote/phone-app.md",
+      "size_bytes": 2141,
+      "sha256": "04662a686a894521e3110a9e5809dabe3c70384d9752ceceb54353825b2fe0f8"
+    },
+    {
+      "path": "ecosystem/computer/phone-and-remote/reverse-proxy.md",
+      "size_bytes": 2391,
+      "sha256": "055ba398fe29be897bee17fda05f400ab187d6a67f3c5b39c0000cf1b6c740d5"
+    },
+    {
+      "path": "ecosystem/computer/phone-and-remote/security.md",
+      "size_bytes": 3423,
+      "sha256": "057631867324e35d015533af5813206bbf59508506ccc4d7bca21964e6943825"
+    },
+    {
+      "path": "ecosystem/computer/phone-and-remote/tailscale.md",
+      "size_bytes": 2369,
+      "sha256": "c8859323fa7f1aea5182e0a4f0fef028aa67045e9cb059fe8608dff6c109e44c"
+    },
+    {
+      "path": "ecosystem/computer/quickstart.md",
+      "size_bytes": 2798,
+      "sha256": "e74a4a192114facb2ea9dc2ba72eae28bdcc6452401cb8da1184beb222f4043c"
+    },
+    {
+      "path": "ecosystem/computer/reference/_category_.json",
+      "size_bytes": 162,
+      "sha256": "53db052990d4b1803c5f804faa04d08c8bbc48c23b4e3569d7f1cf124cd63729"
+    },
+    {
+      "path": "ecosystem/computer/reference/cli.md",
+      "size_bytes": 1709,
+      "sha256": "20bb68b30fc25f84ee2df4c556222abb3bb27c9df7d789b216be295513ae0ccf"
+    },
+    {
+      "path": "ecosystem/computer/reference/configuration.md",
+      "size_bytes": 2266,
+      "sha256": "e27ba93004999789caf09243b6d226def72ad28120dea572272eaf504381819e"
+    },
+    {
+      "path": "ecosystem/computer/reference/environment-variables.md",
+      "size_bytes": 3857,
+      "sha256": "25be8a4493c5e967a586d08861636679e4a6e3f0abfe4a47552fd980919f6b90"
+    },
+    {
+      "path": "ecosystem/computer/reference/gateway-api.md",
+      "size_bytes": 2813,
+      "sha256": "8242751141852d174bd2557e0f7a0bfd0cb1eb11ae988aecb741f0c1f8e20ac1"
+    },
+    {
+      "path": "ecosystem/computer/reference/index.md",
+      "size_bytes": 648,
+      "sha256": "ae718b6b579b1765a3fafcd2ad4a9595140a1fa7659999b7e7e455d341e76dfb"
+    },
+    {
+      "path": "ecosystem/computer/troubleshooting.md",
+      "size_bytes": 5800,
+      "sha256": "34b71515876600a7c93fb5a35d4c4ef8840dbfc098976704bbfed6ca6ada93db"
+    },
+    {
+      "path": "ecosystem/computer/use-cases/_category_.json",
+      "size_bytes": 84,
+      "sha256": "b8848f3332af7f6e8f43c4d4e163eb16a180c9d2e01f63ed04a9f6f975bcc4ee"
+    },
+    {
+      "path": "ecosystem/computer/use-cases/a-folder-that-follows-you.md",
+      "size_bytes": 2753,
+      "sha256": "9085e135cf252d7eebb369ad8e2f85ca0f92dcf8331e5bbf964cfeacb52ead5e"
+    },
+    {
+      "path": "ecosystem/computer/use-cases/an-agent-that-learns-your-way.md",
+      "size_bytes": 3527,
+      "sha256": "71ec1d27398e3da740d9fbf102071ac3213ce45853725cfdfe08ca232d9b5722"
+    },
+    {
+      "path": "ecosystem/computer/use-cases/an-assistant-that-texts-first.md",
+      "size_bytes": 4064,
+      "sha256": "bd1a8e9c4d94e40f8e14b99fcec53bba1af696ad2e1e428265cde42d7cdcb47b"
+    },
+    {
+      "path": "ecosystem/computer/use-cases/clean-up-a-messy-folder.md",
+      "size_bytes": 3046,
+      "sha256": "9d70224f7075adf26a506aafa2452e67e3372dd076955cee0ab3cd9c248dce02"
+    },
+    {
+      "path": "ecosystem/computer/use-cases/delegate-a-whole-job.md",
+      "size_bytes": 3512,
+      "sha256": "61471ddcf11a03127bb0dbcef659dbe8d6cd91ca39e18331e61d85651626a1cd"
+    },
+    {
+      "path": "ecosystem/computer/use-cases/first-website.md",
+      "size_bytes": 2921,
+      "sha256": "55102b49154cd9c223ff180d8b1a36aad306a39ce1f6a53b8fe0812c6f999d15"
+    },
+    {
+      "path": "ecosystem/computer/use-cases/fix-from-your-phone.md",
+      "size_bytes": 2739,
+      "sha256": "9aa0268c78f8ca6863b452011362c86a362d2835d6c572046aa73db9c16076a6"
+    },
+    {
+      "path": "ecosystem/computer/use-cases/index.md",
+      "size_bytes": 3615,
+      "sha256": "e8c19fc0cfe39b4220e62974675781f9ae1225c81f849fc80b3752dbe7d2e91c"
+    },
+    {
+      "path": "ecosystem/computer/use-cases/message-your-computer.md",
+      "size_bytes": 2517,
+      "sha256": "3baa00aeea36349d83e6f585cb6b8151d221fac2e1ad12b49b7ca6ee501667b1"
+    },
+    {
+      "path": "ecosystem/computer/use-cases/open-webui-hands.md",
+      "size_bytes": 2597,
+      "sha256": "71d2c79dcbfeace6d50ddb776eb9020911a3ca688b56a93047bb123e93926044"
+    },
+    {
+      "path": "ecosystem/computer/use-cases/parallel-agents-on-worktrees.md",
+      "size_bytes": 3506,
+      "sha256": "036a2271a05a1b857107672504ae5143bf88c90752fdcf96e6cdca1f0b1c3215"
+    },
+    {
+      "path": "ecosystem/computer/use-cases/scheduled-morning-checks.md",
+      "size_bytes": 2863,
+      "sha256": "03d7d58f4049eb911e23c9969cb507dae7083f092775964ba11a6c77092cae77"
+    },
+    {
+      "path": "ecosystem/computer/use-cases/supervise-a-coding-agent.md",
+      "size_bytes": 2958,
+      "sha256": "2cc37a98c3daa441501b3dfd42556809afaf8f959ca8a09ca1a68b1f7c53ba5c"
+    },
+    {
+      "path": "ecosystem/computer/use-cases/test-on-a-real-device.md",
+      "size_bytes": 2270,
+      "sha256": "e467b691401dbbc6e038e366042829f9b52e27f93cfc1817401e584f106f771a"
+    },
+    {
+      "path": "ecosystem/computer/what-is-computer.md",
+      "size_bytes": 6171,
+      "sha256": "4c31faf31b9d5f38540c144ac23b432b89d05445f079f41141ce09470370c82f"
+    },
+    {
+      "path": "ecosystem/computer/workspace/_category_.json",
+      "size_bytes": 47,
+      "sha256": "4c59a3a61175f7a5daf4c035c1a871dfce27d37415fddaebe916576af1549a03"
+    },
+    {
+      "path": "ecosystem/computer/workspace/files-and-editor.md",
+      "size_bytes": 1447,
+      "sha256": "07a5348d6be4cb01336007cf0da699047eea85f3be34a817ff84c9c09bfe9011"
+    },
+    {
+      "path": "ecosystem/computer/workspace/git.md",
+      "size_bytes": 1767,
+      "sha256": "70374c60bee0a93e05efb1a17d782b56928f11540210bd907885acaf84c7ce86"
+    },
+    {
+      "path": "ecosystem/computer/workspace/index.md",
+      "size_bytes": 2063,
+      "sha256": "fc07a6bb6c22389833cda032c381474abdbceee9cc14b16aa3e606a3db34d814"
+    },
+    {
+      "path": "ecosystem/computer/workspace/notes-and-sharing.md",
+      "size_bytes": 1632,
+      "sha256": "7c8f88180e63e5065e0a9ae23438530c08c92182492f697ee51681757576c973"
+    },
+    {
+      "path": "ecosystem/computer/workspace/previews-and-browser.md",
+      "size_bytes": 2363,
+      "sha256": "2d3508d35cc4c744b9dd4687182e2c5b0b9f9dd3a58516d9f45e39cc4ef41681"
+    },
+    {
+      "path": "ecosystem/computer/workspace/search-and-chats.md",
+      "size_bytes": 1368,
+      "sha256": "f8733bc8eea5c52721217378d7db06456d9a5117fbde6fe219d5795ffeee4c43"
+    },
+    {
+      "path": "ecosystem/computer/workspace/terminals.md",
+      "size_bytes": 1644,
+      "sha256": "aa0b9938cd0875030e2209644337f0c13350902732e81df9e23748225b49755a"
+    },
+    {
+      "path": "ecosystem/computer/workspace/workspaces.md",
+      "size_bytes": 2373,
+      "sha256": "7fc1cb39785dcd9d818f11e741b3bf80a8751f05d95ce30ff878aa3cbbb726ae"
+    },
+    {
+      "path": "ecosystem/index.md",
+      "size_bytes": 1569,
+      "sha256": "79bd751e38a6d0fa6f9e4d6902df27de9c592d993654d079183b6f593bbbea2e"
+    },
+    {
+      "path": "ecosystem/knowledge-base-sync/_category_.json",
+      "size_bytes": 102,
+      "sha256": "f01eb975752accdb218ad3bf9952262e360d89a9ca257bb0f1667e28a1e930a7"
+    },
+    {
+      "path": "ecosystem/knowledge-base-sync/daemon.md",
+      "size_bytes": 12844,
+      "sha256": "7956bca43a6a4f4834f00afa9c6bc288bd3454ef8d428cda249e7d9e52bb66c0"
+    },
+    {
+      "path": "ecosystem/knowledge-base-sync/index.md",
+      "size_bytes": 21145,
+      "sha256": "db0f864c7baddac8c82e5aef1e6b7f7097bb987640f326039d70e3ae205c8719"
+    },
+    {
+      "path": "ecosystem/open-terminal.md",
+      "size_bytes": 8997,
+      "sha256": "4912cfc78dbdd7476d7cb5908090c4ababfec08cd9721fa8d6647e1159de2859"
+    },
+    {
+      "path": "enterprise/architecture.md",
+      "size_bytes": 4065,
+      "sha256": "5d8fda162a016ddbbed30f5469a6fab1cf62ad10aa46b55859956dd43517e230"
+    },
+    {
+      "path": "enterprise/customers/astellas-pharma.mdx",
+      "size_bytes": 9238,
+      "sha256": "1f03815537d42a4170867ee87d66bb4936a33ad2afe168e6aa718462990d6106"
+    },
+    {
+      "path": "enterprise/customers/index.mdx",
+      "size_bytes": 2568,
+      "sha256": "a5046dbf104822f6c90d8145c63377ab23eab5943b45824f440f0c3013ce3b8a"
+    },
+    {
+      "path": "enterprise/customers/public-storage.mdx",
+      "size_bytes": 8406,
+      "sha256": "ce5ee931727f7fd7b87a22fcd417cfd3718d601c61d3fa3eabbb2ea292cefdc5"
+    },
+    {
+      "path": "enterprise/customers/samsung-semiconductor.mdx",
+      "size_bytes": 5627,
+      "sha256": "cb3d57b21697c8ae02da89a4d38dd7e60bc385ddd26914d82908f59d1ba6b888"
+    },
+    {
+      "path": "enterprise/customization.md",
+      "size_bytes": 1678,
+      "sha256": "586f870c30dbc6b99ee8c14e9bff77698f206b50c786db596138c43cad4f7e64"
+    },
+    {
+      "path": "enterprise/deployment/container-service.md",
+      "size_bytes": 4108,
+      "sha256": "f9a0f1ccc4e18c8f3099e742a8a3965902c0dee258fbc743b5f73d45e80006cc"
+    },
+    {
+      "path": "enterprise/deployment/index.md",
+      "size_bytes": 8796,
+      "sha256": "10f3897ec6307e3fe056250fc925584422f3205d4950a3afb5b918b565531dae"
+    },
+    {
+      "path": "enterprise/deployment/kubernetes-helm.md",
+      "size_bytes": 6624,
+      "sha256": "4dd42619811dd3f19b52299b05e18b2cfe0a9180a809a0f9c7bb3aa906933437"
+    },
+    {
+      "path": "enterprise/deployment/python-pip.md",
+      "size_bytes": 3446,
+      "sha256": "f3a09f69e60eac0fa2debbdcec5dc4f4143d88864a066fadc5d8b08ff23a2d1e"
+    },
+    {
+      "path": "enterprise/index.mdx",
+      "size_bytes": 8513,
+      "sha256": "a4a4d4338da303a42c1e9c8021a35e436634157420e6353593325781e4ff3447"
+    },
+    {
+      "path": "enterprise/integration.md",
+      "size_bytes": 3134,
+      "sha256": "ba58dc2c72a0b0c31e0f38f806d37126c3f3a76ef34d195ba870f12c03e3989b"
+    },
+    {
+      "path": "enterprise/partners.md",
+      "size_bytes": 1547,
+      "sha256": "85c78d417a4f3a839c360d15e6e2a4ed3d5bfe646c5220e93ed2db55cf1c1007"
+    },
+    {
+      "path": "enterprise/security.md",
+      "size_bytes": 10041,
+      "sha256": "6621c32e23e40d51c8f0ad03d9688a62312dba1fec0a55e74282af72b16a8726"
+    },
+    {
+      "path": "enterprise/sovereign-ai.mdx",
+      "size_bytes": 11044,
+      "sha256": "286ae26d7633914db48e17366425d5f892bb785cdb340ca205e5171d83194bf9"
+    },
+    {
+      "path": "enterprise/support.md",
+      "size_bytes": 3602,
+      "sha256": "0bf9de7ad7abb16136f51afc4207b7eac2ce584c78aa998340c83329edbc1794"
+    },
+    {
+      "path": "faq.mdx",
+      "size_bytes": 34835,
+      "sha256": "b5d18a27b0e620c56e902581699a4c75f16e402c51a349ec3eab60ed3486c94a"
+    },
+    {
+      "path": "features/administration/_category_.json",
+      "size_bytes": 90,
+      "sha256": "d64b593e55cde5d292d19ec3c79cc5cf4a9cf4e12964f598e42e197fd6944425"
+    },
+    {
+      "path": "features/administration/analytics/index.mdx",
+      "size_bytes": 18106,
+      "sha256": "44057e360f99fee1f8b6a11f36066c96b1549ed9875ba4419921c25ccc5ab0ff"
+    },
+    {
+      "path": "features/administration/banners.md",
+      "size_bytes": 15039,
+      "sha256": "e47e022bb0f9f111ca4286c36287002fb4c1faa785d95099929fb63175efbda5"
+    },
+    {
+      "path": "features/administration/evaluation/index.mdx",
+      "size_bytes": 9390,
+      "sha256": "7c5a3bba8ce3fe74e4073e2cce74c6c073312f977545d3017296b8a2dd32bc20"
+    },
+    {
+      "path": "features/administration/index.mdx",
+      "size_bytes": 5020,
+      "sha256": "8ed4efee8815c9987159b0d139e54f8fab8311fa5aea8472214acfb0df27a18f"
+    },
+    {
+      "path": "features/administration/interface-defaults.md",
+      "size_bytes": 12210,
+      "sha256": "8b9e045ef072b3c2724a09e0a59f179836b31d3a8539fa13a1064abb2f518651"
+    },
+    {
+      "path": "features/administration/task-models.mdx",
+      "size_bytes": 6107,
+      "sha256": "0da4e06ddddd1f87a8773accb41ef722999d59666f7c01e3e7acfe902ce9867f"
+    },
+    {
+      "path": "features/administration/webhooks.md",
+      "size_bytes": 10601,
+      "sha256": "4cc94518d632d7495ddbd2c7bf0bbcaa0131c4eb2168d127262e98fd5d01d7fa"
+    },
+    {
+      "path": "features/authentication-access/_category_.json",
+      "size_bytes": 99,
+      "sha256": "92bda19c9c5da96b4c98c76d7a1d47996d873d2db2d8d449333c602535a686b2"
+    },
+    {
+      "path": "features/authentication-access/api-keys.md",
+      "size_bytes": 9565,
+      "sha256": "00e401d69decfb67ac26d74a76578ff21a199bb0eb48bd9481a1e4900b0e9134"
+    },
+    {
+      "path": "features/authentication-access/auth/_category_.json",
+      "size_bytes": 100,
+      "sha256": "e2fd7fa9d18d243a72176bf8770357a8381e5a0cbde3dd02a107414c81d8a2ee"
+    },
+    {
+      "path": "features/authentication-access/auth/ldap.mdx",
+      "size_bytes": 8392,
+      "sha256": "08276650b8ad179b34d5770118446c7a81cf47337b99dda61de1a3458e3c3e6d"
+    },
+    {
+      "path": "features/authentication-access/auth/scim.mdx",
+      "size_bytes": 9030,
+      "sha256": "1796ce2ecb8bbd6871e2969c0b94b7d6149a92d3578ba6ac8d7ca1651d838789"
+    },
+    {
+      "path": "features/authentication-access/auth/sso/index.mdx",
+      "size_bytes": 33323,
+      "sha256": "0bdf35d95ac59f2346c4fca913f8a71ea27ae112e432c081e6c6a7958a69b78b"
+    },
+    {
+      "path": "features/authentication-access/auth/sso/keycloak.mdx",
+      "size_bytes": 5350,
+      "sha256": "651292a0a5d772b8033d91abe48fdcf53da46ca80cc711e9723dc893a8b0d99e"
+    },
+    {
+      "path": "features/authentication-access/index.mdx",
+      "size_bytes": 4321,
+      "sha256": "95e3c2c10713b576aaed050021023d8e34415f38fcb653bb60a1220b42dc713e"
+    },
+    {
+      "path": "features/authentication-access/rbac/groups.md",
+      "size_bytes": 7938,
+      "sha256": "74fdd8344feae47693f6362789fc6e79cfb5013c833aa63d78df5c6283e14495"
+    },
+    {
+      "path": "features/authentication-access/rbac/index.mdx",
+      "size_bytes": 2387,
+      "sha256": "e2a5baa958d1c0c6003f8c1bb97a281ac9bfeb62690df75cef0e860a02d0aebd"
+    },
+    {
+      "path": "features/authentication-access/rbac/permissions.md",
+      "size_bytes": 18275,
+      "sha256": "b5be7ad503a96bb70dbb1a9041cdf78a44ef2710d2f45a4753740fa4ec02701c"
+    },
+    {
+      "path": "features/authentication-access/rbac/roles.md",
+      "size_bytes": 10852,
+      "sha256": "224eb7290e1cf376ba9d19a913037f8a9cb952923e0876dcb1e95e6c74587624"
+    },
+    {
+      "path": "features/calendar/_category_.json",
+      "size_bytes": 84,
+      "sha256": "2d5a69a5095e9384e889b73247de5c3c79ad66a889581caf0c928333ad51788a"
+    },
+    {
+      "path": "features/calendar/index.md",
+      "size_bytes": 15886,
+      "sha256": "32b90bd2474483867dfcaed9dc9abf3683c8fa22e6b1fb6831089c24e035ab97"
+    },
+    {
+      "path": "features/channels/_category_.json",
+      "size_bytes": 84,
+      "sha256": "e9ce3d0310e3a6fc7d4bcca33ef88ff5456407ca14f955246fb03f50d7197dcd"
+    },
+    {
+      "path": "features/channels/index.md",
+      "size_bytes": 10174,
+      "sha256": "760353d80aae98450294746c59e8dd1a4c63db9efdd180467d6eab8d65d18aa3"
+    },
+    {
+      "path": "features/chat-conversations/_category_.json",
+      "size_bytes": 96,
+      "sha256": "9bdd7f45804e2018b88820c410de1a7fa1aacfaf8b0687c6c0767ca227066e61"
+    },
+    {
+      "path": "features/chat-conversations/audio/_category_.json",
+      "size_bytes": 66,
+      "sha256": "876def0c9878a58c26b315afd34259215d3044a76db24166d1f68c66afde51fc"
+    },
+    {
+      "path": "features/chat-conversations/audio/index.mdx",
+      "size_bytes": 814,
+      "sha256": "2aa0ba0258d1b3868bd7b01d7c32a29f0b7ce3b82ee20060e2c9179c844c8cc5"
+    },
+    {
+      "path": "features/chat-conversations/audio/speech-to-text/_category_.json",
+      "size_bytes": 90,
+      "sha256": "6bd8d09f256c2b93869ac2f533a6f22c785c6936e7ce720450e649fb25c3c1cd"
+    },
+    {
+      "path": "features/chat-conversations/audio/speech-to-text/env-variables.md",
+      "size_bytes": 5716,
+      "sha256": "92e86ec7cf25cd45acc3d64bc4478e8e93898e168ad9a77613ebe775ecabaa9b"
+    },
+    {
+      "path": "features/chat-conversations/audio/speech-to-text/mistral-voxtral-integration.md",
+      "size_bytes": 4488,
+      "sha256": "d7d09cfecf1eab08bcdd8451b28200913bdcaeb1de62a3977fc0b10f8aec53c1"
+    },
+    {
+      "path": "features/chat-conversations/audio/speech-to-text/openai-stt-integration.md",
+      "size_bytes": 4688,
+      "sha256": "67c7b5ef58640af87debd3198768e0de90e108a66be7a457b76c9e4b5a47777f"
+    },
+    {
+      "path": "features/chat-conversations/audio/speech-to-text/stt-config.md",
+      "size_bytes": 5101,
+      "sha256": "1b760ceb49a2463440c7af4f765208b8793ceea9db045e28ce1b569fbfa7a9ea"
+    },
+    {
+      "path": "features/chat-conversations/audio/text-to-speech/Kokoro-FastAPI-integration.md",
+      "size_bytes": 5263,
+      "sha256": "cc8bfd42e14986b027c3093e3014cb15c37d9ec6561a8f40e2343d4d2e4ace29"
+    },
+    {
+      "path": "features/chat-conversations/audio/text-to-speech/_category_.json",
+      "size_bytes": 90,
+      "sha256": "e8379b16ecb49235f3bfa14c41b05e08f27c4439cb1055fd1dc063898ed22265"
+    },
+    {
+      "path": "features/chat-conversations/audio/text-to-speech/chatterbox-tts-api-integration.md",
+      "size_bytes": 9621,
+      "sha256": "75fbf0abc7acec55bc1348281506d043db2aaf126d7953432bc65b8b9b48c741"
+    },
+    {
+      "path": "features/chat-conversations/audio/text-to-speech/kokoro-web-integration.md",
+      "size_bytes": 4384,
+      "sha256": "23c142c819ca7c2a72747dcdfcdf72a2ba576ddcad00775252858fd9b4bc83e8"
+    },
+    {
+      "path": "features/chat-conversations/audio/text-to-speech/mistral-tts-integration.md",
+      "size_bytes": 3654,
+      "sha256": "1111188219e08362d484c59e5a239e10e486fc92bb0990c2f489005f67e1d93b"
+    },
+    {
+      "path": "features/chat-conversations/audio/text-to-speech/openai-edge-tts-integration.md",
+      "size_bytes": 9765,
+      "sha256": "f6fe4248e0db57f54b85600266e417001ff9e72044769ffd5129c215fb2460f3"
+    },
+    {
+      "path": "features/chat-conversations/audio/text-to-speech/openai-tts-integration.md",
+      "size_bytes": 7979,
+      "sha256": "d3da1689463fd39727bb939fc2634f74d807330848fc624d6c416835c2b12a26"
+    },
+    {
+      "path": "features/chat-conversations/audio/text-to-speech/openedai-speech-integration.md",
+      "size_bytes": 12353,
+      "sha256": "73f58ac0329c0fd3e3b481c0367f65119ee8a751e57b696cf675923aebe90696"
+    },
+    {
+      "path": "features/chat-conversations/chat-features/autocomplete.md",
+      "size_bytes": 3699,
+      "sha256": "60088ef2d12518d944d727f4a8bb475fa5ab14b0386e984545d3485f7bdba91c"
+    },
+    {
+      "path": "features/chat-conversations/chat-features/automations.mdx",
+      "size_bytes": 11563,
+      "sha256": "e92f85bca7f729fa20fb742807dc916b87ca729856e1477f1c3150007aaafa88"
+    },
+    {
+      "path": "features/chat-conversations/chat-features/chat-params.md",
+      "size_bytes": 14817,
+      "sha256": "b50f75013737ea528cc19165b130932a75f722933c0626feccde37f8defc5b01"
+    },
+    {
+      "path": "features/chat-conversations/chat-features/chatshare.md",
+      "size_bytes": 9547,
+      "sha256": "9724af9a1f40d103eb41d1f3853a17b753bf8e9a4447ab8e66fa0ac6c5a7d0c2"
+    },
+    {
+      "path": "features/chat-conversations/chat-features/code-execution/artifacts.md",
+      "size_bytes": 10410,
+      "sha256": "3639341266de94a297cfb8edf71cb1ca40e06d4098ac830d78855e940a362538"
+    },
+    {
+      "path": "features/chat-conversations/chat-features/code-execution/index.md",
+      "size_bytes": 11313,
+      "sha256": "01fa8bab4b043aa9b806d5a8d3c74ba38c0a2a3d4f7e5dad9ed650ff0e694817"
+    },
+    {
+      "path": "features/chat-conversations/chat-features/code-execution/mermaid.md",
+      "size_bytes": 3003,
+      "sha256": "f917022f8b8ad46d4fde9df139809e7ede135b4c4e88ad5edec66e39b84a4cb3"
+    },
+    {
+      "path": "features/chat-conversations/chat-features/code-execution/python.md",
+      "size_bytes": 14417,
+      "sha256": "36daf0ef69b1d1b256fdd473624928336dcd99163e9deb7c128c435fb5bf098c"
+    },
+    {
+      "path": "features/chat-conversations/chat-features/conversation-organization.md",
+      "size_bytes": 12881,
+      "sha256": "8e84f23dd2f735ef686eb8dae2aef50fe8299792362bf398c12c20bc46e5bc6d"
+    },
+    {
+      "path": "features/chat-conversations/chat-features/follow-up-prompts.md",
+      "size_bytes": 1895,
+      "sha256": "ee597a5ea53f2db8996f74d764c59a3f44fa0112e523cb2ee75a9ed129d692d3"
+    },
+    {
+      "path": "features/chat-conversations/chat-features/history-search.mdx",
+      "size_bytes": 6866,
+      "sha256": "3476a4d96f1d1bde7aeda779206d541d609f90485da3f2665bad72318a169260"
+    },
+    {
+      "path": "features/chat-conversations/chat-features/index.mdx",
+      "size_bytes": 13430,
+      "sha256": "1ea4ffbae99e98d0f4f268b8b84ca63807bc7a6c0075daddf3c1864978abf852"
+    },
+    {
+      "path": "features/chat-conversations/chat-features/keyboard-shortcuts.mdx",
+      "size_bytes": 5055,
+      "sha256": "6fea3f7042077641ba1f347e38ca62580230bc7ffbcacd56dfe79b9ab5c6e302"
+    },
+    {
+      "path": "features/chat-conversations/chat-features/message-queue.mdx",
+      "size_bytes": 5365,
+      "sha256": "870e802857437445b85bdfdc23485b8fe6cc80aa01ea521446bf92eaa77dba97"
+    },
+    {
+      "path": "features/chat-conversations/chat-features/multi-model-chats.mdx",
+      "size_bytes": 4504,
+      "sha256": "ff69be946cbea913f30d7f7566560c9b8955c1c460744123621554116d516528"
+    },
+    {
+      "path": "features/chat-conversations/chat-features/notifications.mdx",
+      "size_bytes": 5452,
+      "sha256": "6b8d092439ee9eff0402a421c8a89a24fbdb452e2e6df7df51414ce8659c9850"
+    },
+    {
+      "path": "features/chat-conversations/chat-features/reasoning-models.mdx",
+      "size_bytes": 21084,
+      "sha256": "80b4361d56637da7aa41a96adb37fed8b9cfc655aabc6802f184bb1d7aa71f48"
+    },
+    {
+      "path": "features/chat-conversations/chat-features/subagents.mdx",
+      "size_bytes": 8451,
+      "sha256": "46e975721eca436038fb37a5c9b1fe64dd2fd22dcd5708b08a6a4c58a0f4a891"
+    },
+    {
+      "path": "features/chat-conversations/chat-features/task-management.mdx",
+      "size_bytes": 2352,
+      "sha256": "930b8557255cace8a57d7a4bc17eed44c61500751655487df344e7abd3cab7d7"
+    },
+    {
+      "path": "features/chat-conversations/chat-features/temporal-awareness.mdx",
+      "size_bytes": 2039,
+      "sha256": "b5e7b405970f7c00c21b02dcf105e757063a2d1705ee5154ae58a58aef4da4a2"
+    },
+    {
+      "path": "features/chat-conversations/chat-features/timers.mdx",
+      "size_bytes": 5441,
+      "sha256": "7edeac25cb4c3aaf9f393344e08deace3b3b22ad2ff2a76b29d1d6a913f42615"
+    },
+    {
+      "path": "features/chat-conversations/chat-features/url-params.md",
+      "size_bytes": 9307,
+      "sha256": "68a087aaac44da17af25a90d0322d9a3d433fdf6408110e5cbbb6d94e4f83495"
+    },
+    {
+      "path": "features/chat-conversations/data-controls/archived-chats.md",
+      "size_bytes": 2488,
+      "sha256": "471deb993cd38a656a83972f23b846c31808f65648001ac51f606d6df3f29290"
+    },
+    {
+      "path": "features/chat-conversations/data-controls/files.md",
+      "size_bytes": 4525,
+      "sha256": "48476a7cb1676546308bd4f8598a29c91a27582edfbce941ed6b6d620337d906"
+    },
+    {
+      "path": "features/chat-conversations/data-controls/import-export.md",
+      "size_bytes": 8534,
+      "sha256": "81e92772b9cf592e6d4da7bb7ad9f988e48c3b0b2c5c57860d0d72a6323f9c85"
+    },
+    {
+      "path": "features/chat-conversations/data-controls/index.mdx",
+      "size_bytes": 1038,
+      "sha256": "a56c83437778870f1402633813c833e46f2f0a0594279db54e3edfd9154664f4"
+    },
+    {
+      "path": "features/chat-conversations/data-controls/shared-chats.md",
+      "size_bytes": 2401,
+      "sha256": "799bd14ba6d0caaa7f97846f5fb3298198b94975e38d4520359bfd60b6c6246a"
+    },
+    {
+      "path": "features/chat-conversations/direct-connections.mdx",
+      "size_bytes": 3404,
+      "sha256": "80ea3c939d6ba76f0daf5c16adec6305cbf21003d7e2721060ff0a48566946c2"
+    },
+    {
+      "path": "features/chat-conversations/image-generation-and-editing/_category_.json",
+      "size_bytes": 55,
+      "sha256": "800c2bbad182bf31d20d051fc0f787686e1f0cfe6df89dcaa46352af0f036ac5"
+    },
+    {
+      "path": "features/chat-conversations/image-generation-and-editing/automatic1111.md",
+      "size_bytes": 1743,
+      "sha256": "ee9cf6a80be55729b6ff06aebe5de612755f9e5824ffa96d2cc9a771ecc283dd"
+    },
+    {
+      "path": "features/chat-conversations/image-generation-and-editing/comfyui.md",
+      "size_bytes": 19933,
+      "sha256": "e763880015f8eb38237e1bae2ecbd1368b1ca82876cfaa9c9f64594e7c3e9e44"
+    },
+    {
+      "path": "features/chat-conversations/image-generation-and-editing/gemini.mdx",
+      "size_bytes": 5405,
+      "sha256": "cb064c1656aa31cde629f3fb826e7e9fb22f1914c9deb915acc1d588bfe31a60"
+    },
+    {
+      "path": "features/chat-conversations/image-generation-and-editing/image-router.md",
+      "size_bytes": 1378,
+      "sha256": "77019533c289515c2890f50737b2d142ddf199557b45489042e77e6db0f69aff"
+    },
+    {
+      "path": "features/chat-conversations/image-generation-and-editing/index.mdx",
+      "size_bytes": 788,
+      "sha256": "e1a9b508dc4a6b996882470a4af3d3f72da1157f002e7dbac19451400e03053a"
+    },
+    {
+      "path": "features/chat-conversations/image-generation-and-editing/lumenfall.md",
+      "size_bytes": 2064,
+      "sha256": "c15fdf2e068f9cabaea3b6a2cb240d72b2bb906b0b55496b009d8b2773e790b4"
+    },
+    {
+      "path": "features/chat-conversations/image-generation-and-editing/openai.md",
+      "size_bytes": 4379,
+      "sha256": "c75681922c87f13c6c43eccb532761345a387a35a74e96003a02f40bfdd3c2ac"
+    },
+    {
+      "path": "features/chat-conversations/image-generation-and-editing/usage.md",
+      "size_bytes": 6351,
+      "sha256": "acbf146bc0c7a378b6a15606ea20f1695c37469360a7963db90aac695b63c08c"
+    },
+    {
+      "path": "features/chat-conversations/index.mdx",
+      "size_bytes": 2645,
+      "sha256": "9a0927a957057dc736705145495c307b5e858ac619ee947486d657a102f26034"
+    },
+    {
+      "path": "features/chat-conversations/memory.mdx",
+      "size_bytes": 10134,
+      "sha256": "14aa5dac3c3c16003e011908341777dd17f9dd2d63004a741f8cec7101f11668"
+    },
+    {
+      "path": "features/chat-conversations/prompt-caching.md",
+      "size_bytes": 16315,
+      "sha256": "a532f97b02438b96de7691a5b1feeee2abf88dd95fc0823fd7565fccd2c298f1"
+    },
+    {
+      "path": "features/chat-conversations/rag/document-extraction/apachetika.md",
+      "size_bytes": 7499,
+      "sha256": "3490caf05a4b8c6be2e92ed7f74a5fe8a4d483f5d5252b5d633a1fbaf370623c"
+    },
+    {
+      "path": "features/chat-conversations/rag/document-extraction/docling.md",
+      "size_bytes": 9696,
+      "sha256": "c0b5422277d37054cafab26d1e615b9e0908da09c6244b59d15e4d0ec0313518"
+    },
+    {
+      "path": "features/chat-conversations/rag/document-extraction/external.md",
+      "size_bytes": 5599,
+      "sha256": "183a57007895dab37a560e81d33c1ac01cef7a65375a07eb82c727aeb5a78813"
+    },
+    {
+      "path": "features/chat-conversations/rag/document-extraction/index.md",
+      "size_bytes": 2476,
+      "sha256": "b43249f17bc0852ad6762cd324ba76eb4ed210bf45a8c13654f8e35413e585ac"
+    },
+    {
+      "path": "features/chat-conversations/rag/document-extraction/mistral-ocr.md",
+      "size_bytes": 2858,
+      "sha256": "2f55989b937888cbf54bdeba92f0e85c92187f1cdeb60768c132d0b8f150b89b"
+    },
+    {
+      "path": "features/chat-conversations/rag/index.md",
+      "size_bytes": 34690,
+      "sha256": "ea3e2f2acf8dcc4b43ad4dbcdc73c255566a0a06514ccf3fa0b404fe8fcf96aa"
+    },
+    {
+      "path": "features/chat-conversations/web-search/_category_.json",
+      "size_bytes": 45,
+      "sha256": "f0aa1762c9725e0320c04ddb27840d45c8d72bb253ac80c11487cf3a282bef7b"
+    },
+    {
+      "path": "features/chat-conversations/web-search/agentic-search.mdx",
+      "size_bytes": 13773,
+      "sha256": "69031ab47f4e45778c21b62e1e6e96349a859f520805c83326dc263c836d6916"
+    },
+    {
+      "path": "features/chat-conversations/web-search/index.mdx",
+      "size_bytes": 4865,
+      "sha256": "f74abdc99d83e950ad321a741749830c52b37032b7972145fb21162eb7cdabe7"
+    },
+    {
+      "path": "features/chat-conversations/web-search/providers/_category_.json",
+      "size_bytes": 85,
+      "sha256": "f6eff6066a4e4d5e12cc968d5dcba22042f02414f58c5220cb42509e01b01c07"
+    },
+    {
+      "path": "features/chat-conversations/web-search/providers/bing.md",
+      "size_bytes": 1602,
+      "sha256": "00f5b696471184fc197b158727e9ec0d1f18dd2162933a37a1569f467bbc2ba4"
+    },
+    {
+      "path": "features/chat-conversations/web-search/providers/brave.md",
+      "size_bytes": 4453,
+      "sha256": "532712db3e081e9b0de80ead00a236c2aea1aa5130badf0fc1dded1d57226315"
+    },
+    {
+      "path": "features/chat-conversations/web-search/providers/ddgs.mdx",
+      "size_bytes": 3056,
+      "sha256": "e3b04100639aaa6c9fe34b4ca8c99f0abd2aa66aae5605f78b223a17154dcc72"
+    },
+    {
+      "path": "features/chat-conversations/web-search/providers/exa.md",
+      "size_bytes": 3996,
+      "sha256": "a245455b36ec14d9c4e8d52fdf03eef836725f30c8f92589d7cf44cb0b226eb4"
+    },
+    {
+      "path": "features/chat-conversations/web-search/providers/external.md",
+      "size_bytes": 4845,
+      "sha256": "572a22fecff986c985cf711b0eb76fb8eef2c4ef9d595ebef21e9fc69e7a747a"
+    },
+    {
+      "path": "features/chat-conversations/web-search/providers/firecrawl.md",
+      "size_bytes": 3758,
+      "sha256": "f0f97e19a1b9a04aadead69aa629ba9cf06ecb54438b51286fd61851d3aa0856"
+    },
+    {
+      "path": "features/chat-conversations/web-search/providers/google-pse.md",
+      "size_bytes": 2037,
+      "sha256": "964af8f16289264b5327106bd2504f4caceef60f8183f32ef3b6a9ae5cfc595e"
+    },
+    {
+      "path": "features/chat-conversations/web-search/providers/jina.md",
+      "size_bytes": 5778,
+      "sha256": "2b15bb2f878a349ded25119723ea793dd84d0e6ce6dca8e39f1a34d0698612d8"
+    },
+    {
+      "path": "features/chat-conversations/web-search/providers/kagi.md",
+      "size_bytes": 3321,
+      "sha256": "1d108aa1f3263f79ec4f5a45f1d8724bf7c8fc92fbbd32b3fec5a54d74c625fc"
+    },
+    {
+      "path": "features/chat-conversations/web-search/providers/linkup.md",
+      "size_bytes": 4420,
+      "sha256": "26104b668447ec956bbd9606d1a3f7609bf3007d30351df8d23ea0961065256e"
+    },
+    {
+      "path": "features/chat-conversations/web-search/providers/microsoft-web-iq.md",
+      "size_bytes": 3329,
+      "sha256": "7388fe9e3013d46f9a5a99fc51bf9b3e659723e97af9ab83314e7f83133c817d"
+    },
+    {
+      "path": "features/chat-conversations/web-search/providers/mojeek.md",
+      "size_bytes": 1533,
+      "sha256": "7b600265564e5415a182bc84c070df2cb2adf0afc9cd8caa5293d8e8c28f6535"
+    },
+    {
+      "path": "features/chat-conversations/web-search/providers/ollama-cloud.mdx",
+      "size_bytes": 808,
+      "sha256": "dd8be4a16f23cac7d6dce12152bd04fb41073dd6d646be48e723cd821d9710d6"
+    },
+    {
+      "path": "features/chat-conversations/web-search/providers/openserp.md",
+      "size_bytes": 2471,
+      "sha256": "75e02b29e2dd3606e1cbabe41462a0c81e9989d3f43e9ced6fccd6c4a1d49f37"
+    },
+    {
+      "path": "features/chat-conversations/web-search/providers/perplexity.mdx",
+      "size_bytes": 1282,
+      "sha256": "ce9bc1961ae562f728d258be9846104c14a8f0ab964208b5d5baaee232d4cbef"
+    },
+    {
+      "path": "features/chat-conversations/web-search/providers/perplexity_search.mdx",
+      "size_bytes": 2193,
+      "sha256": "4d590be9d088682eb0fb0c9602cb887142c2c8834ef346a5943a1de5b33a56da"
+    },
+    {
+      "path": "features/chat-conversations/web-search/providers/searchapi.md",
+      "size_bytes": 2110,
+      "sha256": "94484ec2fb3d34f2fdd159786a149a4d68666ec098e7e78b0cbfa21f77694f7e"
+    },
+    {
+      "path": "features/chat-conversations/web-search/providers/searxng.md",
+      "size_bytes": 11562,
+      "sha256": "60a03816c9c4a457f761bca982e9a0c7bd378541fb9944f9df29ce0b2f8edf11"
+    },
+    {
+      "path": "features/chat-conversations/web-search/providers/serpapi.md",
+      "size_bytes": 2169,
+      "sha256": "4ab999bfb9eba4a6892246b228652dd9c0b8346056399e19f05c3c06d5d6bbf7"
+    },
+    {
+      "path": "features/chat-conversations/web-search/providers/serper.md",
+      "size_bytes": 791,
+      "sha256": "3646d5b82cb663e285f9d5ba164ad02424f18d6f58bbb6326ac4ec1f83554acb"
+    },
+    {
+      "path": "features/chat-conversations/web-search/providers/serphouse.md",
+      "size_bytes": 3341,
+      "sha256": "033b34230f64ed86a9703a49c88a5f63a05e58e293688a497357c5c548752ded"
+    },
+    {
+      "path": "features/chat-conversations/web-search/providers/serply.md",
+      "size_bytes": 791,
+      "sha256": "4c4b0fe4148280ef9d2103a041b6904e39681a1c5848b75a93fd816beea39c1a"
+    },
+    {
+      "path": "features/chat-conversations/web-search/providers/serpstack.md",
+      "size_bytes": 794,
+      "sha256": "aa80ebb4df773f4d601924bd4508ec21e1576f07259bb18234df6ff59bd7a180"
+    },
+    {
+      "path": "features/chat-conversations/web-search/providers/tavily.md",
+      "size_bytes": 4666,
+      "sha256": "65fa5d8d10323d40f07d9a40744ce9c33324c073c9a5bc3ca5ffe9b736e6760c"
+    },
+    {
+      "path": "features/chat-conversations/web-search/providers/yacy.md",
+      "size_bytes": 1840,
+      "sha256": "ff8a5ad493e0963993fd3c9c0c691894433a4e87531c6e12c87c59680ddb8ddc"
+    },
+    {
+      "path": "features/chat-conversations/web-search/providers/yandex.md",
+      "size_bytes": 1925,
+      "sha256": "50b2dcf0c86f55f04f8900fc046f0d5ca2e2f1f3e17990ef116a82d494960805"
+    },
+    {
+      "path": "features/chat-conversations/web-search/providers/youcom.md",
+      "size_bytes": 1846,
+      "sha256": "b4db03d1340913b7f64b864d336b3def0f6e320225ed359af8a76d33ba8956d3"
+    },
+    {
+      "path": "features/chat-conversations/web-search/save-to-knowledge.mdx",
+      "size_bytes": 3517,
+      "sha256": "04cb613ba9d10ef9819def6d2f80a84c4dfc43fcbdffc2bce3651ed4e446ae1d"
+    },
+    {
+      "path": "features/extensibility/_category_.json",
+      "size_bytes": 99,
+      "sha256": "30ab6639502ffdf53d67a3b6133e42bf330ceb3109e3ca62991fbcd218680bd5"
+    },
+    {
+      "path": "features/extensibility/community.mdx",
+      "size_bytes": 16260,
+      "sha256": "ab1d34d2107fecb7882e98b15279fa42eec136784297b0551eb244f1dd0ed4fd"
+    },
+    {
+      "path": "features/extensibility/index.mdx",
+      "size_bytes": 9145,
+      "sha256": "1f5b8048c431d80874b0151dfac803b0d5b746ae0028df4f88aa049ebeb4e4ee"
+    },
+    {
+      "path": "features/extensibility/mcp.mdx",
+      "size_bytes": 17967,
+      "sha256": "ec6d49a592b2d671db1221b9c867828ee53cdf5ca9c5937360d4d118b7da51dc"
+    },
+    {
+      "path": "features/extensibility/pipelines/_category_.json",
+      "size_bytes": 47,
+      "sha256": "73e31a841281c73393040fe1c3056a39b3a4d1a700aa0a35a400ae6fa2eb6262"
+    },
+    {
+      "path": "features/extensibility/pipelines/filters.md",
+      "size_bytes": 1788,
+      "sha256": "088cd70eef57a62f708c6b050692ab356db554e30f164b6264ee55a6b99ff7cb"
+    },
+    {
+      "path": "features/extensibility/pipelines/index.mdx",
+      "size_bytes": 7996,
+      "sha256": "5e58385efcc8d699a3bcd47fb0f97d1c01d358b2e88f20d842dbb551a9eec9ef"
+    },
+    {
+      "path": "features/extensibility/pipelines/pipes.md",
+      "size_bytes": 7705,
+      "sha256": "a95cf2c9d4f2c832d278a08508edc7c8a0b2a426a6f028664dc9155b16f0c8c4"
+    },
+    {
+      "path": "features/extensibility/pipelines/tutorials.md",
+      "size_bytes": 1864,
+      "sha256": "3590f762bb82c04f02da3d5f95098377f4b12b5ff662665a2470e8de8c717cd8"
+    },
+    {
+      "path": "features/extensibility/pipelines/valves.md",
+      "size_bytes": 2250,
+      "sha256": "2f08a2adfccf1c8fed8865716c03ee686369068a2473fd719cd5c885548d870e"
+    },
+    {
+      "path": "features/extensibility/plugin/development/_category_.json",
+      "size_bytes": 89,
+      "sha256": "208cee21503b649748ecf5a2cc70f1f37e574f943c93ed3375a91dd1bae33150"
+    },
+    {
+      "path": "features/extensibility/plugin/development/events.mdx",
+      "size_bytes": 49849,
+      "sha256": "ac717062c9b13250b0462c4a56cdf29050e25ad2166a1770fab32de16e5fb323"
+    },
+    {
+      "path": "features/extensibility/plugin/development/reserved-args.mdx",
+      "size_bytes": 15395,
+      "sha256": "42f01e03087599675d33843cda105e26d46327a35f86f4be8350f0bec7014cc2"
+    },
+    {
+      "path": "features/extensibility/plugin/development/rich-ui.mdx",
+      "size_bytes": 29096,
+      "sha256": "49e2261e3d10731d21f692f2374fb3e1d22b04a9ac12ad4bb282580aee2ae028"
+    },
+    {
+      "path": "features/extensibility/plugin/development/under-the-hood.mdx",
+      "size_bytes": 19562,
+      "sha256": "3c2cdef4aba339bb6a8ca2a1005aefef7bb79571f04bceb6f1e55b0c977f9010"
+    },
+    {
+      "path": "features/extensibility/plugin/development/valves.mdx",
+      "size_bytes": 10814,
+      "sha256": "fbf5d86c43260355a7189ee995ab9baf9a45a72b724cd039d75e460684f83c89"
+    },
+    {
+      "path": "features/extensibility/plugin/functions/action.mdx",
+      "size_bytes": 13946,
+      "sha256": "8f398dcaa9f7e3281006a5b3bea865fbd8b296dfbdcf55c9c9f9578da6567dd3"
+    },
+    {
+      "path": "features/extensibility/plugin/functions/event.mdx",
+      "size_bytes": 20115,
+      "sha256": "a387ff65ecc4534dcae61ba678cf1b3b03b910e1ae8aa8fa23efc44b8e13b427"
+    },
+    {
+      "path": "features/extensibility/plugin/functions/filter.mdx",
+      "size_bytes": 76706,
+      "sha256": "3ff04febf7e5f930a4770f188451f24d97e597def21f918b8e64196ee1ecb5e7"
+    },
+    {
+      "path": "features/extensibility/plugin/functions/index.mdx",
+      "size_bytes": 14320,
+      "sha256": "c96a6c63a4d5da35eaf8ceda0114e4d8a050aeb0ca8b4711db7191d38209a484"
+    },
+    {
+      "path": "features/extensibility/plugin/functions/pipe.mdx",
+      "size_bytes": 18030,
+      "sha256": "f89a251075790b181ae43bed34ef73260e2ba3685d327eced79d3f3e3dc6e10d"
+    },
+    {
+      "path": "features/extensibility/plugin/index.mdx",
+      "size_bytes": 9113,
+      "sha256": "2fe44fe15723bf2bcccb05328f93e78c0bcd2c72afd1ad36db1e3548a771741b"
+    },
+    {
+      "path": "features/extensibility/plugin/migration/index.mdx",
+      "size_bytes": 1063,
+      "sha256": "9acf08eb31220fe2dc03401f49b34176b1b4bca381a9c4ef0ce28bf9c54df120"
+    },
+    {
+      "path": "features/extensibility/plugin/migration/to-0.5.0.mdx",
+      "size_bytes": 9432,
+      "sha256": "7a1820e9c39270463ac4dfe6398b95e6d771f3b58d22480fc46c53c3c731012f"
+    },
+    {
+      "path": "features/extensibility/plugin/migration/to-0.9.0.mdx",
+      "size_bytes": 12194,
+      "sha256": "286dd1c581f9387f38f108dd8106d2ee01afdcbb6e04abe34183fa583f981528"
+    },
+    {
+      "path": "features/extensibility/plugin/tools/development.mdx",
+      "size_bytes": 58067,
+      "sha256": "1bfe1729b4801147d2e70176e903e8dffd9d1bc5fd70312566f8ece714ead7a8"
+    },
+    {
+      "path": "features/extensibility/plugin/tools/index.mdx",
+      "size_bytes": 67782,
+      "sha256": "39e5298a2af2e1573264a70c80b13579a2f2544232c2f50994e28c8fed6b00ef"
+    },
+    {
+      "path": "features/extensibility/plugin/tools/openapi-servers/faq.mdx",
+      "size_bytes": 8144,
+      "sha256": "b6920420cd7ec89fd11260abfd2a1928ca2730ed83ccc41c345962dc1e4b2755"
+    },
+    {
+      "path": "features/extensibility/plugin/tools/openapi-servers/index.mdx",
+      "size_bytes": 6360,
+      "sha256": "b3974e541de40f0325bb61f48bde6b5ead868d74f676f9f1e0f3f1850dbb74fc"
+    },
+    {
+      "path": "features/extensibility/plugin/tools/openapi-servers/mcp.mdx",
+      "size_bytes": 11229,
+      "sha256": "f0299336ad7e2307030ea345bb2c3ffd5c7289f6f9d615e76b370ee94247afcd"
+    },
+    {
+      "path": "features/extensibility/plugin/tools/openapi-servers/open-webui.mdx",
+      "size_bytes": 13214,
+      "sha256": "2aaf7d8ac8223897a9b44be093605ccdcd8e3c5435e6bf02f48b9fd46a016c6e"
+    },
+    {
+      "path": "features/index.mdx",
+      "size_bytes": 10472,
+      "sha256": "8cd0f010d7ea0e91dc44e959b6632565b6e763979f99a6016ee885c6f3b64c26"
+    },
+    {
+      "path": "features/notes/_category_.json",
+      "size_bytes": 81,
+      "sha256": "9057d333a4b2ca3f0d4900db5f95e641f126807ea59106750b9623e0863248ee"
+    },
+    {
+      "path": "features/notes/index.md",
+      "size_bytes": 13758,
+      "sha256": "d9a5c54dbe2cfcb4d675420c206aebba6b459bd88f7fc06d4d1d024b950db11c"
+    },
+    {
+      "path": "features/open-terminal/_category_.json",
+      "size_bytes": 89,
+      "sha256": "e5e3c47f8da845cdd1b2a6d9b080ea95376f235c4e705b8f258a43738ca7450b"
+    },
+    {
+      "path": "features/open-terminal/advanced/_category_.json",
+      "size_bytes": 84,
+      "sha256": "c3d2f8ebbc5f1b2f5d08479a9e797235344773737283e3aababa0db4b8c20928"
+    },
+    {
+      "path": "features/open-terminal/advanced/configuration.md",
+      "size_bytes": 7117,
+      "sha256": "862634fae281dc94368f3cb640b3b631835c8655c59fe8eda4d4ca792fc0f2dc"
+    },
+    {
+      "path": "features/open-terminal/advanced/multi-user.md",
+      "size_bytes": 6493,
+      "sha256": "d5082cb0dd4e17fef61486dd4a3eb3e50cd05fb064c3ae84adc8ed739dcadadb"
+    },
+    {
+      "path": "features/open-terminal/advanced/security.md",
+      "size_bytes": 9427,
+      "sha256": "be4cf24f0110c41c0e27197d647fade63e54a3c13f41409a7d17d7e85434c420"
+    },
+    {
+      "path": "features/open-terminal/file-browser.md",
+      "size_bytes": 13289,
+      "sha256": "7321b0f2677a868b651f2b750e39b8c3fd70c4e5c7a059b70b915169fe14890d"
+    },
+    {
+      "path": "features/open-terminal/index.md",
+      "size_bytes": 11105,
+      "sha256": "d5df3d0f41a6e49858a1ee87902ae0040c1cdd9aa1380ad3363126d778597117"
+    },
+    {
+      "path": "features/open-terminal/setup/_category_.json",
+      "size_bytes": 81,
+      "sha256": "39e43cca223435a06950c55c2946a5bdf0f6873d868a1d9996ce706d0c13d71a"
+    },
+    {
+      "path": "features/open-terminal/setup/connecting.md",
+      "size_bytes": 13308,
+      "sha256": "54dbbca5486ab34dfa9adf711efca6ee3e3087650900aa5707213336a7591abc"
+    },
+    {
+      "path": "features/open-terminal/setup/installation.mdx",
+      "size_bytes": 6243,
+      "sha256": "4c7e8ac489b549ca6ad30ca9d7370bfbda8a8207e73daba6f589ece8f62b9018"
+    },
+    {
+      "path": "features/open-terminal/setup/updating.mdx",
+      "size_bytes": 6059,
+      "sha256": "f3d8659580c2bdd7532921fa6365488b7885c8e47d9c6670355ed69c6fb2cecc"
+    },
+    {
+      "path": "features/open-terminal/terminals/_category_.json",
+      "size_bytes": 100,
+      "sha256": "84036f6c9f24210e8031889ad09eabb15d2dc07fa2d27819d13043b68d37eea2"
+    },
+    {
+      "path": "features/open-terminal/terminals/index.mdx",
+      "size_bytes": 8114,
+      "sha256": "b465adb09ee7162d0e239bba8bbe8b968c0845270bb59ee24970d9051f75949d"
+    },
+    {
+      "path": "features/open-terminal/terminals/orchestration/_category_.json",
+      "size_bytes": 89,
+      "sha256": "f423093badd56b6baa4cef54e8c93602aa0b1defb2c2aec10873bdeb077c647f"
+    },
+    {
+      "path": "features/open-terminal/terminals/orchestration/api-troubleshooting.md",
+      "size_bytes": 3803,
+      "sha256": "610a65846b18482bbc5feff16570e3c21f30d2043bfa5e832f2102e176369a4e"
+    },
+    {
+      "path": "features/open-terminal/terminals/orchestration/applying-changes.md",
+      "size_bytes": 1760,
+      "sha256": "451296c983726c7c7d15fab6ce434f24008d245ff79b30a36e5f8f1b86cf5809"
+    },
+    {
+      "path": "features/open-terminal/terminals/orchestration/contexts.md",
+      "size_bytes": 4750,
+      "sha256": "b4a03db24599a698e3b01404d3709cbbaf74b1ad03a87538e7fda9a8512b78b6"
+    },
+    {
+      "path": "features/open-terminal/terminals/orchestration/custom-images.md",
+      "size_bytes": 717,
+      "sha256": "610f8f66412a004b61e7907c19c4876f123436fe100dff4e3266850ff91df774"
+    },
+    {
+      "path": "features/open-terminal/terminals/orchestration/environment-variables.md",
+      "size_bytes": 2705,
+      "sha256": "4a63ed94726bfc95ae24a00443bac61d8506a87942a9e00d8feb571f8fb9c23a"
+    },
+    {
+      "path": "features/open-terminal/terminals/orchestration/file-browser-home-boundary.md",
+      "size_bytes": 2033,
+      "sha256": "9d18918ec01e87f327bfda391f0ba44cfcc5e5fb4dd491e3a5df57ea314b1090"
+    },
+    {
+      "path": "features/open-terminal/terminals/orchestration/index.md",
+      "size_bytes": 7677,
+      "sha256": "7aacf6250234eadd9bc97eb34294f217a96485a6f2a9c55a8642c80e9557f36e"
+    },
+    {
+      "path": "features/open-terminal/terminals/orchestration/openshift.md",
+      "size_bytes": 2521,
+      "sha256": "d5bc8e72d42231f40f3d15739b3f22ed418fef1f631140dccd8c7eefed8c36dd"
+    },
+    {
+      "path": "features/open-terminal/terminals/orchestration/policies.md",
+      "size_bytes": 2662,
+      "sha256": "e85fcfe3c321407b88858be90dd7a880868081d50e7a39e8fa2f74ae6d33336d"
+    },
+    {
+      "path": "features/open-terminal/terminals/orchestration/scheduled-resets.md",
+      "size_bytes": 2008,
+      "sha256": "ba37077b27ab6cda8601d237fa7e4eadc6ab56378db69fb86183378991668598"
+    },
+    {
+      "path": "features/open-terminal/terminals/orchestration/system-prompts.md",
+      "size_bytes": 1223,
+      "sha256": "1cba4c554cfec035eaf7e88318a73ee4009d383ad507f75e1eef41b7b78c4155"
+    },
+    {
+      "path": "features/open-terminal/terminals/tab-deployment/Docker.md",
+      "size_bytes": 5242,
+      "sha256": "c827fe5b3478f9e5c0939469a14e8c824bea94b0b6801d3a789d97bec8d2e69c"
+    },
+    {
+      "path": "features/open-terminal/terminals/tab-deployment/Kubernetes.md",
+      "size_bytes": 6074,
+      "sha256": "705ce4e7a3e1c31c7565df14b76c9d609578b3aa905a6a96b8790316a8f8c8c4"
+    },
+    {
+      "path": "features/open-terminal/use-cases/_category_.json",
+      "size_bytes": 85,
+      "sha256": "c5b9abf2817ca2795d0dd712a45c55408ef815af6c05a5cc713e8fba3b2f38f3"
+    },
+    {
+      "path": "features/open-terminal/use-cases/advanced-workflows/_category_.json",
+      "size_bytes": 94,
+      "sha256": "3a84ffa2d2c5af6a17e0485f207445a30cf577abe81080d3043b1582f2744ba5"
+    },
+    {
+      "path": "features/open-terminal/use-cases/advanced-workflows/app-builder.md",
+      "size_bytes": 1763,
+      "sha256": "ec312cdefb0f22f261cc7bcbe4d9a0fc46d99c3c0ef617d5868908cd5779fbb9"
+    },
+    {
+      "path": "features/open-terminal/use-cases/advanced-workflows/code-review.md",
+      "size_bytes": 2769,
+      "sha256": "01b16c430737f363b57811f3a3b9f34ba92619840535e2d7d7093dfe8069f8f7"
+    },
+    {
+      "path": "features/open-terminal/use-cases/advanced-workflows/competitive-analysis.md",
+      "size_bytes": 1601,
+      "sha256": "82ce85c5a384356bcc3ea98b30a397d01d265295e22d88079117d9df259509fc"
+    },
+    {
+      "path": "features/open-terminal/use-cases/advanced-workflows/data-reports.md",
+      "size_bytes": 2290,
+      "sha256": "881eaa21281c23f74dff42ef6a321c7d943d2f6ab05a43d3d59115df3a6f229b"
+    },
+    {
+      "path": "features/open-terminal/use-cases/advanced-workflows/database-analysis.md",
+      "size_bytes": 3957,
+      "sha256": "0d73baa15302acbca44139163aa42dcfe7307bcfda91578d358795ae9cfb9479"
+    },
+    {
+      "path": "features/open-terminal/use-cases/advanced-workflows/document-comparison.md",
+      "size_bytes": 1964,
+      "sha256": "0f0ffdbc81a23604bbc6abd5a7a4dbaf65d671746898eac5f5d2584d3fbc6496"
+    },
+    {
+      "path": "features/open-terminal/use-cases/advanced-workflows/email-processing.md",
+      "size_bytes": 1700,
+      "sha256": "416bae666c94089b5947494d92c5edf13ee816a6776e263c8d80203672bdd867"
+    },
+    {
+      "path": "features/open-terminal/use-cases/advanced-workflows/finance-dashboard.md",
+      "size_bytes": 2041,
+      "sha256": "9492b21347e6f17949c7130f5b21c67b56e4fffd8c06d95b34faa28fdcf8e91b"
+    },
+    {
+      "path": "features/open-terminal/use-cases/advanced-workflows/image-processing.md",
+      "size_bytes": 1531,
+      "sha256": "0e5b627256f85240687695508f7f8072eb7801e6cce0a6018566ee71faeabe4e"
+    },
+    {
+      "path": "features/open-terminal/use-cases/advanced-workflows/index.md",
+      "size_bytes": 5688,
+      "sha256": "ab18045f6f8b34c7c23b195af4bfffc9c195e7aeba2168807a41a2616d20f742"
+    },
+    {
+      "path": "features/open-terminal/use-cases/advanced-workflows/research-assistant.md",
+      "size_bytes": 2003,
+      "sha256": "bbdde3e1caf6ba906a817be615d37680a3e1d0d4b20be1a1e17e49134dd989ff"
+    },
+    {
+      "path": "features/open-terminal/use-cases/code-execution.md",
+      "size_bytes": 2926,
+      "sha256": "34453ac011704dcc756665c16232c3a1126c0a573a80a7c88e8dc936e9109ae4"
+    },
+    {
+      "path": "features/open-terminal/use-cases/creating-files.md",
+      "size_bytes": 4117,
+      "sha256": "ebe03b1b43d38418c75d97f56aa43d5d67aacde2679dedb93dd3a8f41f35cda7"
+    },
+    {
+      "path": "features/open-terminal/use-cases/file-analysis.md",
+      "size_bytes": 3711,
+      "sha256": "4632091deb1f7fba98098330fb90adc44e5404184d0c07f2d2078081c3c391f9"
+    },
+    {
+      "path": "features/open-terminal/use-cases/software-development.md",
+      "size_bytes": 5567,
+      "sha256": "5a383b72a542e12e5b0e5849df665ac7490889584f5f6fa28c68a35772b7ad5e"
+    },
+    {
+      "path": "features/open-terminal/use-cases/system-automation.md",
+      "size_bytes": 2917,
+      "sha256": "51cdde473ce3201695fdce8d28d6e750b8a046b4ad91006d0d725759619370be"
+    },
+    {
+      "path": "features/open-terminal/use-cases/web-development.md",
+      "size_bytes": 3447,
+      "sha256": "ae780c7f42132254f679252733ac52d7c121187751e6b8303785dada7a68ebdf"
+    },
+    {
+      "path": "features/workspace/_category_.json",
+      "size_bytes": 85,
+      "sha256": "52e9175b6897e4bdfbd5090749c7a2d3c6d7d83115458fb08e41456982b678dd"
+    },
+    {
+      "path": "features/workspace/index.mdx",
+      "size_bytes": 3894,
+      "sha256": "f2fb8eae71d5df1b07c9f57f688daf994dd144fa8d82910181389f2ce2599be6"
+    },
+    {
+      "path": "features/workspace/knowledge.mdx",
+      "size_bytes": 24593,
+      "sha256": "135ed48e8367edfd4d7b3e80d8613c0a4ba113821f91db6c544aa76d4bbffdd0"
+    },
+    {
+      "path": "features/workspace/models.md",
+      "size_bytes": 23740,
+      "sha256": "6a4368d1eaf665f95a2019566b055ce6c4d952f2fb6b0bfacc2f455f4369e59e"
+    },
+    {
+      "path": "features/workspace/prompts.md",
+      "size_bytes": 12834,
+      "sha256": "4704f77e980719d9c68c9adcbdbb0a19667da8b0f40ba17731e36ca8714d5583"
+    },
+    {
+      "path": "features/workspace/skills.md",
+      "size_bytes": 9068,
+      "sha256": "ae6805c06a0546f58e1ab71201aabec0c3bba4014bd0a886bbc45f1740429e4f"
+    },
+    {
+      "path": "getting-started/advanced-topics/development.md",
+      "size_bytes": 6160,
+      "sha256": "39dfda6f2ed19968a93864944beb05cec1b80caeafeb295f2006cedbca4d7e48"
+    },
+    {
+      "path": "getting-started/advanced-topics/hardening.md",
+      "size_bytes": 41616,
+      "sha256": "33f5ab9d64ac0ba699b85855203a1372e7968db09d49476df504b62dbab7c446"
+    },
+    {
+      "path": "getting-started/advanced-topics/index.md",
+      "size_bytes": 1977,
+      "sha256": "341c583b5305173fffc0c6144db7005034be72680e5dcfa7b3d450043d68b96b"
+    },
+    {
+      "path": "getting-started/advanced-topics/logging.md",
+      "size_bytes": 3914,
+      "sha256": "1c185be4d7b0733a5c6cefd390741cac1ddd37b4d128dbed96b9c28d6a18010e"
+    },
+    {
+      "path": "getting-started/advanced-topics/scaling.md",
+      "size_bytes": 39110,
+      "sha256": "0a16827ee80c3aa5cfbadbcb93cc1172aebb42975a9bb097ac14621597fb4707"
+    },
+    {
+      "path": "getting-started/deployment/_category_.json",
+      "size_bytes": 55,
+      "sha256": "2c689b3291b560b3ddc1e9253f15adf2eca888f7976cd92d5c1edf1b222fde7e"
+    },
+    {
+      "path": "getting-started/deployment/aws-ecs.md",
+      "size_bytes": 12351,
+      "sha256": "c17e2c57e811a3878114b99f307f4470a9f3a66befd368dedc88a38ecbde4f11"
+    },
+    {
+      "path": "getting-started/deployment/azure-container-apps.md",
+      "size_bytes": 12037,
+      "sha256": "1971c563899330b93fc6076825bcd51d2f0572731000f5b9854f75557190e83b"
+    },
+    {
+      "path": "getting-started/deployment/docker-swarm.md",
+      "size_bytes": 5454,
+      "sha256": "fe1f364fe6e2f5172905809988a4eed66bbf2df2291071674c76465871792f04"
+    },
+    {
+      "path": "getting-started/deployment/google-cloud-run.md",
+      "size_bytes": 13457,
+      "sha256": "d221e41ffb3c1f357fedcc8be23c21c70c900ee6452509b57a4143dffa35bedd"
+    },
+    {
+      "path": "getting-started/deployment/index.md",
+      "size_bytes": 2771,
+      "sha256": "8539142247c3af6b8f5c8afc9f601185ddb80fcc9dffe51010d2355f9b39801d"
+    },
+    {
+      "path": "getting-started/deployment/kubernetes.md",
+      "size_bytes": 24632,
+      "sha256": "a0b6b5d8d9177af7a40e1688f1a0d420cb688141eef7d2401d4735b35c17ca89"
+    },
+    {
+      "path": "getting-started/essentials.mdx",
+      "size_bytes": 28622,
+      "sha256": "6f97b860ab56796a7eb01882667d58e88ddf0a6c7fbbcf22864fb97a056c2d29"
+    },
+    {
+      "path": "getting-started/index.md",
+      "size_bytes": 5907,
+      "sha256": "b26475c2edf57e551d182df07d67f1a6a4d96b476f7042e270ec683290a141f2"
+    },
+    {
+      "path": "getting-started/open-webui-as-app.md",
+      "size_bytes": 1735,
+      "sha256": "e32fe5fdd15794efbb5dd66d832e429ec7d1091888bd70720ded80ef76aacd16"
+    },
+    {
+      "path": "getting-started/quick-start/connect-a-provider/_category_.json",
+      "size_bytes": 94,
+      "sha256": "7ed15fa9e1a5485ed94c8e383630f02c8e19253e60e359c887b3b5947a46ced4"
+    },
+    {
+      "path": "getting-started/quick-start/connect-a-provider/index.md",
+      "size_bytes": 3129,
+      "sha256": "468d554a553260f5650e3b1fa8e69cf12b0dec488b024804799476d6243836db"
+    },
+    {
+      "path": "getting-started/quick-start/connect-a-provider/starting-with-anthropic.mdx",
+      "size_bytes": 3113,
+      "sha256": "4f6ed53eb4f7bd0d6c167d190a57cd9ac372e3f91784fb415e16079ddcccebad"
+    },
+    {
+      "path": "getting-started/quick-start/connect-a-provider/starting-with-functions.mdx",
+      "size_bytes": 4043,
+      "sha256": "820f697f04361950f8145f739344abfedf78abf5733b75440a5d6c151409ae9b"
+    },
+    {
+      "path": "getting-started/quick-start/connect-a-provider/starting-with-llama-cpp.mdx",
+      "size_bytes": 6347,
+      "sha256": "af61b665ada108f2e8c1e36ddab273a935dfaedbc9ce2079973480dfb791e6f5"
+    },
+    {
+      "path": "getting-started/quick-start/connect-a-provider/starting-with-ollama.mdx",
+      "size_bytes": 7972,
+      "sha256": "667079a062f9047b8b6106220aa9376ece217d5a7b757dc4a5f94f77ad94bfcb"
+    },
+    {
+      "path": "getting-started/quick-start/connect-a-provider/starting-with-open-responses.mdx",
+      "size_bytes": 7551,
+      "sha256": "4f15725b9386b15e90c18000ad5f29a1f9930812fc500d87d7f3e0fefc53f0bb"
+    },
+    {
+      "path": "getting-started/quick-start/connect-a-provider/starting-with-openai-compatible.mdx",
+      "size_bytes": 39228,
+      "sha256": "a4cb5a3f4fbcf2995d7376b8071776f8479637eaaeeb930d60fddc218a8388a2"
+    },
+    {
+      "path": "getting-started/quick-start/connect-a-provider/starting-with-openai.mdx",
+      "size_bytes": 5405,
+      "sha256": "ed84b51c3bf9f97eb2e8588848002c76e2761a3adbf94a2319ee5cd17592c708"
+    },
+    {
+      "path": "getting-started/quick-start/connect-a-provider/starting-with-vllm.mdx",
+      "size_bytes": 1810,
+      "sha256": "4531080a3a52d0d4989ddf1fead1d88f2b1f795acb16b73a2c5e6bb183f9df65"
+    },
+    {
+      "path": "getting-started/quick-start/connect-an-agent/_category_.json",
+      "size_bytes": 92,
+      "sha256": "0963e79d7571763de2d134a283c4b78ffa9076ed82d194f65b82d997cd276852"
+    },
+    {
+      "path": "getting-started/quick-start/connect-an-agent/cptr.mdx",
+      "size_bytes": 4892,
+      "sha256": "b1ed26e8e19e5608554a150c07e8515e09d47d992d3e90ef2a5cb0324ba262cc"
+    },
+    {
+      "path": "getting-started/quick-start/connect-an-agent/hermes-agent.mdx",
+      "size_bytes": 5615,
+      "sha256": "c6db2f8263637261050e5996cf466ca2545307774d6ea10f4192ac9f398ed57d"
+    },
+    {
+      "path": "getting-started/quick-start/connect-an-agent/index.md",
+      "size_bytes": 3053,
+      "sha256": "a8654de76958c3df5b85df7d7b436b56629c2f5cfdb62602f4842df0ea2e24ce"
+    },
+    {
+      "path": "getting-started/quick-start/connect-an-agent/openclaw.mdx",
+      "size_bytes": 6953,
+      "sha256": "b0aafeedae4e5861ea1ba25c42e4ab660a889377099a6cac95d2a60aefbb631c"
+    },
+    {
+      "path": "getting-started/quick-start/index.mdx",
+      "size_bytes": 10415,
+      "sha256": "323debbe752a111621f6ec947870c6c44575465fae5a97f8bdfee541e87868eb"
+    },
+    {
+      "path": "getting-started/quick-start/settings.md",
+      "size_bytes": 6936,
+      "sha256": "7f714a6741f2fa92aba4364db9ac93c51c9a492d8eaccd8bde5c1410817e7066"
+    },
+    {
+      "path": "getting-started/quick-start/tab-docker/DockerCompose.md",
+      "size_bytes": 4534,
+      "sha256": "fc58b96f913e57a60a87ed848a6ead244a993764a62efad84ae63e8c5af436a0"
+    },
+    {
+      "path": "getting-started/quick-start/tab-docker/DockerDesktopExtension.md",
+      "size_bytes": 998,
+      "sha256": "6f723d397dce347d1fd211d6313c86084ac3c4c4c7654914db436c6bbaacc865"
+    },
+    {
+      "path": "getting-started/quick-start/tab-docker/DockerSwarm.md",
+      "size_bytes": 5328,
+      "sha256": "6fee1844ce599770f5c70d9edf5e6a87ff4e05f414c66e3e9c68b87616c78f68"
+    },
+    {
+      "path": "getting-started/quick-start/tab-docker/DockerUpdating.md",
+      "size_bytes": 1247,
+      "sha256": "456174bb942cde812d771ab04465504ca1a1eba436a7eed82bf2e8b26cda785f"
+    },
+    {
+      "path": "getting-started/quick-start/tab-docker/ManualDocker.md",
+      "size_bytes": 11062,
+      "sha256": "0d3f15ef8b30be582a02b7be408b7825e62b519efdab59fd69a390cd00f7ffa1"
+    },
+    {
+      "path": "getting-started/quick-start/tab-docker/Podman.md",
+      "size_bytes": 2373,
+      "sha256": "aaaede3c9973c47119bb7161b2ffa2bb9e04b904ad0d44eec4ed667ca26fa3c8"
+    },
+    {
+      "path": "getting-started/quick-start/tab-docker/PodmanKubePlay.md",
+      "size_bytes": 1834,
+      "sha256": "6a9c465203356402adebd1dccb22ac908fc46fc73521902673ba15e4c7ade03a"
+    },
+    {
+      "path": "getting-started/quick-start/tab-docker/PodmanQuadlet.md",
+      "size_bytes": 1753,
+      "sha256": "f6875341537cf1e98e62df790c59fa1e66883f422cc3a3ef1317fbf2f0c43cec"
+    },
+    {
+      "path": "getting-started/quick-start/tab-docker/WSL.md",
+      "size_bytes": 1832,
+      "sha256": "1f16da733605b6359f9031d7138b51a00dcec09c49f22c7432a0de31b0305d30"
+    },
+    {
+      "path": "getting-started/quick-start/tab-kubernetes/Helm.md",
+      "size_bytes": 3424,
+      "sha256": "fea2eb01b221a3ea40d9165ce533846bf7f65fcec17f62d773fcca50d294e278"
+    },
+    {
+      "path": "getting-started/quick-start/tab-python/Conda.md",
+      "size_bytes": 979,
+      "sha256": "8759ea54c6dad7c89d8aa9f2560c5d2439175004a4decb09cd756238a23e783a"
+    },
+    {
+      "path": "getting-started/quick-start/tab-python/Pip.md",
+      "size_bytes": 814,
+      "sha256": "08f3113509b2aa501def130bd1e0381cb326677d9f238380a97b8032f19c14a7"
+    },
+    {
+      "path": "getting-started/quick-start/tab-python/PythonUpdating.md",
+      "size_bytes": 1017,
+      "sha256": "944aff8c66f47a1cae5ada5b9c50255b16c84f4056286fdffec111d3c96629a7"
+    },
+    {
+      "path": "getting-started/quick-start/tab-python/Uv.md",
+      "size_bytes": 1805,
+      "sha256": "4a1b2a1d6e34d9a05332173b1c8d045de74aa7e425d00e464b27769e068554ca"
+    },
+    {
+      "path": "getting-started/quick-start/tab-python/Venv.md",
+      "size_bytes": 1067,
+      "sha256": "cf46c6cb89840969c1b05cb7846018e70307e9f65bc907d125064f004875b82b"
+    },
+    {
+      "path": "getting-started/quick-start/tab-python/_PythonCompat.md",
+      "size_bytes": 605,
+      "sha256": "2d87620035047b106dd55413647d12a85cee2f6f28a52277f0bcf537baafae1e"
+    },
+    {
+      "path": "getting-started/sharing.md",
+      "size_bytes": 3718,
+      "sha256": "fbf4013e3ac675c1fa0c77000faf412598eab161c7fb4b800a79365351e52327"
+    },
+    {
+      "path": "getting-started/updating.mdx",
+      "size_bytes": 11215,
+      "sha256": "0f9049d08db145f46833057adc48b25a9f78b5195f8b824657b53870b434d51b"
+    },
+    {
+      "path": "intro.mdx",
+      "size_bytes": 9578,
+      "sha256": "86841ce2c7dacefbe5ff3724b367c8c48e6ddc29a434cb5aea3b131ff88f967f"
+    },
+    {
+      "path": "license.mdx",
+      "size_bytes": 27506,
+      "sha256": "3b2350e7046b59dae3e4c22fa9f019f99cdcc799ee6f125b7a3d950e4b3c103a"
+    },
+    {
+      "path": "mission.mdx",
+      "size_bytes": 4173,
+      "sha256": "d844098a1e75b20ee72f6df828252c222b741ad46bb1b80100b05504744c8bf7"
+    },
+    {
+      "path": "reference/_category_.json",
+      "size_bytes": 44,
+      "sha256": "7a5430c4b3bd20e46dbf45482d732f6fec77e944b875768d79862b9c34983b5f"
+    },
+    {
+      "path": "reference/api-endpoints.md",
+      "size_bytes": 39593,
+      "sha256": "441d2c9aa15a2169f6e115b48f6e49b7c4e20cac09f74102b1aaf48ece246d99"
+    },
+    {
+      "path": "reference/api-flow.md",
+      "size_bytes": 28566,
+      "sha256": "31300d0f45928e0e6c4b00a7f0e09e3c8901e180b529d6901d69673da2a907e0"
+    },
+    {
+      "path": "reference/database-schema.md",
+      "size_bytes": 89814,
+      "sha256": "34c6592e0a8fe93a97d6bff0b4525d4ac0b262ffa630eb0c47a03b444f443efe"
+    },
+    {
+      "path": "reference/env-configuration.mdx",
+      "size_bytes": 425033,
+      "sha256": "c1eedd7ead5a5769124f7641c382039587542ab05295a54063a16b0a0073b2ce"
+    },
+    {
+      "path": "reference/https/_category_.json",
+      "size_bytes": 83,
+      "sha256": "7532b5008e10f1d96556788e6e7563782b92a862d77a22021b07c9e58fff96a7"
+    },
+    {
+      "path": "reference/https/caddy.md",
+      "size_bytes": 7215,
+      "sha256": "5a2c7d39261b41eea199d6635b5a3b9520ed96f29b956a426864696862024900"
+    },
+    {
+      "path": "reference/https/cloudflare-tunnel.md",
+      "size_bytes": 5929,
+      "sha256": "59e95bd3483c34eceb416d276ac35a91a3fa687ce6206927e4a7969d0891fc4d"
+    },
+    {
+      "path": "reference/https/haproxy.md",
+      "size_bytes": 7847,
+      "sha256": "768a6099711400c317dd1dfd8b3d8404337b2b0fbccb53d8dcada043b7b1eb84"
+    },
+    {
+      "path": "reference/https/index.md",
+      "size_bytes": 2427,
+      "sha256": "51ede7f5dbaa7fe6efbc48a99d1474880e984ddf1cb924a233a0ffe04a68db74"
+    },
+    {
+      "path": "reference/https/nginx.md",
+      "size_bytes": 12780,
+      "sha256": "9449d3a85e8e5493cf26538dab3366e0bb1d6345291519ebf81eeda550eb24b0"
+    },
+    {
+      "path": "reference/https/ngrok.md",
+      "size_bytes": 3483,
+      "sha256": "2f74f66a645ac2890f8ffb9cb5b1876b7a494fe3cc54559085b3371d10d7ea51"
+    },
+    {
+      "path": "reference/https/tailscale.md",
+      "size_bytes": 4793,
+      "sha256": "5886b893bf516c5c4056b2fb569f9f4f2c5c1f53b8b252cf114d6fa099f5016c"
+    },
+    {
+      "path": "reference/index.md",
+      "size_bytes": 6088,
+      "sha256": "c06ac7b64789b9d3bbbdc0db71a799b559c5eadfef1a376c8a49bd13019dd887"
+    },
+    {
+      "path": "reference/monitoring/index.md",
+      "size_bytes": 4393,
+      "sha256": "336b29d777410c75214399d37be5079f6a27647c2ce67856d747e6c6190d6155"
+    },
+    {
+      "path": "reference/monitoring/otel.md",
+      "size_bytes": 6672,
+      "sha256": "0acf03adae04a6111b05fb2744e68724f3b44facf7665e85e6f2eed18fd5e983"
+    },
+    {
+      "path": "reference/network-diagrams.mdx",
+      "size_bytes": 6499,
+      "sha256": "d40ae6fe475deb0642284818bffd9b8ce31be0f2dae7c5ffe179f30d8fb482f5"
+    },
+    {
+      "path": "reference/server-side-tool-calling.md",
+      "size_bytes": 23422,
+      "sha256": "a0cf10a773574786285bd55a44072a38b0331e0a772f84ae386555e8a84fc706"
+    },
+    {
+      "path": "reference/tab-nginx/LetsEncrypt.md",
+      "size_bytes": 10262,
+      "sha256": "f4f29f55a6a2306842d3c0cff6d1e86483c61976651fcab53e7605505916fb79"
+    },
+    {
+      "path": "reference/tab-nginx/NginxProxyManager.md",
+      "size_bytes": 5709,
+      "sha256": "17a10f81d81bd9f2ccdfd3b54f1a56cd8fc4fc3c75b4381e38ba2c150729be2d"
+    },
+    {
+      "path": "reference/tab-nginx/SelfSigned.md",
+      "size_bytes": 3774,
+      "sha256": "5c85e333ac1eef35535e2cb5cdde4028a395796c6eafc310d04ef4a4ebd9f953"
+    },
+    {
+      "path": "reference/tab-nginx/Windows.md",
+      "size_bytes": 5570,
+      "sha256": "2dd09c74a1f4961a84afccbd0988cea05f09f17b9e897ce63c988ccdb05177ab"
+    },
+    {
+      "path": "reference/tab-nginx/_category_.json",
+      "size_bytes": 81,
+      "sha256": "a342b2a09645077292bf4a88e4a83bcfe7d733c122ed8a2789a53c8d3d82d762"
+    },
+    {
+      "path": "roadmap.mdx",
+      "size_bytes": 3825,
+      "sha256": "2a8c5d0ea7532f6a4b32a1f85917a1615532b31bcf63a9913180c656a2980129"
+    },
+    {
+      "path": "security/accepted-risks/_category_.json",
+      "size_bytes": 49,
+      "sha256": "c263dca81e0e862c7ed4a0c6f5163c6953f4324e1ef005d4f6ff25be2b9a8497"
+    },
+    {
+      "path": "security/accepted-risks/agentic-application-risks.mdx",
+      "size_bytes": 7031,
+      "sha256": "58b6720e1254b814751c78ae6ab71cdd10b02665174481922711fdc0d9e5ab80"
+    },
+    {
+      "path": "security/accepted-risks/auth-timing.mdx",
+      "size_bytes": 3214,
+      "sha256": "32dac40f42f59bbd14f21baced4faf48444ecb7db1f5298e625251c72705060a"
+    },
+    {
+      "path": "security/accepted-risks/index.mdx",
+      "size_bytes": 4218,
+      "sha256": "d1cce134a13357879fe3c1313baf2f29ccd69332606bd62b137d2df51d826d3a"
+    },
+    {
+      "path": "security/accepted-risks/llm-output-unpredictability.mdx",
+      "size_bytes": 4253,
+      "sha256": "17f328b9245ef85fd49177995543754010bf439bc2b69f1bb4fe266f9f76687f"
+    },
+    {
+      "path": "security/accepted-risks/oauth-token-exchange-client-trust.mdx",
+      "size_bytes": 6043,
+      "sha256": "b677568ae386bc57743ab463d293f42dd36b26f67ca3c7f7a87ab7d7017d6a28"
+    },
+    {
+      "path": "security/chat-data-privacy-and-encryption.mdx",
+      "size_bytes": 8215,
+      "sha256": "86c4e63fb33770a382ec9f8e234405cf5c7f2aa524f2f47928ba919ca666810b"
+    },
+    {
+      "path": "security/index.mdx",
+      "size_bytes": 5476,
+      "sha256": "110fc91d42572085a26ccbe720ba0614b71c1ca32d24c2a6d8e863a7ca124a34"
+    },
+    {
+      "path": "security/security-policy.mdx",
+      "size_bytes": 27967,
+      "sha256": "a3e5c818f3b3c500251ce40773c1210d833b54c5f9a836c8449e0e351d26e658"
+    },
+    {
+      "path": "security/supply-chain-security/_category_.json",
+      "size_bytes": 67,
+      "sha256": "a8479b964bb6e6c0f860fed65f6495b9cf13332116e5fd5e7a84da12ca7e8518"
+    },
+    {
+      "path": "security/supply-chain-security/ai-summaries-of-rejected-cves.mdx",
+      "size_bytes": 5884,
+      "sha256": "b69b456c735cbe33b6f7f229869c1b80701e4be129a541204ed3ffaa73bdd3e6"
+    },
+    {
+      "path": "security/supply-chain-security/index.mdx",
+      "size_bytes": 9386,
+      "sha256": "29bd0cc61af89340eb51886eea9092a0a98f97caf11f53f88191e9acdd5c6dcb"
+    },
+    {
+      "path": "security/supply-chain-security/vulnerability-databases/_category_.json",
+      "size_bytes": 74,
+      "sha256": "2dd325b8f65c9298b309c486ce74f02fd0efeed390a299fa7a8ef527ba654c2d"
+    },
+    {
+      "path": "security/supply-chain-security/vulnerability-databases/askar-labs.mdx",
+      "size_bytes": 5148,
+      "sha256": "f7771003507cbfeeddbf3e501dc6a0915db2cbc9041dc2c8f0bd01d9fb480c09"
+    },
+    {
+      "path": "security/supply-chain-security/vulnerability-databases/basefortify.mdx",
+      "size_bytes": 6816,
+      "sha256": "8cf5a9892515957b2b9cf0ad54a50326f6bb67dcc1036068c9e6d336e895be24"
+    },
+    {
+      "path": "security/supply-chain-security/vulnerability-databases/cvedetails.mdx",
+      "size_bytes": 6203,
+      "sha256": "c7effc4e4b369a2befdf9dbcbb54ff2dec242bf41516c916186a560951795d4d"
+    },
+    {
+      "path": "security/supply-chain-security/vulnerability-databases/incibe.mdx",
+      "size_bytes": 7153,
+      "sha256": "f055b698e2635ad9ba791cdeff39663b7619635772f7be44abd3de87b6aa4694"
+    },
+    {
+      "path": "security/supply-chain-security/vulnerability-databases/index.mdx",
+      "size_bytes": 5609,
+      "sha256": "44ab4b55124661448161ad74e341273260841aeed015cbdead837ff531478f4d"
+    },
+    {
+      "path": "security/supply-chain-security/vulnerability-databases/positive-technologies.mdx",
+      "size_bytes": 3967,
+      "sha256": "f4f88486124609f8dd95d00f5e838a1d734e0e7783b086ee2c3df3c838701dd8"
+    },
+    {
+      "path": "security/supply-chain-security/vulnerability-databases/rapid7.mdx",
+      "size_bytes": 2663,
+      "sha256": "c3af6ef0e0a39c093016851182fdbe1d48fc3b9d9e6c088e6ec50087744d94bd"
+    },
+    {
+      "path": "security/supply-chain-security/vulnerability-databases/sentinelone.mdx",
+      "size_bytes": 5588,
+      "sha256": "81596a8c30b590a217a6a04d1e021a8d48e20d51aa4694495f30c80af1252220"
+    },
+    {
+      "path": "security/supply-chain-security/vulnerability-databases/tenable.mdx",
+      "size_bytes": 4526,
+      "sha256": "b79952113be3844f5072fd5b6da333dcfc1f7f89a9f2ef30f2faf8159c172185"
+    },
+    {
+      "path": "security/supply-chain-security/vulnerability-databases/vulmon.mdx",
+      "size_bytes": 3755,
+      "sha256": "ba665d5238833038b604c3d00eea31aa8095133d38c09f07cdca5d7f4c21aed7"
+    },
+    {
+      "path": "security/supply-chain-security/vulnerability-databases/vulners.mdx",
+      "size_bytes": 7006,
+      "sha256": "df8055a7106f9498b231e697692515ff6c0d2ea12db415406b01b54795ecd92a"
+    },
+    {
+      "path": "security/vendor-dispositions/_category_.json",
+      "size_bytes": 54,
+      "sha256": "467e88c61efc973d56336024653344e43f90d62155e77f28ba9e6919b1344a26"
+    },
+    {
+      "path": "security/vendor-dispositions/cve-2024-12534.mdx",
+      "size_bytes": 9411,
+      "sha256": "f069ad6d29106046b8cf3cf4516ab05f3d74fd0f640bd71f9c923aab5c894a87"
+    },
+    {
+      "path": "security/vendor-dispositions/cve-2024-12537.mdx",
+      "size_bytes": 6286,
+      "sha256": "d4eac71eae79a5c332ee8f1c4b4b65463fae9883bb8923e9a59c46991a84ec30"
+    },
+    {
+      "path": "security/vendor-dispositions/cve-2024-12868.mdx",
+      "size_bytes": 7644,
+      "sha256": "ce8fdce7831e540af9b1f4de0ed61fa410eb7d16867610075e8152f4d61b8bf6"
+    },
+    {
+      "path": "security/vendor-dispositions/cve-2024-7033.mdx",
+      "size_bytes": 7514,
+      "sha256": "404b96d8f95ca5d513dbdb0cc03b9650a5407858a7dc6aaaaf6c21802c038177"
+    },
+    {
+      "path": "security/vendor-dispositions/cve-2024-7034.mdx",
+      "size_bytes": 6174,
+      "sha256": "0f0aa21a9e32e1d2731b97ddb430908e3f6dec22f8d9220404cf6f6e72c43d4f"
+    },
+    {
+      "path": "security/vendor-dispositions/cve-2024-7036.mdx",
+      "size_bytes": 6266,
+      "sha256": "b7c755af0839bba4f60030f9160131b0ff0b3781e4ad7f9640e4831403e5a235"
+    },
+    {
+      "path": "security/vendor-dispositions/cve-2024-7037.mdx",
+      "size_bytes": 10247,
+      "sha256": "3408f3b827141ab07549427d4a7dc96de1c7b0f805d1f4ef7c8afd40f0236e2f"
+    },
+    {
+      "path": "security/vendor-dispositions/cve-2024-7038.mdx",
+      "size_bytes": 6312,
+      "sha256": "279982417a2a76ca5fe1467f573226a5a744595bebc4add97c0bc0ddb9266d90"
+    },
+    {
+      "path": "security/vendor-dispositions/cve-2024-7039.mdx",
+      "size_bytes": 8972,
+      "sha256": "e1f9e629ad91eef713cc7e328a769ea2d2a409d2c29bc961ec1363eedba5926b"
+    },
+    {
+      "path": "security/vendor-dispositions/cve-2024-7040.mdx",
+      "size_bytes": 10950,
+      "sha256": "376848a6474cfcca1d1632ab145b043d0ab6ddd8510e57b64732f85dc4443f0e"
+    },
+    {
+      "path": "security/vendor-dispositions/cve-2024-7045.mdx",
+      "size_bytes": 7826,
+      "sha256": "c89041f1c695caf6a2e9fcf7d9bb7c4ba2083de221dc866fbd710762e452ca08"
+    },
+    {
+      "path": "security/vendor-dispositions/cve-2024-7046.mdx",
+      "size_bytes": 9706,
+      "sha256": "34596448acca8a3f27858608e5c7b9775f52dde583cce02af4b2256e57f286d6"
+    },
+    {
+      "path": "security/vendor-dispositions/cve-2024-7049.mdx",
+      "size_bytes": 7571,
+      "sha256": "303641abf2fbcc76ad2791154fe792c9fc7a9a2c1e18d6568cae1ec27e5fd8b3"
+    },
+    {
+      "path": "security/vendor-dispositions/cve-2024-7053.mdx",
+      "size_bytes": 8665,
+      "sha256": "a8c28106be37e8e00af0c3dc8317a50c2f52c4fd65b5318d015a360feaa8e858"
+    },
+    {
+      "path": "security/vendor-dispositions/cve-2024-7806.mdx",
+      "size_bytes": 9727,
+      "sha256": "351bba1038dc6aaeb6ad29af0f1ef80b836faf261fd3d4ee00de63607a2e8e81"
+    },
+    {
+      "path": "security/vendor-dispositions/cve-2024-7959.mdx",
+      "size_bytes": 7615,
+      "sha256": "97e8f1d8a35660016267d8d6473df48ce4ac6274bc465d9b6f1cee2deb92e820"
+    },
+    {
+      "path": "security/vendor-dispositions/cve-2024-7990.mdx",
+      "size_bytes": 7138,
+      "sha256": "9787e674796bfecaa34569ea07fa428fc92947bb415bafb4fb582e72c5e2ccb0"
+    },
+    {
+      "path": "security/vendor-dispositions/cve-2024-7999.mdx",
+      "size_bytes": 6322,
+      "sha256": "81dc773ddc2fba17072a0bedb03a968d8175a4a61b232dd366aeb70f929990ce"
+    },
+    {
+      "path": "security/vendor-dispositions/cve-2024-8060.mdx",
+      "size_bytes": 7849,
+      "sha256": "afa317d51c3f1125cbf4bc0f76961d4c1fb1876b7f4f6a83ba97395b375d0175"
+    },
+    {
+      "path": "security/vendor-dispositions/cve-2024-9840.mdx",
+      "size_bytes": 6349,
+      "sha256": "1ebac05b69a7bf6854e00006265811a5320b0503f8ac80a4ea1b52458452c901"
+    },
+    {
+      "path": "security/vendor-dispositions/cve-2025-15603.mdx",
+      "size_bytes": 10118,
+      "sha256": "746fc65c6fef99af8105c6e90b30b6d35a2d31f91523020062a911eb89d48919"
+    },
+    {
+      "path": "security/vendor-dispositions/cve-2025-29446.mdx",
+      "size_bytes": 6840,
+      "sha256": "0cffe00f2e9e0cebbec4cd817aa97cf2e62a89ff8521a3c4f66d9540e9dcaf06"
+    },
+    {
+      "path": "security/vendor-dispositions/cve-2025-63391.mdx",
+      "size_bytes": 7244,
+      "sha256": "51cad26583ab0a6be66d5dd1f8060bb8b736fb685b478b3a0e93781cdbf13683"
+    },
+    {
+      "path": "security/vendor-dispositions/cve-2026-0765.mdx",
+      "size_bytes": 7634,
+      "sha256": "c114912dd0f2b43cac39c2332e9b7712b001905d2c88593def5da8aa7c561f37"
+    },
+    {
+      "path": "security/vendor-dispositions/cve-2026-0766.mdx",
+      "size_bytes": 7123,
+      "sha256": "d6f821fcb159a2f499fd9feb811227b29c0a3ce95f15a07a192cae017f153d10"
+    },
+    {
+      "path": "security/vendor-dispositions/cve-2026-0767.mdx",
+      "size_bytes": 9147,
+      "sha256": "ab40bcccd99c80093d7fb7ea5607edf7a7428552aa13d75b7d519359f33661e7"
+    },
+    {
+      "path": "security/vendor-dispositions/index.mdx",
+      "size_bytes": 16957,
+      "sha256": "89ab47e14dcd0da9594801a5c9d198fc952629aec2443ef3ca15f960c2099263"
+    },
+    {
+      "path": "sponsorships.mdx",
+      "size_bytes": 2574,
+      "sha256": "8dc8de44baa440336d1e147b295b44d374b0523b7cdb7263a484cd5aad12c079"
+    },
+    {
+      "path": "team.mdx",
+      "size_bytes": 1780,
+      "sha256": "dc6e97f67f7a22948af4ef3af590b167192c77ed759cd6a145203bf0ec123cd5"
+    },
+    {
+      "path": "troubleshooting/audio.mdx",
+      "size_bytes": 17824,
+      "sha256": "bc7958bd663d6c636befe2e3ecbb967b1a04d89764f1a11f65b388338d6d4319"
+    },
+    {
+      "path": "troubleshooting/connection-error.mdx",
+      "size_bytes": 28832,
+      "sha256": "6547e869027eccb1161f1c3be99c5d1309893e5e4e26792454b55268488a6569"
+    },
+    {
+      "path": "troubleshooting/context-window.mdx",
+      "size_bytes": 33180,
+      "sha256": "96d74e12c1992dcd640fe52a987032285671cc3238b9ca27b1b1cd27b8646016"
+    },
+    {
+      "path": "troubleshooting/custom-ca.md",
+      "size_bytes": 2537,
+      "sha256": "e4775707fe9d511f49e39efa180e4bbe4608747a0818882c8ec879420f9f9b27"
+    },
+    {
+      "path": "troubleshooting/image-generation.md",
+      "size_bytes": 5899,
+      "sha256": "6b67f7627d68c06b646b7f1d9f2cd39dde95c391432d43f58f631e6641f48133"
+    },
+    {
+      "path": "troubleshooting/index.mdx",
+      "size_bytes": 8252,
+      "sha256": "d3beae4225f4448e8039152347a95b74156b59ae06f844df44b3ed75451fd2b1"
+    },
+    {
+      "path": "troubleshooting/manual-database-migration.md",
+      "size_bytes": 45372,
+      "sha256": "7260abd8764ae69f7fbca937386c1ad4df92e65cd8522263cbb8415380358ce1"
+    },
+    {
+      "path": "troubleshooting/multi-replica.mdx",
+      "size_bytes": 25613,
+      "sha256": "999173c1222ff45ad00b522dbeba5ffac3af99bc0734650bf62745a8293a62d2"
+    },
+    {
+      "path": "troubleshooting/password-reset.mdx",
+      "size_bytes": 3135,
+      "sha256": "a8470637b36b3576c643ba1c5fb157f7bf5f395447fa57d32810ae81e87367f8"
+    },
+    {
+      "path": "troubleshooting/performance.md",
+      "size_bytes": 59388,
+      "sha256": "aade389a77183b26edba0683604a1e627639973705e83f28a57880e3818ba4b1"
+    },
+    {
+      "path": "troubleshooting/rag.mdx",
+      "size_bytes": 32359,
+      "sha256": "4fb8b99c77f6a7a997e1a442b5996e2c53eaa7f5a8471484fd6a83f641e35361"
+    },
+    {
+      "path": "troubleshooting/sso.mdx",
+      "size_bytes": 20244,
+      "sha256": "d673827422e2193c7904f2ca2d7568dc5540b82a6c013590de56c055e299f874"
+    },
+    {
+      "path": "troubleshooting/startup.mdx",
+      "size_bytes": 5708,
+      "sha256": "77a613fb7dc24311f1ef8ac6cedd049bb32f30787d8f2e7f3f30053c0d193c71"
+    },
+    {
+      "path": "troubleshooting/web-search.mdx",
+      "size_bytes": 6778,
+      "sha256": "b07b9162bfdaf86c219165f43b7f354bf1a2dcf2d2b5440974a5d832b07fbf02"
+    },
+    {
+      "path": "tutorials/_category_.json",
+      "size_bytes": 44,
+      "sha256": "63b79e1c2e45f40fe347423979056209d8747a758c4c6dec57c66ae1738e6c80"
+    },
+    {
+      "path": "tutorials/auth-sso/_category_.json",
+      "size_bytes": 96,
+      "sha256": "c54ace0f14fb507ff8cd351fc70a00fbdabb96f8d10fd80c4704f5cd8b5fb09a"
+    },
+    {
+      "path": "tutorials/auth-sso/azure-ad-ds-ldap.mdx",
+      "size_bytes": 8821,
+      "sha256": "83b9b06524e2f0f7083fff97c9d4fd8b2268b8f8f1614a367706b13822017683"
+    },
+    {
+      "path": "tutorials/auth-sso/dual-oauth-configuration.mdx",
+      "size_bytes": 4276,
+      "sha256": "4d875411ead5cc25a3d994a9add5aa1bb27a32329bd5c0dd90e7dae14331cdc4"
+    },
+    {
+      "path": "tutorials/auth-sso/entra-group-name-sync.md",
+      "size_bytes": 10067,
+      "sha256": "ea1aaddb7504a5155e78763cd295bf17ee6569cdc9db941efd9e6d15d3e7cda0"
+    },
+    {
+      "path": "tutorials/auth-sso/index.md",
+      "size_bytes": 1187,
+      "sha256": "ac919140ebeafbc3fd27c459094f4c34c9ad94a3ede10c6de3b0e505002d1c1a"
+    },
+    {
+      "path": "tutorials/auth-sso/okta-oidc-sso.md",
+      "size_bytes": 12167,
+      "sha256": "4e5eb33986c60325e5d78d1fcbfb23b9ccbd8b4a607112b687c5aad4dcc1096e"
+    },
+    {
+      "path": "tutorials/auth-sso/tailscale.md",
+      "size_bytes": 7317,
+      "sha256": "16642aae093a4a022fafc6cf46cb4473632ab82259292a9619d1a48db412b342"
+    },
+    {
+      "path": "tutorials/community/index.mdx",
+      "size_bytes": 9412,
+      "sha256": "35fd6d727b1f6ceebe7b010e6fef934d32acfe3769ae7727f18a69dc64316a2b"
+    },
+    {
+      "path": "tutorials/community/unraid.md",
+      "size_bytes": 4585,
+      "sha256": "80819a0306f4753e522aa0bc77a400e70db3cdbc0d61319aba07355a704b4aa9"
+    },
+    {
+      "path": "tutorials/contributing-tutorial.md",
+      "size_bytes": 4188,
+      "sha256": "94a6aeb540f66a9de58b00b7f8297aa30a2325cc0488fcfca8e0abcb7bc4c836"
+    },
+    {
+      "path": "tutorials/index.md",
+      "size_bytes": 4857,
+      "sha256": "c8e44891330e15f247d8c22bc089274740766a998b354d4b34ac97e7393695b4"
+    },
+    {
+      "path": "tutorials/integrations/_category_.json",
+      "size_bytes": 46,
+      "sha256": "8686518af6d02d87403b6127e0e8181dadae0afb42ec8df9147d098656766d64"
+    },
+    {
+      "path": "tutorials/integrations/dev-tools/_category_.json",
+      "size_bytes": 84,
+      "sha256": "81c4b84142562f35986f105828c0bc6de0308f551ca10ebb14cd7a37f7d7eddf"
+    },
+    {
+      "path": "tutorials/integrations/dev-tools/browser-search-engine.md",
+      "size_bytes": 3625,
+      "sha256": "de777ea7932786801142c210f54c5d9041d5df42e4716d752ac50fcf958098eb"
+    },
+    {
+      "path": "tutorials/integrations/dev-tools/continue-dev.md",
+      "size_bytes": 5318,
+      "sha256": "823eacd8bd6e06063523ed4e966945f6b2a4d4e5d62c52133359f50760cb946a"
+    },
+    {
+      "path": "tutorials/integrations/dev-tools/firefox-sidebar.md",
+      "size_bytes": 4953,
+      "sha256": "5249e218bfff651f3df86116066aa87873476f7cf166728de4ac965444c33fce"
+    },
+    {
+      "path": "tutorials/integrations/dev-tools/iterm2.md",
+      "size_bytes": 4898,
+      "sha256": "cdf7867deed4a00c92899a6c699174b88d22c43205b97e203b69b76f41ec82b9"
+    },
+    {
+      "path": "tutorials/integrations/dev-tools/jupyter.md",
+      "size_bytes": 7410,
+      "sha256": "f7713251cb12cf32897a76114ad4438e1c67f4f03807daf4635614cf0f421c7b"
+    },
+    {
+      "path": "tutorials/integrations/index.md",
+      "size_bytes": 2547,
+      "sha256": "4c4af24a37f0255cdd87dedb88c32052368410d817ac0910b6f6c7054d56f503"
+    },
+    {
+      "path": "tutorials/integrations/libre-translate.md",
+      "size_bytes": 4491,
+      "sha256": "0aa8a66ab7061a51332411ed32dfa6a131a156cbac3de1b7595dad2e42c2f644"
+    },
+    {
+      "path": "tutorials/integrations/llm-providers/_category_.json",
+      "size_bytes": 88,
+      "sha256": "0fc3b5f433c9b0f79bcf76d8e9d2b8a525c439bb343c9b55d1dff43ef244152e"
+    },
+    {
+      "path": "tutorials/integrations/llm-providers/azure-openai/azure-cli-auth.mdx",
+      "size_bytes": 3773,
+      "sha256": "b444266e6c70541d36d91d5871eccd109ab7718591d8a7d8bbc4b18a53911c1d"
+    },
+    {
+      "path": "tutorials/integrations/llm-providers/azure-openai/index.mdx",
+      "size_bytes": 5463,
+      "sha256": "3bba3ee9a066fe3fb359f617257a696c45350049d027bd22c88e613263602242"
+    },
+    {
+      "path": "tutorials/integrations/llm-providers/azure-openai/workload-identity-auth.mdx",
+      "size_bytes": 8084,
+      "sha256": "8d6102178f9ef1ceaef7e5121217030fcf0e4889855664cb01dc9c164c8ec6df"
+    },
+    {
+      "path": "tutorials/integrations/llm-providers/deepseekr1-dynamic.md",
+      "size_bytes": 8084,
+      "sha256": "de1704d93d60e9f0ecd7454a74147519f5d2d5a9bee54f9f6a15f1591b027083"
+    },
+    {
+      "path": "tutorials/integrations/llm-providers/ipex_llm.md",
+      "size_bytes": 2472,
+      "sha256": "94d54700e071288a9ca663e4cdc62054130642a6dce2da320a6513286e7d8f7b"
+    },
+    {
+      "path": "tutorials/integrations/mcp-notion.mdx",
+      "size_bytes": 4728,
+      "sha256": "ab1373bd3f7737be1d85e9768e430fe225cff4d4b3aa69c708f2265c63933c65"
+    },
+    {
+      "path": "tutorials/integrations/monitoring/_category_.json",
+      "size_bytes": 85,
+      "sha256": "f74cd01c40aa7040d0059ec20e5eba775abbf24c764470d7ad7daf6332ad9ab5"
+    },
+    {
+      "path": "tutorials/integrations/monitoring/helicone.md",
+      "size_bytes": 4016,
+      "sha256": "561f30d169e26de17e8948ad260410991e0c57d8e643f5ee3277ea0f29433166"
+    },
+    {
+      "path": "tutorials/integrations/monitoring/langfuse.md",
+      "size_bytes": 4514,
+      "sha256": "0f0dec1f14a0167470f9e27f201a565f0561ce47f40acc281525640c12a891b3"
+    },
+    {
+      "path": "tutorials/integrations/onedrive-sharepoint.mdx",
+      "size_bytes": 9482,
+      "sha256": "05f650392de9be1155d3286998be807256d33955380522525204fc650c86af57"
+    },
+    {
+      "path": "tutorials/integrations/redis.md",
+      "size_bytes": 33232,
+      "sha256": "89b13fb4c86820454f662dde0b002f04d7e3f4437f95ba07ec06b10f103aa022"
+    },
+    {
+      "path": "tutorials/integrations/valkey.md",
+      "size_bytes": 5848,
+      "sha256": "e65353263d5e5635e942b206b7374c966f815354ef7ef33278d80c7c3099e3ed"
+    },
+    {
+      "path": "tutorials/maintenance/_category_.json",
+      "size_bytes": 45,
+      "sha256": "cbe66d6fc53e39446a46cfa2cc829668094fdeffbbd6d38db6d6388269e72b95"
+    },
+    {
+      "path": "tutorials/maintenance/backups.md",
+      "size_bytes": 14194,
+      "sha256": "4517527da26a9cc51cad600dee3950fdc4b76b3311552d94d6b43d0c1e195277"
+    },
+    {
+      "path": "tutorials/maintenance/database.mdx",
+      "size_bytes": 4692,
+      "sha256": "a8247418f744e7ec3cd5b909244483d45556147bed44e09455e123b48b5fdcd7"
+    },
+    {
+      "path": "tutorials/maintenance/index.md",
+      "size_bytes": 721,
+      "sha256": "8d2c79c2138cd0a60682b828dfe05db3f4a7af5ecf00a025a5b2bb705bc1431a"
+    },
+    {
+      "path": "tutorials/maintenance/offline-mode.mdx",
+      "size_bytes": 7244,
+      "sha256": "472a9fe60ea35b70f0660c5b474dd5ccf5b1dbddc525352435c1ff93c772806a"
+    },
+    {
+      "path": "tutorials/maintenance/s3-storage.md",
+      "size_bytes": 6088,
+      "sha256": "2b128e18effcda37e5bf2baf5847b7f28a31462809a2f5a16b3b4561ff5558cd"
+    }
+  ]
+}
