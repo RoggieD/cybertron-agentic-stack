@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "knowledge_bases": [
+    {
+      "id": "ollama",
+      "name": "Ollama Knowledge Base",
+      "description": "Local reference material for Ollama runtime, models, API behavior, GPU usage, context, and troubleshooting.",
+      "type": "local_directory",
+      "path": ".agent/knowledge/ollama",
+      "triggers": [
+        "ollama",
+        "local model",
+        "11434",
+        "ollama api",
+        "ollama model",
+        "ollama gpu",
+        "ollama context"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "juniper",
+      "name": "Juniper Knowledge Base",
+      "description": "Reference material for Juniper networking, configuration, troubleshooting, and operations.",
+      "type": "local_directory",
+      "path": ".agent/knowledge/juniper",
+      "triggers": [
+        "juniper",
+        "ssg",
+        "junos",
+        "firewall",
+        "screenos"
+      ],
+      "enabled": false
+    }
+  ]
+}

@@ -10,9 +10,12 @@ from salience import salience_score
 from text import word_set, jaccard
 
 ROOT = os.path.join(os.path.dirname(__file__), "..")
-# skill_loader lives in tools/ — make it importable without requiring callers
-# to configure PYTHONPATH themselves
+
+# Tools live under .agent/tools; make them importable without requiring callers
+# to configure PYTHONPATH themselves.
 sys.path.insert(0, os.path.join(ROOT, "tools"))
+
+from kb_retrieve import retrieve as retrieve_kb
 RELEVANCE_FLOOR = 0.3  # even zero-overlap episodes surface if very salient
 
 # Keep in sync with memory/validate._extract_lesson_lines — both filters
@@ -174,6 +177,25 @@ def build_context(user_input: str, budget: int = 88000):
         skills = []
     for s in skills:
         block = f"## Skill: {s['name']}\n{s['content']}"
+        t = _token_estimate(block)
+        if used + t < budget:
+            parts.append(block)
+            used += t
+
+    # Query-triggered knowledge-base retrieval.
+    # KB content is reference material, not memory, and is loaded only when
+    # registry triggers match the current user input.
+    try:
+        kb_results = retrieve_kb(user_input, max_results=3)
+    except Exception:
+        kb_results = []
+
+    for result in kb_results:
+        block = (
+            f"# KNOWLEDGE BASE: {result['name']}\n"
+            f"Source: {result['path']}\n\n"
+            f"{result['content']}"
+        )
         t = _token_estimate(block)
         if used + t < budget:
             parts.append(block)
