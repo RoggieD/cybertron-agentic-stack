@@ -89,3 +89,14 @@ Triggers: "ollama", "ollama error", "ollama failing", "model not loading",
 "ollama gpu", "local model", "11434"
 Constraints: inspect before changing; one controlled change at a time;
 do not restart Ollama or pull/delete models without approval.
+
+## kb-operations
+Operates and maintains CyberTron's registered knowledge bases with verification,
+source checking, rebuild, refresh, provenance tracking, and rollback protection.
+Triggers: "knowledge base", "kb status", "kb verification",
+"knowledge retrieval health", "source update", "upstream documentation changes",
+"kb refresh", "kb rebuild", "kb rollback", "open webui knowledge",
+"juniper knowledge", "source provenance", "knowledge base maintenance"
+Constraints: inspect before mutation; verify before and after changes;
+require approval for mutating operations; preserve rollback snapshots;
+sanitize before public release.
