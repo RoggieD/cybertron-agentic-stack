@@ -49,3 +49,6 @@ venv/
 .agent/skills/tldraw/INDEX.md
 .agent/skills/tldraw/snapshots/
 .agent/skills/tldraw/snapshots.jsonl
+
+# CyberTron KB lifecycle rollback snapshots
+.agent/knowledge/*/backups/

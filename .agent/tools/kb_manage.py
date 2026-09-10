@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 
 from pathlib import Path
+from datetime import datetime, timezone
 import json
+import shutil
 import subprocess
 import sys
 
@@ -186,6 +188,129 @@ def verify_kb(kb_id: str):
     return 0
 
 
+def backup_chunks(kb_id: str):
+    kb = get_kb(kb_id)
+
+    chunk_value = kb.get("chunk_path")
+
+    if not chunk_value:
+        print(f"BACKUP: SKIP ({kb_id} has no chunk_path)")
+        return None
+
+    chunk_path = resolve_agent_path(chunk_value)
+
+    if not chunk_path.exists():
+        print(f"BACKUP: SKIP (chunk path does not exist)")
+        return None
+
+    timestamp = datetime.now(timezone.utc).strftime(
+        "%Y%m%d-%H%M%S"
+    )
+
+    backup_root = ROOT / "knowledge" / kb_id / "backups"
+    backup_root.mkdir(parents=True, exist_ok=True)
+
+    backup_path = backup_root / f"chunks-{timestamp}"
+
+    shutil.copytree(
+        chunk_path,
+        backup_path,
+    )
+
+    print(f"BACKUP: {backup_path}")
+
+    return backup_path
+
+
+def rollback_kb(kb_id: str):
+    kb = get_kb(kb_id)
+
+    chunk_value = kb.get("chunk_path")
+
+    if not chunk_value:
+        print(f"ROLLBACK: FAIL ({kb_id} has no chunk_path)")
+        return 1
+
+    chunk_path = resolve_agent_path(chunk_value)
+    backup_root = ROOT / "knowledge" / kb_id / "backups"
+
+    if not backup_root.exists():
+        print("ROLLBACK: FAIL (no backup directory found)")
+        return 1
+
+    backups = sorted(
+        [
+            path
+            for path in backup_root.iterdir()
+            if path.is_dir()
+            and path.name.startswith("chunks-")
+        ],
+        reverse=True,
+    )
+
+    if not backups:
+        print("ROLLBACK: FAIL (no chunk snapshots found)")
+        return 1
+
+    backup_path = backups[0]
+
+    print(f"ROLLBACK KB: {kb_id}")
+    print(f"SOURCE SNAPSHOT: {backup_path}")
+    print(f"TARGET: {chunk_path}")
+
+    if chunk_path.exists():
+        shutil.rmtree(chunk_path)
+
+    shutil.copytree(
+        backup_path,
+        chunk_path,
+    )
+
+    print("ROLLBACK RESTORE: PASS")
+    print()
+    print("POST-ROLLBACK VERIFICATION")
+
+    result = verify_kb(kb_id)
+
+    if result != 0:
+        print("ROLLBACK: FAIL")
+        return result
+
+    print("ROLLBACK: PASS")
+    return 0
+
+
+def refresh_kb(kb_id: str):
+    kb = get_kb(kb_id)
+
+    if kb.get("type") != "chunk_directory":
+        print(
+            f"REFRESH: SKIP ({kb_id} is not a chunk_directory KB)"
+        )
+        return 0
+
+    print(f"REFRESH KB: {kb_id}")
+
+    backup_path = backup_chunks(kb_id)
+
+    result = rebuild_kb(kb_id)
+
+    if result != 0:
+        print("REFRESH: FAIL")
+
+        if backup_path:
+            print(f"ROLLBACK AVAILABLE: {backup_path}")
+
+        return result
+
+    print("REFRESH: PASS")
+
+    if backup_path:
+        print(f"ROLLBACK SNAPSHOT: {backup_path}")
+
+    return 0
+
+
 def rebuild_kb(kb_id: str):
     kb = get_kb(kb_id)
 
@@ -256,7 +381,9 @@ def usage():
         "  kb_manage.py show <kb-id>\n"
         "  kb_manage.py verify <kb-id>\n"
         "  kb_manage.py verify all\n"
-        "  kb_manage.py rebuild <kb-id>",
+        "  kb_manage.py rebuild <kb-id>\n"
+        "  kb_manage.py refresh <kb-id>\n"
+        "  kb_manage.py rollback <kb-id>",
         file=sys.stderr,
     )
 
@@ -296,6 +423,20 @@ def main():
             return 2
 
         return rebuild_kb(sys.argv[2])
+
+    if command == "refresh":
+        if len(sys.argv) != 3:
+            usage()
+            return 2
+
+        return refresh_kb(sys.argv[2])
+
+    if command == "rollback":
+        if len(sys.argv) != 3:
+            usage()
+            return 2
+
+        return rollback_kb(sys.argv[2])
 
     usage()
     return 2
