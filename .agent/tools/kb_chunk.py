@@ -44,6 +44,49 @@ def resolve_agent_path(value: str) -> Path:
     return ROOT / value
 
 
+def sanitize_markdown(text: str) -> str:
+    """Remove presentation-only Markdown/MDX metadata before chunking."""
+
+    # Strip YAML front matter at the beginning of the document.
+    text = re.sub(
+        r"\A---\s*\n.*?\n---\s*\n",
+        "",
+        text,
+        flags=re.DOTALL,
+    )
+
+    # Strip ES module import/export lines commonly used by MDX/Docusaurus.
+    text = re.sub(
+        r"^(?:import|export)\s+.*?;\s*$",
+        "",
+        text,
+        flags=re.MULTILINE,
+    )
+
+    # Remove Head blocks, including SEO/schema JSON that is presentation
+    # metadata rather than reference documentation.
+    text = re.sub(
+        r"<Head\b[^>]*>.*?</Head>",
+        "",
+        text,
+        flags=re.DOTALL | re.IGNORECASE,
+    )
+
+    # Remove standalone JSX component tags while leaving ordinary Markdown
+    # and code examples intact.
+    text = re.sub(
+        r"^\s*</?[A-Z][A-Za-z0-9_.:-]*(?:\s+[^>]*)?/?>\s*$",
+        "",
+        text,
+        flags=re.MULTILINE,
+    )
+
+    # Collapse excessive blank lines produced by removals.
+    text = re.sub(r"\n{3,}", "\n\n", text)
+
+    return text.strip() + "\n"
+
+
 def split_markdown_sections(text: str):
     sections = []
     heading = "Document"
@@ -171,6 +214,7 @@ def chunk_document(
         errors="replace",
     )
 
+    text = sanitize_markdown(text)
     sections = split_markdown_sections(text)
     sections = normalize_sections(sections)
 
@@ -255,6 +299,11 @@ def main():
         )
     }
 
+    exclude_paths = [
+        str(item).replace("\\", "/")
+        for item in kb.get("exclude_paths", [])
+    ]
+
     if not source_root.exists():
         raise SystemExit(
             f"{kb_id}: source path does not exist: "
@@ -276,6 +325,22 @@ def main():
             continue
 
         if path.suffix.lower() not in extensions:
+            continue
+
+        rel = path.relative_to(source_root).as_posix()
+
+        excluded = False
+
+        for pattern in exclude_paths:
+            if pattern.endswith("/"):
+                if rel.startswith(pattern):
+                    excluded = True
+                    break
+            elif rel == pattern:
+                excluded = True
+                break
+
+        if excluded:
             continue
 
         records.extend(

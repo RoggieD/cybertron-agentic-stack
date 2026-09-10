@@ -38,6 +38,60 @@
         ".md",
         ".txt"
       ]
+    },
+    {
+      "id": "open-webui",
+      "name": "Open WebUI Knowledge Base",
+      "description": "Reference material for Open WebUI configuration, models, RAG, memories, permissions, integrations, troubleshooting, and administration.",
+      "type": "chunk_directory",
+      "path": ".agent/knowledge/open-webui/chunks",
+      "triggers": [
+        "open webui",
+        "open-webui",
+        "openwebui",
+        "webui",
+        "rag",
+        "knowledge base",
+        "memories"
+      ],
+      "enabled": true,
+      "source_path": ".agent/knowledge/open-webui/source/docs",
+      "chunk_path": ".agent/knowledge/open-webui/chunks",
+      "source_extensions": [
+        ".md",
+        ".mdx"
+      ],
+      "exclude_paths": [
+        "alternatives/",
+        "brand.mdx",
+        "contributing.mdx",
+        "intro.mdx",
+        "license.mdx",
+        "mission.mdx",
+        "sponsorships.mdx",
+        "team.mdx"
+      ],
+      "score_ignore_terms": [
+        "open",
+        "webui",
+        "open-webui",
+        "openwebui"
+      ],
+      "score_phrases": [
+        "knowledge base",
+        "hybrid search",
+        "web search",
+        "document retrieval",
+        "rag troubleshooting"
+      ],
+      "score_term_weights": {
+        "rag": 8,
+        "hybrid": 8,
+        "knowledge": 4,
+        "retrieval": 5,
+        "embedding": 5,
+        "embeddings": 5
+      }
     }
   ]
 }

@@ -78,25 +78,45 @@ def meaningful_words(text: str) -> set[str]:
     }
 
 
-def score_fields(query_words, query_text="", source_path="", section="", content=""):
+def score_fields(
+    query_words,
+    query_text="",
+    source_path="",
+    section="",
+    content="",
+    score_phrases=None,
+    score_term_weights=None,
+):
     if not query_words:
         return 0
 
-    path_words = meaningful_words(source_path)
+    # Normalize path separators, extensions, underscores, and hyphens so
+    # paths such as troubleshooting/rag.mdx contribute terms like
+    # "troubleshoot" and "rag" instead of "rag.mdx".
+    path_text = re.sub(r"[\\/_.-]+", " ", source_path)
+
+    path_words = meaningful_words(path_text)
     section_words = meaningful_words(section)
     content_words = meaningful_words(content)
 
     score = 0
 
+    term_weights = {
+        normalize_word(str(term).lower()): int(weight)
+        for term, weight in (score_term_weights or {}).items()
+    }
+
     for word in query_words:
+        weight = term_weights.get(word, 1)
+
         if word in section_words:
-            score += 5
+            score += 5 * weight
 
         if word in path_words:
-            score += 3
+            score += 3 * weight
 
         if word in content_words:
-            score += 1
+            score += 1 * weight
 
     query_lower = query_text.lower().strip()
     section_lower = section.lower().strip()
@@ -110,6 +130,12 @@ def score_fields(query_words, query_text="", source_path="", section="", content
         "site-to-site",
         "screenos to junos",
     ]
+
+    if score_phrases:
+        for phrase in score_phrases:
+            phrase = str(phrase).lower().strip()
+            if phrase and phrase not in phrases:
+                phrases.append(phrase)
 
     for phrase in phrases:
         if phrase not in query_lower:
@@ -160,6 +186,8 @@ def retrieve_local_directory(kb, query_words, query):
             query_text=query,
             source_path=str(path),
             content=text,
+            score_phrases=kb.get("score_phrases", []),
+            score_term_weights=kb.get("score_term_weights", {}),
         )
 
         if score <= 0:
@@ -199,6 +227,8 @@ def retrieve_chunk_directory(kb, query_words, query):
             source_path=source_path,
             section=section,
             content=content,
+            score_phrases=kb.get("score_phrases", []),
+            score_term_weights=kb.get("score_term_weights", {}),
         )
 
         if score <= 0:
@@ -218,10 +248,21 @@ def retrieve_chunk_directory(kb, query_words, query):
 
 
 def retrieve(query: str, max_results: int = 5):
-    query_words = meaningful_words(query)
+    base_query_words = meaningful_words(query)
     results = []
 
     for kb in matching_kbs(query):
+        ignore_terms = {
+            normalize_word(term.lower())
+            for term in kb.get("score_ignore_terms", [])
+        }
+
+        query_words = {
+            word
+            for word in base_query_words
+            if word not in ignore_terms
+        }
+
         kb_type = kb.get("type", "local_directory")
 
         if kb_type == "chunk_directory":
