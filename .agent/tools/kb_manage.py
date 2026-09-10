@@ -746,6 +746,52 @@ def automatic_refresh_rollback(
     return 0
 
 
+def refresh_all():
+    failures = 0
+    refreshed = 0
+    skipped = 0
+
+    for kb in load_registry().get("knowledge_bases", []):
+        kb_id = kb.get("id")
+
+        print("=" * 72)
+        print(f"KB: {kb_id}")
+
+        if not kb.get("enabled", False):
+            print("REFRESH ALL: SKIP (disabled)")
+            skipped += 1
+            continue
+
+        if kb.get("type") != "chunk_directory":
+            print("REFRESH ALL: SKIP (not chunk_directory)")
+            skipped += 1
+            continue
+
+        if not kb.get("source_refresh"):
+            print("REFRESH ALL: SKIP (no source_refresh metadata)")
+            skipped += 1
+            continue
+
+        result = refresh_kb(kb_id)
+
+        if result != 0:
+            failures += 1
+        else:
+            refreshed += 1
+
+    print("=" * 72)
+    print(f"REFRESHED: {refreshed}")
+    print(f"SKIPPED: {skipped}")
+    print(f"FAILED: {failures}")
+
+    if failures:
+        print("REFRESH ALL: FAIL")
+        return 1
+
+    print("REFRESH ALL: PASS")
+    return 0
+
+
 def refresh_kb(kb_id: str):
     kb = get_kb(kb_id)
 
@@ -913,6 +959,7 @@ def usage():
         "  kb_manage.py verify all\n"
         "  kb_manage.py rebuild <kb-id>\n"
         "  kb_manage.py refresh <kb-id>\n"
+        "  kb_manage.py refresh all\n"
         "  kb_manage.py rollback <kb-id>\n"
         "  kb_manage.py source-check <kb-id>\n"
         "  kb_manage.py source-update <kb-id>\n"
@@ -961,6 +1008,9 @@ def main():
         if len(sys.argv) != 3:
             usage()
             return 2
+
+        if sys.argv[2] == "all":
+            return refresh_all()
 
         return refresh_kb(sys.argv[2])
 
