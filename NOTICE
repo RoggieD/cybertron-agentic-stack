@@ -4,7 +4,21 @@ Copyright 2026 Avidlive
 The original Agentic Stack source code and documentation authored by Avidlive
 are licensed under the Apache License, Version 2.0.
 
-This distribution also contains third-party software that remains under its
-own license. Those licenses are not replaced or modified by the Agentic Stack
-license. See docs/licensing.md and any LICENSE or NOTICE file adjacent to a
-third-party component.
+CyberTron Agentic Stack
+CyberTron modifications Copyright 2026 RoggieD
+
+CyberTron is a derivative work based on Agentic Stack. CyberTron-specific
+modifications include local-first inference support, additional memory and
+knowledge-base architecture, knowledge-base lifecycle tooling, retrieval
+integration, operational skills, and related documentation.
+
+The original Agentic Stack attribution and license terms are retained.
+
+This distribution may also contain or interact with third-party software,
+documentation, services, or reference material that remains subject to its own
+license, copyright, trademark, or usage terms. Those rights are not replaced
+or modified by the Apache License applied to Agentic Stack or CyberTron
+modifications.
+
+See docs/licensing.md and any LICENSE, NOTICE, attribution, provenance, or
+source metadata associated with individual components or knowledge bases.

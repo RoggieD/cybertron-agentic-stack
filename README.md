@@ -1,68 +1,67 @@
-# agentic-stack
+# CyberTron Agentic Stack
 
-**Keep one portable memory-and-skills layer across coding-agent harnesses, so switching tools doesn't reset how your agent works.**
+**A local-first, model-independent agent brain built on top of Agentic Stack.**
 
-A portable `.agent/` folder (memory + skills + protocols) that plugs into Claude Code, Cursor, Windsurf, OpenCode, OpenClaw, GitHub Copilot CLI, Google Gemini CLI, Hermes, Pi Coding Agent, Codex, Autohand Code CLI, Antigravity, or a DIY Python loop — and keeps its knowledge when you switch.
+CyberTron extends the original
+[`codejunkie99/agentic-stack`](https://github.com/codejunkie99/agentic-stack)
+project with a persistent local AI architecture designed to keep memory,
+operational knowledge, skills, and decision context independent of any single
+AI model or front end.
 
-It also includes a local data layer so you can monitor the whole suite of
-agents from one place: harness activity, cron runs, active agents, token/cost
-estimates, KPI summaries, user-defined resource categories, and
-screenshot-ready daily dashboards.
+The project is intended to support local AI environments such as Ollama while
+remaining compatible with optional external providers when explicitly
+configured.
 
-<p align="center">
-  <img src="docs/data-layer.svg" alt="agentic-stack data layer dashboard flow" width="880"/>
-</p>
+## What CyberTron adds
 
-And it can turn approved, redacted runs into local flywheel artifacts:
-trace records, context cards, eval cases, training-ready JSONL, and readiness
-metrics without training a model or sending telemetry.
+CyberTron extends the upstream Agentic Stack architecture with:
 
-<p align="center">
-  <img src="docs/demo.gif" alt="agentic-stack demo" width="880"/>
-</p>
+- **Local-first inference** using Ollama by default.
+- **Model-independent memory** so the agent's working knowledge is not tied to
+  one model.
+- **Four distinct memory layers** for personal preferences, working context,
+  episodic history, and reviewed semantic knowledge.
+- **Knowledge-base separation** so authoritative reference material remains
+  distinct from learned agent memory.
+- **Registry-driven KB management** for retrieval, verification, rebuilding,
+  refresh, provenance tracking, backup, and rollback.
+- **Remote KB bootstrap support** so approved third-party documentation can be
+  fetched and indexed locally instead of being redistributed inside this
+  repository.
+- **CyberTron KB integrations**, including Open WebUI reference retrieval and a
+  Juniper SRX320 technical knowledge base.
+- **Local Ollama diagnostics** and operational skills.
+- **Optional external providers**, including OpenAI-compatible xAI/Grok,
+  OpenAI, Anthropic, and MiniMax support when credentials are explicitly
+  configured.
+- **Change-control guidance** based on:
+  `INSPECT -> IDENTIFY -> VERIFY -> BACKUP/ROLLBACK -> CHANGE -> TEST -> RECORD`.
 
-<p align="center">
-  <img src="docs/diagram.svg" alt="agentic-stack architecture" width="880"/>
-</p>
+## Upstream project
 
-### New in v0.19.1 — memory and upgrade fixes
+CyberTron is a derivative work based on **Agentic Stack**, created by Avidlive
+and maintained at:
 
-Patch release. Four correctness fixes:
+https://github.com/codejunkie99/agentic-stack
 
-- **Recall skips superseded lessons.** Retrieval and rendering now share one
-  `superseded_by_map`, so recall no longer returns stale guidance next to its
-  replacement.
-- **`upgrade` copies loop skills to the right path.** New `loop-*` skills landed
-  at `.agent/skills/skills/loop-x/`; they now land at `.agent/skills/loop-x/`.
-- **UTF-8 everywhere in `learn.py`.** Non-ASCII claims print and persist
-  correctly regardless of host locale.
-- **No leaked file handle** when checking whether a lesson was already appended.
+The upstream Agentic Stack project remains the foundation for its portable
+agent memory, skills, protocols, harness adapters, and supporting tooling.
 
-### Bounded agentic loops (v0.19.0)
+CyberTron is an independent fork and is not presented as an official release
+of the upstream Agentic Stack project.
 
-Portable loop contracts live under `.agent/loops` and use a maker →
-deterministic verifier → independent checker lifecycle:
+## Third-party knowledge sources
 
-```bash
-agentic-stack loop init /path/to/your-project
-agentic-stack loop validate /path/to/your-project
-agentic-stack loop run ci-sweeper "make the failing test green" /path/to/your-project --yes
-agentic-stack loop status /path/to/your-project
-```
+CyberTron may contain tooling that retrieves or builds local knowledge bases
+from third-party sources.
 
-L2/L3 action loops use owned Git worktrees, finite attempts/runtime/output/token
-budgets, deny-path gates, resumable checkpoints, and privacy-safe local events.
-The supervisor bounds and audits child processes; it is not an operating-system sandbox. Use harness-native sandboxes and approvals for stronger isolation.
-Schedulers should invoke one bounded `loop run` command at a time and inspect
-its exit status before starting another run.
+Third-party source material is not relicensed by CyberTron. Where practical,
+externally maintained documentation is fetched and indexed locally rather than
+vendored into this repository.
 
-Earlier releases — Brain memory bridge (v0.18.0), Mission Control and lesson
-retraction (v0.17.0), safe project upgrades (v0.16.0), data layer and flywheel
-(v0.11.0), harness manager (v0.9.0) — are in [CHANGELOG.md](CHANGELOG.md).
-
-[![GitHub release](https://img.shields.io/github/v/release/codejunkie99/agentic-stack)](https://github.com/codejunkie99/agentic-stack/releases)
-[![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
-Made by https://x.com/Av1dlive
+For example, the Open WebUI knowledge-base integration retrieves documentation
+from the authoritative Open WebUI documentation repository during local KB
+refresh/bootstrap operations.
 
 ## Quickstart
 
