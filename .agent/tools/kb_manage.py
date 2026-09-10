@@ -2,6 +2,7 @@
 
 from pathlib import Path
 from datetime import datetime, timezone
+import hashlib
 import json
 import shutil
 import subprocess
@@ -222,6 +223,312 @@ def backup_chunks(kb_id: str):
     return backup_path
 
 
+def backup_source(kb_id: str):
+    kb = get_kb(kb_id)
+    source_value = kb.get("source_path")
+
+    if not source_value:
+        print(f"SOURCE BACKUP: FAIL ({kb_id} has no source_path)")
+        return None
+
+    source_path = resolve_agent_path(source_value)
+
+    if not source_path.exists():
+        print("SOURCE BACKUP: FAIL (source path missing)")
+        return None
+
+    timestamp = datetime.now(timezone.utc).strftime(
+        "%Y%m%d-%H%M%S"
+    )
+
+    backup_root = ROOT / "knowledge" / kb_id / "backups"
+    backup_root.mkdir(parents=True, exist_ok=True)
+
+    backup_path = backup_root / f"source-{timestamp}"
+
+    shutil.copytree(
+        source_path,
+        backup_path,
+    )
+
+    print(f"SOURCE BACKUP: {backup_path}")
+
+    return backup_path
+
+
+def provenance_update_kb(kb_id: str):
+    kb = get_kb(kb_id)
+
+    source_value = kb.get("source_path")
+    chunk_value = kb.get("chunk_path")
+    refresh = kb.get("source_refresh", {})
+
+    if not source_value:
+        print(f"PROVENANCE UPDATE: FAIL ({kb_id} has no source_path)")
+        return 1
+
+    source_path = resolve_agent_path(source_value)
+
+    if not source_path.exists():
+        print("PROVENANCE UPDATE: FAIL (source path missing)")
+        return 1
+
+    repository = refresh.get("repository")
+    branch = refresh.get("branch")
+
+    manifest_path = (
+        ROOT
+        / "knowledge"
+        / kb_id
+        / "metadata"
+        / "source-manifest.json"
+    )
+
+    manifest_path.parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    files = []
+
+    for source_file in sorted(source_path.rglob("*")):
+        if not source_file.is_file():
+            continue
+
+        data = source_file.read_bytes()
+
+        files.append(
+            {
+                "path": source_file.relative_to(
+                    source_path
+                ).as_posix(),
+                "size_bytes": len(data),
+                "sha256": hashlib.sha256(data).hexdigest(),
+            }
+        )
+
+    chunk_count = 0
+
+    if chunk_value:
+        chunk_path = resolve_agent_path(chunk_value)
+
+        if chunk_path.exists():
+            chunk_count = len(
+                list(chunk_path.glob("*.json"))
+            )
+
+    source_commit = None
+
+    state_path = (
+        ROOT
+        / "knowledge"
+        / kb_id
+        / "metadata"
+        / "source-state.json"
+    )
+
+    if state_path.exists():
+        try:
+            state = json.loads(
+                state_path.read_text(encoding="utf-8")
+            )
+            source_commit = state.get("commit")
+        except json.JSONDecodeError:
+            print("PROVENANCE UPDATE: FAIL (invalid source-state JSON)")
+            return 1
+
+    if source_commit is None and repository and branch:
+        result = subprocess.run(
+            [
+                "git",
+                "ls-remote",
+                repository,
+                f"refs/heads/{branch}",
+            ],
+            capture_output=True,
+            text=True,
+        )
+
+        if result.returncode == 0 and result.stdout.strip():
+            source_commit = result.stdout.split()[0]
+
+    manifest = {
+        "schema_version": 1,
+        "knowledge_base": kb_id,
+        "source_type": refresh.get("type", "local"),
+        "source_repository": repository,
+        "source_branch": branch,
+        "source_commit": source_commit,
+        "generated_utc": datetime.now(
+            timezone.utc
+        ).isoformat(),
+        "source_file_count": len(files),
+        "chunk_count": chunk_count,
+        "source_root": source_value,
+        "excluded_from_chunking": kb.get(
+            "exclude_paths",
+            [],
+        ),
+        "files": files,
+    }
+
+    manifest_path.write_text(
+        json.dumps(
+            manifest,
+            indent=2,
+        ) + "\n",
+        encoding="utf-8",
+    )
+
+    print(f"PROVENANCE: {manifest_path}")
+    print(f"SOURCE FILES: {len(files)}")
+    print(f"CHUNKS: {chunk_count}")
+    print(f"SOURCE COMMIT: {source_commit}")
+    print("PROVENANCE UPDATE: PASS")
+
+    return 0
+
+
+def source_update_kb(kb_id: str, create_backup=True):
+    kb = get_kb(kb_id)
+    refresh = kb.get("source_refresh")
+
+    if not refresh:
+        print(f"SOURCE UPDATE: FAIL ({kb_id} has no source_refresh metadata)")
+        return 1
+
+    if refresh.get("type") != "git":
+        print(
+            f"SOURCE UPDATE: FAIL "
+            f"(unsupported source type: {refresh.get('type')})"
+        )
+        return 1
+
+    repository = refresh.get("repository")
+    branch = refresh.get("branch", "main")
+    subdirectory = refresh.get("subdirectory")
+    source_value = kb.get("source_path")
+
+    if not repository or not subdirectory or not source_value:
+        print("SOURCE UPDATE: FAIL (incomplete source configuration)")
+        return 1
+
+    source_path = resolve_agent_path(source_value)
+
+    print(f"SOURCE UPDATE KB: {kb_id}")
+    print(f"REPOSITORY: {repository}")
+    print(f"BRANCH: {branch}")
+    print(f"SUBDIRECTORY: {subdirectory}")
+    print(f"TARGET: {source_path}")
+
+    backup_path = None
+
+    if create_backup:
+        backup_path = backup_source(kb_id)
+
+        if backup_path is None:
+            return 1
+
+    timestamp = datetime.now(timezone.utc).strftime(
+        "%Y%m%d-%H%M%S"
+    )
+
+    staging_root = Path("/tmp") / f"cybertron-kb-{kb_id}-{timestamp}"
+
+    result = subprocess.run(
+        [
+            "git",
+            "clone",
+            "--depth",
+            "1",
+            "--branch",
+            branch,
+            repository,
+            str(staging_root),
+        ]
+    )
+
+    if result.returncode != 0:
+        print("SOURCE UPDATE: FAIL (git clone failed)")
+        if backup_path:
+            print(f"ROLLBACK SOURCE: {backup_path}")
+        return result.returncode or 1
+
+    staged_source = staging_root / subdirectory
+
+    if not staged_source.exists():
+        print(
+            f"SOURCE UPDATE: FAIL "
+            f"(staged subdirectory missing: {staged_source})"
+        )
+        if backup_path:
+            print(f"ROLLBACK SOURCE: {backup_path}")
+        return 1
+
+    remote_commit = subprocess.check_output(
+        [
+            "git",
+            "-C",
+            str(staging_root),
+            "rev-parse",
+            "HEAD",
+        ],
+        text=True,
+    ).strip()
+
+    print(f"STAGED COMMIT: {remote_commit}")
+
+    state_path = (
+        ROOT
+        / "knowledge"
+        / kb_id
+        / "metadata"
+        / "source-state.json"
+    )
+
+    state_path.parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    state = {
+        "repository": repository,
+        "branch": branch,
+        "commit": remote_commit,
+        "subdirectory": subdirectory,
+        "captured_utc": datetime.now(
+            timezone.utc
+        ).isoformat(),
+    }
+
+    state_path.write_text(
+        json.dumps(state, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+    print(f"SOURCE STATE: {state_path}")
+
+    if source_path.exists():
+        shutil.rmtree(source_path)
+
+    shutil.copytree(
+        staged_source,
+        source_path,
+    )
+
+    print("SOURCE REPLACEMENT: PASS")
+
+    if backup_path:
+        print(f"ROLLBACK SOURCE: {backup_path}")
+
+    shutil.rmtree(
+        staging_root,
+        ignore_errors=True,
+    )
+
+    return 0
+
+
 def source_check_kb(kb_id: str):
     kb = get_kb(kb_id)
     refresh = kb.get("source_refresh")
@@ -386,22 +693,78 @@ def refresh_kb(kb_id: str):
 
     print(f"REFRESH KB: {kb_id}")
 
-    backup_path = backup_chunks(kb_id)
+    source_backup = backup_source(kb_id)
+
+    if source_backup is None:
+        print("REFRESH: FAIL (source backup failed)")
+        return 1
+
+    chunk_backup = backup_chunks(kb_id)
+
+    print()
+    print("SOURCE UPDATE")
+
+    result = source_update_kb(
+        kb_id,
+        create_backup=False,
+    )
+
+    if result != 0:
+        print("REFRESH: FAIL (source update failed)")
+        print(f"ROLLBACK SOURCE: {source_backup}")
+
+        if chunk_backup:
+            print(f"ROLLBACK CHUNKS: {chunk_backup}")
+
+        return result
+
+    print()
+    print("CHUNK REBUILD")
 
     result = rebuild_kb(kb_id)
 
     if result != 0:
-        print("REFRESH: FAIL")
+        print("REFRESH: FAIL (chunk rebuild failed)")
+        print(f"ROLLBACK SOURCE: {source_backup}")
 
-        if backup_path:
-            print(f"ROLLBACK AVAILABLE: {backup_path}")
+        if chunk_backup:
+            print(f"ROLLBACK CHUNKS: {chunk_backup}")
+
+        return result
+
+    print()
+    print("PROVENANCE UPDATE")
+
+    result = provenance_update_kb(kb_id)
+
+    if result != 0:
+        print("REFRESH: FAIL (provenance update failed)")
+        print(f"ROLLBACK SOURCE: {source_backup}")
+
+        if chunk_backup:
+            print(f"ROLLBACK CHUNKS: {chunk_backup}")
+
+        return result
+
+    print()
+    print("FINAL VERIFICATION")
+
+    result = verify_kb(kb_id)
+
+    if result != 0:
+        print("REFRESH: FAIL (verification failed)")
+        print(f"ROLLBACK SOURCE: {source_backup}")
+
+        if chunk_backup:
+            print(f"ROLLBACK CHUNKS: {chunk_backup}")
 
         return result
 
     print("REFRESH: PASS")
+    print(f"ROLLBACK SOURCE: {source_backup}")
 
-    if backup_path:
-        print(f"ROLLBACK SNAPSHOT: {backup_path}")
+    if chunk_backup:
+        print(f"ROLLBACK CHUNKS: {chunk_backup}")
 
     return 0
 
@@ -479,7 +842,9 @@ def usage():
         "  kb_manage.py rebuild <kb-id>\n"
         "  kb_manage.py refresh <kb-id>\n"
         "  kb_manage.py rollback <kb-id>\n"
-        "  kb_manage.py source-check <kb-id>",
+        "  kb_manage.py source-check <kb-id>\n"
+        "  kb_manage.py source-update <kb-id>\n"
+        "  kb_manage.py provenance-update <kb-id>",
         file=sys.stderr,
     )
 
@@ -540,6 +905,20 @@ def main():
             return 2
 
         return source_check_kb(sys.argv[2])
+
+    if command == "source-update":
+        if len(sys.argv) != 3:
+            usage()
+            return 2
+
+        return source_update_kb(sys.argv[2])
+
+    if command == "provenance-update":
+        if len(sys.argv) != 3:
+            usage()
+            return 2
+
+        return provenance_update_kb(sys.argv[2])
 
     usage()
     return 2
