@@ -4,6 +4,7 @@ from pathlib import Path
 from datetime import datetime, timezone
 import hashlib
 import json
+import os
 import shutil
 import subprocess
 import sys
@@ -682,6 +683,69 @@ def rollback_kb(kb_id: str):
     return 0
 
 
+def restore_snapshot(snapshot_path: Path, target_path: Path, label: str):
+    if not snapshot_path or not snapshot_path.exists():
+        print(f"{label} RESTORE: FAIL (snapshot missing)")
+        return 1
+
+    try:
+        if target_path.exists():
+            shutil.rmtree(target_path)
+
+        shutil.copytree(
+            snapshot_path,
+            target_path,
+        )
+
+        print(f"{label} RESTORE: PASS")
+        return 0
+
+    except Exception as exc:
+        print(f"{label} RESTORE: FAIL ({exc})")
+        return 1
+
+
+def automatic_refresh_rollback(
+    kb_id: str,
+    source_backup,
+    chunk_backup,
+):
+    kb = get_kb(kb_id)
+
+    source_value = kb.get("source_path")
+    chunk_value = kb.get("chunk_path")
+
+    failures = 0
+
+    print()
+    print("AUTOMATIC ROLLBACK")
+
+    if source_backup and source_value:
+        source_target = resolve_agent_path(source_value)
+
+        failures += restore_snapshot(
+            source_backup,
+            source_target,
+            "SOURCE",
+        )
+
+    if chunk_backup and chunk_value:
+        chunk_target = resolve_agent_path(chunk_value)
+
+        failures += restore_snapshot(
+            chunk_backup,
+            chunk_target,
+            "CHUNKS",
+        )
+
+    if failures:
+        print("AUTOMATIC ROLLBACK: FAIL")
+        return 1
+
+    print("AUTOMATIC ROLLBACK: PASS")
+    return 0
+
+
 def refresh_kb(kb_id: str):
     kb = get_kb(kb_id)
 
@@ -711,10 +775,12 @@ def refresh_kb(kb_id: str):
 
     if result != 0:
         print("REFRESH: FAIL (source update failed)")
-        print(f"ROLLBACK SOURCE: {source_backup}")
 
-        if chunk_backup:
-            print(f"ROLLBACK CHUNKS: {chunk_backup}")
+        automatic_refresh_rollback(
+            kb_id,
+            source_backup,
+            chunk_backup,
+        )
 
         return result
 
@@ -725,10 +791,12 @@ def refresh_kb(kb_id: str):
 
     if result != 0:
         print("REFRESH: FAIL (chunk rebuild failed)")
-        print(f"ROLLBACK SOURCE: {source_backup}")
 
-        if chunk_backup:
-            print(f"ROLLBACK CHUNKS: {chunk_backup}")
+        automatic_refresh_rollback(
+            kb_id,
+            source_backup,
+            chunk_backup,
+        )
 
         return result
 
@@ -739,10 +807,12 @@ def refresh_kb(kb_id: str):
 
     if result != 0:
         print("REFRESH: FAIL (provenance update failed)")
-        print(f"ROLLBACK SOURCE: {source_backup}")
 
-        if chunk_backup:
-            print(f"ROLLBACK CHUNKS: {chunk_backup}")
+        automatic_refresh_rollback(
+            kb_id,
+            source_backup,
+            chunk_backup,
+        )
 
         return result
 
@@ -753,10 +823,12 @@ def refresh_kb(kb_id: str):
 
     if result != 0:
         print("REFRESH: FAIL (verification failed)")
-        print(f"ROLLBACK SOURCE: {source_backup}")
 
-        if chunk_backup:
-            print(f"ROLLBACK CHUNKS: {chunk_backup}")
+        automatic_refresh_rollback(
+            kb_id,
+            source_backup,
+            chunk_backup,
+        )
 
         return result
 
