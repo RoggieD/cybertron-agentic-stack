@@ -31,7 +31,13 @@
         "firewall",
         "screenos"
       ],
-      "enabled": true
+      "enabled": true,
+      "source_path": ".agent/knowledge/juniper/source/juniper-srx320",
+      "chunk_path": ".agent/knowledge/juniper/chunks",
+      "source_extensions": [
+        ".md",
+        ".txt"
+      ]
     }
   ]
 }
