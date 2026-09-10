@@ -548,13 +548,20 @@ their own licenses and are not relicensed by this repository. See the
 
 ## Credits
 
-Based on the article **["The Agentic Stack"](https://x.com/Av1dlive/status/2044453102703841645?s=20)**
-by [@AV1DLIVE](https://twitter.com/AV1DLIVE) — follow for updates and collabs.
-Coded using Minimax-M2.7 in the Claude Code harness; PR review by Macroscope and Codex.
-Patterns from Gstack, Claude Code's memory system, and conversations in the
-agent-engineering community. Built with the hypothesis that
-**harness-agnosticism is the point**.
+CyberTron Agentic Stack is a derivative work based on the original
+[Agentic Stack](https://github.com/codejunkie99/agentic-stack) project by
+[Avidlive / @AV1DLIVE](https://x.com/Av1dlive).
+
+The upstream project provided the original portable agent architecture,
+memory concepts, harness adapters, protocols, and supporting tooling that
+CyberTron extends.
+
+CyberTron-specific development, local-first inference integration,
+knowledge-base architecture, lifecycle tooling, operational skills, and
+release packaging are maintained by RoggieD.
+
+CyberTron is an independent fork and is not an official upstream release.
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=codejunkie99/agentic-stack&type=Date)](https://star-history.com/#codejunkie99/agentic-stack&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=RoggieD/cybertron-agentic-stack&type=Date)](https://star-history.com/#RoggieD/cybertron-agentic-stack&Date)
